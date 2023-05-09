@@ -1,0 +1,14 @@
+Basic https setup using an automatically generated self-signed certificate
+
+pnpm install -D @vitejs/plugin-basic-ssl
+
+vite.config.ts
+```js
+import basicSsl from '@vitejs/plugin-basic-ssl'
+
+export default {
+  plugins: [
+    basicSsl()
+  ]
+}
+```

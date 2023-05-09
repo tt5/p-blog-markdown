@@ -1,0 +1,473 @@
+# calculus
+
+A constant function is a function whose (output) value is
+the same for every input value.
+
+regular function: single-values and analytic
+
+Power series:
+
+$\displaystyle
+\sum_{ n =0}^\infty a_{n} \big( x-c \big) ^{n}, c \text{ is a constant.}
+$
+
+Harmonic Numbers:
+
+$\displaystyle
+H_{n} = \sum_{k=0}^{n}\frac{1}{k} $
+
+$\displaystyle
+H_{n} = \int_0^1
+\frac{1-x^n}{1-x} dx
+= \sum_{k=1}^{n}(-1)^{k-1}\frac{1}{k}\binom{n}{k}
+$
+
+$\displaystyle
+H_x =\sum_{k=1}^\infty \frac{1}{k\big(x+k\big)}
+$
+
+Euler-Mascheroni constant $\gamma$
+
+$\displaystyle
+\int_0^1 H_x\,dx= \gamma = 0.5772156649...
+$
+
+Kronecker delta
+
+$\displaystyle
+\delta_{ij}=
+\begin{cases} 1 & i=j \\\\ 0 & i\neq j \end{cases}
+$
+
+$R$-linear map: function $f: M\to N$  
+— ²q¹ $f\big(x+y\big) = f\big(x\big) + f\big(y\big)$  
+— ²q¹ $f\big(rx\big) = r f\big(x\big)$
+
+if a trajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a
+trajectory $\gamma_2$, then the action functional is additive
+$S\big(\gamma\big) = S\big(\gamma_1\big) + S\big(\gamma_2\big) $.
+
+As one takes this property to the limit of iterative subdivision, one finds
+that action functionals are entirely determined by their value on infinitesimal
+displacements along the worldline. If $\gamma \colon \mathbb{R} \to $X
+denotes a path and “$\dot \gamma\big(x\big)$” denotes the corresponding
+“infinitesimal path” at worldline parameter $x$, then the value of the action
+functional on such an infinitesimal path is traditionally written as
+$\mathbf{d}S\big(\dot \gamma\big)_x \in \mathbb{R} \,$,
+
+to be read as “the small change $\mathbf{d}S$ of $S$ along the infinitesimal
+path $\dot \gamma_x$”.
+
+This function $\mathbf{d}S$ that assigns numbers to infinitesimal paths is
+called a differential form. Etymologically this originates in the use of “form”
+as in bilinear form: something that is evaluated. Here it is evaluated on
+infinitesimal differences, referred to as differentials.
+
+let $a = \underset{x\to\infty}{\text{lim sup}}\big(x_n\big)$ and
+$\epsilon > 0$, then
+
+— ²q¹ $∃n_0 \in \mathbb{N} ∀n \geq n_0 : x_n \leq a + \epsilon$
+
+— ²q¹ $x_n > a - \epsilon$ for infinitely many $n \in \mathbb{N}$
+
+$\displaystyle
+f\in O\big(g\big)
+$
+
+$\displaystyle
+\underset{x\to a}{\text{lim sup}}\left| \frac{f\big(x\big)}{g\big(x\big)} \right| \lt \infty
+$
+
+$\big(a\big)_n$ **coverges** to $a$, if the following is true:
+
+$\forall$ $\epsilon > 0$ gibt es ein
+$n_0 \in \boldsymbol{N}$ , s.t. $\forall$ $n \leqslant n_0$ gilt:
+$ \big| a_n - a \big| &lt; \epsilon$ 
+
+Archimedean property: $\forall x\in \boldsymbol{R} \exists n \in \boldsymbol{N}$
+with $n>x$.
+
+If $X=\mathbbR^n$ is an Euclidean space and $y:\big[a,b\big]\rightarrow\mathbbR^n$
+is differentiable then length($y$)=$\int_a^b \big|y'\big(t\big)\big|\,dt$.
+
+If $X$ is a metric space with metric $d$, then we can define the
+**length of a curve** $y:[a,b]\rightarrow X$
+by length($y$)=sup
+$
+\big\\{ \sum_{i=0}^n
+d\big(y\big(t_i\big),y\big(t_{i-1}\big)\big): n\in \mathbb{N}$
+and $a=t_0 &lt t_1 &lt ... &lt t_n=b\big\\}$
+where the sup is over all $n$ and all partitions
+$t_0 &lt t_1 &lt ... &lt t_n$ of $\big[a,b\big]$.
+
+A **rectifiable** curve is a curve with finite length.
+
+A parametrisation of $y$ is called natural of unit speed or **parametrised by
+arc length** if for any $t_1,t_2\in [a,b]$, we have
+length($y|_{[t_1,t_2]})=|t_2-t_1|$.
+
+# differantial equations
+
+A **differential equation** is an equation that contains one or more
+derivatives of an unknown function.  The order of a differential equation is
+the order of the highest derivative that it contains. A differential equation
+is an **ordinary differential equation** if it involves an unknown function of
+only one variable, or a **partial differential equation** if it involves
+partial derivatives of a function of more than one variable.  A **solution** of
+a differential equation is a function that satisfies the differential equation
+on some open interval.
+
+The graph of a solution of a differential equation is a solution curve. More
+generally, a curve $C$ is said to be an integral curve of a differential
+equation if every function $y = y(x)$ whose graph is a segment of $C$ is a
+solution of the differential equation.
+
+An **initial value problem** for an $n$-th order differential equation requires
+$y$ and its first $n − 1$ derivatives to have specified values at some point
+$x_0$ . These requirements are the initial conditions.
+
+A first order differential equation is said to be linear if it can be written
+as $y´ + p(x)y = f(x)$.  A first order differential equation that can’t be
+written like this is nonlinear. We say that it is homogeneous if $f ≡ 0$;
+otherwise it’s nonhomogeneous.
+
+the **gradient** is a generalization of the usual concept of derivative
+to functions in several variables.
+
+divergence:
+The divergence of a three-dimensional vector field is the extend to which
+the vector field flow behaves like a source at a given point.
+
+curl:
+The direction of the curl is the axis of rotation and the magnitude of
+the curl is the magnitude of rotation.
+
+The **del operator**, denoted by $\nabla$, is a tuple of partial
+derivate operators posing as a "vector". This suggests notations
+such as $\nabla f$ for gradient, $\nabla \cdot \vec{v}$ for divergence,
+and $\nabla \times \vec{v}$ for curl.
+
+\minisec{ Laplacian }
+Signed scalar. Differencial operator in
+the $n$-dimentional Euclidean space. Divergence
+of the gradient of a function.
+
+If $f$ is a twice-differenciable real-valued functin, then the
+**Laplacian** of $f$ is defined by:
+$\displaystyle
+∆ f=\nabla^2f=\nabla∙\nabla f
+$
+
+$$\nabla=(\frac{\partial}{\partial x_1},\ldots,\frac{\partial}{\partial x_n})$$
+
+2-dim polar coord.:
+$$
+∆ f= \frac{\partial^2}{\partial r^2} +
+\frac{1}{r}\frac{\partial f}{\partial r} +
+\frac{1}{r^2}\frac{\partial^2 f}{\partial \theta^2}
+$$
+
+The **Taylor series** of a real or complex-valued function $f(x)$
+that is infinitely differentiable at a real or complex number $a$
+is the *power series*:
+
+$$
+\sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n
+$$
+
+The collection of all solutions to any second order linear homogeneous DE is 
+
+$x(t) = c_1 x_1(t) + c_2x_2(t)$
+
+$x_1(t)$ and $x_2(t)$ must be linearly independent. They form a basis for the
+set of all homogeneous solutions.
+
+## some
+
+
+$$
+z\frac{ⅆ^2w}{ⅆz^2} + (b-z)\frac{ⅆw}{ⅆz}-aw = 0
+$$
+
+$z=0$, regular point  
+$z=\infty$, irregular point
+
+two (usually) linearly independent solutions $M(a,b,z)$ and $U(a,b,z)$
+
+$$
+M(a,b,z)=\sum_{n=0}^\infty \frac{a^{(n)}z^n}{b^{(n)}n!} =
+\phantom{}_1F_1(a;b;z)
+$$
+
+$$
+M(a,c,z) = \lim_{b\to \infty} \phantom{}_{2}F_1(a,b;c;
+\frac{z}{b})
+$$
+
+$U(a,b,z) =$
+$$
+\frac{\Gamma(1-b)}{\Gamma(a+1-b)} M(a,b,z) +
+\frac{\Gamma(b-1)}{\Gamma(a)}z^{1-b}M(a+1-b,2-b,z)
+$$
+
+##---
+
+If $p$ is continuous on $(a,b)$, then
+the general solution of the homogeneous equation
+
+$$y' + p(x)y =0$$ on $(a,b)$ is
+
+$$y=ce^{-P(x)}$$, where
+
+$$P(x)=\int p(x)\,dx$$
+
+## Differential Forms
+
+Differential forms are an approach to multivariable calculus
+that is independent of coordinates.
+The modern notion of differential forms was pioneered by Élie Cartan.
+
+There is an operation $d$ on differential forms known as the
+exterior derivative that, when acting on a $k$-form, produces
+a $(k + 1)$-form. This operation extends the differential of a
+function, and the divergence and the curl of a vector field
+in an appropriate sense that makes the fundamental theorem
+of calculus, the divergence theorem, Green's theorem, and
+Stokes' theorem special cases of the same general result,
+known in this context also as the general Stokes' theorem.
+In a deeper way, this theorem relates the topology of the
+domain of integration to the structure of the differential
+forms themselves; the precise connection is known as de
+Rham's theorem.
+
+## Cauchy-Riemann equations
+
+The Cauchy–Riemann equations on a pair of real-valued functions of two real
+variables u(x,y) and v(x,y) are the two equations:
+
+(1a) ${\frac {\partial u}{\partial x}}={\frac {\partial v}{\partial y}}$  
+(1b) ${\frac {\partial u}{\partial y}}=-{\frac {\partial v}{\partial x}}$
+
+Typically u and v are taken to be the real and imaginary parts respectively of
+a complex-valued function of a single complex variable z = x + iy, f(x + iy) =
+u(x,y) + iv(x,y). Suppose that u and v are real-differentiable at a point in an
+open subset of C (C is the set of complex numbers), which can be considered as
+functions from $R^2$ to R. This implies that the partial derivatives of u and v
+exist (although they need not be continuous) and we can approximate small
+variations of f linearly. Then f = u + iv is complex-differentiable at that
+point if and only if the partial derivatives of u and v satisfy the
+Cauchy–Riemann equations (1a) and (1b) at that point. The sole existence of
+partial derivatives satisfying the Cauchy–Riemann equations is not enough to
+ensure complex differentiability at that point. It is necessary that u and v be
+real differentiable, which is a stronger condition than the existence of the
+partial derivatives, but it is not necessary that these partial derivatives be
+continuous.
+
+Holomorphy is the property of a complex function of being differentiable at
+every point of an open and connected subset of C (this is called a domain in
+C). Consequently, we can assert that a complex function f, whose real and
+imaginary parts u and v are real-differentiable functions, is holomorphic if
+and only if, equations (1a) and (1b) are satisfied throughout the domain we are
+dealing with. Holomorphic functions are analytic and vice versa. This means
+that, in complex analysis, a function that is complex-differentiable in a whole
+domain (holomorphic) is the same as an analytic function. This is not true for
+real differentiable functions.
+
+# Manifold
+
+A **chart** for a topological space $M$ (also called local frame)
+is a homeomorphism $\rho$ from an open subspace $U$ of $M$ to an
+open subspace of Euclidean space. The chart is traditionally recorded as
+the ordered par $(U,\rho)$.
+
+An **atlas** for a topological space $M$ is a collection ${(U_{\alpha},\rho_\alpha)}$
+of charts on $M$ such that $\bigcup U_\alpha=M$. If the codomain
+of each chart is the $n$-dimensional Euclidean Space and the atlas is connected,
+then $M$ is said to be a **$n$-dimensional manifold**.
+
+A **smooth function** is a function that has derivates
+of all orders everywhere in its domain.
+
+If each transition function is a smooth map, then the atlas is called
+a smooth altlas, and the manifold itself is called **smooth**.
+
+$$
+TM = \bigcup_{x\in M} \{ (x,y) | x\in T_x M \}
+$$
+where $T_x M$ is the tangent space to $M$ at the point $x$.
+
+A **vector field** is an assignment of a vector to each
+point in a subset of space.
+A vector field attaches to every point of the
+manifold a vector from the tangent space at that point, in a
+smooth manner.
+
+A **scalar field** associates a scalar value to every
+point in space.
+
+All the tangent spaces can be "glued together" to form a new
+differentiable manifold of twice the dimension of the original
+manifold, called the **tangent bundle** of the manifold.
+
+A linear space is also called a vector space.
+
+Euclidean axioms leave no freedom, they determine uniquely all geometric
+properties of the space. More exactly: all three-dimensional Euclidean spaces
+are mutually isomorphic. In this sense we have "the" three-dimensional
+Euclidean space. In terms of Bourbaki, the corresponding theory is univalent
+
+The surface of a cube is homeomorphic to a sphere (the surface of a ball) but
+not homeomorphic to a torus.
+
+Every metric space is, in a natural way, a topological space.
+There are, however, topological spaces that are not metric spaces.
+
+Let $X$ be a set and $\tau$ be a family of sets. We say that $\tau$ is a
+topology on $X$ if:
+
+-   $X\in\tau, \, \emptyset\in\tau$ ($X$ and $\emptyset$ are in $\tau$)
+
+-   $\\{O_i\\}_{i \in I} \subseteq \tau \Rightarrow \cup\_{i \in I} O_i \in
+\tau$ (any union of sets in $\tau$ is in $\tau$)
+
+-   $\\{O_i\\}_{i \in I} \subseteq \tau \Rightarrow
+\cap\_{i=1}^{n}O_i\in\tau$
+(any finite intersection of sets in $\tau$ is in $\tau$)
+
+We call the sets in $\tau$ the open sets.
+
+In a normed space $( V, \|\cdot\| )$, if the parallelogram law
+holds, then there is an inner product (Skalarprodukt) on $V$
+such that $\|\cdot\|^2 = <x,y>$ for all $x\in V$.
+
+In a normed space, the statement of the parallelogram law is an
+equation relating norms:
+$2 \|x\|^2 + 2 \|y\|^2 =  \|x+y\|^2 + \|x-y\|^2$ 
+
+A normed vector space is a pair $(V,\|\cdot\|)$ where $V$
+is a vector space and $\|\cdot\|$ a norm on $V$.
+
+## Metric space
+
+Pair $(X,d)$ where $X$ is a set and $d$ a metric
+on $X$
+
+$d: X\times X \rightarrow \mathbb{R}^0$ set of nonnegative real numbers such
+that $\forall x,y,z \in X$ we have
+
+(1)   $d$ is real valued, finite and nonnegative. $d(x,y)\geq 0$, $x,y\in X$
+(2)   $d(x,y)=0 \Leftrightarrow x=y$
+(3)   $d(x,y)=d(y,x)$
+(4)   $d(x,y)\leq d(x,z) + d(z,y)$
+
+
+# Laplace's eq
+
+Laplace's equation and Poisson's equation are the simplest examples of elliptic
+partial differential equations. The general theory of solutions to Laplace's
+equation is known as potential theory. The solutions of Laplace's equation are
+the harmonic functions
+
+# ---
+
+Bessel functions, first defined by the mathematician Daniel Bernoulli and then
+generalized by Friedrich Bessel, are the canonical solutions y(x) of Bessel's
+differential equation
+
+$$
+x^{2}{\frac {d^{2}y}{dx^{2}}}+x{\frac {dy}{dx}}+\left(x^{2}-\alpha ^{2}\right)y=0
+$$
+
+for an arbitrary complex number α, the order of the Bessel function. Although α
+and −α produce the same differential equation for real α, it is conventional to
+define different Bessel functions for these two values in such a way that the
+Bessel functions are mostly smooth functions of α.
+
+The most important cases are when $α$ is an integer or half-integer. Bessel
+functions for integer α are also known as cylinder functions or the cylindrical
+harmonics because they appear in the solution to Laplace's equation in
+cylindrical coordinates. Spherical Bessel functions with half-integer α are
+obtained when the Helmholtz equation is solved in spherical coordinates. 
+
+# some
+
+product rule:
+$(f\cdot g)' = f' \cdot g + f \cdot g'$
+
+$(fg)^{(n)}(x) = \sum_{k=0}^n\binom{n}{k}f^{(n-k)}(x)g^{(k)}(x)$,
+$f^{(0)}(x)=f(x)$
+
+$\int (af(x)+bg(x)) \\,dx = \int af(x)\\,dx + \int bg(x)\\,dx = a \int f(x)\\,dx + b\int g(x)\\,dx$
+
+$\frac{d(k\cdot f(x)}{dx} = k \cdot \frac{d(f(x))}{dx}$
+
+$f(x) = \frac{g(x)}{h(x)}$
+
+$f'(x)= \frac{g'(x)h(x) - g(x)h'(x)}{\lbrack h(x) \rbrack^2}$
+
+$(f \circ g)' = (f' \circ g) \cdot g'$
+
+If $f$ is diffable at a point $x$ and $f(x)\neq 0$ then $g(x) = \frac{1}{f(x)}$
+is also diffable at $x$ and $g'(x) = \frac{ⅆ}{ⅆx}\frac{1}{f(x)} = \frac{f'(x)}{f(x)^2}$
+
+Homogeneous first-order linear ODEs can always be solved by separation of variables.
+
+#### intergration by parts
+
+$f(x)=u(x)v(x)$
+
+$\int uv\\,dx = u \int v \\,dx - \int ( u' \int v \\,dx ) \\,dx$
+
+#### Variation of parameters
+
+A method for solving inhomogeneous linear ODEs.
+
+1. Find a nonzero solution, say , of the associated homogeneous ODE 
+
+${\dot{y_h}}  + p(t){y_h}  = 0.$
+
+2. Substitute $y=uy_h$ into the inhomogeneous equation, $\dot y + p(t)y=q(t)$
+to find an equation for the unknown function $u=u(t)$. 
+
+$\frac{d}{dt}(uy_h) +puy_h = q$
+
+$\iff \dot u y_h + u\dot y_h + puy_h = q$
+
+$\iff \dot u y_h + u \underbrace{(\dot y_h + py_h)}_{=0} = q$
+
+$\iff \dot u y_h = q$
+
+Note that the term in parentheses is zero because $y_h$ is a solution to the
+homogeneous differential equation. 
+
+3. Solve $\dot u = \frac{q}{y_h}$ for $u(t)$ by integration.
+
+4. Once the general $u(t)$ is found, don't forget to multiply it by the
+homogeneous solution $y_h(t)$ to find $y=u(t)y_h(t)$, the general solution to
+the inhomogeneous equation.
+
+The idea is that the functions of the form $cy_h$ are solutions to the
+homogeneous equation; maybe we can get solutions to the inhomogeneous equation
+by allowing the parameter $c$ to vary, i.e., if we replace it by a nonconstant
+function $u(t)$. 
+
+# Exponential Integral
+
+$$
+\text{Ei}(x) = - \int_{-x}^{\infty}\frac{e^{-t}}{t}\\,dt
+$$
+$,x \in \mathbb{R}, x \ne 0$
+
+$|\text{Arg}(z)|\lt\pi, E_1(z) = \int_z^\infty \frac{e^{-t}}{t}\\,ⅆt$
+
+$\int \text{Ei} (x) \\,dx = x \text{Ei}(x) - e^x$
+
+$\int \text{li}(x) \\,dx = x \text{li}(x) - \text{Ei}(2 \ln x)$
+
+$\int \frac{\text{li}(x)}{x}\\,dx = \ln x \text{li}(x) - x$
+
+# derivate
+
+forward difference:  
+$\triangle_h\lbrack f\rbrack(x) = f(x+h)-f(x)$  
+$\triangle\lbrack f\rbrack(x)=\triangle_1\lbrack f\rbrack x$

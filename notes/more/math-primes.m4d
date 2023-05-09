@@ -1,0 +1,212 @@
+# primes
+
+Each prime factor $p_i^{\alpha_i}$ is called a *primary*.
+
+radical:
+$$\text{rad}(n)=\prod_{p|n\\ p\, prime}{p}$$
+
+(Goldbach, 1742)  
+Every even number greater than 2 can be written as the sum of two primes
+((binary) Goldbach conjecture), and every odd number greater than 5 can be
+written as the sum of three primes (Ternary Goldbach conjecture).
+
+The latter conjecture was proven by Helfgott in 2013.
+
+(Cheu) Every sufficiently large even integer can be written as the sum of a
+prime and a product of at most two primes.
+
+(Yamada) Every even integer greater than $\exp(\exp(36))$ can be written this way.
+
+Every integer greater than 2 is the sum of a prime and a squarefree number.
+Every integer $n≥ 10$ s.t. $n≢1 \mod 4$ can be written as the sum of the
+squares of a prime and a square-free number.
+
+There is a prime between $n^3$ and $(n+1)^3$ for all $n≥ \exp(\exp(33.3))$
+
+Suppose the RH is true. Then there is a prime in the interval
+$(x-\frac{4}{π}\sqrt{x}\log x,x]$ for all $x\ge 2$.  $\frac{4}{π}=1.273$.
+Heath-Brown and Goldston show that one has an arbitrarily small constant in
+place of the $frac{4}{\pi}$ on the assumption of some more sophisticated
+conjectures.
+
+# Gaps
+
+$d_n = p_{n+1} - p_n$
+
+# Prime Numbers
+
+A000040
+
+For all $x > x_0$, the interval $[x - x^{0.525} , x]$ contains prime numbers.
+
+An integer $n \geq 2$ is prime if and only if the
+polynomial congruence relation
+$$(x+a)^n \equiv (x^n+a) (\text{mod} n)$$
+holds for some $a$ coprime to $n$.
+$x$ is a free variable.
+
+$$\binom{n}{k}\equiv 0 \, (\mod n)$$
+for all $0<k<n$ if and only if $n$ is prime.
+
+Green-Tao Theorem (2004):
+For every natural number $k$, there exists arithmetic
+progressions of primes with $k$-terms.
+
+Let $p$ be prime, and let $a\in\mathbb{Z}$ with
+$a\nequiv 0 \mod p$.
+Then $a^{p-1}\equiv1\mod p$.
+
+For every prime $p$ it is true that $(p-1)!\equiv-1\mod p$.
+
+There are infinitely many primes in the form $x^2+y^4$.
+
+$$\sum_{n=1}^\infty \frac{\mu (n)}{n^s} = \prod_p (1-\frac{1}{p^s}) = \frac{1}{\zeta(s)}$$
+
+$\pi(x+y)-\pi(x) \leqslant 2\pi(y)$, $2\leqslant y\leqslant x$.
+
+$\pi(x) := \mathoctothorpe\{p\leqslant x\}$
+
+$\pi(x,q,a)=\mathoctothorpe\{q\leqslant x|p\equiv a (\mod q)\}$
+
+Cousin primes are prime numbers that differ by four.
+
+Semiprime is a product of two prime numbers.
+
+## Prime Number Theorem (PNT)
+
+For a real number $x > 1$, let $π(x)$
+denote the number of primes less than $x$. The prime number theorem is the
+assertion that
+
+$$
+\lim_{x→∞}
+\frac{
+π(x)
+}
+{\frac{x}
+{\log(x)}
+}
+= 1
+$$
+
+This theorem was conjectured independently by Legendre and Gauss.
+
+The first proof of the prime number theorem was given by Hadamard,
+and de la Vallée Poussin in 1896.
+The proof was not elementary.
+
+In the year 1948 the mathematical world was stunned when Paul Erdős announced
+that he and Atle Selberg had found a truly elementary proof of the prime number
+theorem which used only the simplest properties of the logarithm function.
+
+For his work on the elementary proof of the PNT, the zeros of the Riemann zeta
+function (showing that a positive proportion lie on the line $\frac{1}{2}$ ),
+and the development of the Selberg sieve method, Selberg received the Fields
+Medal in 1950. Erdős received the Cole Prize in 1952.
+
+The Selberg sieve method, a cornerstone in elementary number theory, is the
+basis for Chen’s spectacular proof that every positive even integer is the sum
+of a prime and a number having at most two prime factors.  Selberg is now
+recognized as one of the leading mathematicians of this century for his
+introduction of spectral theory into number theory culminating in his discovery
+of the trace formula which classifies all arithmetic zeta functions.  Erdős has
+also left an indelible mark on mathematics. His work provided the foundations
+for graph and hypergraph theory and the probabilistic method with applications
+in combinatorics and elementary number theory. At his death in 1996 he had more
+than 1500 published papers with many coauthored papers yet to appear. It is
+clear that he has founded a unique school of mathematical research,
+international in scope, and highly visible to the world at large.
+
+## Twin Primes
+
+It has been proven that the pair (m, m + 2) is a twin prime if and only if
+
+$$ 4((m-1)!+1)\equiv -m \pmod {m(m+2)} $$
+
+# some
+
+$$\pi(x)\sim \frac{x}{\ln(x)}\iff \psi(x)\sim x$$
+
+$$\sum \frac{1}{p}=\infty$$
+$$\sum_{p=a(d)} \frac{1}{p}=\infty$$
+
+The Fourier transform of the von Mangoldt function gives a spectrum with
+imaginary parts of Riemann zeta zeros as spikes at the x-axis ordinates,
+while the von Mangoldt function can be approximated by zeta zero waves.
+
+$$
+\operatorname{li}(x)=
+\int_0^x \frac{dt}{\ln(t)}
+$$
+$$
+\operatorname{Li}(x)=
+\int_2^x \frac{dt}{\ln(t)}
+$$
+
+The first value of $x$ where $\pi(x)$
+exceeds $\operatorname{Li}(x)$ is probably
+around $x=10^{316}$.
+
+Assuming the **RH**:
+
+$|\pi(x)-\operatorname{li}(x)|<\frac{\sqrt{x}\ln(x)}{8\pi}$,
+for all $x\geqslant 2657$.
+
+$|\psi(x)-x|<\frac{\sqrt{x}\ln^2(x)}{8\pi}$,
+for all $x\geqslant 73.2$.
+
+## Diffi-Hellman key exchange
+
+Person A:
+
+15 is the secret number.
+
+$3^{15} \mod 17 = 6$
+
+$$12^{15} \mod 17 = 10 = 3^{13^{15}}$$
+
+Person B:
+
+13 is the secret number.
+
+$3^{13} \mod 17 = 12$
+
+$$6^{13} \mod 17 = 10 = 3^{15^{13}} \mod 17$$
+
+10 is the key.
+3 and 17 are public.
+They shared: 6 an 12.
+
+## Mersenne primes
+
+A000043
+Mersenne numbers: A000225
+
+A **Mersenne prime** is a Mersenne number that is prime.
+
+Mersenne number: $M_n = 2^n -1$
+
+An even positive integer is a **perfect number**, that is,
+equals the sum of its proper divisors, if and only if it has
+the form $2^{p-1}M_p$, where $M_p$ is a Mersenne prime.
+
+$M_n$,
+if $n = pq$, then
+$2^{pq} - 1 = (2^p - 1)(2^{p(q-1)} + 2^{p(q-2)} + 2^{p(q-3)} + \dots + 2^p + 1)$
+
+$M_{pq}$ must be evenly divisible by $M_p$; because $pq = qp$,
+it must be evenly divisible by $M_q$ as well. 
+
+## Lucas-Lehmer test
+
+Start with 4, and at each step, square the current number, subtract
+two, and take the remainder when divided by M_n. Do this n-2 times. M_n is
+prime if you end with zero, and composite if you don’t.
+
+For M_7 = 127, we get
+
+$$
+\begin{array}{c|cccccc} k & 0 & 1 & 2 & 3 & 4 & 5 \\
+\hline s_k & 4 & 14 & 67 & 42 & 111 & 0 \end{array}
+$$
+

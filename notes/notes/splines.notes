@@ -1,0 +1,18 @@
+
+# Splines
+
+spiro
+
+cubic Bézier curves.
+
+Fairness is ultimately a property of the way humans perceive curves, not an abstract
+mathematical property.
+Knowledge of the human visual system and empirical evidence show that fairness is intimately
+tied to curvature, which of course is an objective mathematical property.
+
+Bending energy has been proposed as a fairness metric, and minimizing that metric is the
+definition of the MEC spline.
+
+An extensional interpolating spline is one in which adding a new point to the control polygon,
+lying on the curve generated from the original control polygon, does not change the resulting curve.
+

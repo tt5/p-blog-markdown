@@ -1,0 +1,8 @@
+
+#
+
+zero-terminated string
+cJSON *json = cJSON_Parse(string);
+cJSON_Delete
+char *string = cJSON_Print(json);
+

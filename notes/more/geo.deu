@@ -1,0 +1,1153 @@
+# Atmosphere
+
+C02, Ozon and Water molecules absorb light emitted from the earth
+(greenhouse effect).
+
+# 
+
+In der Natur kommen nur die edlen (oder halbedlen) Metalle
+als freie Elemente ("gediegen") vor.
+Die übrigen treten als Verbindungen auf.
+
+Zu den **Edelmetallen** im klassischen Sinn gehören die *Platinmetalle* sowie
+*Gold* und *Silber*. Teilweise wird auch noch *Quecksilber* zu den Edelmetallen
+gezählt, obwohl es in vieler Hinsicht reaktiver als die übrigen Edelmetalle
+ist.
+
+Edelmetalle korrodieren (verrosten, oxidieren) bei Raumtemperatur an Luft
+entweder gar nicht, oder nur äußerst langsam und in sehr geringem Umfang, so
+wie es beim Silber der Fall ist, wenn es mit (Spuren von) Schwefelwasserstoff
+in Berührung kommt. Selbst dabei bildet sich nur eine extrem dünne Schicht von
+schwarzem Silbersulfid. Der Silbergegenstand wird dabei nicht beschädigt. Von
+Salzsäure werden die Edelmetalle nicht angegriffen. Edelmetalle zeichnen sich
+ferner dadurch aus, dass viele ihrer Verbindungen thermisch nicht stabil sind.
+So werden Silberoxid und Quecksilberoxid beim Erhitzen in ihre Einzelelemente
+zerlegt. Edelmetalle entstehen wie andere Elemente, die schwerer sind als
+Wasserstoff durch Nukleosynthese.
+
+Platinmetalle:
+They can be further subdivided into the iridium-group platinum-group elements (IPGEs: Os,
+Ir, Ru) and the palladium-group platinum-group elements (PPGEs: Rh, Pt, Pd) based
+on their behaviour in geological systems.
+
+Zu den **Halbedelmetallen** gehören solche, die nicht unter Wasserstoffbildung mit wässrigen
+Lösungen nichtoxidierender Säuren wie zum Beispiel Salzsäure oder verdünnte
+Schwefelsäure reagieren. Das
+liegt an ihrem Standardpotential, welches höher als dasjenige des Wasserstoffs ist. Diese
+Metalle sind auch gegen Luftsauerstoff weitgehend inert. Aus diesem Grund kommen sie
+in der Natur gelegentlich gediegen vor.
+Metalle wie Bismut und Kupfer liegen mit ihrem Standardpotential deutlich näher am
+Wasserstoff als die klassischen Edelmetalle. An Luft korrodieren sie schneller, und in
+oxidierenden Säuren wie konzentrierte Schwefelsäure oder halbkonzentrierte
+(30-prozentige) Salpetersäure lösen sie sich
+zügig.
+
+Im chemischen Sinne sind Halbedelmetalle alle Metalle, die in der
+elektrochemischen Spannungsreihe ein positives Standardpotential gegenüber
+Wasserstoff besitzen, ansonsten aber nicht so
+korrosionsbeständig wie klassische Edelmetalle sind.
+
+Klar abzugrenzen sind die unedlen Metalle wie Aluminium, Eisen und Blei. Da
+ihr Standardpotential kleiner als das von Wasserstoff ist, werden sie von nichtoxidierenden
+Säuren angegriffen. Das kann, wie beim Blei, auch recht langsam erfolgen. Nichtoxidierend
+bedeutet hierbei, dass sich kein stärkeres Oxidationsmittel als das Wasserstoffion in der
+Lösung befindet.
+
+Neben den Edelmetallen gibt es auch noch einige Metalle, die infolge ihrer
+Passivierung mitunter eine hohe Korrosionsbeständigkeit besitzen, die je nach chemischem Milieu auch
+manche Edelmetalle zum Teil übertrifft. Dies sind die Elemente der 4. Nebengruppe
+(Titan, Zirconium und Hafnium), die der 5. Nebengruppe (Vanadium, Niob und Tantal)
+sowie die der 6. Nebengruppe (Chrom, Molybdän und Wolfram). Weitere technisch bedeutende
+Metalle, die Passivschichten bilden, sind Zink (12. Nebengruppe), Aluminium (3. Hauptgruppe) sowie
+Silicium und Blei (4. Hauptgruppe).
+
+Erz: Gesteine oder Mineralien, aus denen man
+Metalle lohnend gewinnen kann.
+
+\begin{tikzpicture}
+[parent anchor=east,child anchor=west,grow=east,
+sibling distance=\baselineskip, level distance=15mm,
+]
+\node {}
+child {node {morpheous}}
+child {node {amorpheous}
+};
+\end{tikzpicture}
+
+\minisec{crystal systems (7)}
+cubic:
+$T, T_d, T_h, O, O_h$
+
+tetragonal  
+orthorombic  
+monoclinic  
+triclinic  
+
+trigonal:
+$C_3$ jarosite
+$S_6$ dolomite
+$D_3$ quartz
+$C_{3v}$ Schorl (most common species of tourmaline)
+$D_{3d}$ hematite
+
+hexagonal
+
+\minisec{Bravais Lattices (14)}
+
+triclnix  
+rhombohedral  
+hexagonal  
+simple { cubic, tetragonal, orthorombic, monoclinic }  
+body-centered { cubic, tetragonal, orthorombic, monoclinic }  
+base-centered {orthorombic, monoclinic }  
+face-centered { cubic, orthorombic }  
+
+\minisec{types of crystalline solids}
+
+- ionic crystals (\ce{NaCl})
+- covalent or network crystals (Graphit)
+- molecular crystals (Proteins)
+- metallic crystals
+- group VIII crystals (frozen noble gases)
+
+A perovskite is any material with the same type of crystal
+structure as calcium titanium oxide (\ce{CaTiO3}), known as the
+perovskite structure.
+
+\minisec{glass}
+
+\ce{SiO2} glass, no order.
+
+\ce{SiO2} crystal ($\alpha$-quarz)
+
+Porzelan:
+6. Jhrt China.
+1708 Böttger in Meisen.
+
+# Entstehung des Gesteins
+
+# Tektonik  
+
+In der Geologie bezeichnet Tektonik (nach griechisch τεκτονικός tektonikós „die
+Baukunst betreffend“) die Lehre vom Aufbau der Erdkruste und von den in ihr
+stattfindenden klein- und großräumigen Bewegungen. 
+
+# Boden
+
+Huminstoffe sind hochmolekulare Stoffe des Humusbodens, welche eine
+uneinheitliche (amorphe), makromolekulare Struktur aufweisen. Sie können als
+erstes halbwegs stabiles, dunkel gefärbtes Aufbauprodukt aus der Materie eines
+toten Lebewesens bezeichnet werden.
+Huminstoffe bestehen aus Kernen, Brücken und reaktiven Seitengruppen.
+Huminstoff-abbauende Mikroorganismen sind zum Beispiel Actinomyceten,
+Streptomyceten, Pseudomonas und Pilze, wie Ständerpilze oder Penicillium (siehe
+Penicillin).
+
+Huminstoffe liegen je nach Boden in unterschiedlichen Anteilen vor:
+
+-    Ackerböden: 1–2 %
+-    Schwarzerde: 2–7 %
+-    Wiesen: ca. 10 %
+-    Moorböden: 10–20 %
+
+\minisec{Erg}
+Strictly speaking, an erg is defined as a desert area that contains
+more than 125 square kilometres (48 sq mi) of aeolian or wind-blown
+sand and where sand covers more than 20% of the surface.
+Smaller areas are known as "dune fields".
+
+## Horizont
+
+Ein Bodenhorizont (umgangssprachlich Bodenschicht), oft
+kurz Horizont genannt, ist ein Bereich im Boden, der
+anhand seiner speziellen Eigenschaften von darüber- und
+darunterliegenden Bereichen unterschieden werden kann. Die
+Horizonte eines Bodens sind in einem sogenannten Bodenprofil
+(Vertikalschnitt des Bodens in einer Aufgrabung, seltener
+einer Bohrung) erkennbar und liegen fast immer horizontal
+bzw. hangparallel. Die Horizontabfolge eines Bodens ist das
+maßgebliche Kriterium für die Ermittlung des vorliegenden
+Bodentyps.
+Horizonte können durchaus mit Schichten identisch sein.
+Dennoch besteht zwischen beiden Begriffen eine klare
+Abgrenzung: Eine Schicht bezeichnet nicht nur einen Wechsel
+der Eigenschaften, sondern auch einen Wechsel des Materials
+(z. B. Sand zu Ton). Sie ist das Ergebnis von natürlicher
+Sedimentation oder künstlicher Aufschüttung im Zuge
+menschlicher Aktivitäten. Die Bodenhorizonte sind hingegen
+vor allem das Ergebnis der Bodenbildung (Pedogenese).
+Dies sind vor allem natürliche Prozesse also physikalische
+oder chemische Verwitterung (durch Einwirkung von
+Hitze, Kälte, Niederschlägen), biologische Aktivität
+(Pflanzenwurzeln, Bodenlebewesen, wühlende Tiere,
+Mikroorganismen) oder Ein- oder Auswaschung von Stoffen mit
+dem Niederschlags- und Sickerwasser. In besiedelten Regionen
+nimmt mittlerweile auch der Mensch einen großen Einfluss
+(Bodenumlagerung, Materialeintrag, Pflügen…).
+
+Die Anzahl der Horizonte kann von Standort zu Standort
+erheblich schwanken. Bei einer gerade aufgewehten Sanddüne
+liegt sie bei 1, da nur „reiner Sand“ vorliegt.
+Bereits nach kurzer Zeit kommt es zur Ansiedlung von
+Pionierpflanzen und der Bildung von Humus. Somit erhöht
+sich die Horizontzahl auf 2, da an der Oberfläche ein
+Bereich „Sand mit Humus“ im Gegensatz zum Untergrund
+„reiner Sand“ entstanden ist. Damit wird klar, dass die
+Horizontabfolge nicht fix ist, sondern auch zeitlich mit
+voranschreitender Bodenentwicklung variiert.
+
+Bodenhorizonte werden mit Buchstabenkombinationen
+(Horizontsymbole) benannt, die wesentliche Merkmale und
+Prozesse kennzeichnen.
+
+Die Bodenhorizonte lassen sich – im Bodenprofil von oben
+nach unten – grob wie folgt einteilen:
+
+-    H-, L-, O-Horizonte: organische Auflage
+    (Torf, Streu, nicht-torfige organische Feinsubstanz)
+
+-    A-Horizonte: mineralischer Oberboden
+    (Anreicherung von Humus, Auswaschung von Stoffen)
+
+-    B-Horizonte: mineralischer Unterboden
+    (Mineralumwandlung, Einwaschung von Stoffen)
+
+-    C-Horizonte: mineralischer Untergrund
+    (wenig verändertes Ausgangsgestein, physikalische Verwitterung) 
+
+## Pedogenese
+
+Unter bestimmten Klimaverhältnissen machen Böden auf
+verschiedenen Ausgangsmaterialien immer eine vergleichbare
+Entwicklung durch, an deren Ende die Klimaxböden stehen. In
+ihnen laufen nach wie vor bodenbildende Prozesse ab, diese
+führen aber nur noch zu einer Vertiefung der Merkmale und
+nicht mehr zur Umwandlung in andere Bodentypen. Im Folgenden
+sollen einige Chronosequenzen schematisch aufgeführt
+werden, die typisch für Mitteleuropa sind:
+
+Sandstein: Gestein → Syrosem → Ranker → Braunerde → Parabraunerde → Podsol
+
+Sand: Sand → Lockersyrosem → Regosol → Braunerde → Parabraunerde → Podsol
+
+Kalkstein (tonhaltig): Gestein → Syrosem → Rendzina → Terra fusca
+
+Tonstein (kalkarm): Gestein → Syrosem → Ranker → Pelosol → Pseudogley
+
+Löss (mergelig):
+Löss → Lockersyrosem → Pararendzina →
+Braunerde (feuchter) oder Schwarzerde (trockener) → Parabraunerde → Podsol → Pseudogley
+
+Meeressedimente:
+Watt → Rohmarsch → Kalkmarsch → Kleimarsch →
+Altmarschböden wie Knickmarsch, Dwogmarsch oder Organomarsch
+
+# Diagenese
+
+Diagenese im Sinne der Umwandlung eines Lockersedimentes
+in ein Festgestein umfasst im Wesentlichen zwei Prozesse:
+Kompaktion und Zementation. Frühdiagenetische Prozesse
+beinhalten ausschließlich Zementation und laufen bereits
+kurz nach der Ablagerung ab. Bei der Zementation bilden sich
+im Porenraum des Sedimentes Kristalle durch Abscheidung
+von Salzen aus dem im Porenraum befindlichen Wasser. Die
+Kristalle können aus Mineralen bestehen, die im Sediment
+bereits vorhanden sind, oder aber aus neuen, bislang
+nicht vorhandenen Mineralen (authigene Minerale). Ein
+typisches, nicht selten frühdiagenetisch gebildetes
+Zementmineral ist Calcit. Typische frühdiagenetisch
+neugebildete Minerale sind Glaukonit und Francolit (ein
+Carbonat-Apatit). Meist beginnt die Diagenese jedoch
+erst nach der Versenkung des Sedimentes in eine gewisse
+Tiefe. Der zunehmende lithostatische Druck verdichtet und
+entwässert das Sediment, abhängig vom Material und der
+Korngröße mehr oder weniger stark. So werden Tonsedimente
+wesentlich stärker kompaktiert als Sande. Durch den Druck
+tritt an den Korngrenzen Drucklösung (Riecke’sches
+Prinzip) auf, durch die zusätzliches Material für die
+Zementation mobilisiert wird. Nicht selten fällt dieses
+Material im unmittelbar benachbarten Porenraum sofort wieder
+aus. Aus lockerem Sand wird so allmählich fester Sandstein,
+aus Ton wird Tonstein. Damit ist die Diagenesegeschichte
+eines Gesteins aber noch nicht beendet. Solange sich ein
+Gesteinskörper außerhalb des Einflusses von Verwitterung
+und Erosion einerseits und von metamorphen Prozessen (siehe
+unten) andererseits befindet, können zu beliebigen Zeiten
+immer wieder diagenetische Prozesse einsetzen und das
+Gestein verändern (Spätdiagenese).
+
+Mit Kompaktion bezeichnet die Geologie die Verfestigung
+und Volumenverkleinerung von Sedimenten durch den Druck
+darüberliegender („hangender“) Gesteinsschichten.
+
+# Verwitterung
+
+Physikalische (mechanische), chemische (Wasser, atmosphärische Gase)
+oder biogene Verwitterung.
+
+Die Verwitterung ist eine Voraussetzung dafür,
+dass Sedimentgesteine abgetragen und neu gebildet werden.
+Gesteine werden dabei in Bestandteile zerlegt, die dann ggf.
+neue Mineralverbindungen bilden.
+
+Klastische Lockersedimente werden nach der Korngröße der
+Mehrheit der darin vertretenen Sedimentpartikel als Ton,
+Schluff (Silt), Sand oder Kies bezeichnet.
+
+Ton (0.2 $\mu$m – 2 $\mu$m),
+Schluff (2 $\mu$m$ – 0.6 mm), Sand (0.6 mm – 2 mm) oder Kies (2 mm – 60 mm).
+
+Wassergesättigte Lockersedimente mit einem überwiegenden
+Anteil an Korngrößen unterhalb der von Sand werden unter
+dem Begriff Schlämme zusammengefasst, jedoch ist nicht
+jeder Schlamm ein klastisches Sediment. Lockersedimente mit
+groben und sehr groben Korngrößen, wie Kies, Steinen und
+Blöcken, nennt man bei abgerundeten „Körnern“ Geröll
+und bei kantigen „Körnern“ Schutt.
+
+Bei höheren Kalkgehalten spricht man von Kalkmergel, bei hohem Tongehalt von Tonmergel.
+Mergelablagerungen, die alle Korngrößenklassen umfassen, werden in der
+Fachsprache als Diamiktit bezeichnet.
+Kalkmergel: bis 65% Kalk, 35% Ton.
+
+\minisec{Ton}
+Tonpartikel <2\si{\mu\metre} (Geowissenschaft)
+<1\si{\mu\metre} (Kolloidchemie).
+Ton ist einer der Hauptbestandteile von Lehm.
+Lehm: quarzhaltiger Ton.
+Ton ist ein Verwitterungsprodukt von Feldspäten.
+Seit dem 20. Jahrhundert wird Ton als Rohstoff für die Zementherstellung eingesetzt.
+
+Bei den Tonmineralen, die feuchtem Ton seine plastischen Eigenschaften verleihen, handelt es
+sich im Allgemeinen um Schichtsilikate, z. B. Illit, Montmorillonit oder Kaolinit. Zusätzlich
+können Tone noch weitere Minerale enthalten, die nicht zu den plastischen Eigenschaften
+beitragen, wie z. B. Quarz, Kalzit, Dolomit, Feldspäte, Metalloxide und -hydroxide oder
+auch kolloidale Kieselsäure und Eisenhydroxidgele. Daneben enthält Ton
+typischerweise auch organische, d.h. kohlenstoffreiche, Bestandteile, überwiegend in kolloidaler Form.
+
+Durch Gebirgsdruck hat sich Ton auch in Schiefer umgewandelt.
+
+\minisec{Schluff}
+95% aus Komponenten mit einer Korngrösse von
+0.002 bis 0.063 mm.
+
+Lehm ist eine Mischung aus Sand, Schluff und Ton.
+Lehm ist das älteste im Bauwesen verwendete Bindemittel, neben Holz das älteste
+Baumaterial (Stampflehm) des Menschen und gehört mit Kalk – und seit Beginn
+des 20. Jahrhunderts Zement – zu den wichtigsten mineralischen Baustoffen.
+
+Duricrust ist der Oberbegriff aller zur Gruppe der
+terrestrischen Böden gezählten Krusten, die außerhalb des
+Einflusses des Grundwassers entstehen. Es handelt
+sich hierbei um Bodenhorizonte, die einige Millimeter bis
+wenig mehr als 10 Meter mächtig sein können, und in
+denen durch Ausfällung mineralischer Substanzen aus dem
+Porenwasser Teile eines solchen Horizontes oder sogar der
+gesamte Horizont gesteinsartig verfestigt wird.
+
+# Sedimentgestein
+
+Sedimentation bzw. Sedimentierung (von lat. sedimentum =
+Bodensatz) ist das Ablagern von Teilchen aus Flüssigkeiten
+oder Gasen unter dem Einfluss der Gewichtskraft oder der
+Zentrifugalkraft. Bildet sich zuunterst eine Schicht von
+Schwebstoffen, so nennt man diese Bodensatz, Sediment oder
+(um Verwechslungen mit Sedimentgestein auszuschließen)
+Lockersediment (Lockergestein).
+
+Die Sedimentation findet auf dem Land, in Fließgewässern,
+Seen und Meeren statt. Unverfestigte Sedimente werden
+Lockersediment, verfestigte Sedimente Sedimentgesteine
+genannt.
+
+Sedimente und Sedimentgesteine unterteilt man in klastische,
+biogene und chemische Sedimente und Rückstandsgesteine.
+
+Biogene Sedimente sind mehr oder weniger verfestigte
+Ablagerungen, die aus toten Pflanzenteilen, Einzellern und
+Resten von Tierskeletten entstehen.
+
+Klastische Sedimentite (von griech. κλαστός klastós
+„in Stücke gebrochen“), detritische Sedimentite oder
+auch Trümmergesteine sind Sedimentgesteine, deren Material
+vorwiegend der mechanischen Zerstörung anderer Gesteine
+entstammt. Dabei ist es prinzipiell unerheblich, welcher
+Gesteinsklasse (Magmatite, Sedimentite, Metamorphite) diese
+Ausgangsgesteine angehörten. Die geographische Region, in
+der die Ausgangsgesteine vermutet werden oder in der sie
+noch heute nachweisbar sind, wird Liefergebiet genannt.
+
+Die folgenden Bezeichnungen der aus Lockersedimenten
+hervorgegangenen Sedimentgesteine richten sich ebenfalls
+größtenteils nach der jeweils vorherrschenden Korngröße:
+
+-    Konglomerat oder Brekzie bei Korngrößen größer als 2 mm. Konglomerate
+     bestehen aus abgerundeten, Brekzien aus kantigen Gesteinstrümmern.
+-    Sandstein besteht überwiegend aus Körnern der Korngröße 0,063 bis 2 mm.
+-    Schluffstein (oder Siltstein) besteht überwiegend aus Körnern, die
+     zwischen 0,002 und 0,063 mm groß sind.
+-    Tonstein enthält überwiegend Partikel, die kleiner als 0,002 mm (2 µm) sind.
+
+Unter diesen Gesteinsnamen werden jedoch vorwiegend
+siliziklastische Sedimentgesteine verstanden, d. h. sie
+beinhalten auch eine Aussage zum Material, aus dem die
+Körner und Partikel bestehen.
+
+Eine Brekzie oder Breccie (vom italienischen breccia:
+Schotter, der Begriff findet sich bereits mehrfach
+bei Goethe) ist ein Gestein, das aus eckigen
+Gesteinstrümmern besteht, die durch eine feinkörnige
+Grundmasse verkittet sind. Brekzien sind ähnlich aufgebaut
+wie die Konglomerate (z. B. Puddingstein), bei denen jedoch
+im Unterschied zur Brekzie abgerundete Gesteine in einem
+Bindemittel eingeschlossen sind. Die Korngröße übersteigt
+zwei Millimeter, Gesteine mit eckigen Körnern kleinerer
+Korngröße werden als Mikrobrekzie bezeichnet.
+
+Konglomerat (lateinisch conglomerare „zusammenballen“)
+bezeichnet in der Geologie ein grobkörniges, klastisches
+Sedimentgestein das aus mindestens 50 % gerundeten
+Komponenten (Kies oder Geröll), die durch eine feinkörnige
+Matrix verkittet sind.
+
+Eine weitere, jedoch neutralere auf die Korngröße bezogene
+Klassifikation unterscheidet Lutit (kleiner als 2 µm),
+Siltit, (zwischen 2 µm und 0,063 mm), Arenit (zwischen
+0,063 und 2 mm) und Rudit (größer als 2 mm). Sie wird
+mit dem Zusatz „Kalk-“ bei der Klassifizierung von
+(klastischen) Karbonatgesteinen verwendet.
+
+Pelit (gr.: pelos - Ton, Schlamm) (entspricht weitgehend
+dem Tonstein) ist die Bezeichnung für feinklastische
+Sedimentgesteine mit Korngrößen unter 0,02 mm (Ton bis
+Mittelschluff). Der Begriff lässt sich materialunabhängig
+verwenden, d.h. nicht nur für klastische Silikatgesteine,
+sondern auch für klastische Karbonatgesteine.
+
+Die Mineralkörner und Gesteinsbruchstücke, aus denen die
+klastischen Sedimentgesteine bestehen, halten mit Hilfe
+eines primären oder sekundären Bindemittels zusammen.
+
+-    Das primäre Bindemittel wird als Matrix bezeichnet
+und besteht meist entweder aus Tonpartikeln oder aus
+mikroskopisch kleinen Kalziumkarbonat-Partikeln, die
+zusammen mit den groberen Sedimentbestandteilen abgelagert
+werden. Eine bindende Wirkung entfaltet die Matrix jedoch
+erst, nachdem das Sediment zu einem gewissen Grade
+entwässert wurde.
+-    Das sekundäre Bindemittel entsteht erst nach
+Ablagerung des Sediments durch chemische Ausfällung
+und wird als Zement bezeichnet. Hierbei kann es sich um
+kalkigen Zement (Kalziumkarbonat, CaCO3), „kieseligen“
+Zement (Siliziumdioxid, SiO2), um sekundäre (authigene)
+Tonminerale oder auch um Oxide und Hydroxide des Eisens (z.
+B. Hämatit, Goethit) handeln.
+
+Je nachdem aus welchen Mineralen die Körner und
+Gesteinsbruchstücke eines klastischen Sedimentgesteins
+bestehen, lassen sich verschiedene Gruppen und Untergruppen
+unterscheiden. Beispielsweise
+
+-    bestehen Siliziklastika überwiegend aus
+Silikatmineralen wie Quarz oder Feldspat. Sie sind die
+weitaus wichtigste Gruppe der klastischen Sedimentite.
+-    spricht man auch von einer Arkose, wenn ein
+siliziklastischer Sandstein bedeutende Mengen anderer
+Minerale als Quarz (vor allem Feldspäte) enthält,
+bei einem breiten Spektrum an Mineralen und anderen
+Gesteinsbruchstücken sowie einer aus Glimmer und
+Tonmineralen bestehenden Matrix von einer Grauwacke.
+
+Chemische Sedimentite entstehen durch die Fällung gelöster
+Stoffe aus übersättigten Lösungen. Durch Eindampfung
+entstehen z.B. die Evaporite (Sulfate, wie Gips bzw.
+Anhydrit, und Halogenide, wie Halit oder Kalisalze).
+Die Zechstein-Serie in Mitteleuropa ist ein Beispiel
+für eine Abfolge mit mächtigen Evaporit-Lagern. Auch
+Karbonate können so entstehen. Sie zählen aber nicht zu
+den Evaporiten.
+
+Eine andere Möglichkeit für die Ausfällung von Karbonaten
+ist die Erhöhung der Wassertemperatur (Karbonat löst sich
+im Gegensatz zu z.B. Halit besser in kaltem als in warmem
+Wasser). Auf diese Weise bilden sich Quellkalke in Gebieten
+mit relativ hohem Kalksteinanteil im Untergrund.
+
+Die Fällung von Karbonaten kann auch indirekt durch
+Lebewesen erfolgen. Algen betreiben Photosynthese und
+entziehen dem Wasser Kohlendioxid. Dies hat zur Folge, dass
+sich zum Ausgleich Kohlendioxid aus Hydrogencarbonat bildet,
+welches seinerseits beispielsweise mit Kalziumionen zu
+schwerlöslichem Kalziumkarbonat reagiert.
+
+Diatomeenschlamm ist ein Sediment in Meeren und Seen,
+welches sich durch eine sehr starke Sedimentation von
+Kieselalgen bzw. deren Schalen bildet.
+Diatomeenschlamm stellt die Grundlage für die Bildung des
+Kieselgur bzw. der Kieselerde als Sedimentgestein dar.
+Dieses besteht vor allem aus den fossilierten Schalenresten,
+die zum größten Teil aus amorphem (nicht-kristallinem)
+Siliziumdioxid (SiO2) bestehen und sehr porös sind. Dabei
+enthält 1 ml reine Kieselgur etwa 1 Mrd. Diatomeenschalen
+bzw. deren Bruchstücke.
+
+# Metamorphose
+
+Die Gesteinsmetamorphose (gr. μεταμόρφωσις
+metamórphosis „Verwandlung“, „Umgestaltung“)
+ist die Umwandlung der mineralogischen Zusammensetzung
+eines Gesteins durch geänderte Temperatur- und/oder
+Druckbedingungen. Dabei entsteht aus dem Ausgangsgestein,
+das auch als Protolith oder Edukt bezeichnet wird, ein
+metamorphes Gestein (Metamorphit).
+
+Bei der Metamorphose kommt es unter den veränderten
+physikalischen Bedingungen zu Mineralreaktionen, also zur
+Neu- oder Umbildung von Mineralen, wobei das Gestein im
+festen Zustand verbleibt. Schmilzt ein Gestein durch eine
+Erhöhung der Temperatur auf, so spricht man von Anatexis.
+Anatexis findet in der tieferen Erdkruste statt, zumeist im
+Laufe von Gebirgsbildungsprozessen, z. B. im Himalaya und
+den Alpen, aber auch im Thüringer Wald. Die resultierenden
+Gesteine werden als Migmatite bezeichnet bzw. als
+migmatisierte Gneise, Schiefer etc.
+
+Sandstein -> Quarzit  
+
+Die Gneise (alte sächsische Bergmannsbezeichnung aus dem 16. Jahrhundert,
+vielleicht zu althochdeutsch:
+gneisto, mittelhochdeutsch: ganeist(e), g(e)neiste „Funke“) sind metamorphe
+Gesteine mit Paralleltextur, die mehr
+als 20 % Feldspat enthalten.
+Granite -(hohe Temp.; hoher Druck)> Gneise  
+
+Marmor ist ein grobkristallines, metamorphes Gestein, das
+entsteht, wenn Kreide, Kalkstein oder Dolomit unter dem
+Einfluss hoher Temperaturen und/oder hoher Drücke (über
+1000 bar) umkristallisiert werden.
+
+# Carbonate und Nitrate
+
+Die oder das Soda (englisch Natron[5]) ist ein Salz-Mineral aus der
+Mineralklasse der „Carbonate (und Verwandte)“. Es kristallisiert im monoklinen
+Kristallsystem mit der chemischen Zusammensetzung Na2[CO3] • 10H2O
+
+# Silicate minerals
+
+The silicate minerals are rock-forming minerals, constituting approximately 90 percent of the
+crust of the Earth.
+
+Calciumsilicat kommt natürlich in Form des Minerals Wollastonit vor.
+Calciumsilicatplatten werden im baulichen Brandschutz für Wände, Decken und Bekleidungen eingesetzt.
+Eines der Haupteinsatzgebiete von Wollastonit ist die
+Keramikindustrie, wo er zur Verbesserung der mechanischen
+Eigenschaften weißer Keramikwaren verwendet wird.
+Aufgrund seines hohen Schmelzpunktes dient Wollastonit als Ersatz für Asbestfasern. 
+In der Kunststoffindustrie wird Wollastonit hauptsächlich
+als Füllstoff in Thermoplasten verwendet. Er dient unter
+anderem zur Verbesserung der Steifigkeit und Biegefestigkeit
+von Polyestern, Polyamiden und Polypropylenen. Ebenso setzt
+man es bei Reaktionsharzen wie Epoxidharzen ein, um damit
+durch Schrumpf verursachte Spannungsrisse zu vermeiden.
+
+## Nesosilicates
+
+humite group:
+An(SiO4)m(F,OH)2.
+
+Garnets /ˈɡɑrnət/ are a group of silicate minerals that have been used
+since the Bronze Age as gemstones and abrasives.
+All species of garnets possess similar physical properties and crystal forms, but
+differ in chemical composition. The different species are pyrope, almandine,
+spessartine, grossular
+(varieties of which are hessonite or cinnamon-stone and tsavorite), uvarovite and andradite.
+
+## Sorosilicates
+
+Hemimorphite (calamine)  
+\ce{Zn4(Si2O7)(OH)2}·\ce{H2O}
+
+Lawsonite  
+\ce{CaAl2(Si2O7)(OH)2}·\ce{H2O}
+
+Ilvaite  
+\ce{CaFe2+2Fe3+O(Si2O7)(OH)}
+
+Epidote group  
+(has both \ce{(SiO4)4^-} and \ce{(Si2O7)6^−} groups)
+
+Epidote  
+\ce{Ca2(Al,Fe)3O(SiO4)(Si2O7)(OH)}
+
+Zoisite  
+\ce{Ca2Al3O(SiO4)(Si2O7)(OH)}
+
+Clinozoisite  
+\ce{Ca2Al3O(SiO4)(Si2O7)(OH)}
+
+Tanzanite  
+\ce{Ca2Al3O(SiO4)(Si2O7)(OH)}
+
+Allanite  
+\ce{Ca(Ce,La,Y,Ca)Al2(Fe2+,Fe3+)O(SiO4)(Si2O7)(OH)}
+
+Dollaseite-(Ce)  
+\ce{CaCeMg2AlSi3O11F(OH)}
+
+Vesuvianite (idocrase)  
+\ce{Ca10(Mg,Fe)2Al4(SiO4)5(Si2O7)2(OH)4}
+
+## Cyclosilicates
+
+## Inosilicates
+
+## Phyllosilicates
+
+Serpentine subgroup  
+-    Antigorite – Mg3Si2O5(OH)4
+-    Chrysotile – Mg3Si2O5(OH)4
+-    Lizardite – Mg3Si2O5(OH)4
+
+Serpentinite is a rock composed of one or more serpentine group minerals, the name originating from the similarity of the texture of the rock to that of the skin of a snake.
+
+Mica group  
+-    Biotite – K(Mg,Fe)3(AlSi3)O10(OH)2
+-    Fuchsite – K(Al,Cr)2(AlSi3O10)(OH)2
+-    Muscovite – KAl2(AlSi3)O10(OH)2
+-    Phlogopite – KMg3(AlSi3)O10(OH)2
+-    Lepidolite – K(Li,Al)2–3(AlSi3)O10(OH)2
+-    Margarite – CaAl2(Al2Si2)O10(OH)2
+-    Glauconite – (K,Na)(Al,Mg,Fe)2(Si,Al)4O10(OH)2
+
+Chlorite group  
+-    Chlorite – (Mg,Fe)3(Si,Al)4O10(OH)2·(Mg,Fe)3(OH)6
+
+### Clay minerals group (smectite, Tonminerale)
+
+Tonminerale entstehen durch Verwitterung von anderen Mineralen bzw. Gläsern oder bilden sich neu aus übersättigten Bodenlösungen oder hydrothermalen Wässern.
+
+-    Halloysite – Al2Si2O5(OH)4
+-    Vermiculite – (MgFe,Al)3(Al,Si)4O10(OH)2·4H2O
+-    Talc – Mg3Si4O10(OH)2
+-    Sepiolite – Mg4Si6O15(OH)2·6H2O
+-    Palygorskite (or attapulgite) – (Mg,Al)2Si4O10(OH)·4(H2O)
+-    Pyrophyllite – Al2Si4O10(OH)2
+
+\minisec{Illite} (2:1)
+
+\ce{(K,H3O)(Al,Mg,Fe)2(Si,Al)4O10[(OH)2,(H2O)]}
+
+It occurs as aggregates of small monoclinic grey to white crystals. Due to the
+small size, positive identification usually requires x-ray diffraction or
+SEM-EDS (automated mineralogy) analysis. Illite occurs as an altered product of
+muscovite and feldspar in weathering and hydrothermal environments; it may be a
+component of sericite. It is common in sediments, soils, and argillaceous
+sedimentary rocks as well as in some low grade metamorphic rocks. The iron rich
+member of the illite group, glauconite, in sediments can be differentiated by
+x-ray analysis.
+
+\minisec{Montmorillonite}
+
+\ce{(Na,Ca)0.33(Al,Mg)2Si4O10(OH)2·nH2O}
+
+The particles are plate-shaped with an average diameter around 1 μm and a
+thickness of 0.96 nm; magnification of about 25,000 times, using an electron
+microscope, is required to "see" individual clay particles. Members of this
+group include saponite.
+Varieties of saponite are griffithite, bowlingite and sobotkite. 
+
+\minisec{Kaolinite}
+
+\ce{Al2(OH)4Si2O5} (1:1)
+
+Kaolinite is one of the most common minerals; it is mined, as kaolin
+
+Rocks that are rich in kaolinite are known as kaolin /ˈkeɪəlɪn/ or china clay.
+Kaolinite group clays undergo a series of phase transformations upon thermal treatment in air at atmospheric pressure. 
+
+Below 100 °C (212 °F), exposure to dry air will slowly remove liquid water from
+the kaolin. The end-state for this transformation is referred to as "leather
+dry". Between 100 °C and about 550 °C (1,022 °F), any remaining liquid water is
+expelled from kaolinite. The end state for this transformation is referred to
+as "bone dry". Throughout this temperature range, the expulsion of water is
+reversible: if the kaolin is exposed to liquid water, it will be reabsorbed and
+disintegrate into its fine particulate form. Subsequent transformations are not
+reversible, and represent permanent chemical changes. 
+
+Endothermic dehydration of kaolinite begins at 550–600 °C producing disordered
+metakaolin, but continuous hydroxyl loss is observed up to 900 °C (1,650
+°F).[11] Although historically there was much disagreement concerning the
+nature of the metakaolin phase, extensive research has led to a general
+consensus that metakaolin is not a simple mixture of amorphous silica (SiO 2)
+and alumina (Al 2O 3), but rather a complex amorphous structure that retains
+some longer-range order (but not strictly crystalline) due to stacking of its
+hexagonal layers.
+
+Further heating to 925–950 °C converts metakaolin to an aluminium-silicon spinel
+
+Upon calcination above 1050 °C, the spinel phase nucleates and transforms to platelet mullite and highly crystalline cristobalite
+
+Finally, at 1400 °C the "needle" form of mullite appears, offering substantial increases in structural strength and heat resistance. 
+
+## Tectosilicates
+
+## Schichtsilikate
+
+Als Schichtsilikate (Blattsilikate, Phyllosilikate)
+bezeichnet man Silikate, deren Silikatanionen aus Schichten
+eckenverknüpfter SiO4-Tetraeder bestehen. Diese Schichten
+oder Doppelschichten sind untereinander nicht über weitere
+Si-O-Bindungen zu Gerüsten verknüpft.
+
+Montmorillonit ist ein Tonmineral und wesentlichster Bestandteil (60–80 %) von Bentonit.
+Bentonit entsteht durch Verwitterung aus vulkanischer Asche.
+
+Kaolinit respektive Kaolin findet überwiegend in der Herstellung von Porzellan,
+als Füllmaterial in Farben und Plastik, als Füllmaterial und Appretur in der
+Papierherstellung, sowie bei der Ziegelherstellung und als feuerfestes Material
+Anwendung. Wichtigstes Verwendungsgebiet ist heutzutage die Beschichtung von
+Papier, wofür rund 60 % des Kaolins aufgewendet werden.
+
+### Talk
+
+Das Mineral Talk (Steatit, Magnesiumsilikathydrat, in
+pulverisierter Form Talkum; nicht zu verwechseln mit Talg)
+ist ein sehr häufig vorkommendes Schichtsilikat mit der
+chemischen Zusammensetzung Mg3[Si4O10(OH)2].
+
+# Sulfates
+
+Sphalerit (Zinkblende) \ce{ZnS}  
+It consists largely of zinc sulfide in crystalline form but
+almost always contains variable iron. When iron content is
+high it is an opaque black variety, marmatite.
+Sphalerite is the major ore of zinc.
+
+Chalkopyrit (Kuperkies) \ce{CuFeS2}  
+Galenit (Bleiglanz) \ce{PbS}  
+Stannit \ce{Cu2FeSnS4}  
+
+Gibs, Ca[SO4]·2H2O
+
+Macrasite  
+Chalcanthite
+
+Baryt, auch unter seinem Synonym Schwerspat und seiner
+chemischen Bezeichnung Bariumsulfat bekannt, ist ein häufig
+vorkommendes Mineral
+\ce{Ba[SO4]}
+
+## Pyritee
+
+Pyrite is a semiconductor material with a band gap of 0.95 eV.
+
+# Secondary Sulfates
+
+Melanterite
+
+# Borate
+
+The borate minerals are minerals which contain a borate anion group. 
+
+Kernit ist trotz seiner Seltenheit mit einem Gehalt von bis
+zu 14,9 % Bor ein wichtiges Erz zur Gewinnung dieses
+Elements für die Chemische Industrie.
+
+# Oxides minerals
+
+Rutil \ce{TiO2}
+ist ein häufig vorkommendes Mineral 
+Rutil ist mit einem Metall-Gehalt von etwa 60 % nach Ilmenit das bedeutendste Titan-Mineral.
+
+Ilmenite \ce{FeTiO3}
+From the commercial perspective, ilmenite is the most important ore of titanium.
+
+## Cassiterite ("Zinnstein") \ce{SnO2}
+
+Kassiterit ist mit einem (theoretischen) Zinn-Anteil von 78,8 Prozent das einzige, weltweit
+bedeutende Zinnerz. 
+Das gewonnene Zinn wird (unter anderem) als ungiftiger, rostbeständiger Überzug von Stahlbehältern
+(Weißblech) verwendet.
+Etwa 90 Prozent des in Deutschland produzierten Weißblechs wird zur Herstellung
+von Verpackungen verwendet.
+
+Eine Schicht von ca. 0,3 µm Zinn, das entspricht etwa 2 g/m²,
+genügt, um den Stahl durch Versiegelung vor Korrosion zu schützen. Zink und
+Chrom sind elektrochemisch unedler als Stahl. Sie bieten deshalb, anders als Zinn,
+zusätzlich einen elektrochemischen Schutz vor Korrosion. Zink ist jedoch instabil gegenüber Säuren
+und sauren Lebensmitteln, Chromverbindungen sind giftig. Zinnverbindungen sind zwar in geringem Maße
+giftig, wird aber die Zinnschutzschicht verletzt und es entsteht ein Lokalelement, so
+korrodiert zuerst das unedlere Eisen und es bilden sich unbedenkliche Eisensalze. Daher
+ist Weißblech auch für die Aufbewahrung von wässrigen Lebensmitteln in Konservendosen geeignet.
+Bei Lufteinwirkung können jedoch Zinnionen freigesetzt werden. Daher sind Weißblechdosen innen oft
+zusätzlich lackiert oder folienbeschichtet.
+
+Primäre Zinnvorkommen umfassen Greisen-, hydrothermale Gang- und seltener auch
+Skarn- und VHMS-Lagerstätten.
+Da das wirtschaftlich bedeutendste Zinnmineral Kassiterit (auch Zinnstein genannt, SnO2) ein sehr
+stabiles Schwermineral ist, kommt ein großer Teil der Zinnproduktion auch aus sekundären
+Seifenlagerstätten.
+
+Die aktuellen Reserven für Zinn werden mit 5,6 Millionen Tonnen angegeben, bei
+einer Jahresproduktion von 263.000 Tonnen im Jahr 2011. Zu über 80 %
+kommt die Produktion derzeit aus Seifenlagerstätten (Sekundärlagerstätten) an
+Flüssen sowie im Küstenbereich,
+vornehmlich aus einer Region beginnend in Zentralchina über Thailand bis nach Indonesien.
+Die größten Zinnvorkommen der Erde wurden 1876 im Kinta Valley entdeckt. Dort
+wurden bis heute etwa 2 Millionen Tonnen geschürft. 
+
+Heute gewinnt man einen Großteil durch Recycling und hier durch Elektrolyse.
+
+# Earth crust
+
+Feldspar (deutsch: Feldspat) (60% of the Earth's crust).
+Als Feldspat wird eine große Gruppe sehr häufig vorkommender Silikat-Minerale der allgemeinen
+chemischen Zusammensetzung (Ba,Ca,Na,K,NH4)(Al,B,Si)4O8 bezeichnet. Die in
+Klammern angegebenen Elemente können sich jeweils
+gegenseitig vertreten, stehen jedoch immer im selben Mengenverhältnis zu den anderen Bestandteilen
+des Minerals (Substitution). 
+Als Substitution (Austausch) bezeichnet man in der Mineralogie das Ersetzen eines chemischen
+Elements in der Kristallstruktur durch ein anderes. 
+
+Quartz is the second most abundant mineral in the Earth's continental crust.
+
+# Weather
+
+## Walker circulation 
+
+This circulation, which is roughly consistent with observations, is caused by differences
+in heat distribution between ocean and land. 
+
+North Africa, West Asia dust heats up the air, drawing moisture and
+
+winds towards India, where it builds up monsoon rains.
+
+El Niño Southern Oscillation (ENSO), refers to the effects of a band
+of sea surface temperatures which are anomalously warm or cold for long
+periods of time that develops off the western coast of South America
+and causes climatic changes across the tropics and subtropics.
+
+The Humboldt Current is a cold, low-salinity ocean current that flows north
+along the west coast of South America from the southern tip of
+Chile to northern Peru. 
+The Humboldt Current Large Marine Ecosystem (LME), named after the Prussian naturalist
+Alexander von Humboldt, is one of the major upwelling systems of the
+world, supporting an extraordinary abundance of marine life. 
+
+Boundary currents are ocean currents with dynamics determined by the presence of
+a coastline, and fall into two distinct categories: western boundary currents and
+eastern boundary currents.
+
+If the wind blows parallel to the coast in the northern hemisphere
+(such as the coast of California, where the wind blows South), then
+Ekman transport can produce a net movement of surface water 90º to
+the right. This may result in coastal upwelling.
+
+Ekman transport:
+The direction of transport is dependent on the hemisphere: in the northern
+hemisphere, transport occurs at 90° clockwise from wind direction, while in the
+southern hemisphere it occurs at a 90° counterclockwise.
+
+# Ökosystem
+
+Biotic (Organismen) and abiotic (Temperatur, pH-Wert, ...) components.
+Enhält Habitate.
+
+Freshwater Habitats.
+
+\minisec{Terrestial Habitats}
+
+Soil, plants, animals.
+
+\minisec{Marine Habitats.}
+
+Continental shelf.
+
+## Ocean
+
+Earth's oceans
+
+Arctic
+Atlantic
+Indian
+Pacific
+Southern
+
+Phytoplankton are the foundation of the oceanic food chain.
+Phytoplankton are photosynthesizing microscopic organismus that inhabit
+the upper sunlit layer of almost all oceans and bodies of fresh water.
+
+Oberflächenwasser ca. 75m tief.
+
+# Erdoberfläche
+
+70.8% Meer.
+
+Festland in $10^{12}$ m^2^:
+Wald 40
+Wüsten, Halbwüsten 33
+Grünland 26
+Ackerland 14
+Antarktis 13
+bebaute Gebiete 12
+Tundra 5
+sonstige Gebiete 6
+Total: 149
+
+# Calciumcarbonat (Kalk)
+
+In der Natur bildet Calciumcarbonat verschiedene Gesteine,
+die zwar chemisch identisch sind, sich jedoch in mancherlei
+Hinsicht unterscheiden.
+
+Kreide ist ein feines, mikrokristallines Sedimentgestein,
+Kdas durch Ablagerung von durch photosynthetischen
+KKohlensäureentzug gefälltem Calcit sowie der
+Karagonitischen Schalen von fossilen Kleinlebewesen,
+Kwie Coccolithen der Coccolithophoriden und Schalen der
+KForaminiferen, entstanden ist. Kreide tritt an zahlreichen
+KStandorten entlang des europäischen Kreidegürtels zutage,
+Kvon Großbritannien über Frankreich bis hin zur Insel
+KRügen in Norddeutschland, und wird stellenweise abgebaut.
+KSeekreide am Grund von Seen oder in verlandeten Seebecken
+Kbesteht fast vollständig aus gefälltem Calcit. Die
+KTafelkreide der Technik wird dagegen vor allem aus Gips
+K(Calciumsulfat) hergestellt. alkstein
+
+Kalkstein wird ebenfalls überwiegend von Lebewesen
+gebildet und ist stärker verfestigt als Kreide. Die
+Kalkablagerung geschieht entweder direkt oder indirekt
+aus den Überresten der Lebewesen, wie zum Beispiel von
+Schnecken, Muscheln, gesteinsbildenden Korallen und
+Schwämmen, die Calciumcarbonat zum Aufbau von Außen-
+oder Innenskeletten abscheiden. Indirekt wird er dadurch
+gebildet, dass Lebewesen, vor allem phototrophe, CO2
+assimilieren und so das Milieu alkalisieren, was zur
+Ausfällung von Calciumcarbonat führt. Die Größe der
+Carbonatkristalle liegt zwischen derjenigen von Kreide
+und Marmor. Große Kalkstein-Vorkommen befinden sich zum
+Beispiel auf der Schwäbischen und Fränkischen Alb, in
+den Kalkalpen und den Westalpen, im Himalaya und in vielen
+anderen Gebieten. Marmor
+
+Marmor ist ein grobkristallines, metamorphes Gestein, das
+entsteht, wenn Kreide, Kalkstein oder Dolomit unter dem
+Einfluss hoher Temperaturen und/oder hoher Drücke (über
+1000 bar) umkristallisiert werden. Große Marmor-Vorkommen
+finden sich in Nordamerika und in Europa beispielsweise in
+Südtirol (Laas), Österreich (Gummern), Norwegen (Molde)
+oder im italienischen Carrara, der Heimat des reinweißen
+Statuario, aus dem Michelangelo seine Skulpturen schuf.
+
+Synthetisches Calciumcarbonat wird als PCC (englisch
+precipitated calcium carbonate „gefälltes
+Calciumcarbonat“) bezeichnet – im Unterschied zu
+GCC (engl. ground calcium carbonate „gemahlenes
+Calciumcarbonat“). Es wird durch Einleiten von
+Kohlenstoffdioxid in Kalkmilch (Calciumhydroxid) gefällt
+und so als Präzipitat gewonnen:
+
+Die Fällung erfolgt bei einem Feststoffgehalt von etwa 20
+%. Über die Prozessführung (Temperatur, Konzentration)
+können unterschiedliche Kristallmodifikationen
+(Kristallmorphologien) erzeugt („gezüchtet“) werden,
+bevorzugt rhomboedrische oder skalenoedrische Kristallform.
+Weil mit hochreinen Ausgangsprodukten gearbeitet werden
+kann, sind die PCCs besonders weiß und haben auch Vorteile
+bezüglich der Opazität.
+
+Insgesamt werden jährlich über fünf Milliarden Tonnen Kalkgestein abgebaut.
+Kalkhydrat und Kalk eignen sich als Putz oder
+Wandbeschichtungen wie dem Tadelakt. Die ersten Entdecker
+dieses Phänomens waren die Römer, die im großen Stile
+Kalkbrennanlagen betrieben.
+
+Nach dem weltweit verkauften Volumen ist Calciumcarbonat der
+wichtigste Füllstoff. Obgleich mehr als fünf Prozent
+der Erdkruste aus Calciumcarbonat-Gesteinen besteht, sind
+nur wenige Lagerstätten für die Gewinnung von Füllstoffen
+geeignet, die möglichst weiß sein sollen. Der größte
+industrielle Anwender von weißen Calciumcarbonaten ist mit
+einer Menge von über 10 Millionen Tonnen (weltweit) pro
+Jahr die Papierindustrie, danach folgt die Kunststoff- und
+die Baustoff-Industrie (Putze und Farben) mit insgesamt
+nochmals 15 Millionen Tonnen pro Jahr. Für den Einsatz in
+der Papierindustrie, vor allem als Streichfarbe, werden in
+Europa insbesondere Lagerstätten in Frankreich, Italien,
+Deutschland, Norwegen und Österreich abgebaut, wobei
+das Mineral durch Nassmahlung zerkleinert und als Slurry
+(teilweise per Tankschiff) in den Handel kommt.
+
+Etwa 55 Prozent der in Deutschland verkauften Kreide besteht heute aus Gips (Calciumsulfat).
+
+## Calciumcarbonat
+
+In der Natur bildet Calciumcarbonat verschiedene Gesteine,
+die zwar chemisch identisch sind, sich jedoch in mancherlei
+Hinsicht unterscheiden.
+
+## Kreide
+
+Kreide ist ein feines, mikrokristallines Sedimentgestein,
+das durch Ablagerung von durch photosynthetischen
+Kohlensäureentzug gefälltem Calcit sowie der
+aragonitischen Schalen von fossilen Kleinlebewesen,
+wie Coccolithen der Coccolithophoriden und Schalen der
+Foraminiferen, entstanden ist.
+
+## Kalkstein
+
+Kalkstein wird ebenfalls überwiegend von Lebewesen
+gebildet und ist stärker verfestigt als Kreide. Die
+Kalkablagerung geschieht entweder direkt oder indirekt
+aus den Überresten der Lebewesen, wie zum Beispiel von
+Schnecken, Muscheln, gesteinsbildenden Korallen und
+Schwämmen, die Calciumcarbonat zum Aufbau von Außen-
+oder Innenskeletten abscheiden. Indirekt wird er dadurch
+gebildet, dass Lebewesen, vor allem phototrophe, CO2
+assimilieren und so das Milieu alkalisieren, was zur
+Ausfällung von Calciumcarbonat führt. Die Größe der
+Carbonatkristalle liegt zwischen derjenigen von Kreide und
+Marmor.
+
+## Kalziumhydrogencarbonat
+
+\ce{CO2 + H2O -> HCO3} (Kohlensäure).
+
+\ce{Ca^{2+} + 2 HCO3- <=> CaCO3 + H2O + CO2}
+
+Kohlensäure + Kalkstein -> Kalziumhydrogencarbonat.
+
+Calciumhydrogencarbonat bildet sich bei der Verwitterung von
+Kalkstein, der im Wesentlichen aus Calciumcarbonat besteht,
+durch die Einwirkung von Wasser und Kohlenstoffdioxid.
+Das Kohlenstoffdioxid löst sich mit Wasser teilweise als
+Kohlensäure, die weiter zu Hydrogencarbonat dissoziiert und
+dabei Protonen liefert. Zugleich löst sich Calciumcarbonat
+in geringen Mengen im Wasser unter Freisetzung von
+Carbonat-Ionen. Diese übernehmen die von der Kohlensäure
+angebotenen Wasserstoff-Ionen und werden ebenfalls zu
+Hydrogencarbonat-Ionen. So stammt bei der kohlensauren
+Auflösung von Kalkstein jeweils ein Äquivalentanteil
+Hydrogencarbonat-Ionen aus der Kohlensäure, der andere aus
+dem Stein.
+
+Um Calciumhydrogencarbonat in Lösung zu halten, ist eine
+bestimmte Konzentration an sogenannter „zugehöriger
+Kohlensäure“ vonnöten. Chemisch gesehen unterscheidet
+sich diese nicht von irgendeiner anderen Kohlensäure; es
+geht nur um den Mengenanteil.
+Ist mehr als die zugehörige Menge an freier Kohlensäure
+in der Lösung vorhanden, nennt man diese Kohlensäuremenge
+„überschüssig“. Sie kann mit weiterem Kalkstein
+reagieren und ihn lösen. Der Mengenanteil davon,
+der weiteren Kalk löst und in das zusätzliche
+Calciumhydrogencarbonat eingeht, wird als „kalkaggressive
+Kohlensäure“ bezeichnet. Der Rest der überschüssigen
+Kohlensäure stockt dabei die zugehörige Kohlensäure auf
+das neue höhere Maß auf.
+
+Bei der Verdunstung des Wassers oder bei Erhitzen entweicht
+das Kohlenstoffdioxid aus der Lösung; ebenso kann es durch
+Photosynthese vermindert werden. Dadurch verschiebt sich
+das Dissoziationsgleichgewicht der Kohlensäure wieder in
+Richtung der Carbonat-Ionen.
+Somit wird das Löslichkeitsprodukt des Calciumcarbonats
+wieder überschritten und es bildet sich wieder unlöslicher
+Kalkstein. Dieser Vorgang liegt der Entstehung von
+Kalksinter, Travertin oder von Kalktuff zugrunde, aber auch
+der Bildung von Kalksedimenten (Seekreide) in Seen und
+Ozeanen. Auch das im nördlichen Alpenvorland vorkommende
+Nagelfluh genannte Konglomerat (Sedimente der Molassen oder
+eiszeitliche Gerölle) kann so entstehen, indem Kies oder
+Schotter durch das Bindemittel Kalk zu einem Naturbeton
+verbacken wird.
+
+## Calzit
+
+Calcit, Kalzit, Kalkspat oder Doppelspat
+
+\ce{Ca[CO3]}
+
+Verglichen mit anderen Mineralen ist Calcit kaum resistent
+gegenüber der Verwitterung. Er ist viel weicher als Quarz
+oder Feldspat und bereits in saurem Wasser löslich. In
+kalten, verdünnten Säuren löst sich Calcit unter heftiger
+Gasentwicklung auf.
+Calcit löst sich gut in saurem Wasser und wird dadurch
+leicht aus Kalkstein ausgelaugt, wodurch Höhlensysteme
+entstehen. Der gelöste Calcit lagert sich an anderer Stelle
+wieder ab. Dabei entstehen die typischen Tropfsteine, die
+Stalagmiten und Stalaktiten.
+
+Gebildet wird Calcit nach dem chemischen Gleichgewicht:
+
+$\mathrm{Ca}^{2+} + 2\mathrm{HCO}_3^- \quad\overrightarrow{\leftarrow}\quad
+\mathrm{CaCO}_3 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$
+
+Das Gleichgewicht der obigen Reaktion verlagert sich mit
+steigender Temperatur zunehmend auf die rechte Seite. In
+warmen Gewässern können Lebewesen also mit geringerem
+Energieaufwand Kalkgehäuse bilden. In Dampfkesseln und
+anderen Gefäßen, in welchen kalkhaltiges Wasser erhitzt
+wird, entsteht auf diese Weise Kesselstein.
+
+Calcit kann sowohl massiv als auch körnig, faserig oder
+in Kristallen auftreten und zeigt in letzterem Falle
+den höchsten Formenreichtum aller Minerale. Es ist als
+Gesteinsbildendes Mineral eines der häufigsten Minerale der
+Erdkruste und kommt sowohl in magmatischen, zum Beispiel in
+Karbonatiten, in metamorphen (Marmor) oder Sedimentgesteinen
+wie Kalkstein vor.
+
+Die weitaus größten Calcitvorkommen gehen auf
+Meeresablagerungen zurück. Dabei setzen sich die
+calcithaltigen Skelette und Schalen unzähliger kleiner
+Meerestiere wie etwa Muscheln, Korallen und diverser
+Protisten, wie die Coccolithophoriden, am Meeresgrund ab.
+Diese Kalkalgen sind kleiner als 30 Mikrometer und werden
+zum Nanoplankton gezählt. Sie bilden winzige Kalkschilde,
+die sogenannten Coccolithen, die nach dem Absterben der
+Algen auf den Ozeanboden sinken. Die Kreidefelsen von Dover
+bestehen aus solchen Coccolithen. Auch Korallenriffe spielen
+bei der Calcitbildung eine herausragende Rolle.
+Ab einer Meerestiefe von 3500 Metern, der so genannten
+Calcit-Kompensationstiefe, löst sich Calcit vollständig in
+Wasser. Daher bleiben in dieser Tiefe weder calcithaltige
+Sedimente noch Muschelschalen oder Skelette erhalten.
+
+Die calcithaltigen Gesteine Marmor, Kalkstein und Onyxmarmor
+sind ein hochwertiges Dekorations- und Baumaterial, daneben
+wird Calcit in Kalkstein zur Produktion von Zement und
+Kunstdünger und als Zuschlagstoff bei der Verhüttung von
+Erzen eingesetzt.
+
+# Meeresströmungen
+
+Der Benguelastrom ist eine aus den antarktischen Gewässern
+gespeiste kalte Meeresströmung im Südatlantik, die
+vom Kap der Guten Hoffnung nordwärts bis zum Äquator
+fließt. Die Abkühlung der Lufttemperatur durch den
+Benguelastrom verhindert über dem Meer die Bildung
+aufsteigender, feuchterer Luftmassen und führt zu
+ablandiger Windströmung, die durch den stetigen
+Südwestwind eine Ablenkung erfährt. Der Benguelastrom ist
+deshalb eine Hauptursache für das Entstehen der Namibwüste
+und des bestehenden ariden Klimas Namibias, mit fast keinen
+Niederschlägen. Gleichzeitig ist der Benguelastrom aber
+sehr sauerstoff- und daher auch zooplanktonreich, weshalb
+vermehrt Fischschwärme dorthin angezogen werden.
+
+# Wasser
+
+Nebeltröpfchen: 5–50 μm  
+Regemtropfen: 50–100 μm
+
+Ozeane und Seen dienen als Wärmespeicher.
+Volumenausdehnung beim Gefieren (ca. 8%).
+Grösste Dichte bei 4°C.
+Grösste Verdampfungsenthalpie aller Flüssigkeiten (2281.9 kJ/mol).
+Grösste Oberflächenspannung allser Flüssigkeiten (Hg ausgenommen)
+(Wasser/feuchte Luft: 72 mN/m bei 20°C).
+Dielektrizitätskonstante: $\epsilon = 80.08$ bei 20°C.
+Erde insgesamt: $1409\cdot 10^6$ km^3^

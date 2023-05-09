@@ -1,0 +1,662 @@
+
+Koks (von englisch coke) ist ein poröser, stark kohlenstoffhaltiger Brennstoff mit hoher
+spezifischer Oberfläche, der in Kokereien bevorzugt aus aschearmer Fettkohle (Braun- oder Steinkohle)
+durch Wärmeeinwirkung unter Sauerstoffabschluss (Pyrolyse) erzeugt wird. Der
+störende Schwefel wird bei
+stark schwefelhaltiger Kohle abgetrennt.
+
+Die Eisenerzminerale sind bei den wirtschaftlich bedeutenden
+Lagerstätten meist Eisenoxide oder Eisenkarbonate.
+In geringen Mengen werden auch Eisenerze abgebaut und
+verhüttet, in denen das Eisen mit Schwefel (z. B. bei
+Pyrit) oder anderen Elementen verbunden ist.
+
+*Ferrit* ist die metallographische Bezeichnung für die kubisch-raumzentrierte
+Modifikation (Phase) des reinen
+Eisens und seiner Mischkristalle.
+*Austenit* ist die metallographische Bezeichnung für die
+kubisch-flächenzentrierte Modifikation (Phase) des reinen
+Eisens und seiner Mischkristalle. 
+
+alpha ferrite \ce{\alpha-Fe}
+
+\ce{\beta-Fe}: paramagnetic alpha ferrite.
+Beta ferrite is crystographically identical to alpha ferrite,
+except for magnetic domains and the expanded bcc lattice
+parameter as a function of themperature.
+For this reason the beta "phase" is not usually considered
+a distinct phase but merely the high-temperature end of the alpha
+phase field.
+
+austenite, \ce{\gamma-Fe}
+
+high-temperature delta ferrite, \ce{\delta-Fe}
+
+high-pressure hexaferrum, \ce{\epsilon-Fe}.
+
+Roheisen (Erz):
+3–6% C-Gehalt.
+Spröd, nicht schmied- und walzbar.
+
+# Behandlung
+
+Brünieren (von französisch brunir ‚bräunen‘[1]) dient dem Bilden einer schwachen Schutzschicht auf
+meist eisenhaltigen Oberflächen, um Korrosion zu vermindern. Durch Eintauchen der Werkstücke in
+saure bzw. alkalische Lösungen (z. B. Natronlauge) oder Salzschmelzen bilden sich schwarze
+Mischoxidschichten aus FeO und Fe2O3 (Edelrost). Die Brünierung ist keine Beschichtung.
+
+Durch die geringe Dicke der Konversionsschicht von etwa 1 µm bleiben die
+brünierten Werkstücke weitestgehend maßhaltig. Wegen der Porosität der
+Brünierschicht besitzen sie einen
+nur geringen Korrosionsschutz, der sich aber durch Beölen oder Befetten deutlich verbessern
+lässt. 
+
+---
+
+Temperguss:
+Anhand des Bruchaussehens wird der Temperguss in schwarzen und weißen Temperguss unterteilt.
+
+# Ferrate(VI)
+
+The ferrate(VI) anion is unstable at neutral or acidic pH values, decomposing to iron(III):
+
+\ce{[FeO 4]^{2−} + 3e- + 8 H+ <=> Fe3+ + 4H2O}
+
+The reduction goes through intermediate species in which iron has oxidation states
++5 and +4.[4] These anions are even more reactive than ferrate(VI).[5] In
+alkaline conditions ferrates are more stable, lasting for about 8 to 9 hours at pH 8 or 9.
+
+# Gusseisen
+
+Kohlenstoffgehalt: über 2.06%.
+
+Grauguss: 2,4–4% C-Gehalt.
+
+Gussstiefel (unterer Teil vom Ablaufrohr), Schachtdeckel.
+
+# Stahl
+
+Als Stahl werden alle technischen Eisen-Kohlenstoff-Legierungen bezeichnet,
+deren Kohlenstoffgehalt zwischen 0 und
+2,06 % liegt und deren Anteil weiterer Elemente deutlich geringer als der des Eisens ist.
+Außerdem werden Eisen-Kohlenstoff-Legierungen, die zusätzliche Karbide im
+Gefüge besitzen und einen Gesamtkohlenstoffanteil
+von 2,06 % überschreiten, zu den Stählen gezählt. Allerdings spricht man bei
+hohen Karbidanteilen nur noch von Eisenbasis-Legierungen, wobei eine Grenze
+nicht allgemeingültig festgelegt
+ist. Des Weiteren gibt es noch viele Stähle, die neben Kohlenstoff hohe Anteile
+anderer Elemente besitzen.
+
+Stahl ist ein elastischer Wekrstoff.
+
+Carbide sind in der Regel eine Stoffgruppe binärer chemischer Verbindungen aus einem
+Element E und Kohlenstoff C mit der allgemeinen Formel ExCy.
+
+*Cementite*, also known as iron carbide, is a chemical compound of iron
+and carbon, with the formula Fe3C (or Fe2C:Fe). 
+
+*Ledeburit* ist keine Phase, es ist ein Phasengemisch, bestehend aus (zerfallenem) Austenit
+und Zementit. Hierbei wird zwischen Ledeburit I und Ledeburit II unterschieden. Während
+es sich bei Ledeburit I (dicht unterhalb 1147 °C) um ein Gefüge
+aus Austenit und Zementit handelt, besteht der Ledeburit II (Raumtemperatur) aus Zementit 
+mit ankristallisiertem Sekundärzementit (aus dem Austenit bei sinkender
+Temperatur ausgeschieden) und (bei langsamer Abkühlung) aus Perlit. 
+
+Der *Perlit* ist ein lamellar angeordneter, eutektoider Gefügebestandteil des Stahles.
+Es ist ein Phasengemisch aus Ferrit und Zementit, das durch gekoppelte Kristallisation
+in Eisen-Kohlenstoff-Legierungen bei Kohlenstoffgehalten zwischen 0,02 % und 6,67 % auftritt. Der
+eutektoide Punkt (100%ige Umwandlung zu Perlit) liegt bei 723 °C und 0,83
+% C. Bis 2,06 % C liegt der Perlit als separater Gefügebestandteil
+vor, oberhalb von 2,06 % C ist er Bestandteil des Ledeburits II (eutektisches Gefüge).
+
+*Bainit* (benannt nach dem US-amerikanischen Metallurgen Edgar C. Bain) ist ein Gefüge,
+das bei der Wärmebehandlung von kohlenstoffhaltigem Stahl durch isotherme
+Umwandlung oder kontinuierliche Abkühlung entstehen kann.  *Martensite* is
+formed in carbon steels by the rapid cooling (quenching) of
+austenite at such a high rate that carbon atoms do not have
+time to diffuse out of the crystal structure in large enough quantities
+to form cementite (Fe3C). As a result, the face-centered cubic austenite transforms
+to a highly strained body-centered tetragonal form of ferrite that is supersaturated
+with carbon. The shear deformations that result produce large numbers of dislocations,
+which is a primary strengthening mechanism of steels. The highest hardness of
+a pearlitic steel is 400 Brinell whereas martensite can achieve 700 Brinell.
+
+\minisec{rostfreier Stahl}
+Die weltweite Produktion von rostfreiem Stahl lag 2013 bei 38 Mio. t[5], 2014 bei 42 Mio t.[6]
+
+Nichtrostender („rostfreier“) Stahl zeichnet sich durch einen Anteil von mehr als 10,5
+% Chrom[8] aus, der im austenitischen oder ferritischen Mischkristall gelöst sein muss.
+Durch diesen hohen Chromanteil bildet sich eine schützende und dichte Passivschicht aus
+Chromoxid an der Werkstoffoberfläche aus. Diese Passivschicht kann nach
+Spezialbehandlung gleichzeitig zur
+Färbung der Stahloberfläche eingesetzt werden.[9] Weitere
+Legierungsbestandteile wie Nickel, Molybdän, Mangan und
+Niob führen zu einer noch besseren Korrosionsbeständigkeit oder günstigeren
+mechanischen Eigenschaften. Da
+Chrom als Legierungselement preisgünstiger ist als Nickel, wird ein höherer Chromanteil bei
+kleinerem Nickelanteil (gleiche Korrosionsbeständigkeit vorausgesetzt) bevorzugt.
+
+Nicht mehr zu Stählen gezählt werden Cr-Ni-Legierungen, die weniger als 50 %
+Eisen enthalten und noch bessere Eigenschaften bezüglich Korrosions- und Warmfestigkeit haben. 
+
+Antiweathering steels contain at most, a few tens g kg ±1 of copper, chromium or
+phosphorous
+
+---
+
+Schmiedeeisen
+
+Geländer, Gitter, Eiffelturm.
+Schwarz.
+
+# Iron (III) phosphate coating
+
+Iron phosphate coatings are also
+primarily used as base coatings for paint
+in order to increase adhesion to the iron or steel substrate, and
+is often used in rustproofing as well. It can also be used
+for bonding fabrics, wood, and other materials to these surfaces as well.
+Iron phosphate coatings are usually applied as part of a painting or powder coating process.
+
+# Korrosion (Rost)
+
+Bei Metallen ist vor allem chemische Korrosion von Bedeutung (DIN EN ISO 8044;
+ehemals DIN 50900). Die wohl bekannteste Art von chemischer Korrosion bei
+Metallen ist das Rosten, also die Oxidation von Eisen.
+
+Korrosive Mittel:
+Sind die Stoffe ,die das Bauteil umgeben ,auf den Werkstoff einwirken und die
+Korrosion verursachen ,z.B. die Raumluft, Freiluftatmosphäre mit oder ohne
+Industrieverschmutzung, Meeres-Atmosphäre, Süß- und Salzwasser, Erdboden oder
+Chemikalien.
+
+The enormous cost of corrosion of iron to society has prompted many efforts to de-
+vise ways of reducing or preventing it. Several electrochemical or chemical methods
+are available. One method is removal of the cathodic species (usually oxygen). Most
+methods are based on the principle of providing a barrier between the reacting spe-
+cies. The barrier may be physical, i. e. a metal or paint coating or a protective oxide
+film, or electronic, i. e. making the iron thermodynamically immune.
+
+Cathodic inhibitors promote coverage of iron by a protective coating, but this need
+not be an iron oxide. Immersion of iron in a solution of phosphoric acid containing
+a suitable catalyst causes precipitation of a mixed Fe II -Fe III phosphate film which
+serves as a base for a coating of paint.
+
+Anticorrosive paints containing pigments with either chemical or electrochemical action may induce
+formation of protective coatings at the metal-paint interlayer (Etz- rodt, 1993). These
+protective coating may be metal-substituted iron oxides iron phos- III phate
+precipitates or even a green rust
+
+Alloying iron with nickel or with at least 120 g kg ±1 of chromium ensures that the
+metal is passivated by milder oxidants than is the case for pure iron.
+
+Cathodic Protection (CP) is a technique used to control the corrosion of
+a metal surface by making it the cathode of an electrochemical cell.[1]
+A simple method of protection connects the metal to be protected to
+a more easily corroded "sacrificial metal" to act as the anode. The
+sacrificial metal then corrodes instead of the protected metal. For structures such
+as long pipelines, where passive galvanic cathodic protection is not adequate, an
+external DC electrical power source is used to provide sufficient current.
+
+## Rostarten
+
+Frischer Rost, der unmittelbar entstanden ist, hat
+ein gelbes Aussehen. *Flugrost* (leichte, erste Rostbildung).
+Mit zunehmender Alterung wird er rotbraun bis
+schwarz (abnehmender Wassergehalt).
+Wasserfreies Eisenoxid ist schwarz.
+Dieses wasserfreie Eisenoxid ist oft als Walzhaut oder
+Zunder auf Stahlteilen vorhanden.
+
+Fadenkorrosion (fadenförmig, unter der Beschichtung)  
+Unterrostung (Feuchtigkeit unter der Beschichtung)  
+Spaltkorrosion (Feuchtigkeit bleibt in Spalten (Verbindungsstellen) liegen)  
+Rostpusteln (Blasen, darunter Korrosion (punktförmig))  
+Fremdrost (Eisenpartikel auf verzinkten Stahlträgern)  
+Plattenrost (plattenförmig sich lösende, feste Rostschichten)  
+Porenrost (Beginn der Rostbildung, Rost in den Poren der Beschichtung)  
+Durchrostung (Fortgeschrittene Rostbildung)  
+Überrostung (Rost wandert durch die Beschichtung)  
+Kontakt-K.  
+Flächenrost (fortgeschrittene Rostbildung; gleichmässig auf der gesamten Oberfläche)  
+Lochfrass-K. (nicht gleichmässig, unterhölend)  
+
+galvanic corrosion
+crevic corrosion
+dealloying, dezincification
+pitting corrosion
+fretting corrosion
+stress corrosion cracking
+
+Lochfraßkorrosion, auch Lochkorrosion oder Lochfraß genannt, bezeichnet klein
+erscheinende Korrosionsstellen bzw. punktförmige Löcher in Oberflächen
+passivierter Metalle, die sich in der Tiefe trogförmig teils erheblich
+ausweiten. Lochfraßkorrosion bleibt wegen ihrer an der Oberfläche geringen
+Ausdehnung häufig lange unbemerkt.
+
+Eine gleichmäßige **Flächenkorrosion** tritt dann auf, wenn der Korrosionsvorgang
+an der gesamten oder einem großen Teil der Bauteiloberfläche auftritt. An der
+Metalloberfläche bilden sich anodische (Metall auflösende) und kathodische
+(Elektronen verbrauchende) Teilbereiche. Voraussetzung für die Bildung von
+Flächenkorrosion ist der ständige Ortswechsel dieser Teilbereiche. Nur dann
+kann die Korrosion gleichmäßig auf der Metalloberfläche ablaufen. Ist diese
+Lageänderung der Teilbereiche nicht oder nur schwer möglich, so spricht man von
+**Muldenkorrosion**.
+Bei Flächenkorrosion in neutralen Bereichen, kann je nach Werkstoff eine
+Deckschicht (Passivschicht) auf dem Metall entstehen, die die
+Korrosionsanfälligkeit stark reduziert, bzw. die Korrosion selbst verhindert
+oder einschränkt. Hat sich die Passivschicht an manchen Stellen nicht gebildet
+oder ist sie durch Säureangriff (verstärkt durch Chloridionen) zerstört worden,
+so führt dies ebenfalls zur Muldenkorrosion oder auch Lochkorrosion.
+
+
+*Kontaktkorrosion* entsteht, wenn zwei Metalle mit
+unterschiedlichem Lösungspotenzial durch einen Elektrolyt
+(Wasser, feuchte Luft,...) leitend verbunden sind. Dabei
+wird das unedlere Metall zur Anode und das edlere zur
+Kathode.
+Kontaktkorrosion entsteht, wenn zwei Metalle mit unterschiedlichem
+Lösungspotenzial durch einen Elektrolyt (Wasser, feuchte Luft ...) leitend
+verbunden sind. Dabei wird das unedlere Metall zur Anode und das edlere zur
+Kathode. Diese zusätzliche Polarisierung führt zu einer beschleunigten
+Auflösung der Anode.
+Beispiele: Schraube aus Kupfer in einem Aluminiumblech, Edelstahlblech mit Stahlblech verschraubt.
+
+*Spannungsrisskorrosion* ist die transkristalline (durch
+das Gefügekorn) oder interkristalline (entlang der
+Korngrenzen des Gefüges) Rissbildung in Werkstoffen
+unter dem gleichzeitigen Einfluss einer rein statischen
+Zugspannung oder mit überlagerter niederfrequenter
+Zugschwellspannung sowie eines spezifischen Angriffsmittels.
+Auch Zugspannungen in Form von Eigenspannungen sind wirksam.
+Spannungsriss-K. (Zugspannung und agressive Wässer; zwischen Kristallkörnern)  
+
+Spaltkorrosion tritt an Metallteilen bei Vorhandensein eines korrosiven Mediums
+in engen, nicht abgeschlossenen Spalten wie Überlappungen, aufgesetzten Stegen
+und bei nicht durchgeschweißten Schweißnähten auf. Treibende Kraft sind
+Konzentrationsunterschiede zwischen dem Medium im Spalt und dem Bereich
+außerhalb des Spalts, welche durch die im Spalt gehemmte Diffusion der
+Reaktionspartner verursacht werden. Die mit dem Konzentrationsunterschied
+einhergehende Potentialdifferenz führt zu elektrochemischer Korrosion im Spalt
+(Wasserstofftyp) oder seiner direkten Umgebung (Sauerstofftyp).
+*Spaltkorrosion* tritt an Metallteilen bei Vorhandensein
+eines korrosiven Mediums in engen, nicht abgeschlossenen
+Spalten wie Überlappungen, aufgesetzten Stegen und bei
+nicht durchgeschweißten Schweißnähten auf.
+
+Die Interkristalline Korrosion (IK) ist eine Form der Korrosion, die in den
+meisten Legierungen bei entsprechenden Bedingungen auftreten kann. Sie wird
+auch „Kornzerfall“ genannt. Die Korrosion verläuft dabei entlang der
+Korngrenzen.
+
+Werkstoffe, an denen *Lochkorrosion* auftreten kann sind:
+
+Rostfreie Stähle (z.B. 1.4301, V2A)  
+Kupferlegierungen in Wasserkreisläufen  
+Aluminiumlegierungen  
+Magnesiumlegierungen  
+
+## Sauerstoffkorrosion
+
+Die in der Elektrolytlösung gelösten Sauerstoffmoleküle reagieren mit Wasser zu
+Hydroxid-Ionen, welche mit dem Metall Oxide und Hydroxide bilden können. 
+
+Allgemein lässt sich der Verlauf der Sauerstoffkorrosion wie jede Redoxreaktion
+in die Teilschritte Oxidation (Elektronenabgabe) und Reduktion
+(Elektronenaufnahme) aufteilen.
+
+Die Reduktion des Sauerstoffs kann mit folgendem Reaktionsschema beschrieben werden:
+
+$\mathrm{O_2 + 2 \ H_2O + 4 \ e^- \longrightarrow 4 \ OH^-}$
+
+Die Oxidation des Metalls erfolgt unter Abgabe von x Elektronen zum
+Metall-x-Kation, wobei x der chemischen Wertigkeit (Ionenladung,
+Oxidationszahl) des Metalles entspricht.
+
+Für ein einwertiges Metall ergäbe sich als Gesamtreaktion somit:
+
+$\mathrm{4 \ Me + O_2 + 2 \ H_2O \longrightarrow 4 \ Me^+ \ + 4 \ OH^-}$
+
+Zum Korrosionsvorgang gehört auch, dass sich ein kurzgeschlossenes galvanisches
+Element bilden kann. Dieses besteht aus zwei Metallen oder Metall-Stücken
+(Lokalelemente) mit unterschiedlichem Elektrodenpotential (Kathode und Anode)
+und einer Elektrolytlösung.
+
+## Wasserstoffkorrosion
+
+Die Wasserstoff- oder Säurekorrosion ist eine Form der Korrosion bei Metallen,
+die in Anwesenheit von Wasser, jedoch unter Sauerstoffmangel, zur Bildung von
+elementarem Wasserstoff führt.
+
+In Kontakt mit Wasser wird das Metall oxidiert und geht als Ion in Lösung,
+dabei werden Elektronen frei. Im wässrigen sauren Milieu werden die Protonen
+der in diesem Milieu enthaltenen Oxoniumionen durch Aufnahme der gebildeten
+Elektronen zu Wasserstoff reduziert und außerdem entsteht dabei Wasser.
+Häufig anzutreffen ist diese Reaktion am Beispiel von Eisen:
+
+$\mathrm{Fe}\;\rightarrow\;\mathrm{Fe}^{2+}\;+\;2\,\mathrm{e}^-$ 
+(Oxidation des Metalls)
+
+
+$2\,\mathrm{H}_3\mathrm{O}^+\;+\;2\,\mathrm{e}^-\rightarrow\;
+\mathrm{H}_2\;+\;2\,\mathrm{H}_2\mathrm{O}$ (Reduktion von Oxonium-Ionen)
+
+# Ore
+
+Limonite is one of the two principal iron ores, the other
+being hematite, and has been mined for the production of
+iron since at least 2500 BCE.
+
+# Eisenoxid als Pigment
+
+As pigments, iron oxides have a number of desirable attributes. They display a
+range of colours with pure hues and high tinting strength. They are extremely
+stable, i. e. non-bleeding, non-fading and highly resistant to acids and alkalis and
+can, therefore, be exposed to outdoor conditions (Winter, 1979). The red wooden
+houses which are such a feature of the Swedish landscape and the buff- and ochre-
+coloured buildings throughout the world (Plates 19.II a and b, see p. XXXV), for ex-
+ample, owe their colours to iron oxide based paints; the hematite used on the
+Swedish houses actually comes from roasting pyrites. The yellow pigments are
+thermally stable to ca. 180 8C and the reds are heat resistant to 1200 8C (in oxidiz-
+ing conditions). The pigments can be used in both water- and organic-based paints.
+Iron oxides are strong ultraviolet (UV) absorbers and hence, protect the binder in
+the paint from degradation. As iron oxides are nontoxic and, as the synthetic ones
+are completely free from crystalline SiO 2 , they can be used as colouring agents in
+food and in some pharmaceuticals. A further advantage is that iron oxides can be
+produced at low cost.
+
+Natural iron oxides are used, like their synthetic counterparts, predominantly in
+the construction and coating industries (Kendal, 1994). The emphasis, particularly
+in recent years, has been on colouring concrete bricks and paving stones. Iron oxides
+are among the few pigments approved by the ASTM (American Society for Testing
+and Materials) for use in highly alkaline environments. Up to 10 % pigment may be
+incorporated in the concrete; higher levels can influence settling time and reduce
+compressive strength. The pigments are also used in clay bricks, in roof tiles and in
+mortar which is coloured to tone in with or match the bricks. Red iron oxide, particu-
+larly red, Spanish oxide and the Winford red from the U.K. is used extensively for
+such purposes. The Spanish oxide is also used in Spain for the production of red
+floor and wall tiles (Regueiro et al., 1997).
+
+A further important application of these pigments is in paints. The natural red
+iron oxides are also used in primers for steel structures and cars, for marine coatings
+and for anti-fouling paints. In the USA, the metallic browns are used for these pur-
+poses. The level of soluble salts in the latter pigments is low and this reduces corro-
+sion problems. The metallic browns are also used in heat resistant enamels.
+
+Every railway bridge in England has a top coat of paint based
+on MIO as does the Eiffel Tower in Paris. Micaceous iron oxide
+has a sparkling grey to black appearance and consists of large la-
+minar plates of specular hematite, 1±100 microm across and ca. 5 microm thick.
+The level of insoluble salts associated with this pigment is very low. In the paint,
+the pigment particles pack together to form an overlapping array of parallel platelets
+which hinder the movement of inorganic ions and provide a barrier to penetration of
+the paint film by water and oxygen. It is, therefore, the lamellar habit of the particles
+which is responsible for the anticorrosion properties of this pigment. In addition,
+the pigment absorbs ultraviolet radiation and so protects the binder against degrada-
+tion. MIO is chemically inert, so the protection it provides is simply physical. As
+MIO is nontoxic, it is more environmentally acceptable than the lead and chromate
+based paints which are used to provide chemical protection in other anticorrosion
+paints and primers (Etzrodt, 1933). The highest quality (with respect to the flatness
+of the particles, aspect ratio, etc.) MIO comes from the mine at Waldenstein in Aus-
+tria (Producer; Kårntner Montanindustrie), but there are also mines in Spain, South
+Africa and Western Australia. The supply of highest quality MIO, which used to be
+mined in Devon in England, was exhausted during the 1970s. This was one of the
+factors which prompted the U.K. workers to seek a method of making synthetic
+MIO (Carter, 1988; see Chapter 20).
+
+The first synthetic iron oxide pigment,Venetian Red, was produced towards the end
+of the last century by calcining a mixture of FeSO 4 . 7 H 2 O (copperas) and lime. This
+was followed and overtaken by Copperas Red formed by calcination of copperas
+alone. Since that time, the synthetic pigment industry has developed enormously
+and the annual world production of synthetic iron oxides is currently ca.^600,000 t.
+The major producers are Germany, USA, U.K., Italy, Brazil and Japan with more
+than 50 % of all synthetic iron oxides coming from Germany. Australia and Sweden
+are minor producers. The two companies with the greatest output of iron oxides are
+Bayer (Germany, trade name of product BAYFERROX and Harcross (U.K./U.S.A.).
+Other important manusfacturers include BASF and Merck (Germany), Toda (Japan),
+Oxhisa (Spain), Miles (U.S.A.). BAYFERROX is produced in over 300 different
+shades of yellow, red, brown and black. 1)
+The major synthetic iron oxide pigments are the yellows (goethite), the oranges
+(lepidocrocite), the reds (hematite), the browns (maghemite) and the blacks (mag-
+netite) and mixtures of these (Tab. 19.2) (Buxbaum & Printzen, 1993). Akaganite
+is not used as a pigment.
+
+Yellow Goethite  
+Orange Lepidocrocite  
+Red Hematite  
+Brown Maghemite  
+Black Magnetite  
+Anticorrosive Micaceous iron oxide ($\alpha$-Fe 2 O 3 )  
+Mixed anticorrosive Zinc Ferrite  
+Transparent a-FeOOH and a-Fe 2 O 3 (50±100 nm)  
+
+For thousands of years, iron oxides have been used as colouring agents. Prehistoric
+man took advantage of the light fast yellow and reds that could be obtained from lo-
+cal deposits of (so-called) ochre to produce cave and rock paintings. These testimo-
+nies of age-old cultures have been found in astonishingly diverse regions; every-
+where in fact where suitable, ochre deposits were available ± the Sahara region, cen-
+tral Australia, South Africa, Southern France, Northern Spain, along the old silk
+road and in many more areas. The modern tourist industry of such regions has prof-
+ited from the fortuitous deposits of iron oxides. Nowadays, thousands of people
+come each year to admire and marvel at the cave paintings at Lascaux and Altamira
+and the rock art of the Australian aborigines and the bushmen of South Africa. So
+many tourists came to Lascaux that the caves were recently closed to the public to
+protect the paintings from decay; a full-size copy of the hall of bulls has, therefore,
+been produced.
+
+Iron oxides are used in the manufacture of sulphate-resisting cements and as an ad-
+ditive in the production of Portland cement. In the latter, iron oxides promote the
+formation of calcium silicates in the flux and this lowers the temperature required to
+burn clinker and prolongs the life of the kiln.
+
+As man progressed and technology developed, the applications of iron oxides as
+colorants were extended. By around 2000 BC, the practice of calcining raw ochres
+to produce a range of reds and browns was well established; it may have been
+developed centuries earlier. Pomies et al. (1999) examined upper Palaeolithic
+(ca. 10,000 BC) rock paintings at an archaeological site in the French Pyrenees and
+found that the hematite used there had been obtained by heating goethite; the crys-
+tals were porous which indicates a dehydroxylation process had occurred (cf.
+Chap. 14). From around the fifth or sixth millenium BC, raw ochres were also re-
+duced to a black pigment by briefly heating vessels to which a layer of ochre had
+been applied, at 800 8C in a sealed kiln. This iron reduction technique was particu-
+larly important in Mesopotamia and Minoan Crete (Noll, 1979, 1980). In antiquity,
+raw and calcined ochres provided colours for the decoration of ceramics, pottery and
+wall murals. The famous red and black vases of ancient Athens owed their colours to
+hematite and magnetite (Hofmann, 1962; Lagaly, 1984). They formed a vital export
+item, the currency from which helped to pay for the importing of essential grain sup-
+plies. Hematite was also the source of the bright red colour of the funeral vessels
+used in France and Southern England in the late Bronze/early Iron age period. An
+excellent example of this is the Prunay vase (4 th century BC, now in the British Mu-
+seum) (Rigby et al., 1989). Red, Samian table ware was mass-produced by the Ro-
+mans in Southern France. Before firing, a layer of fine clay (slip) containing hema-
+tite and a high level of illitic clay, was applied to the surface of the pottery. The hema-
+tite provided the red colour and the parallel alignment of the illite plates was respon-
+sible for the high quality, glossy finish of this ware (Middleton, 1987, 1992). Interest-
+ingly enough, a similar technique has been used to produce present day interference
+pigments.
+
+Iron oxides, themselves, were valued comodities. One high quality hematite used
+to be shipped from the Black Sea port of Sinope to Minoan Crete and Egypt where it
+was used as a pigment for wall paintings. The pigment was called sinopia and centu-
+ries later, the name persists in French; la sinopie is the synonym for the rough draw-
+ing for a wall painting.
+
+Iron oxides have never lost their importance in art and decoration (Plate 19.I).
+Mediaeval and later artists used them in frescos and other paintings. Sometimes,
+unusual effects were obtained by mixing the iron oxide with another inorganic pig-
+ment. For example, flesh-coloured tints could be obtained using a mixture of ochre
+and cinnabar. Over the centuries more and more uses of iron oxides as pigments
+have been developed; these often involve varied and unusual effects. The metallic
+paints used on automobiles and the colours of certain pharmaceutical products as
+well as the more traditional red brick houses in parts of England, pink paving stones
+in shopping malls and red-floored tennis courts, provide examples of modern appli-
+cations of these pigments.
+The most important modern applications of iron oxides are as ores for the iron
+and steel industry and as pigments
+
+## Synthesis
+
+The starting
+materials for iron oxide synthesis are almost always Fe II salts rather than Fe III salts,
+because the former are much cheaper.
+
+There are three major synthesis methods for industrial pigments:
+1. Solid state transformations including thermal decomposition of iron salts and
+oxide-hydroxides. This method produces red, black and brown pigments. 2)
+2. The organic reduction process also termed the aniline, laux or nitrobenzene pro-
+cess. This method leads to black, yellow or red pigments.
+3. Precipitation of soluble Fe II salts with alkali followed by oxidation. There are two
+variations of this method. The pigments obtained may be yellow, red, orange or black.
+
+# Eloxal-Verfahren
+
+Relativ dicke Eloxal-Schichten (20–25 µm) werden vor
+allem als Korrosionsschutz in der Bauindustrie, aber auch
+für Automobilteile, Flugzeugteile und Haushaltsgegenstände
+eingesetzt. Ungefärbte und gefärbte dünnere Schichten
+(8–20 µm) dienen vorwiegend dekorativen Zwecken
+(beispielsweise für die Oberflächen von MP3-Playern oder
+für Türbeschläge) als auch zur besseren Wärmeabstrahlung
+bei Kühlkörpern.
+
+Wird die Oberfläche im sogenannten Plasmakeramik-Verfahren
+(PEO-Technologie) aufgebracht, erreichen die so bearbeiteten
+Aluminium-, Magnesium- oder Titan-Teile weitere
+Eigenschaften, die von extrem hart und abriebfest über
+extreme Wärmebeständigkeit hin zur Imprägnierbarkeit
+reichen. Die umweltfreundliche Plasmakeramik entsteht
+im Elektrolyt, wobei die Metalloberfläche in einer
+Plasmaentladung zu einer dichten, atomar haftenden
+Keramikschicht umgewandelt wird.
+
+# Korrosionsschutz
+
+Aktiver Schutz
+
+- Opferanode
+- Fremdstromanode
+- Feuerverzinken (Durch Feuerverzinken entsteht sowohl ein passiver als auch
+ein aktiver Korrosionsschutz)
+- Zinklamellenüberzug
+- Inhibitoren
+- Verringerung des Sauerstoffgehaltes
+- Förderung der Passivschichtbildung
+- Homogenisierung des Gefüges
+- Optimierung der Oberfläche
+
+## Phosphatieren
+
+Phosphatierungen werden vorteilhaft bei Eisen-, Aluminium- und Zink-haltigen Werk-
+stoffen als Korrosionsschutzverfahren eingesetzt. Hierbei werden durch chemische
+Reaktionen auf den zu schützenden Metalloberflächen schwer lösliche Metallphos-
+phate gebildet [8].
+
+## Zinkstaubfarbenanstriche mittels Coil-Coating-Verfahren
+
+(1) Die kontinuierliche Beschichtung von Blechen in großen Breiten und Längen
+wird als Coil-Coating bezeichnet. Beschichtet wird im Nass- oder Folienverfahren,
+wobei jeweils eine Kunststoffbeschichtung des Bleches erfolgt.
+
+(2) Folgende Verfahren finden industriell Anwendung:
+
+1. DACROMED
+Eine wasserlösliche Dispersion auf Basis von Chromsäure und Zinkstaub wird bei
+ca. 150 °C auf dem Blech eingebrannt.
+
+2.
+ZINCROMETALL
+Ein Expoxidharz mit hohem Anteil an Zinkstaub wird bei ca. 250 °C auf dem zu be-
+schichtenden Blech eingebrannt.
+
+3.
+INMOZINC
+Bei Inmozinc handelt es sich um einen Zweischichtaufbau auf dem vorphosphatier-
+tem Blech:
+- Zinkprimer auf Basis von Epoxidharz; Einbrenntemperatur 235-250 °C;
+- Gleitlack; Einbrenntemperatur 230-250 °C.
+
+## Dickschichtsysteme
+
+Korrosionsschutz für normale und teilweise auch hohe Beanspruchungen lässt sich
+auch mit Beschichtungssystemen erzielen, die frei von aktiven Pigmenten sind.
+Durch die Aufbringung höherer Schichtdicken wird die Diffusion von Wasserdampf
+und damit eine der Korrosionsursachen entscheidend gemindert.
+
+## Metallische Überzüge
+
+### Schmelztauchverfahren
+
+Mit dem Schmelztauchverfahren können gleichmäßige und gut schützende metalli-
+sche Überzüge hergestellt werden. An der Grenzzone findet eine Legierungsbildung
+statt. Durch Schmelztauchverfahren lassen sich beispielsweise verzinnte, verzinkte
+(feuerverzinkte), verbleite oder aluminierte Überzüge herstellen.
+Grundbeschichtung auf feuerverzinkt darf kein Öl enthalten.
+
+Feuerverzinkung:
+Schichtdicke: 60 – 100 $\mu$m.
+Helle Oberfläche mit Eisblumenmuster.
+Wird mit der Alterung dunkel.
+Zinkblumen.
+Z.B. Leitplanken, Geländer.
+
+### Diffusionsmetallüberzüge
+
+Bei diesem Verfahren wird das Metall des schützenden Überzugs meist in Dampf-
+form in der Hitze auf der Stahloberfläche abgeschieden und kann infolge Diffusion in
+unterschiedlicher Tiefe in das zu schützende Metall eindringen. Technisches Interes-
+se haben die Verfahren:
+
+1.
+Chromdiffusion ("Inchromierung")
+Hierbei findet eine Anreicherung bis 35 % der äußeren Stahloberfläche (0,1-0,2 mm)
+mit Chromatomen statt. Die Eigenschaften der so entstandenen Stahloberfläche ent-
+sprechen denen von Chrom-Stählen.
+
+2.
+Sherardisieren
+Bei dieser bei ca. 400 °C stattfindenden oberflächlichen Legierungsbildung von Stahl
+und Zink werden Korrosionsschutzüberzüge ähnlich denen der Feuerverzinkung ge-
+bildet. Sie weisen jedoch eine relativ raue Oberfläche auf, die eine gute Haftung
+nachfolgender Beschichtungen gewährleistet.
+
+### Elektrolytische (galvanische) Überzüge
+
+Bei diesem auch als Elektroplattierung bezeichneten Verfahren wird das Überzugs-
+metall aus einer wässrigen Lösung geeigneter Metallsalze auf dem als Kathode ge-
+schalteten Gegenstand abgeschieden. Als Metallsalze finden u.a. Zink, Zinn, Kupfer,
+Edelmetalle und Legierungen wie Messing und Bronze Verwendung. Besonders be-
+währt hat sich elektrolytisch verzinktes Blech. Wird die Oberfläche beschädigt, bilden
+sich zwischen dem Eisen und Zink galvanische Elemente. Zink als Anode schützt
+das Eisen vor Korrosion, bis es verbraucht ist (anodische Opferwirkung des Zinks).
+Badeverfahren.
+
+Schichtdicke: 2,5 $\mu$m, 3–15 $\mu$m.
+Z.B. Türzargen, Schrauben
+Gleichmässig graue, glatte Oberfläche.
+
+### Spritzverzinkung
+
+Zinkdraht wird durch die Hitze einer Sauerstoffacetylenflamme
+in einer Spritzpistole geschmolzen und auf blanken Grund gespritzt.
+Bei Stahlkonstruktionen.
+Oberfläche rau und porös.
+Muss durch einen Anstrich geschütz werden.
+
+60–100 $\mu$m.
+
+### Duplexsystem
+
+Die Verzinkung schützt vor Korrosion und eine Beschichtung
+schützt den Zink (Epoxid-, Polyurethanbeschichtung).
+
+### Zinkstaubfarbe
+
+Der Anstrich ist überall einsetzbar, aber eine gute Haftung
+hängt von der Vorbereitung des Anstrichgrundes ab. Schichtdicken
+bis 100 $\mu$m möglich. Porös und matt.
+
+# electrochemical corrosion
+
+The combined anodic and cathodic reactions
+form the corrosion cell.
+

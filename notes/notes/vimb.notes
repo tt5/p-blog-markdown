@@ -1,0 +1,49 @@
+# normal mode
+
+c-z pass-through
+gF
+
+o t gh gH
+u
+c-p
+p "xp
+c-o c-i
+gU
+r R
+
+c-f c-b c-d c-u j k
+0 $ h l
+
+m '
+
+"
+
+# hinting
+
+;
+
+tab c-l s-tab c-o
+
+f F
+
+;o ;t ;s ;P ;p
+;y ;Y
+
+g;
+
+# zooming
+
+zi zo zl zO zz
+
+#
+
+:bma :bmr
+:shortcut-add
+:shortcut-add dl=https://duckduckgo.com/lite/?q=$0
+:open dl my search phrase
+:shortcut-add gh=https://github.com/$0/$1
+:shortcut-remove
+
+:e javascript-code...
+
+vimb --bug-info | grep 'Extension dir'

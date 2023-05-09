@@ -1,0 +1,38 @@
+# edbrowse
+
+q quit
+help
+!<shell-command>
+!
+cd
+p print
+k mark
+kb 'b
+ll linelength
+z<N> z
+= print the number of lines
+B B[ B(
+h explain the last question mark
+H
+fll format line length
+fll 80+
+/x search for x
+
+f filename
+e session
+e <file>
+5,7w !command :send lines 5 through 7 to a shell command
+bflist
+
+u undo
+d delete the current line
+i c a end with period
+
+b browse
+ub unbrowse
+g go to the link
+^ back
+& internal back
+js javascript
+rr rerender
+rf refresh

@@ -1,0 +1,134 @@
+# Riemann Hypothesis
+
+$\text{RH} \Leftrightarrow$ For every $\epsilon > \frac{1}{4}$ there exists
+a constant $C_\epsilon > 0$ (depending on $\epsilon$) such that
+$|R(x)| < C_\epsilon x^\epsilon$ as $x \to \infty$.
+
+$$
+R(x) = 2 \sum_{k=1}^\infty \frac{k^{\bar{k}} x^k} { ( 2\pi )^{2k} ( \frac{B_{2k}}{(2k)} )}
+$$
+
+Meissel-Mertens constant:  
+$$
+M=\lim_{n→\infty} ((\sum_{p\leq n} \frac{1}{p} ) - \ln(\ln(n)))
+= \gamma + \sum_{p} ( \ln(1- \frac{1}{p})+ \frac{1}{p})
+$$
+
+$$
+\zeta(s)=\sum_{n=1}^{∞}\frac{1}{n^s}
+$$
+
+$\zeta(2)=\frac{\pi^2}{6}$
+
+$\zeta(-1)=-\frac{1}{12}$
+
+$\zeta(-2n)=0$
+
+analytic continuation
+$$
+\zeta(s) = 2^s\pi(s-1)\sin(\frac{\pi s}{2}\Gamma(1-s)\zeta(1-s)
+$$
+
+functional equation
+$$
+\pi^{\frac{-s}{2}}\Gamma(\frac{s}{2})\zeta(s) =
+\pi^{-\frac{1-s}{s}}\Gamma(\frac{1-s}{2})\zeta(1-s)
+$$
+
+Noting, that $\zeta(s)$ and $\Gamma(s)$ are without poles
+in the half-plane $\Re(s)>1$, it follows that
+the simple poles of $\Gamma(\frac{s}{2})$
+at the negative even integers give rise to zeros of $\zeta(s)$
+at the same points.
+All other zeros $\rho=\beta+i\gamma$ of $\zeta(s)$ are constrained
+to the **critical strip**, that is, they satisfy the bound $0<\beta<1$.
+These zeros are distributed symmetrically about the line $\Re(s)=\frac{1}{2}$.
+
+There exists $c>0$ s.t. any zero in the strip satisfies
+$$
+\frac{c}{(\log|\gamma|)^\frac{2}{3}}
+\leq \beta \leq
+1 - \frac{c}{(\log|\gamma|)^\frac{2}{3}(\log\log|\gamma|)^\frac{1}{3}}
+$$
+
+second Chebyshev function
+$\psi(x) = \sum_{n\leq x} \Lambda(n)$
+
+\minisec{Riemann Zeta function}
+
+$\Re(s)>1$
+
+$$
+\zeta(s)=\zeta(s,1)=\sum_{n=1}^\infty \frac{1}{n^s}
+$$
+
+$$
+=\frac{1}{\Gamma(s)}\int_0^\infty \frac{x^{s-1}}{e^{x-1}}\,dx
+$$
+$$
+=\prod_{p\, \text{prime}} ( \frac{1}{1-p^{-s}})^{-1}
+$$
+
+Riemann showed that the distribution of prime numbers is determined by the
+location of the zeros of $ζ(s)$.
+
+$$
+\zeta (s)=2^{s}\pi ^{s-1}\ \sin \left({\frac {\pi s}{2}}\right)\ \Gamma (1-s)\ \zeta (1-s)
+$$
+
+$$
+\Gamma \left({\frac {s}{2}}\right)\zeta (s)\pi ^{-{\frac {s}{2}}}=\Gamma
+\left({\frac {1-s}{2}}\right)\zeta (1-s)\pi ^{-{\frac {1-s}{2}}}
+$$
+
+$\zeta(2) = \frac{ \pi ^2}{6}$ ≈ 1.645
+
+$\zeta(-1)=-\frac{1}{12}$
+
+$\zeta(-2n)=0$
+
+$$
+\zeta(s) = 2^s \pi^{s-1} \sin({\pi s}{2})\Gamma(1-s)\zeta(1-s)
+$$
+
+# Riemann hypotesis (RH)
+
+$$
+\text{RH} \Leftrightarrow \pi(x) = \text{li}(x) + O_E(x^{\frac{1}{2}+\epsilon})
+$$
+
+$$
+\text{RH} \equiv |\pi(x)-\text{li}(x)| < \frac{\sqrt{x}\log x}{8\pi}
+$$, for all $x\geq 2657$
+
+$$\text{RH} \Leftrightarrow M(n) = O(x^{\frac{1}{2} + \epsilon}) \forall \epsilon > 0,
+\epsilon < 0.5$$
+
+$$\text{RH} \equiv |M(n)| \leq c \cdot n^{\frac{1}{2}}$$
+for any fixed $c$.
+
+$$-1.229 < \text{lim sup}\frac{M(x)}{\sqrt{x}} < 1.218$$
+
+Mertens function $M(n)$ is the count of square-free integer
+up to $n$ that have an even number of prime factors, minus
+the count of those that have an odd number.
+
+$$M(n) = \sum_{k=1}^n \mu(k)$$, $\mu(k)$ is the Möbius function.
+
+The determinant of the order $n$ Redheffer matrix is equal to $M(n)$.
+
+## ---
+
+Let
+$$ H_n = \sum_{j=1}^n \frac{1}{j}$$.
+Show that, for each $n ≥ 1$,
+
+$$
+\sum_{d|n}d ≤ H_n + \exp(H_n)\log(H_n)
+$$
+, with equality only for $n = 1$.  The function $σ(n) = \sum_{d|n} d$ is the
+sum of divisors function, so for example σ(6) = 12. The number $H_n$ is called
+the n-th harmonic number.
+
+This is equivalent to the Riemann hypothesis.
+

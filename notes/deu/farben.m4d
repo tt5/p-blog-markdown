@@ -1,0 +1,2018 @@
+
+Anstrichstoffe werden nach ihren filmbildenden Bindemitteln eingeteilt.
+
+Im allgemeinen Sinn handelt es sich bei der Mehrzahl der flüssigen Anstriche
+(Lacke, Farben) um Dispersionen.
+
+Koaleszenz (auch "Kalter Fluss") ist maßgeblich für
+die "Trocknung" von Dispersionsbeschichtungen wie
+Dispersionsfarben und -lacken. Nach dem Verdunsten des
+Wassers fließen die Kunststoffteilchen zusammen und
+bilden einen Film. Um eine Filmbildung auch unterhalb der
+Mindestfilmbildetemperatur des Polymers zu ermöglichen,
+werden sogenannte Koaleszenzmittel (Filmbildehilfsmittel)
+(wasserlösliche schwerflüchtige Lösungsmittel)
+verwendet, wie zum Beispiel Texanol, Butylglykol oder
+Dipropylenglycolmethylether.[1] Diese quellen die
+Polymerteilchen an und erniedrigen vorübergehend
+deren Glasübergangstemperatur, so dass die Teilchen
+miteinander verschmelzen können. Nach dem Verdunsten
+der Koaleszenzmittel stellt sich die ursprüngliche
+Glasübergangstemperatur wieder ein.
+
+2,2,4-Trimethyl-1,3-pentandiolmonoisobutyrat wird als
+Koaleszenzmittel (Filmbildehilfsmittel) für Latexfarben
+verwendet.[3] Die jährliche Produktionsmenge lag im Jahr
+1995 bei knapp 100.000 t.
+
+\chemfig{
+           % 1
+     -[:90]% 2
+              (
+        -[:150]% 3
+              )
+     -[:30]% 4
+              (
+     -[:90,,,1]OH% 15
+              )
+    -[:330]% 5
+              (
+      -[:292.5]% 6
+              )
+              (
+      -[:247.5]% 7
+              )
+     -[:30]% 8
+    -[:330]O% 9
+     -[:30]% 10
+              (
+         =[:90]O% 11
+              )
+    -[:330]% 12
+              (
+        -[:270]% 13
+              )
+     -[:30]% 14
+}
+
+Das Stoffgemisch wurde 1961 von Eastman Chemical unter dem Markennamen „Texanol“ auf den Markt gebracht.
+
+Weil die Begriffe Dispersionsfarbe und
+Kunstharzdispersionsfarbe mittlerweile nahezu synonym
+gebraucht werden, sollten andersartige Dispersionsanstriche
+als „Emulsionsfarben“ bezeichnet werden. Plakafarbe von
+Pelikan wird vom Hersteller nach dem verwendeten Bindemittel
+beispielsweise als Casein-Emulsionsfarbe bezeichnet.
+
+Als Dispergierung oder Dispergieren bezeichnet man einen
+Verfahrensschritt bei der Herstellung von Formulierungen,
+wie sie unter anderem bei Lacken, Druckfarben, Kunststoffen
+oder Pigmentpräparationen üblich sind. Meist wird
+der Begriff bei der Einarbeitung von Pigmenten und
+Füllstoffen in einem solchen System verwendet. Dabei wird
+eine Suspension (eine spezielle Art einer Dispersion)
+hergestellt, also eine feste Phase in einer flüssigen
+verteilt. Neben der gleichmäßigen Verteilung im
+Trägermaterial umschreibt die Dispergierung auch
+die Benetzung des zu dispergierenden Stoffes mit
+dem Trägermaterial, sowie die Zerkleinerung des
+zu dispergierenden Stoffes und die anschließende
+Stabilisierung.
+
+Pigmentpartikel liegen üblicherweise als Agglomerate,
+also lockere Zusammenballungen kleinerer Partikel (über
+die „Ecken“ der Primärteilchen) und Aggregate (über
+„Flächen“ der Primärteilchen) vor. Ziel des Prozesses
+ist die stabile Zerteilung der Agglomerate in Aggregat
+und Primärteilchen. Die Dispergierung umfasst die drei
+Teilprozesse Benetzung, Zerteilen und Stabilisieren. Diese
+Prozesse laufen in der Praxis parallel ab, da beispielsweise
+die Zerteilung von Agglomeraten zu einer Vergrößerung
+der Oberfläche führt und die zusätzliche Oberfläche
+ebenfalls benetzt werden muss.
+
+# Lacke
+
+Lacke werden nach Formulierungs- oder
+Verarbeitungsgesichtspunkten eingeteilt, etwa nach Art des
+Bindemittels (Beispiel: Öllack), Art des Lösemittels
+(Beispiel: Spiritus-Lacke), Trocknungsweise (Beispiel:
+Einbrennlacke) oder Anwendungsgebiet (Beispiel: Autolack).
+
+Traditionelle Lacke werden aus Pflanzen gewonnen, z. B.
+aus Harzen wie Copal und Kolophonium, der Schellack aus
+den Absonderungen einer asiatischen Läuseart und der
+Schwarzlack der chinesischen Lackkunst aus dem Saft des
+Lackbaums.
+
+Ein Tauchlack ist ein Lack, der durch Eintauchen des
+Werkstücks in den Lack aufgetragen wird (siehe anodische
+und kathodische Tauchlackierung). Effektlacke zeigen je nach
+Blick- und Beleuchtungsrichtung einen sogenannten Flop, also
+eine Helligkeits- oder Farbveränderung.
+
+Harze sind wichtig für die bessere Haftfähigkeit auf dem Untergrund und den Glanz von Lackierungen.[3]
+
+Naturharzlacke werden aus pflanzlichen Rohstoffen
+hergestellt, das heißt, der Rohstoff Erdöl wird nicht
+benötigt. Ihr Lösemittelanteil kann bis zu 60 Prozent
+betragen, jedoch werden inzwischen auch mit Wasser
+emulgierte Lacke hergestellt.
+Lösen von Harzen in Terpentinöl oder Testbenzin.
+
+Zucker als Mono- oder Disaccharide eignen sich als
+Polyhydroxyverbindungen als Ausgangsstoffe für die
+Herstellung von Lacken. Durch Umsetzung von Sacchariden mit
+Ethylenoxid oder Propylenoxid erhält man Polyole, die mit
+anderen Komponenten wie z.B. Harnstoff oder Formaldehyd
+kondensiert werden können. Durch Oxidation von Sacchariden
+lassen sich organische Säuren gewinnen, die wiederum
+zu Polyestern umgesetzt werden können. Eine besondere
+Bedeutung haben Verbindungen, die durch Anfügen von Vinyl-
+Acrylat- oder Methylacrylatgruppen an die Saccharide
+entstehen. Damit werden Dispersionen als Bindemittel für
+Lacke, wie z.B. Holzlacke, hergestellt, wobei der Anteil
+von nachwachsenden Rohstoffen in diesen Lacken über 60 %
+beträgt. Wasserbasierte Alkydharze auf Basis von Saccharose
+und Fettsäuremethylestern lassen sich inzwischen ebenfalls
+erfolgreich synthetisieren. Aus Glucose kann über Sorbitol
+Isosorbid synthetisiert werden, das als Baustein für
+Pulverlacke dient.
+
+Vorlack:
+Reine Aussenvorlacke sich fetter und elastischer als Innenvorlacke.
+Nicht zu stark verdünnen.
+Modifizierter Alkydharz mit Ölen.
+Vorlacke haben weniger Bindemittel und viel Pigmente.
+Als Grundierung nur auf Altbeschichtung.
+Haftvorlack.
+
+Klarlack:
+Klarlacke sind transparente Lacke, die meist nur
+aus Bindemittel und Lösungsmittel (neben üblichen
+Lackadditiven) aufgebaut sind, enthalten also keine
+Füllstoffe oder deckende Pigmente. Eine eventuelle
+Farbgebung erfolgt mit Farbstoffen oder transparenten
+Pigmenten. Klarlacke dienen häufig als Beschichtungsstoff,
+wenn der zu beschichtende Stoff ansehnlich ist (häufig für
+Holz oder Metall) und die Oberfläche dennoch vor äußeren
+Einflüssen geschützt werden muss, bei Metall z. B. der
+Oxidation und bei Holz Feuchtigkeitseinflüssen.
+
+Dispersionsbinder:
+Dispersion ohne Pigmente.
+Durchsichteig nach dem Trocknen.
+Kunststoffputz, Klebstoff, Spachtelmasse.
+
+# Gruppen
+
+## Grundierung
+
+Sperrgrund:
+Bei harzhaltigem Holz (Föhre, Lärche).
+
+Tiefgrund (auch Tiefengrund, Einlassmittel) ist eine Grundierung für
+Maler- und Tapezierarbeiten an Wänden und Decken, meist auf
+der Basis von Alkyd- oder Acrylharz.
+Mineralische Untergründe.
+Niedrigmolekulare Dispersionsbinder.
+Ca. 8h warten.
+Grundfestigen, ausgleichen, verankert sich und dient als Bindeglied.
+
+Lösemittelhaltiger Tiefgrund:
+Farblos.
+Vor allem aussen als Grundierung auf mineralische Untergründe, besonders
+Beton, aber auch alte Verputze etc. Für innen wegen der starken Lösungsmittelabdunstung
+weniger geeignet.
+Tiefgrund dringt infolge der molekularen Lösung der Harze am besten in die
+Kapillaren des Untergrunds ein. Er gleicht die Saugfähigkeit aus, bindet
+lose Staubteilchen und verfestigt leicht sandende Verputze.
+Bindemittel: Polymerisatharze in Lösungsmittel gelöst.
+Vor dem nächsten Dispersionsanstrich ist eine Ablüftzeit von
+mindestens acht Stunden einzuhalten.
+
+Wasserverdünnbarer Tiefgrund:
+Bessere Eindringmöglichkeit und damit bessere Verankerung als
+bei gewöhnlicher Bindergrundierung. Kommt in der Tiefenwirkung
+aber nicht ganz an den lösungsmittelhaltigen Tiefgrund heran.
+Bindemittel: Polymerisationsharz feinst in Wasser dispergiert.
+
+Tauchgrund:
+Holz.
+Bindemittel: Ölmodifizierte Alkydharze in Mischung mit Ölen.
+
+2K-Grundierung:
+Holz, Metall, Kunstoff.
+
+Holz:
+Ölfarbengrundierung (2/3 Leinölfirnis + 1/3 Terpentinöl)  
+Imprägnierung  
+Nitrocellulose Hartgrund  
+Imprägnierlasur (auf saugfähige Nadelhölzer)  
+Holzimprägnierung:
+Farblos. Bindemittel: Alkydharzlösungen in Kombination mit trocknenden Ölen.
+
+Mineralische Untergründe:  
+Bindergrundierung  
+Kalkmilch  
+Fixativlösung (bei Silikatfarbe)  
+Silikonimprägnierung  
+
+Rostschutz auf Metall:  
+Bleimennige  
+Zinkchromatgrundierung  
+Zinkstaubgrund (90-94% reiner Zinkstaub, bezogen auf den Festkörper)  
+
+Haftgrundierung:
+Metall, Kunststoff.
+
+Kunstsstoff:
+Haftvorlack
+
+Der Grundieranstrich dient als Haftvermittler
+für den Anstrichaufbau auf dem Untergrund.
+Saugfähigkeit poröser Untergründe ausgleichen und vermindern.
+Untergrund verfestigen. Rostschutz, Schädlingsbekämpfungsmittel auftragen.
+Imprägnierung. Flickstellen grundieren.
+
+Feuerverzinktes Metall: Ölfreie Grundierung, 2K-Epoxi Grundierung.
+
+Mineralische Untergründe:
+Grundierungen immer auf die Saugfähigkeit des Untergrundes
+abstimmen. Sie sollen verdünnt werden, dass keine fette, glänzende Schicht
+entsteht. Auch nicht zu stark verdünnen, weil sie sonst wirkungslos
+vom Untergrund vollständig augesogen wird.
+
+Metalle:
+Rostschutzanstriche.
+Keine Feuchtigkeit. Entfetten.
+
+Kunststoffe:
+Versuchsanstriche machen.
+Lösemittel können einzelne Kunststoffe angreifen.
+
+Spezielle Haftgrundierungen kommen bei sehr glatten
+und dichten Untergründen zum Einsatz (Metalle).
+
+Pigmentierte Grundierungen:
+Sind für die Haftung verantwortlich.
+
+Nichtpigmentierte Grundierungen:
+Wirken grundfestigend, absperrend und egalisierend (z.B. Hartgrund auf Holz).
+
+Nitrozellulosegrund
+
+Hydrophobieren
+
+## Dispersionsfarbe
+
+Häufig Thermoplastisch.
+Trocknen physikalisch.
+Die Kunststoffteilchen sind sehr klein (können verlaufen).
+Hoher Bindemittelanteil: glänzend.
+
+hochmolekular, niedermolekular.
+Übliche Dispersionfarben sind hochmolekular.
+
+Den Dispersionen wird ca. 3% Lösemittel beigefügt für eine bessere
+Filmbildung.
+
+Stark saugende Untergründe werden vorher mit Bindergrundierung,
+Tiefgrund oder verdünnter Dispersion grundiert, um das "Aufbrennen" (zu
+rasche Filmbildung durch Wasserentzug) der Dispersionsfarbe zu verhindern.
+Metalle sind vor Dispersionsanstrichen zu grundieren.
+
+Innen:
+Der erste Anstrich wird etwas verdünnt.
+Seidenglänzende und glänzende Typen decken wegen des hohen
+Bindemittelanteils schlecht und sollten deshalb nur als speziell beständige
+Schlussanstriche verwendet werden.
+
+Aussen:
+Eine genügende Nutzschicht wird mit zwei Anstrichen erreicht.
+Armierungsdispersionen enthalten zusätzliche Polyacrylatfasern,
+Quarzsand und Kalksteinmehl.
+Kunststoffverputzmassen weisen eine noch stärkere Füllung mit Quarzsand
+oder Kunststoffgranulaten auf.
+Für Holzanstriche gibt es spezielle Holzdispersionen.
+Lasierend eingestellte Dispersionen dienen dem Ausgleich
+von Tonunterschieden im Sichtbeton. Sie sind unter dem Namen
+"Betonlasuren" im Handel.
+
+Bindemittel: Polymerisatharze als Binder in Wasser fein verteilt (dispergiert).
+Meist Mischpolymerisate, Copolymerisate, Terpolymerisate aus PVC, PVA, Acrylat.
+Sobald das Wasser aus dem Anstrich verdunstet, verkleben die Kunstharzteichen zu
+einem wasserunlöslichen Kunstharzfilm.
+
+## Rostschutzanstrich
+
+Trockener Untergrund, trockene Witterung.
+
+Bei rauen Eisenoberflächen genügt ein einmaliger Rostschutzanstrich
+nicht.
+
+# Polymethacrylatdispersion
+
+Bodenfarben.
+Wasserverdünnbare Klarlacke.
+
+# Reinacrylat-Dispersion (Polyacrylat-Disp.)
+
+Elastisches Bindemittel für pigmentierte Disperionslacke und Holzlasuren.
+Hoch wetterbeständig.
+Vergilben nicht, verseifen nicht.
+Gute Haftung.
+Thermoplastisch.
+
+# Öllack
+
+Öllacke sind schon seit über 2000 Jahren in China
+bekannt und werden auch heute noch partiell mit anderen
+synthetischen Bindemitteln eingesetzt. Als Öle werden
+beispielsweise Leinöl, Sojaöl (ein halbtrocknendes
+Öl) und Tungöl genutzt, in der Malerei wurde vor 1900
+auch Walnussöl und Mohnöl eingesetzt.[7] Die Härtung
+des Lackes basiert auf einer chemischen Reaktion des
+Luftsauerstoffes mit den Doppelbindungen der ungesättigten
+Fettsäuren und einer Umesterung der Bindungen zwischen
+Fettsäuren und Glycerol, was zu einer Quervernetzung
+der Moleküle führt, im Falle des Leinöls entsteht
+Linoxin. Bei der Oxidation entstehen Hydroperoxide, die
+radikalisch zerfallen und mit anderen Ölsäuremolekülen
+reagieren, dadurch entsteht eine Vernetzung. Sogenannte
+Sikkative (z. B. Kobaltnaphthenat) fördern die radikalische
+Vernetzung. Zu Öllacken setzt man gelegentlich synthetische
+Lösungsmittel hinzu (1,4–Polybutadienöle). Bei der
+Aushärtung der Öllacke handelt es sich nicht um eine
+Trocknung, da die Aushärtung des Lacks auf der Vernetzung
+und nur bei einer Verwendung von Lösungsmitteln auf dem
+Verdampfen beruht.
+
+Öllacke neigen zur Vergilbung.
+Häufiger Kontakt mit Wasser führt zu einer Hydrolyse der
+Esterbindungen, dies mindert die Haltbarkeit einer Ölfarbe
+mit Lösemitteln auf Wasserbasis und führt bei lackierten
+Flächen zu einem Auswascheffekt.[8] Die Trocknungszeit ist,
+verglichen mit konventionellen Lacken, lang.[8] Leinölfarbe
+wird weiterhin als Grundierung auf Baustahl eingesetzt.[8]
+
+Schmelzen von Harz und Verkochen mit fetten Ölen.
+
+# Kunstharz und Naturharz
+
+In der europäischen Ölmalerei spielten Harze sowohl von Nadelbäumen (Terpentine, Mastix) als
+auch die von Laubbäumen (Dammar) eine große Rolle. Sie dienten seit dem
+15. Jahrhundert in Kombination mit anderen Substanzen als Bindemittel der Farbpigmente. Die
+Qualität der Öl-Harz-Farben hatte mehrere Vorteile gegenüber den davor üblichen Malfarben, vor
+allem ermöglichte sie aufgrund besserer Mischbarkeit einen größeren Nuancenreichtum durch weichere Farbübergänge.
+Die Temperamalerei, deren Bindemittel Emulsionen sind, und die noch frühere Wachsmalerei wurden
+somit verdrängt. Außerdem werden Harze schon seit der Antike für die Herstellung
+von Lacken verwendet.
+
+1902: Entwicklung des ersten technisch brauchbaren
+Kunstharzes (Carl Heinrich Meyer): Phenol- Formaldehydharz
+(„Laccaïn“), Ersatz für Schellack
+
+1907: „Hitze und Druckpatent“ von Leo Hendrik Baekeland → Aushärtung von Phenolharzen:
+erste duroplastische Kunststoffe (Bakelit)
+
+1910: Patent für Dr. Kurt Albert und Dr. Ludwig Berend für das
+erste öllösliche Lackkunstharz aus Phenolen und Formaldehyd („Albertole“), vgl. auch Autolack
+
+In natürlicher Form werden Harze als Naturharz von Tieren und Pflanzen, insbesondere
+Bäumen abgesondert und dienen in erster Linie zum Verschließen von Wunden an der Pflanze.
+Im industriellen Bereich werden heute mengenmäßig vorwiegend Kunstharze verwendet, Naturharze sind von
+Bedeutung für Naturfarben und Spezialanwendungen.
+
+In der Regel wird der Begriff verstanden für gelbliche bis bräunliche, klare
+bis trübe, klebrige und nichtkristalline Materialien, die in den gängigen organischen Lösungsmitteln
+löslich sind, jedoch unlöslich in Wasser. Daneben wird der Begriff auch benutzt
+für synthetische Materialien, die als Ersatz für natürliche Harze verwendet werden. In
+der Kunststoffindustrie bezeichnet „Harz“ generell Polymere als Grundstoff für Kunststoffe.
+
+Natürliches Harz oder Naturharz ist eine Sammelbezeichnung für eine von Pflanzen oder
+Tieren abgesonderte zähe, nicht wasserlösliche Flüssigkeit. Pflanzen, vor allem Bäume, produzieren diese
+Ausscheidungen (Exsudate) unter anderem nach Verletzungen, um mit der meist klebrigen Masse
+die Wunde zu verschließen. Als einziger tierischer Lieferant gilt die in Süd-
+und Südostasien beheimatete Lackschildlaus (Kerria laccifera), die den Schellack liefert. Historisch wurden
+diese Materialien vielseitig verwendet, unter anderem in der Kunst, Medizin und im
+Schiffbau. Heute werden Naturharze, vor allem in der Industrie, weitestgehend durch Kunstharze
+ersetzt, die zu den Kunststoffen zählen.
+
+Die mengenmäßig vorherrschenden Verbindungen sind Harzsäuren, die zu den Carbonsäuren zählen. Frische
+Harze bestehen weiterhin zu einem nicht unwesentlichen Teil aus flüchtigen und aromatischen
+Verbindungen. Verdunsten diese, wird das verbleibende Material zäher und härter. Daneben führen
+Polymerisations-, Vernetzungs- und Oxidationsreaktionen zum Erstarren der Ausscheidung.
+
+Während rezente Harze von noch heute lebenden Bäumen entstammen (Terpentin, Balsame, Gummilack,
+Kolophonium, Sandarak und Mastix), sind rezentfossile Harze aus früheren Vertretern von Baumarten
+entstanden, die teilweise aber auch heute noch existieren. Diese bezeichnet man auch
+als Kopale. Bernstein ist das einzige rein fossile Harz. Man nimmt an,
+dass es von einer prähistorischen Koniferenart stammt. Fossile Harze sind in Alkohol schlecht löslich.
+
+Das wohl bekannteste natürliche Harzprodukt ist Kolophonium, das vorwiegend aus dem Harz
+von Kiefern und Fichten gewonnen wird und in vielen Produkten Verwendung findet,
+z. B. als Klebstoff für Heftpflaster, in Kaugummi und zur Behandlung der
+Bogenhaare bei Streichinstrumenten. Kolophonium ist der feste Rückstand, der beim Erhitzen von
+Nadelbaumharz nach Abdestillieren des Terpentinöls anfällt.
+
+Nach DIN 55958 (Dezember 1988) werden Kunstharze (auch Reaktionsharz genannt) durch Polymerisations-,
+Polyadditions- oder Polykondensationsreaktionen synthetisch hergestellt. Sie
+können durch Naturstoffe, zum Beispiel pflanzliche
+oder tierische Öle beziehungsweise natürliche Harze, modifiziert sein oder durch Veresterung oder
+Verseifung natürlicher Harze hergestellt sein.
+
+Kunstharze bestehen in der Regel aus zwei Hauptkomponenten. Die Vermischung beider Teile
+(Harz und Härter) ergibt die reaktionsfähige Harzmasse. Bei der Härtung steigt die
+Viskosität an und nach abgeschlossener Härtung erhält man einen unschmelzbaren (duroplastischen) Kunststoff.
+
+Für die technische Anwendung sind die Harze oft in Form einer Emulsion
+oder Suspension erhältlich bzw. werden auch in dieser Form hergestellt.
+Viele dieser Harze sind prinzipiell auch als echte Lösungen einsetzbar, da es
+jedoch bei den dafür meist notwendigen Lösungsmitteln um flüchtige organische Verbindungen handelt,
+wird dieser Anteil immer geringer.
+
+Polyester-Harze (UP-Harze)
+
+Herstellung auf Basis von ungesättigten Polyestern (mit weiteren Kunststoffkomponenten, wie Styrol)
+Verwendung: Lacke, Gießharze; Verstärkung der
+Festigkeit durch Glasfaserzusätze, Schlauchliningverfahren (Kanalsanierung)
+
+# Alkydharz
+
+Polykondensationsharz.
+
+Trocknung durch Oxidation der öligen Bestandteile
+sowie durch Verdunsten der Lösungsmittel.
+
+Gute Elastizität und Härte.
+
+Säuren + Alkohol + Öle oder Fette.
+
+Natronlauge + Fettsäuren.
+
+Veresterung von Phtalsäure, Glycerin und Fettsäuren von Ölen (z.B. Leinöl). Verkocht.
+Lösen in Lösungsmittel. Zusätze von Trockenstoffen und andern Harzen.
+
+Acetylen, Essigsäure, Vinylverbindungen.
+
+Kurzölig (mager).
+Ölgehalt < 40%.
+
+Mittelölig (mittelfett).
+Ölgehalt 40% – 60%.
+Heizkörperlacke, Metalllackierung, Korrosionsschutzgrundierung.
+
+Hochglanzlack:
+Mehr vergilbend, eher verseifend.
+Langölig (fett).
+Ölgehalt 70%.
+Überfett: Ölgehalt 70% – 85%.
+
+Ölhaltig nicht auf Zink, weil verseift.
+
+Alkydharze sind synthetische hydrophobe Polymere, die durch Kondensation mehrwertiger Alkohole mit mehrprotonigen
+Säuren unter Zusatz von Ölen bzw. Fettsäuren (zur Modifizierung der Eigenschaften des
+Harzes) entstehen.[1] Chemisch gehören sie zu den Polyestern. Als mehrwertiger Alkohol wird
+v. a. Glycerin, als mehrprotonige Säure überwiegend Phthalsäure (oder deren Anhydrid) eingesetzt;[2]
+
+Lufttrocknende Alkydharze polymerisieren unter dem Einfluss von Sauerstoff über die Doppelbindungen der
+ungesättigten Fettsäurereste. Das Trocknungsverhalten hängt sowohl vom Anteil als auch von der
+Art der in das Polymer eingebauten Fettsäuren ab. Besonders reaktiv sind mehrfach
+ungesättigte Fettsäuren, wie die in der Formel gezeigte Linolsäure oder besonders die
+Linolensäure. Einfach ungesättigte Fettsäuren, wie die Ölsäure härten nur sehr langsam.
+
+Ofentrocknende Alkydharze enthalten geringere Anteile mehrfach ungesättigter Fettsäuren, sodass sie bei Raumtemperatur
+nur ungenügend härten; sie werden als Komponenten in ofentrocknenden Lacken (Einbrennlacken), meist
+in Kombination mit anderen Kunstharzen, verwendet[4].
+
+Nichttrocknende Alkydharze werden als polymere
+Weichmacher, z. B. in Nitrozelluloselacken (Nitrokombilacke) eingesetzt[5].
+
+Alkydharze werden häufig zur Verbesserung der Eigenschaften modifiziert, so z. B. mit
+Isocyanaten (Urethanalkyde) , mit Styrol (styrolisierte
+Alkydharze)[4] oder mit Acrylsäure-bzw. Methacrylsäureestern (acrylierte Alkydharze).
+
+Der Begriff Alkyd wurde bereits 1927 durch R. H. Kienle eingeführt und
+setzt sich aus Alkohol und acid zusammen. Durch diese „künstliche“ Herstellung im
+Gegensatz zu den bis dato gebräuchlichen Naturharzen spricht man im Zusammenhang mit
+Alkydharzlacken auch vom Kunstharz.
+
+Die Trocknungsdauer von Öllacken war ein wichtiges
+Kriterium bei der industriellen Massenfertigung von
+Küchengeräten, Kleinteilen geworden. Auch im Wohnungsbau
+benötigte man schnell trocknende Lacke. Mit der Entwicklung
+der Alkydharz-Lacke um 1930 wurde ein sehr guter Filmbildner
+gefunden.
+
+Alkydharze bestanden damals zumeist aus einer Dikarbonsäure
+(Phthalsäure) einem Polyalkohol (z. B. Glycerin)
+und Leinöl, Sojaöl usw. Ab 1945 wurden dann auch
+Misch-Alkydharze mit Styrol hergestellt. Diese
+Mischpolymerisate zeigten eine schnellere Antrocknung,
+höhere Wetterbeständigkeit, größere Oberflächenhärte,
+geringere Vergilbung. Alkydharze können mit vielen
+anderen Filmbildnern kombiniert werden etwa Phenolharzen,
+Nitrocellulose oder Epoxidharzen.
+
+Alkydharzlacke enthalten als Bindemittel synthetische
+Kunstharze, sie werden daher auch als Kunstharzlacke
+bezeichnet. Durch ihren relativ hohen Lösemittelanteil
+wirken sie ebenfalls nachteilig auf Umwelt und Gesundheit.
+Alkydharzlacke sind für Holz und Metall sowohl im Innen-
+als auch im Außenbereich geeignet.
+
+Trocknung durch Oxidation der ölhaltigen Bestandteile sowie
+Verdunsten der Lösungs- und Verdünnungsmittel.
+
+Verdünnung: Sangajol.
+
+Alkydharzfarben können mit Universalabtönfarben oder besser
+mit Volltonfarben abgetönt werden.
+
+# PU-Alkydharz
+
+Alkydharz mit Polyisocyanat.
+
+Trocknen durch Oxidatetion und durch Aufnahme von Luftfeuchtigkeit.
+
+Vergilbt weniger.
+
+# Polyacrylate
+
+Acrylsäureester sind Ester, die sich von der Acrylsäure
+(CH2=CH-COOH) ableiten und damit die allgemeine Formel
+CH2=CH-COOR besitzen. Dabei steht R für eine Organylgruppe.
+Zusammen mit den Salzen der Acrylsäure gehören die Ester
+zu den Acrylaten.
+
+Großtechnisch hergestellt werden die Ester, indem man die
+Acrylsäure mit dem entsprechenden Alkohol unter Zugabe
+eines Katalysators reagieren lässt. Die Reaktion mit
+niederen alkoholen (Methanol, Ethanol) findet bei 100–120
+°C unter saurer heterogener Katalyse (Kationenaustauscher)
+statt. Die Umsetzung höherer Alkohole (n-Butanol,
+2-Ethylhexanol) wird in homogener Phase mit Schwefelsäure
+katalysiert.
+
+Die Hauptanwendung von Acrylsäureestern liegt in Homo-
+und Copolymeren mit z. B. Acrylsäure, Acrylamiden,
+Methacrylaten, Acrylnitril, Maleaten, Vinylacetat,
+Vinylchlorid, Styrol, Butadien und ungesättigten
+Polyestern für Kleb- und Dichtstoffe, Lacke und Anstriche,
+Beschichtungen für Textilien, Leder, Papier sowie für eine
+Vielzahl von Kunststoffen.
+
+Als Reaktivverdünner werden vorwiegend Hexandioldiacrylat,
+Isobornylacrylat und 2-EHA[1] verwendet.
+
+Reaktivverdünner sind Stoffe, die die Viskosität eines
+Lackes für die Verarbeitung herabsetzen und bei der
+anschließenden Härtung des Lackes durch Copolymerisation
+Teil des Lackes werden.
+
+# Epoxidharze
+
+Epoxidharze (EP-Harze) sind Kunstharze, die Epoxidgruppen tragen.
+
+Härter: Amine.
+
+Schichtdicken von 200 $\mu$m in einem Arbeitsgang.
+
+Epoxidharzlacke bestehen häufig aus 2-Komponenten
+(2K)-Systemen, die vor der Lackierung vermischt werden.
+Der Lack muss nach Vermischung der Komponenten schnell
+aufgetragen werden, da die Anwendungsdauer („Topfzeit“)
+kurz ist. Epoxidharze sind Polyaddukte aus Epichlorhydrin
+mit Bisphenol A. Diese werden mit einem Härter vernetzt.
+Bei Raumtemperatur liegen die Härtungszeiten um zwölf
+Stunden, bei 120 °C um 30 Minuten. In Kombination mit
+Aminoharzen können Epoxidharze auch als Einbrennlacke
+genutzt werden. Bei diesem Verfahren besteht das Bindemittel
+aus nur einer Komponente. Hierbei werden Temperaturen um 160
+bis 200 °C angewendet.
+
+Härtbares Kunstharz (mit Zusatz von Härter von zähflüssig zu hart)
+Verwendung als Gießharz; Verbundwerkstoff; Klebstoff
+wichtigste Herstellung: Polyaddition und -kondensation aus
+mehrwertigen Phenolen und Epichlorhydrin (mit Alkalilauge)
+
+Epoxidharze (EP-Harze) sind Kunstharze, die Epoxidgruppen tragen.[1][2] Sie sind härtbare Harze (Reaktionsharze),
+die mit einem Härter und gegebenenfalls mit Zusatzstoffen zu einem duroplastischen Kunststoff
+umgesetzt werden können.
+Die Epoxidharze sind Polyether mit in der Regel zwei endständigen Epoxidgruppen.
+Stammlack: gelöstes Epoxydharz. Härter: Amine.
+Neigt zum Kreiden (schlechte Beständigkeit gegen Licht und UV-Strahlen).
+Für Korrosionsschutz.
+
+Die durch Vernetzung erzeugten Duroplaste besitzen gute mechanische Eigenschaften sowie eine gute
+Temperatur- und Chemikalienbeständigkeit. Sie gelten daher als hochwertige, aber auch teure Kunststoffe.
+Sie werden u.a. als Reaktions- und Einbrennlacke, Klebstoffe, für Laminate, als Einbettmittel
+in der Metallographie und als Formmassen für Komponenten in der Elektrotechnik und Elektronik verwendet.
+
+Schutzausrüstung bei der Applikation:
+Da der direkte Hautkontakt als weitaus schädlicher anzusehen ist als etwa eine
+Aufnahme über die Atemwege (z. B. durch ungenügende Belüftung), ist persönliche Schutzausrüstung
+beim Einsatz vieler Epoxidprodukte vorgeschrieben. Zum Hautschutz eignen sich ausschließlich spezielle Nitril-
+oder Butyl-, Butyl / Viton- und PE-Laminat- Handschuhe. Ungeeignet sind dünne Einweg-Handschuhe
+unabhängig vom Material (zum Beispiel Latex, Vinyl oder Nitril). Die allergenen Stoffe
+durchdringen diese Handschuhe auch ohne Beschädigung innerhalb weniger Minuten, während der Eigenschutz
+der Haut durch Schwitzen bei fehlender Belüftung geschwächt wird. Hautschutzsalben bieten ebenfalls
+keinen akzeptablen Schutz. Unter Umständen kann zusätzlich das Tragen eines Schutzanzugs notwendig sein.
+
+\minisec{Epoxy}
+
+Epoxy is a term used to denote both the basic components
+and the cured end products of epoxy resins, as well as a
+colloquial name for the epoxide functional group. Epoxy
+resins, also known as polyepoxides are a class of reactive
+prepolymers and polymers which contain epoxide groups.
+Epoxy resins may be reacted (cross-linked) either with
+themselves through catalytic homopolymerisation, or with
+a wide range of co-reactants including polyfunctional
+amines, acids (and acid anhydrides), phenols, alcohols
+and thiols. These co-reactants are often referred to as
+hardeners or curatives, and the cross-linking reaction is
+commonly referred to as curing. Reaction of polyepoxides
+with themselves or with polyfunctional hardeners forms
+a thermosetting polymer, often with high mechanical
+properties, temperature and chemical resistance. Epoxy has a
+wide range of applications, including metal coatings,
+
+Two part epoxy coatings were developed for heavy duty
+service on metal substrates and use less energy than
+heat-cured powder coatings.
+
+Epoxy coatings are also widely used as primers to improve
+the adhesion of automotive and marine paints especially
+on metal surfaces where corrosion (rusting) resistance
+is important. Metal cans and containers are often coated
+with epoxy to prevent rusting, especially for foods like
+tomatoes that are acidic. Epoxy resins are also used for
+decorative flooring applications such as terrazzo flooring,
+chip flooring, and colored aggregate flooring.
+
+Epoxy adhesives are a major part of the class of adhesives
+called "structural adhesives" or "engineering adhesives"
+(that includes polyurethane, acrylic, cyanoacrylate, and
+other chemistries.) These high-performance adhesives are
+used in the construction of aircraft, automobiles, bicycles,
+boats, golf clubs, skis, snowboards, and other applications
+where high strength bonds are required. Epoxy adhesives can
+be developed to suit almost any application. They can be
+used as adhesives for wood, metal, glass, stone, and some
+plastics. They can be made flexible or rigid, transparent
+or opaque/colored, fast setting or slow setting. Epoxy
+adhesives are better in heat and chemical resistance than
+other common adhesives.
+
+# Polyurethane
+
+Ein- oder Mehrkomponentenlacke (Reaktionslacke) bestehen aus
+einer oder mehreren Komponenten, die nach dem Auftragen mit
+der Luft oder nach deren Mischung miteinander reagieren.
+Hierzu gehören Polyurethan-(PUR)-Lacke. Da sie einen sehr
+hohen Gehalt an Lösemitteln und Isocyanaten besitzen,
+sind sie umwelt- und gesundheitsschädlich. Wegen ihrer
+hohen Beständigkeit werden sie im gewerblichen Bereich zur
+Versiegelung von Parkettfußböden und Möbeln verwendet.
+
+Polyester oder Polyether. Polyisocyanat.
+
+# Ölfarben
+
+Ölfarbe spielt im normalen Baualltag keine grosse Rolle
+mehr, war aber vor wenigen Jahrzehnten noch allgegenwärtig.
+Sie ist heute durch Kunstharzfarben , Lasuren und
+Akrylfarben verdrängt. Ölfarbe bindet durch Oxydation der
+Öle , meist Leinöl oder Leinölfirnis , ab und teilweise
+auch durch Verdunsten des Lösungsmittels. Das Abbinden
+dauert 2 bis 3 Tage, je nach Witterung auch länger.
+Ölfarbe bildet einen Film, der nicht reisst und nicht
+abblättert. Verglichen mit Kunstharzfarbe hat Ölfarbe
+viele Vorteile und nur folgende Nachteile : sie kostet ca
+50% mehr und sie braucht 2-3 Tage länger zum Abbinden. Die
+Vorteile überwiegen bei weitem!
+
+Ölfarbe ist ökologisch weniger bedenklich als
+Kunstharzfarbe. Geöffnete Farbdosen können vorübergehend
+vor dem Eintrocknen geschützt werden, indem man einen
+Zentimeter hoch Wasser auf die Farbe giesst. Ebenso können
+Pinsel nach Gebrauch für ein/zwei Tage in Wasser gelagert
+werden. Für längere Lagerung von Ölfarbe ist der
+Behälter gut zu verschliessen und auf den Kopf zu stellen.
+Pinsel sind nach Gebrauch mit Terpentinöl auszuwaschen und
+anschliessend mit Seife zu reinigen.
+
+Leinölfarben bestehen aus trockenen Pigmenten oder
+Erdfarben, die mit „gekochtem“ Leinöl verrührt und
+vermahlen werden. Je intensiver Pigmente oder Erdfarben
+mit dem Leinöl vermahlen werden, desto konzentrierter und
+deckender wird der Farbauftrag. Zur Unterstützung des
+Autoxidationsvorgangs des Leinöls werden zwischen 0,09[1]
+und maximal 3 Prozent Trockenstoffe zugesetzt.
+
+Die Nachfrage nach natürlichen Farben hat dazu geführt,
+dass es heute neben Leinölfarben nach handwerklicher
+Überlieferung auch industriell hergestellte Farben gibt,
+die unter anderem Leinölfirnis und Verdünnungsmittel
+enthalten, und vom Hersteller als „Leinölfarbe“
+bezeichnet werden. Sie unterscheiden sich aber in ihrer
+Herstellung, Zusammensetzung und ihrer Eigenschaft merklich
+von der traditionellen Leinölfarbe. Die Bezeichnung
+„Leinölfarbe“, aber auch „Farbe auf Leinölbasis“
+für diese lösemittelhaltigen Farben mit Anteilen
+von Leinölfirnis ist zur Unterscheidung dieser von
+Leinölfarben jedoch irreführend,[6] denn Alkydharzfarben
+oder Dickschichtlasuren werden ebenfalls „auf der
+Basis“ von Leinöl hergestellt.[7] Leinölfarbe in guter
+Qualität benötigt kein Verdünnungsmittel. Wird bei
+der Farbenherstellung unter Verwendung von so genanntem
+„Leinölfirnis“ Terpentinöl zugesetzt, so soll dieses
+nicht als Lösemittel wie bei Harzen und Wachsen, sondern
+als Verdünnungsmittel wirken.[8] Verdünnungsmittel werden
+mit dem Ziel eingesetzt, zähflüssige (viskose) Farben
+und Leinölfirnisse zu verdünnen um ein Eindringen der
+Substanzen in den Untergrund zu bewirken. Kalt gepresstes,
+niedrigviskoses Leinöl ist teurer in der Herstellung als
+minderwertiges Leinöl, das mittels chemischer Extraktion
+unter Verwendung von Hexan und durch Erhitzen gewonnen wird.
+Diese durch chemische Extraktion und Erhitzung gewonnen Öle
+enthalten Bestandteile, die ein weites Eindringen des Öls
+ohne die Zugabe von Verdünnungsmitteln behindern. Diese
+„verdünnten“ Öl werden als Halböle bezeichnet.
+
+Nach der Verdunstung der hinzugefügten Verdünnungsmittel
+ist der verbliebene Bindemittelanteil, der die
+Pigmentteilchen umgeben soll, aber geringer. Damit ist
+aber die konservierende Eigenschaft von Leinöl nicht
+vollständig gewährleistet. Daher sind Leinölfarben mit
+hohem Anteil an Verdünnungsmitteln weniger beständig
+und trocknen wegen zu geringer Bindemittel matter
+auf.[11] Kalt gepresstes, rohes und gereinigtes Leinöl
+hat eine Molekülgröße von 0,000005 bis 0,00001 mm,
+„gekochtes“ Leinöl hat eine Molekülgröße von 0,0001
+mm.[12] Hieraus erklärt sich, dass Leinölfarbe seine
+hervorragende konservierende Wirkung nur erzielen kann,
+wenn das Leinöl als Ausgangssubstanz eine hochwertige
+Qualität und daher ein hohes Eindringvermögen[13]
+ohne zugesetzte Verdünnungsmittel aufweist.[14] Werden
+allerdings Verdünnungsmittel wie Terpentinöl verwendet,
+so ist die Regel „fett auf mager“ zu beachten. Dieser
+Grundsatz entstammt der Leinwand- und Tafelmalerei und
+bedeutet, dass mit fortschreitendem Farbaufbau immer
+weniger Verdünnungsmittel zur Ölfarbe hinzugefügt
+werden dürfen, damit ein Aufreißen des Farbaufbaus
+aufgrund unterschiedlicher Spannungen verhindert wird.
+Die Regel „fett auf mager“ spielt in der Anwendung
+reiner Leinölfarbe keine Rolle, da das Leinöl als
+Konservierungsmittel – im Gegensatz zur Leinwand- und
+Tafelmalerei – in den Malgrund eindringen soll und
+dem Leinöl schon deshalb keine Verdünnungsmittel wie
+Terpentinöl zugesetzt werden sollten.[
+
+Manche Anwender fügen der reinen Leinölfarbe ein
+modifiziertes Leinöl hinzu, das heute als Leinölstandöl
+bezeichnet wird. Zu seiner Herstellung wurde in früheren
+Jahrhunderten rohes Leinöl unter Luftabschluss längere
+Zeit stehen gelassen. Heute wird zu seiner Herstellung rohes
+Leinöl unter Luftabschluss auf über 260 °C erhitzt.[22]
+Es entsteht dabei ein viskoses Leinölderivat, das einen
+glänzenden Endanstrich, eine bessere Streichfähigkeit und
+eine höhere Wasserfestigkeit des Anstrichs erzielen soll.
+Der Trockenprozess des Anstrichs wird durch diese Beigabe
+aber eher verlängert.[23] Nach Kopinski kann der Glanz und
+Verlauf des Ölfarben-Innenanstrichs durch den Zusatz von 2
+bis 3 % Standöl begünstigt werden. Bei Aussenanstrichen
+kann der Zusatz von 10 bis 15 % der Bindemittelmenge die
+Haltbarkeit des Anstrichs erhöhen.
+
+Ölfarbe ist eine Sammelbezeichnung für Malfarben auf der Grundlage von trocknenden Ölen als Bindemittel.
+
+Für Ölfarben werden im Besonderen die folgenden trocknenden und halbtrocknenden Öle eingesetzt:
+
+Leinöl  
+Mohnöl  
+Walnussöl  
+Hanföl  
+Sonnenblumenöl  
+Safloröl (Distelöl)  
+Rizinusöl  
+Perillaöl  
+Tungöl (chinesisches Holzöl)  
+Oiticicaöl  
+
+Zum Schutz der Ölfarbenschicht bei Gemälden wird noch ein
+Schlussfirnis aufgebracht. Die gebräuchlichsten Firnisse
+sind die Weichharze Dammar und Mastix, die jedoch auf Grund
+ihres Vergilbungsprozesses heutzutage durch Kunstharze
+ersetzt werden.
+
+Firnis ist ein klarer Schutzanstrich.
+
+Leinöl-Standöl tropfenweise den Ölfarben zugeben, max. 10%.
+
+"Fett auf mager" = dickflüssig (grosser Anteil an Bindemittel) auf dünnflüssig.
+
+## Ölfarbgrundierung
+
+Bindemittel: Leinölfirnis (Leinöl mit Trockenstoffen verkocht).
+
+Herstellung:
+Die pastenförmigen Pigmente werden mit einer Mischung von zwei Dritteln
+Leinölfirnis und einem Drittel Terpentinöl und mit
+Zugabe von wenig Harttrockenöl streichfähig eingestellt.
+Verdünnung mit Sangajol.
+
+## Ölfarbzwischenanstrich
+
+Unerreichte Füllkraft des Anstrichs.
+Fugen und Risse, die damit ausgestrichen werden, bleiben gefüllt,
+da der Anstrich nicht einfällt.
+
+Bindemittel: Leinölfirnis, dem zur Verbesserung der Härte (Schleifbarkeit)
+etwas Harttrockenöl beigefügt wird.
+
+Herstellung: Die pastenförmigen Pigmente werden mit einer Mischung von halb
+Leinölfirnis, halb Sangajol und wenig Harttrockenöl streichfertig eingestellt.
+
+Der Zwischenanstrich soll matt auftrocknen.
+
+## Ölfarbschlussanstrich
+
+Holzwerk aussen.
+
+Längere Lebensdauer als Kunstharz.
+
+Lange Trocknungszeit. Mehrarbeit durch Vertreiben.
+
+Nicht verdünnen. Die Streichfähigkeit wird durch Leinölzugabe eingestellt.
+
+Bindemittel: Leinölfirnis. Zugabe von Leinölstandöl, Glanzölemaille,
+Kunstharzemaille oder Kunstharzklarlack.
+
+Herstellung:
+Die pastenförmigen Pigmente werden mit einer Mischung von drei Vierteln Leinölfirnis
+und einem Viertel Glanzzusatz streichfähig gemacht.
+
+# Polyurethanzdispersion
+
+Eine Polyurethandispersion, international auch als PUD
+(polyurethane dispersion) bezeichnet, ist ein fließfähiges
+Zweiphasensystem, bestehend aus Wasser und einem Polymer,
+d.h. einem dispergierten Kunststoff, der zu der Klasse
+der Polyurethane gehört, sowie gegebenenfalls weiteren
+Komponenten.
+Weil die Polyurethandispersionen als umweltfreundliche
+Alternative zu lösemittelhaltigen Bindemitteln angesehen
+werden, haben diese eine zunehmende Bedeutung in der
+verarbeitenden Industrie gewonnen.
+
+Die allgemeinen Vorteile von Polyurethankunststoffen
+liegen in der Flexibilität bei tiefen Temperaturen,
+in herausragenden, zum Teil wählbaren mechanischen
+Eigenschaften, Beständigkeiten gegenüber bestimmten
+Chemikalien und je nach Aufbau, guten bis sehr guten
+Witterungsbeständigkeiten.
+
+Um ausreichende Eigenschaften zu erzielen, werden jedoch
+hohe Molmassen der Polymere erforderlich. Eine Dispersion
+hat den Vorteil, dass auch bei sehr hohen Molmassen die
+Viskosität nur durch die Teilchengröße des dispergierten
+Kunststoffes und dessen Volumananteils in der Dispersion
+bestimmt wird.
+
+Die Polyurethanteilchen einer stabilen Dispersion
+sind kugelförmig und liegen in einem Größenbereich
+zwischen etwa 30 nm und 1000 nm wodurch sie ein milchig
+weißes (manchmal gelbliches) Aussehen bewirken. Die
+Größenverteilung kann sowohl ein Maximum (monomodal)
+als auch zwei Maxima (bimodal) aufweisen. Unterhalb 50
+nm Teilchengröße erscheint die Dispersion zunehmend
+transparent, oberhalb 1000 nm neigen die Teilchen zum
+Absetzen und die Dispersion ist nicht lagerfähig.
+
+Der Gewichtsanteil des Kunststoffes (Festkörper) in
+handelsüblichen Polyurethandispersionen beträgt
+typischerweise 30 % bis 50 %, gelegentlich sogar 60 %.[1]
+Dispersionen mit solch hohem Festkörperanteil haben
+Vorteile hinsichtlich des Transports und der Lagerung, der
+erzielbaren Trockenfilmstärken in einem Auftrag und der
+effektiven Trocknung pro Massenanteil, da weniger Energie
+zur Verdampfung des Wassers aufgewendet werden muss.
+Polyurethandispersionen mit hohen Anteilen an Festkörpern
+weisen somit ökologische Vorteile auf und gewinnen
+zunehmend an Bedeutung. Allerdings sind diese nicht einfach
+herzustellen und nicht in jeder Zusammensetzung möglich.[2]
+
+Die Tendenz zur Sedimentation und auch zur Koagulation
+wird zum einen verhindert durch gegenseitige Abstoßung
+der Teilchen, z. B. durch ionische Gruppen, und durch die
+Viskosität des flüssigen Mediums. Grobteilige Dispersionen
+enthalten daher oft Verdickungsmittel und Emulgatoren in der
+wässrigen Phase, die das Absetzen der Teilchen entsprechend
+verlangsamen und eine ausreichende Lagerstabilität
+bewirken. Eine nicht-ionische Stabilisierung wird durch den
+Einbau von hydrophilen Polyethylenoxidketten in das Polymer
+oder als endständige Gruppen erreicht; eine ionische
+Stabilisierung kann durch Einbau von anionischen Gruppen
+wie Carboxy oder Sulfonat oder kationischer wie aminischer
+Gruppen geschehen. Es wird daher zwischen nicht-ionischen,
+anionischen und kationischen Polyurethandispersionen
+unterschieden.
+
+Neben Wasser enthalten Polyurethandispersionen in
+einigen Fällen wasserverdünnbare, gewöhnlich
+hochsiedende organische Lösemittel (Colöser), häufig
+N-Methylpyrrolidon (NMP), aber auch Glycolether in
+der Größenordnung von 5 bis 15 Gewichtsprozent. Der
+Anteil ist zum einen häufig herstellbedingt, zu anderen
+ermöglicht der Colöser aber auch die Filmbildung von
+harten Polyurethanen bei Raumtemperatur durch Anlösen
+der Oberflächen der Dispersionsteilchen nach Verdampfen
+des Wassers und anschließender Verschmelzung zu einem
+Film (Koaleszenz). Der Colöser verdampft auch ohne
+weitere Temperaturbehandlung nach und nach, wobei der Film
+zunehmend härter wird und seine Endfestigkeit erreicht.
+Die Colöser tragen somit zur Emission organischer Anteile
+(VOC) bei und sind daher weniger erwünscht. Auch gibt es
+je nach Gehalt gesundheitliche und sicherheitstechnische
+Aspekte, die Vorsichtsmaßnahmen beim Umgang mit
+colöserhaltigen Polyurethandispersionen notwendig
+machen. Für den eingesetzten Colöser NMP wurde im Jahr
+2010 die Kennzeichnung für Zubereitungen verschärft,
+so dass Dispersionen, die ≥5 % NMP enthalten, heute
+als reproduktionstoxisch Cat. 1B (H360D) eingestuft
+werden.[3] Das hat die Hersteller dazu veranlasst,
+NMP als Colöser weitgehend zu vermeiden oder auf
+einen Gehalt von <5 % zu senken, sofern dies technisch
+möglich ist. Als Alternative zu NMP wird von einigen
+Anbietern das weniger bekannte N-Ethyl-2-pyrrolidon (NEP)
+eingesetzt. Polyurethandispersionen ohne Colöser können
+aber gegenüber solchen mit Colösern vergleichbare
+lacktechnische Eigenschaften erzielen.[
+
+Damit die gewünschten hohen Molmassen erzeugt werden
+können, werden vorzugsweise die Polyurethanpolymere linear
+aufgebaut, d. h. mit möglichst wenig Verzweigungen.
+Andernfalls würden schon in der Aufbauphase des Polymers
+Gelteilchen erzeugt werden, die der späteren Filmbildung
+bei der Anwendung hinderlich sind.
+
+Die Grundbausteine bestehen daher aus bifunktonellen
+Untereinheiten und sind damit weitgehend identisch mit den
+üblichen Komponenten, aus denen Polyurethane aufgebaut
+sind, d. h. Isocyanate, Polyole und Polyamine.
+
+Abhängig vom eingesetzten Isocyanat unterscheidet
+man daher zwischen aliphatischen und aromatischen
+Polyurethandispersionen. Letztere sind preisgünstiger,
+haben aber den Nachteil der Vergilbung durch Lichteinwirkung
+mit Ausnahme von Tetramethylxylylendiisocyanat
+(TMXDI). Der Anteil an eingebautem Isocyanat in einer
+Polyurethandispersion beträgt etwa 8 bis 12 %.
+
+Die Polyole bilden den größten Massenanteil am Polyurethan
+und werden allgemein als Weichsegmente bezeichnet. Durch
+die Auswahl eines Polyols mit entsprechend niedriger
+Glasübergangstemperatur kann ein Polyurethan erzeugt
+werden mit entsprechender Tieftemperaturflexibilität.
+Auch hier kommen möglichst linear aufgebaute Moleküle
+zum Einsatz, die endständig zwei oder mehr Hydroxygruppen
+aufweisen. Von Bedeutung sind auch oxidativ härtende,
+Fettsäure-modifizierte Polyester. Diese ermöglichen nicht
+nur eine gute Pigmentbenetzung in Lackformulierungen,
+sondern auch die nachträgliche Vernetzung der getrockneten
+Filme zu harten Lackschichten. Die daraus resultierenden
+Polyurethandispersionen werden aufgrund der Herkunft
+der Polyester auch wässrige Urethan-Alkyde genannt.
+Kristallisierende Polyester kommen für thermoaktivierbare
+Klebstoffe in Betracht. Mit Polyethylenoxidbausteinen lässt
+sich eine permanente Hydrophilie des Polyurethans erzeugen,
+welche eine verbesserte Wasserdampfdurchlässigkeit
+der Filme ergibt. Polycarbonatdiole sind geeignete
+Bausteine für extrem schlagzähes Verhalten, Kratz- und
+Bewitterungsbeständigkeit und sind daher für Finishe
+von Kunststoff- Leder- und Textilbeschichtungen von
+Bedeutung. Ether-stabilisierte Dispersionen neigen zur
+Koagulation bei höheren Temperaturen, während ionisch
+hydrophilierte Dispersionen stabiler sind, aber dafür bei
+Elektrolytzusatz leichter koagulieren. Daher enthalten
+Polyurethandispersionen meistens beide Komponenten für eine
+ausgewogene Stabilität.
+
+Der Aufbau des Polymers verläuft häufig in zwei Schritten:
+zunächst wird ein wenig verzweigtes Prepolymer aus den
+Diisocyanaten und den Polyolen hergestellt. Durch einen
+Überschuss an Diisocyanat weisen die Prepolymere als
+endständige Gruppen Isocyanate auf. Im zweiten Schritt
+werden die Prepolymere über kurzkettige Diole und/oder
+Diamine miteinander zu langkettigen Molekülen verbunden,
+häufig schon in Gegenwart von Wasser bei bestimmten
+Verfahren während der Dispergierung. Der Zusammenhang
+zwischen erzeugter Molmasse, Kettenverlänger und Reaktion
+mit Wasser findet sich in der Literatur.[
+
+Der Aufbau des Polymers verläuft häufig in zwei Schritten:
+zunächst wird ein wenig verzweigtes Prepolymer aus den
+Diisocyanaten und den Polyolen hergestellt. Durch einen
+Überschuss an Diisocyanat weisen die Prepolymere als
+endständige Gruppen Isocyanate auf. Im zweiten Schritt
+werden die Prepolymere über kurzkettige Diole und/oder
+Diamine miteinander zu langkettigen Molekülen verbunden,
+häufig schon in Gegenwart von Wasser bei bestimmten
+Verfahren während der Dispergierung. Der Zusammenhang
+zwischen erzeugter Molmasse, Kettenverlänger und Reaktion
+mit Wasser findet sich in der Literatur.[5]
+
+Über die Kettenverlängerer lassen sich ionische Gruppen in
+das Polymer einbauen, um dieses als in Wasser dispergiertes
+Teilchen zu stabilisieren.
+Im ersten Schritt wird aus den zuvor genannten
+Isocyanaten und Polyolen ein Prepolymer erzeugt. Über
+die Kettenverlängerung wird im zweiten Schritt eine
+hydrophile Gruppe eingefügt, am Beispiel eines Diamins
+mit seitenständiger Sulfonatgruppe (Natriumsalz). Das
+erhaltene Polymer ist permanent hydrophil und lässt sich im
+geeigneten Verfahren leicht dispergieren.
+
+Zur Herstellung kationischer Dispersionen werden
+quarternäre Aminofunktionen eingebaut, z. B. über
+Methyldiethanolamin. Die Feinteiligkeit einer Dispersion
+lässt sich vorrangig durch die Anzahl dieser hydrophilen
+Gruppen steuern. Es sind vielfältige, kaum aufzählbare
+Variationen möglich, um funktionelle Gruppen einzubauen.
+Die Einführung von endständigen, blockierten Isocyanaten
+ist bedeutend für hitzeaktivierbare Vernetzungsreaktionen,
+aber auch Epoxygruppen- und Silan-modifizierte Polyurethane
+sind von Bedeutung, ebenso wie seitenständige
+Hydroxygruppen für die Vernetzung durch andere reaktive
+Agentien, wie sie in Beschichtungsformulierungen eingesetzt
+werden.
+
+Die zuvor genannten Bausteine lassen sich praktisch
+frei kombinieren. Dadurch ist eine enorme Anzahl
+an Polyurethandispersionen mit unterschiedlichsten
+Eigenschaften möglich. Das erklärt auch die Vielzahl
+der Produkte verschiedener Hersteller und Anwendungen.
+Entsprechend umfangreich sind die weltweit veröffentlichten
+Patentschriften. Wegen der komplexen Zusammenhänge
+enthalten Patentschriften oft ausführliche Beschreibungen
+des Stands der Technik, die für den Leser recht nützlich
+sind.[6] Struktur-Eigenschaftsbeziehung und Syntheseschritte
+zur Herstellung von Polyurethanen sind auch für die
+entsprechenden Dispersionen gültig und in der Literatur
+umfassend beschrieben.[7]
+
+Die Dispergierung in Wasser erfordert hohe Scherkräfte,
+um entsprechend feinteilige Dispersionen zu erhalten.
+Ein Problem sind die hohen Viskositäten des
+Isocyanat-Prepolymers. Nach der Kettenverlängerung sind die
+Polyurethane deshalb praktisch nicht mehr dispergierbar.
+Daher gibt zwei prinzipielle Möglichkeiten: a) das
+Prepolymer wird direkt in Wasser und Kettenverlängerer
+unter hohen Scherkräften dispergiert und die
+Kettenverlängerung findet in Gegenwart der wässrigen
+Phase, jedoch in den dispergierten Teilchen statt, wobei
+neben der gewünschten Umsetzung auch die Reaktion von
+Wasser mit den Isocyanatgruppen zur Kettenverlängerung
+beiträgt. Zur Senkung der Viskosität des Prepolymers
+wird dieses zur Dispergierung erhitzt oder es werden die
+genannten Colöser eingesetzt, die jedoch in der fertigen
+Dispersion verbleiben. Es gibt mehrere Variationen,
+wie z. B. der Schmelz-Dispergier-Prozess oder das
+Prepolymer-Misch-Verfahren. Letzteres ist auch als
+kontinuierlicher Prozess durchführbar. b) Das vollständige
+Polyurethanmolekül wird in einem mit Wasser mischbaren,
+niedrig siedenden Lösemittel aufgebaut. Die Lösung wird
+mit Wasser zusammen dispergiert, und das Lösemittel wird
+schließlich so gut wie vollständig abdestilliert. Als
+Lösemittel der Wahl hat sich Aceton etabliert, daher
+wird dieser Prozess Acetonprozess genannt. Der Vorteil
+dieses Verfahrens liegt bei einer hohen Variabilität der
+Einsatzstoffe und exzellenten, feinteiligen Qualitäten
+sowie der Freiheit von organischen Lösemitteln.
+Nachteilig ist die geringere Kesselausnutzung im Vergleich
+zu den anderen Verfahren und der erhöhte Aufwand der
+Acetonrückgewinnung. Alternativ zu Aceton verwenden einige
+Hersteller 2-Butanon (MEK). Zu den Herstellverfahren und
+deren Varianten gibt es umfangreiche Literatur.[8]
+
+Typische Anwendungen sind flächige Applikationen,
+damit das Wasser und gegebenenfalls Colöser verdampfen
+können und einen Polyurethanfilm zurücklassen. Die
+Trocknung der Filme kann bei Raumtemperatur geschehen,
+aber auch bei erhöhten Temperaturen, wenn es das Substrat
+zulässt. Sobald sich die Teilchen berühren, wenn
+genügend Wasser verdunstet ist, ist der Vorgang nicht
+mehr umkehrbar (Koagulation). In den Lücken zwischen den
+Teilchen entstehen hohe Kapillarkräfte, so dass diese
+ihre Phasengrenzen verlieren, miteinander verschmelzen
+(Koaleszenz) und nach vollständiger Trocknung einen
+homogenen Film bilden. Eingesetzte Colöser unterstützen
+die Koaleszenz und verbleiben häufig noch längere Zeit im
+Film, wenn bei Raumtemperatur getrocknet wird. Der Colöser
+wirkt in diesem Fall wie ein Weichmacher und erst nach
+einiger Zeit erreichen die Filme ihre Endhärte.
+
+# Latexfarbe
+
+Echte, klassische Latexfarben sind Anstriche, welche
+als Bindemittel natürliches Latex (den Milchsaft des
+Kautschukbaumes bzw. eine Emulsion aus Kautschuk und Wasser)
+verwenden.
+
+Moderne Kunstharzfarben sind eigentlich gewöhnliche
+Dispersionsfarben, die lediglich auf spezielle Eigenschaften
+hin eingestellt wurden. Sie verwenden als Bindemittel
+ein Kunstharz und enthalten überhaupt kein Latex mehr.
+Durch den Namen soll lediglich suggeriert werden, dass
+diese Farben Eigenschaften wie die echten Latexfarben
+aufweisen, die sie insbesondere zur Verwendung in hoch
+beanspruchten, meist öffentlichen Räumlichkeiten (zum
+Beispiel Treppenhäuser) befähigen.
+
+Styrol-Butadien-Dispersion (= Latex-Dispersion).
+
+Styrol-Butadien-Kautschuk ist der Ausgangsstoff für die
+weitaus am meisten hergestellte Variante des synthetischen
+Gummis, im Jahr 2012 sind weltweit rund 5,4 Mio. Tonnen[2]
+verbraucht worden. Sein Kurzzeichen ist SBR, abgeleitet von
+der englischen Bezeichnung „Styrene Butadiene Rubber“.
+Es ist ein Copolymer aus 1,3-Butadien und Styrol.
+
+Naturkautschuk oder Kautschuk (indian. cao ‚Baum‘
+und ochu ‚Träne‘; zusammen ‚Träne des Baumes‘)
+besteht hauptsächlich aus dem elastomeren Polymer
+cis-1,4-Polyisopren. Er dient hauptsächlich der Herstellung
+von Gummi mittels Vulkanisation.
+60 % des weltweiten Kautschuk-Bedarfs werden heute jedoch
+durch petrochemisch hergestellten Synthesekautschuk gedeckt.
+
+Zusammensetzung des Latex (Milchsaft von Hevea brasiliensis):  
+60–75 % Wasser  
+25–35 % Kautschuk  
+
+Vulkanisiert wird heutzutage meist mit 1,8 bis 2,5 %
+Schwefel[2] und einer Temperatur von 120 bis 160 °C.
+Dabei werden die langkettigen Kautschukmoleküle durch
+Schwefelbrücken vernetzt. Hierdurch gehen die plastischen
+Eigenschaften des Kautschuks bzw. der Kautschukmischung
+verloren, der Stoff wird mittels des Verfahrens der
+Vulkanisation vom plastischen in einen elastischen Zustand
+überführt.
+Bei Alterung des Gummis werden die Schwefelbrücken durch
+Sauerstoffbrücken ersetzt; der Gummi wird brüchig und
+porös.
+Neben der klassischen Schwefelvulkanisation erfolgt
+die Vernetzung von Kautschuken häufig auch mittels
+Peroxiden, Metalloxiden oder energiereicher Strahlung.
+Da die Vulkanisation mit Schwefel die Anwesenheit von
+Doppelbindungen erfordert, kommen besonders bei Kautschuken,
+die keine Doppelbindungen enthalten (z. B. EPM, EVA), diese
+Verfahren zum Einsatz. Metalloxide kommen u. a. bei der
+Vernetzung von Chloropren-Kautschuk zum Einsatz.
+Styrol-Butadien-Kautschuk (SBR) und Nitrilkautschuk
+(NBR) können auch rein thermisch vulkanisiert werden
+(Thermovulkanisation).
+
+Nitrilkautschuk wird durch Copolymerisation von Acrylnitril (ACN) und 1,3-Butadien gewonnen. 
+
+# Silikonharzlack
+
+Silikonharzlacke oder Siliconharzlacke sind Lacke, bei
+denen Silikonharz als Hauptbindemittel verwendet werden. Im
+Gegensatz zu den meisten anderen Lacken basieren diese auf
+einer anorganischen Bindemittelmatrix. Die Hauptanwendungen
+liegen in Bereichen, die eine hohe Temperaturbeständigkeit
+erfordern, z. B. bei Öfen.
+
+Silikonharzlacke sind von Silikonharzfarben zu
+unterscheiden. Bei diesen handelt es sich um wässrige
+Dispersionsfarben, deren Eigenschaften durch den Zusatz
+kleiner Mengen Silikonharz optimiert wurden.
+
+Als Filmbildner werden vernetzte, hochmolekulare
+Polysiloxane verwendet. Das Grundgerüst besteht somit
+aus Silizium-Sauerstoff-Bindungen. Organische Reste (z.
+B. Alkyl- oder Aryl-) sind dabei immer an Silicium-Atome
+gebunden. Die am häufigsten verwendeten Substituenten
+sind dabei Methyl- oder Phenylgruppen. Bei den sogenannten
+modifizierten Silikonharzen werden Silikonharze und
+klassische Lackbindemittel wie Polyester, Alkydharze,
+Acrylate oder Epoxide in einer frühen Phase der Synthese
+kombiniert.
+
+Als Lösemittel kommen nur wenige Substanzen in Frage, da
+eine gute Löslichkeit nur in Aromaten und halognierten
+Kohlenwasserstoffverbindungen, sowie Estern vorliegt. In
+aliphatischen Lösemitteln und Ketonen ist die Löslichkeit
+beschränkt.[2]
+
+Generell bieten Silikonharzlacke ein Eigenschaftsprofil,
+das sich von allen klassischen, also auf organischen
+Bindemitteln basierenden, Lacken unterscheidet. Insbesondere
+die extrem hohe Temperaturstabilität und die gute
+Wetterbeständigkeit, vor allem gegen Kreidung und
+Vergilbung, ragen heraus. Der geringe Anteil an organischen
+Gruppen ergibt eine nur geringe Änderung des Filmvolumens
+während der Härtung. Das ergibt sich eine sehr dichte
+Schicht, die wiederum eine gute Filmfestigkeit erzeugt.[4]
+
+Methylsilikonharzlacke sind mit nahezu allen organischen
+Bindemittelsystemen unverträglich. Sie erzeugen eine
+extrem hydrophobe Lackoberfläche, die auch abweisend
+gegenüber Klebstoffen wirkt. Diese Systeme sind meist
+matt und extrem spröde. Sie besitzen nur ein geringes
+Pigmentaufnahmevermögen. Die Beständigkeit gegen
+Lösemittel ist gut, nicht jedoch gegen Laugen. Die
+Temperaturstabilität ist gut, so dass kurzzeitig bis
+zu 500 °C, dauerhaft bis zu 200 °C erreicht werden.
+Lacke auf der Basis von Methylsilikonharzlacken können
+durch Wasserabspaltung physikalisch trocknen. Durch
+die oxidative Abspaltung von Methylgruppen bei hoher
+Dauertemperaturbelastung wird die Lackschicht auf ein
+extrem stabiles Siliziumdioxid-Gerüst reduziert. In
+Kombination mit metallischen Pigmenten entsteht eine
+extrem hitzestabile Schicht. Diese Systeme sind unter der
+Bezeichnung Silberbronze bekannt.
+
+Phenylsilikonharzlacke besitzen gegenüber
+Methylsilikonharzlacken ein besseres
+Pigmentaufnahmevermögen, eine höhere Temperaturstabilität
+(kurzzeitig bis zu 700 °C, dauerhaft bis zu 280 °C)
+und eine bessere Verträglichkeit gegenüber organischen
+Lackbindemitteln, besitzen jedoch eine weichere Oberfläche.
+Diese Systeme besitzen darüber hinaus eine extrem
+hohe Temperaturwechselbeständigkeit. Lacke auf Basis
+von Phenylsilikonharzen erzeugen beim Verdunsten des
+Lösemittels eine klebrige Oberfläche, so dass diese
+Systeme ausschließlich Einbrennlacke sind.[2][4]
+
+Bei silikonmodifizierten Bindemitteln ist die Wetterechtheit
+höher als bei den korrespondierenden rein organischen
+Bindemitteln, selbst wenn nur wenig Silikonharz enthalten
+ist. Die weiteren Eigenschaften richten sich dann im
+Wesentlichen nach der anderen Bindemittelkomponente.
+Wenn das Silikonharz den Hauptanteil stellt, ist die
+Temperaturbeständigkeit nur leicht eingeschränkt, oft
+ist jedoch eine Verbesserung des Applikationsverhaltens
+bemerkbar.
+
+Siliconmodifizierte Systeme werden für
+hochwetterbeständige Lackierungen, bei denen keine
+zusätzliche Dauertemperaturbeständigkeit notwendig ist,
+verwendet.[2][4]
+
+Bei hochhitzebeständigen Korrosionsschutzsystemen ist die
+Haftung zum Untergrund entscheidend, so dass hier eine
+mechanische Vorbehandlung durch Sandstrahlen üblich ist.
+
+Silikon enthält Silizium, gilt trotzdem als organisch.
+
+Silikon-Fassadenfarbe: Siliconharzemulsion mit Acrylatdispersionsanteilen.
+Leicht alkalisch, CO2-durchlässig, mikroporös, hydrophob.
+Im Gegensatz zu Kalk ust der Anstrich gegen Industrieabgase
+unempfindlich. Er bietet auch keinen Nährboden für Pilzbewuchs,
+wie er etwa auf Dispersionsanstrichen vorkommen kann.
+
+Silikonimprägnierung:
+Farblos. Das Material wird mehrmals bis zur Sättigung des Untergrundes aufgetragen.
+Silikonisierte Untergründe können nicht mehr mit anderen Materialien
+überstrichen werden.
+
+# Acrylfarbe
+
+Acrylfarben, -lacke oder -anstriche basieren auf
+Kunststoffdispersionen. Sie sind häufig mit Wasser
+verdünnbar und trocknen zu einem wasserfesten Film
+aus. Daneben gibt es aber auch Acryllacke, die auf
+organischen Lösungsmitteln basieren. Die auf der Basis
+von polymerisierten Acrylsäureestern hergestellten
+Acrylharzfarben wurden erstmals Ende der 1940er Jahre in den
+Vereinigten Staaten, ab den frühen 1960ern auch in Europa
+von Künstlerfarbenfabriken für den Gebrauch in der Malerei
+hergestellt. Sie werden heute auch in Handwerk, Industrie
+und im Hobbybereich verwendet.
+
+Sehr elastisch, haftfähig und wetterbeständig.
+Für Metalle (Einbrennlacke, Autolacke).
+Wasserverdünnbare Acrylfarben, Acrylatdispersion.
+
+# Mineralfarbe
+
+Der Fachbegriff Mineralfarben bezeichnet Anstrichstoffe mit mineralischen Bindemitteln. Ob die farbgebende Substanz
+ein mineralisches Pigment oder ein anderes Farbmittel ist, spielt für die Einordnung als Mineralfarbe keine Rolle.
+Im Bereich der Farben wird zwischen zwei relevanten mineralischen Bindemitteln unterschieden: Kalk
+und Silikat. Während Kalkbindemittel unter Einwirkung von Kohlendioxid und Wasser carbonatisieren (Carbonatbildung),
+binden silikatische Bindemittel (in der Regel Kaliumsilikat bzw. Kaliwasserglas) unter Einwirkung von
+CO2 ab und bilden in Kontakt mit mineralischen Reaktionspartnern Calciumsilikathydrate.
+Wenn heute von Mineralfarben gesprochen wird, sind in der Regel die Silikatfarben
+gemeint. Es handelt sich hier um Anstrichmittel, die als Bindemittel Kaliwasserglas verwenden.
+Sie werden auch Wasserglasfarben oder Keimfarben (nach dem Erfinder Adolf Wilhelm Keim) genannt.
+Reine Silikatanstriche sind sehr langlebig und witterungsbeständig. 
+
+Mineralfarben enthalten neben anorganischen Farbmitteln als
+Hauptbestandteil ein kaliumhaltiges Alkalisilikat (Wasserglas), das
+Kaliwasserglas, auch flüssiges Kaliumsilikat oder LIQVOR SILICIVM genannt. Ein Anstrich mit Mineralfarben
+bildet nicht wie andere Anstriche eine Schicht, sondern verbindet sich unlösbar mit dem Untergrund (Verkieselung).
+Während organische Bindemittel wie Acrylat- oder Siliconharzdispersionen unter UV-Einfluss im Laufe der
+Jahre verspröden und zu Kreidungserscheinungen , Rissen und in Folge zu Anstrichschäden
+führen, bleibt das anorganische Bindemittel Wasserglas stabil. Die chemische Verbindung mit dem
+Untergrund und die UV-Stabilität des Bindemittels sind die wesentlichen Gründe für die
+außerordentlich hohe Lebensdauer von Silikatfarben.
+
+Zum Abbinden setzen Silikatfarben einen siliziumhaltigen Grund voraus. 
+Die Wasserdampfdurchlässigkeit (Diffusionsoffenheit) von Silikatfarben entspricht
+derjenigen des Malgrundes. Das heißt, Silikatfarben
+behindern die Diffusion von Wasserdampf praktisch nicht. 
+Zudem wird so Kondensatfeuchte an der Baustoff-Oberfläche vermieden. Dies reduziert das Risiko
+von Algen- und Pilzbefall. Die hohe Alkalität des Bindemittels Wasserglas schafft zusätzliche
+Sicherheit vor dem Befall mit Mikroorganismen und ermöglicht den vollständigen Verzicht auf
+Topf-Konservierungsmittel.
+Eine Verschmutzung findet deshalb weniger leicht statt, weil sich mineralisch gestrichene Flächen
+anders als Dispersions- oder Siliconharzgebundene Anstrichflächen nicht statisch aufladen und bei Hitze
+nicht klebrig werden (keine Thermoplastizität). 
+Silikatfarben sind enorm farbtonstabil. Nachdem sie ausschließlich mit
+mineralischen Pigmenten getönt werden
+und diese sich durch UV-Licht im Farbton nicht verändern, bleiben auch die
+Silikatanstriche über Jahrzehnte im Farbton konstant.
+Silikatfarben basieren auf mineralischen Rohstoffen und sind in Herstellung und
+Wirkung sehr umweltfreundlich. 
+
+Grundsätzlich werden heute drei Typen von Silikatfarben unterschieden:
+
+Die reine Silikatfarbe besteht aus zwei Komponenten, einem trockenen oder in Wasser
+angeteigtem Farbpulver und dem flüssigen Bindemittel Wasserglas (wasserlösliches Glas).
+Die beiden Komponenten der Silikatfarbe werden erst vor der Verarbeitung
+zusammen vermischt und bleiben dann einen Tag verarbeitungsfähig. Nachher setzt
+die Verkieselung zwischen dem Fixativ und den mineralischen Füllstoffen
+bereits im Kessel ein.
+
+Mitte des 20. Jahrhunderts wurde die erste einkomponentige Silikatfarbe entwickelt. Durch Zugabe
+von bis zu 5 Masse-Prozent organischen Additiven (z. B. Acrylatdispersion, Hydrophobiermittel, Verdicker
+o. ä.) kann die Farbe anwendungsfertig im Eimer angeboten werden. Man spricht
+hier von sog. „Dispersions-Silikatfarben“ 
+
+Seit 2002 existiert eine dritte Kategorie von Silikatfarbe, die sog. Sol-Silikatfarbe. Sie
+enthält als Bindemittel eine Kombination aus Kieselsol und Wasserglas. Der organische Anteil
+ist wie bei der Dispersions-Silikatfarbe auf 5 Masse-Prozent beschränkt, um eine chemische
+Abbindung und die silikattypischen Stärken zu erhalten. Die Sol-Silikatfarbe ermöglicht auch eine
+Verwendung auf nichtmineralischen Putzen. Hier erfolgt die Bindung chemisch und physikalisch. Diese
+Farben sind einfach und sicher auf nahezu allen üblichen Untergründen zu verarbeiten.
+
+## Kalkfarbe
+
+Sumpf- oder Fettkalk wird die zähe teigig-joghurtartige
+Suspension genannt, die nur wenig Wasser enthält. Verdünnt
+man diese weiter, so spricht man von Kalkschlämme und
+erhält dann breiig-milchige Kalkmilch, die als Kalkfarbe
+verwendet werden kann.
+
+Sumpfkalk wird in Gruben gelagert um die schädlichen Salze auszuwaschen.
+
+Zusätzliche Bindemittel:
+Kasein, Leinöl, Cellulose, Dispersionsbinder.
+
+Sumpfkalk, der gut gelagert ist (2-10 Jahre) wird bis zur
+Streichfähigkeit verdünnt und gesiebt.
+Farbe soll gut laufen, milchig dünn sein.
+Gibt es Striche, ist die Farbe noch zu dick.
+
+Kalk als Anstrich und Bindemittel hat nach wie vor eine sehr grosse Bedeutung,
+durch seine vorzüglichen Eigenschaften wie
+100% atmungsfähig,
+stumpfmattes Aussehen,
+100% umweltverträglich.
+
+Schwefelgase wandeln Kalkanstriche in schwefelsauren Kalk (Gips) um.
+
+Mit Dispersionsfarbe gestrichene Putze und Kunstoffputze eignen sich nicht
+für Kalkanstriche.
+
+Hände, Gesicht und Augen schützen.
+
+Neue Untergründe: Kalkverputze (möglichst frisch, al fresko), Beton (von Schalöl reinigen), keine Binderzusätze.
+Mineralische Untergründe.
+Bestehende Untergründe und raues, ungehobeltes Holz wässern.
+Bürsten mit Stahlbürste.
+Alle Putze müssen nass, sauber und rissfrei sein.
+
+Sumpfkalk verdünnen durch mehrmaliges Zugiessen von Wasser
+und ständiges Umrühren. Streichfertige Kalkmilch sieben (Metallsieb,
+ca. 0,5 mm Maschenweite).
+
+Nebelwetter, Herbst oder Frühling.
+In der Regel 3 – 4-mal streichen.
+Mehrere dünne Schichten.
+Kalkmilch mit langborstigem Pinsel und Bürste auftragen und verteilen.
+
+Nur mit Kalkechten Pigmenten abtönen.
+Nur ca. 5% Buntpigmente zugeben (ergibt Pastelltöne).
+
+Fleckenbildung:
+Ungleichmässige Trocknung, nicht kalkechte Pigmente.
+
+Abkreiden:
+Zu schnelle Trocknung, zuviel Buntpigmente, zu stark saugender Untergrund.
+
+Abplatzen:
+Zu dicker Farbauftrag, ungeeigneter Untergrund.
+
+Nachteilig ist die Feuchtikkeitsaufnahme bei Schlagregen.
+
+Die chemische Verbindung (Kohlensäureaufnahme, Karbonatisierung)
+des Kalkes mit dem Untergrund bildet das eigentliche Bindemittel.
+Zusätze wie Kasein oder Celluloseleim können die Bindekraft erhöhen,
+verschlechtern aber die Beständigkeit für aussen.
+
+## Silikatfarbe
+
+2K-Silikat, Silikatfarbe
+
+Bindemittel: Kaliwasserglas.
+Verdünnungsmittel: mit Wasser oder Fixativ.
+
+Erfinder dieser Technik ist W. Keim, vor ca. 80 Jahren.
+
+Quarz und Pottasche. Geschmolzen und in heissem
+Wasser unter Druck gelöst, gibt Kaliwasserglas.
+
+Quarz und Soda -> Natronwasserglas. Für Flammschutz, Klebstoffe, Kitte.
+
+Wasserglas (Fixativ: flüssiges Kaliwasserglas mit Zusätzen) und Farbpulver (Pigment-Füllstoff-Mischung)
+(Farbpigmente, Kieselsäure (Quarzmehl), Tonerde).
+
+Trocknet physikalisch und chemisch durch Verdunsten des Anmachwassers
+und durch Reaktion mit den verkieselungsfördenden Zuschlagstoffen und
+dem mineralischen Untergrund.
+
+In nassem Zustand stark alkalisch.
+Irreversibel.
+Stumpf matt.
+100% wasserdampfdurchlässig.
+Wird durch annetzen, anregnen dunkel.
+Teuer.
+
+Deckende und lasierende Anstriche.
+
+Untergrund:
+Rein mineralisch. Keine organischen Bestandteile.
+Auf Papier.
+Rohes Holz.
+Nicht geeignet auf Gips.
+Putz darf keine Salzausblühungen haben, muss gleichmässtig saugend sein.
+
+Einige Stunden vor der Applikation mischen.
+Einsumpfen, innert 24 h verbrauchen.
+Trocknet schnell.
+Aufrühren, sieben.
+Mit Bürste streichen. Oder spritzen und anschliessend mit der Bürste nachbearbeiten.
+
+1. Anstrich: Mehr Fixativ als Pigment (3:1 GWA), soll Verglasungsflecken geben.
+50 – 75 kg/100m^2^.
+
+2. Anstrich: Mehr Pigment als Fixativ, 3kg : 2kg.
+Nicht bei Sonne oder Regen applizieren.
+
+Untergrund: kalk- oder zementgebundene Baustoffe
+
+Die Karbonatisierung des Untergrudes muss weitgehend abgeschlossen
+sein, bei neuen mineralischen Untergründen mindestens vier Wochen,
+wegen Ausblühen von Kalziumsalzen.
+
+Wetterfest  
+Farbbeständig  
+Verschmutzungsfrei  
+Sehr wasserdampfdurchlässig  
+Schimmelwidrigkeit  
+Chemische Verbindung mit dem Untergrund (Verkieselung)  
+Heikel (z.B. Fleckenbildung)  
+
+\minisec{Wasserglas}
+
+Amorphe, wasserlösliche Natrium-, Kalium- und Lithiumsilicate oder ihre wässrigen Lösungen bezeichnet. Je
+nachdem, ob überwiegend Natrium-, Kalium- oder Lithiumsilicate enthalten sind, spricht man von
+Natronwasserglas, Kaliwasserglas oder Lithiumwasserglas.
+Die von der Zusammensetzung der Gemenge abhängige, allgemeine Formel M2O · n
+SiO2 von technisch wichtigen Wassergläsern liegt etwa im Bereich zwischen n gleich
+1 bis 4.[6] In der Regel werden für ein Wasserglas das Mol-
+oder Massenverhältnis von SiO2 zu Na2O bzw. SiO2 zu K2O angegeben. Natronwasserglas
+(siehe auch Natriumsilicate) mit dem Molverhältnis 3,4 bis 3,5 bildet den mengenmäßig
+wichtigsten Anteil.
+Zur Anwendung kommt meist flüssiges Wasserglas (flüssiges Kalium-/Natriumsilicat, Liquid Glass, LIQVOR SILICIVM).
+Natronwasserglas ist nicht für einen dauerhaften Feuchtigkeitsschutz geeignet, weil es sich im
+Gegensatz zu Kaliwasserglas nach längerer Zeit allmählich auflöst.
+Bindemittel.
+
+Das abgekühlte Glas wird zu einem Pulver gemahlen. Daraus wird durch Lösen
+in Wasser bei hohen Temperaturen (z. B. 150 °C bei 5 bar
+Druck) flüssiges Wasserglas (Flüssigglas) als klare, kolloide alkalische Lösung oder auch als
+alkalisches Gel (gallertartige bis feste Masse) gewonnen.
+
+\minisec{Kreislauf des Kaliwasserglases}
+Kaliwasserglas wird aus Quarzsand und Pottasche gewonnen.
+Dabei wird der unlösliche Quarz in eine wasserlösliche Verbindung
+umgewandelt. Nach dem Erhärten entsteht wieder eine unlösliche Quarzschicht.
+
+Quarzsand \ce{SiO2} und Pottasche \ce{K2CO3} werden zu einem
+neuen Stoff zusammengeschmolzen. Es entsteht ein durchsichtiges
+wasserlösliches Glas, das Kaliwasserglas (fest).
+Dieses Glas wird anschliessend mit Wasserdampf aufgelöst.
+Es entsteht eine farblose, zähe und durchsichtige Bindemittellösung (flüssiges Kaliwasserglas).
+
+## Organosilikatfarbe
+
+Dispersionssilikatfarbe.
+
+Zusatz von Kunststoffdispersionsbinder (5%)
+
+Mineralische Untergründe.
+
+Besser verarbeitbar als 2K-Silikatfarbe, strichfertig.
+
+## Kieselsol-Silikatfarbe (Solsilikat)
+
+Kieselsol, Kaliumsilikat und weniger als 5% Kunststoffdispersion.
+
+Stabilisierte Kombination aus Kieselsol (Siliciumdioxid)
+und Wasserglax (Kaliumsilikat).
+
+Gute Haftung auf (alten) Dispersionanstrichen.
+Mineralischer und organischer Untergrund.
+Verkieselungsfähig, remineralisierend.
+
+# Kasein
+
+Casein oder Kasein (lat. caseus ‚Käse‘) ist der
+Name für den Proteinanteil der Milch, der zu Käse
+weiterverarbeitet wird und nicht in die Molke gelangt.
+
+Milch: 0,25% Albumin, 2 – 4% Kasein.
+Abrahmen.
+Stehenlassen oder durch Säure gerinnen lassen.
+Verdünnte Säure zugeben.
+Die Schotte lässt man abtropfen, zurück bleibt der Quark.
+Trocknen, pulverisieren.
+
+Das getrocknete Kaseinpulver ist im Waser unlöslich.
+Deshalb wird es für Anstrichzwecke mit laugenhaften Stoffen
+(z.B. Kalk) aufgeschlossen.
+
+Kasein ist ein natürliches, organisches Bindemittel.
+
+Durch seinen natürlichen Ursprung dient es als Nährboden
+für Bakterien und Pilze. Um einen solchen Befall
+zu verhindern, fügt man Kaseinfarben häufig ein
+Konservierungsmittel (z. B. Borax) hinzu. Borax vermindert
+aber die Feuchtebeständigkeit, da es als Alkaligeber wirkt
+und daher, anders als zum Beispiel Ammoniak (eine flüchtige
+Substanz), ständig im getrockneten Film zugegen ist. Einen
+guten Schutz gegen Pilz- und Bakterienbefall bietet auch
+der Einsatz von Sumpfkalk. Sumpfkalk als Aufschlussmittel
+vernetzt das Kasein besser als Borax und setzt die
+Wasserfestigkeit nicht herunter. Daher ist Kalkkasein das
+Mittel der Wahl in der Wandmalerei. Geringe Beigaben von
+Leinöl oder Leinölfirnis verbessern die Haltbarkeit und
+Wasserfestigkeit weiter.
+
+Ölkasein: Emulsion, 1/4 Teil Leinöl.
+
+Je nach eingesetztem Aufschlussmittel kann eine Kaseinfarbe
+wasserfest sein und somit im Außenbereich Verwendung
+finden. Für den Einsatz als Kaseinfarbe wird meistens
+säureausgefälltes Kasein eingesetzt. Um Wasserfestigkeit
+zu erreichen, sollte aber Kalkkasein oder Ammoniumkasein
+zum Einsatz kommen. Die wasserfesten Farben besitzen
+jedoch keine Alkalibeständigkeit. Generell sollte bei der
+Herstellung auch auf alkalibeständige Pigmente Wert gelegt
+werden, da Kaseinleime im alkalischen Milieu liegen. Dann
+sind aber der Pigmentpalette Grenzen gesetzt.
+
+Ihre Hochblüte fand die Technik in der Tafelmalerei auf
+Holz, da sie weniger Ansprüche an die Grundierung setzt als
+etwa Ölfarben sowie der Wandmalerei, wo sie in Farbwirkung
+nur vom Fresko übertroffen wird, aber auch auf altem Putz
+angebracht werden kann.
+
+Plaka ist der Markenname der Firma Pelikan für Kaseinfarbe.
+Plakafarbe wird im künstlerischen und dekorativen Bereich,
+insbesondere in Kindergärten und Schulen, verwendet. Die
+Farbe hat eine gute Farbbrillanz und Deckfähigkeit, sie ist
+aber nicht unbedingt witterungs- oder nässebeständig.
+
+# Kalkkasein
+
+Durch das Vermischen von Kasein mit Kalk ensteht ein neues Bindemittel bzw. Anstrichstoff.
+
+1 Teil Kaseinleim, 5 Teil Weisskalk.
+
+# Kunstharzfarbe
+
+Kunstharzfarben und -lacke sind moderne Anstriche (Wandfarben oder Lacke) die als Bindemittel
+ein aus Mineralöl synthetisiertes Harz – ein sogenanntes Kunstharz – verwenden.
+Moderne Kunstharzfarben sind eigentlich gewöhnliche Dispersionsfarben, die lediglich auf spezielle Eigenschaften hin
+eingestellt wurden.
+
+Zur Gruppe der Kunstharzfarben gehören:
+
+- Acrylfarbe
+- Alkydharzlack
+- moderne Latexfarbe: d. i. eine Sonderform der Dispersionsfarbe, die keinerlei Latex mehr enthält
+- Dispersionsfarbe
+- Nitrozelluloselacke
+
+# Asphaltlack (Bitumenlack)
+
+Dunkel, schwarz.
+Gefahr des Durchblutens.
+Bitumen, Teer in Testbenzin gelöst.
+Teilweise kombiniert mit Ölen, Alkyd- und Epoxidharzen.
+Sehr gute Wasser- und Chemikalienbeständigkeit.
+Korrosionsschutz-Deckenanstriche oder für Isolierzwecke
+im Bautenschutz, Schiffsbau, Kraftwerken, Kläranlagen.
+Gussstiefel.
+
+Bituminöse Stoffe sind Bitumen, Teer und Pech.
+Bitumen wird durch Aufbereitung von Erdöl gewonnen.
+Teer wird durch Destillation von Kohle erzeugt.
+Peche sind Rückstände bei der Teerdestillation.
+Lösen dieser Stoffe in Testbenzin oder anderen Lösemittel.
+
+# Mattfarbe
+
+Mattfarbe isoliert nicht mehr, wenn sie mit
+wasserverdünnbaren Farben überarbeitet wurde.
+
+Decken- und Wandmattfarbe für innen:
+Grundierungen sind nur auf Metallen nötig.
+Gut deckende, wenig gilbende und fleckenisolierende Anstriche
+mit guter Haftung.
+Die Anstriche trocknen spannungsarm auf und neigen daher kaum zum Abblättern.
+Bindemittel: Thixotropierte Kunstharze und/ oder Öle (Ölmattfarbe).
+Der Anstrich auf alte, nicht entfernte Leimfarbe ist nicht fachgerecht
+und führt später zu aufwendigen Renovationsarbeiten.
+
+# Lack
+
+Harz wird zerkleinert, geschmolzen, in Öl gelöst, mit Terpentinöl
+oder Lackbenzin verdünnt. -> Öllack
+
+Öllack wird gereinigt (Zentrifuge), reifen. -> Lack
+
+Wasserverdünnbare Lackfarben = Dispersionslacke, wasserverdünnbare Kunstharzfarben.
+
+# Polyesterlack
+
+Polymerisationsharz
+
+Lösungsmittel: Styrol.
+
+2K-Lack. Härter: Peroxid.
+
+Klarlack auf Holz.
+
+Glasharte Oberflächen.
+Grosse Schichtdicke in nur einem Arbeitsgang.
+Topfzeit 20 – 30 min.
+
+Polyesterspachtel für Holz, Metall, Beton.
+
+# DD-Lack, PUR-Lack, Polyurethanlack
+
+Desmophen: Stammlack.
+Desmodur: Härter.
+
+Hervorragende Härte
+wasser-, chemikalien-, lösungsmittelbeständig
+Gutte Fülle (Schichtdicke)
+gute Haftfestigkeit (Untergrund muss trocken sein)
+
+Trocknung durch chemische Reaktion
+
+Grundbeschichtung: 2K-EP-Grundfarbe.
+Zwischenbeschichtung und Schlussbeschichtung: 2K-PU-Lack.
+
+# Nitrozelluloselack
+
+Bindemittel: Zellulosenitrat
+
+Nitrolacke wurden dann in der Automobilindustrie bis in die 1950er Jahre verwendet.
+
+Zum Verdünnen, Lösen oder Pinselreinigen verwendet man
+die sogenannte Nitroverdünnung oder -lösung. Sie besteht
+in der Regel aus Estern und anderen Kohlenwasserstoffen.
+Alternativ kann auch Universalverdünnung verwendet werden.
+
+Nitrolacke weisen eine gute mechanische Belastbarkeit
+auf und werden deswegen in erster Linie zur Veredelung
+von Hölzern im Innenbereich, insbesondere von Möbeln
+oder Musikinstrumenten sowie für Metalle im Innenbereich
+verwendet.
+
+Sie lassen sich leicht verarbeiten und trocknen durch
+den hohen Lösungsmittelanteil schnell. Aus dem gleichen
+Grund sind sie jedoch auch schlecht mit Nitrolacken
+überstreichbar, denn das Lösungsmittel in der frischen
+Schicht löst die darunterliegende, alte Schicht wieder auf.
+Deshalb werden sie nur gespritzt.
+Neben der schlechten Wiederüberstreichbarkeit
+mit Nitrolacken gelten diese als vergleichsweise
+witterungsempfindlich (also eher für den Innenbereich
+geeignet), wenig lichtecht und wenig beständig gegen
+Chemikalien, Wasser und Wärme.
+Sie sind preiswert und leicht zu verarbeiten. 
+
+Neben Cellulosenitrat enthalten Nitrolacke üblicherweise
+noch andere synthetische Harze, Pigmente oder Farbstoffe
+(außer bei Klarlacken), Verdünnungs- und Lösungsmittel
+sowie Weichmacher, Mattierungs-, Schleif- und
+Lichtschutzmittel. Weitere: Xylol und Toluol.
+
+Zellulosenitrat = Nitrozellulose:
+Veresterung mit Salpetersäure (= Nitrierung) der Zellulose
+Cellulosenitrat (auch Zellulosenitrat) ist eine weiße,
+faserige, geruch- und geschmackslose Masse. Sie wird
+umgangssprachlich auch als Schießbaumwolle oder
+Nitrocellulose (oder Nitrozellulose) bezeichnet. Letztere
+Bezeichnung ist gemäß der IUPAC-Nomenklatur problematisch,
+denn es handelt sich nicht um eine RC–NO2-Bindung, wie
+es das Präfix „Nitro-“ verlangt, sondern um einen
+Salpetersäureester der Cellulose.
+
+Trocknen schnell, wird in der Regel gespritzt.
+Die Lösemittel sind brand- und explosionsgefährlich.
+Licht- und wasserbeständig.
+Auf Holz, Metall.
+Wird selten verwendet.
+
+Alkohollöslich: schlecht Qualität, Absperrmittel.
+
+Esterlöslich: hochwertige Nitrolacke und Nitrolackfarben
+Estern der Phthalsäure und Phosphorsäure; Rizinusöl.
+
+Gelöstes Zellulosenitrat, Harze, Weichmacher.
+Die Harze erhöhen den Festkörpergehalt und den Glanz (Naturharze, Alkydharze, Acrylharze).
+Festkörpergehalt 25% bis 45%.
+
+Nitrozelluloselackfarben enthalten zusätzlich geeignete Pigmente.
+
+Nicht alle Nitrozelluloselacke sind wetterbeständig (vor allem bei Holz).
+
+Nitrokombinationslack: 1 Teil Nitrozellulose, 2 Teile Alkydharz.
+
+# Leimfarbe
+
+Bindemittel: Methylcellulose (Leim)
+
+Das Überstreichen mit Mattfarbe (oder Dispersion) führt zu
+Abplatzungen (wegen Oberflächenspannung) und aufwändigen Renovationsarbeiten.
+
+Innen auf Decken (in Nasszellen). Reversibel, naturnah, offenporig.
+Auf Gips, Verputz, Beton, Holzfaserplatten, Rauhfaserpapier.
+
+Atmungsfähig, feuchtigkeitsausgleichend.
+Wischfest, aber nicht wasserfest.
+Durch Abwaschen mit warmem Wasser vollständig entfernbar.
+
+Bindemittel: Meist Celluloseleim, in Blanc-fix (Bariumsulfat) Gelatine.
+
+Fast ausschliesslich mit Kreide pigmentiert.
+
+# Chlorkautschukfarbe
+
+selten
+
+Chlorieren von Naturkautschuk (Chlorgehalt ca. 60%).
+Lösungsmittel, Weichmacher, Harze.
+
+Schlecht überstreichbar.
+Nur mit Spezialverdünnungsmittel verdünnbar.
+Wasser-, und wetterbeständig.
+Wenig beständig gegen Öle, Lösungsmittel und Treibstoffe.
+Zieht schnell an.
+
+Porenfrei.
+
+Raschtrocknendes, beim Applizieren Fäden ziehendes Material.
+Fussbodenanstriche, Bassinanstriche, Korrosionsschutzanstriche (Dickschichtanstriche).
+
+Auf mineralische Untergründe wird der erste Anstrich mit verdünntem
+Material als Grundierung ausgeführt. Metalle müssen mit lösungsmittelbeständigen
+Grundierungen vorgestrichen werden.
+
+Weniger beständig gegen Öle, Lösungsmittel und Treibstoffe.
+
+Bindemittel:
+Meist aus synthetischem Polyisopren in Kombination mit Weichmachern
+und Kunstharzen. Auch Cyclokautschuk wird als Bindemittel verwendet.
+
+Chlorkautschukanstriche trocknen physikalisch und lösen
+drunterliegende Schichten leicht an.
+
+# Cyclokautschuk
+
+Chemisch veränderter Naturkautschuk.
+Mit Testbenzin verdünnbar.
+Weichmacher, Öle und Harze.
+
+# Phenolharz
+
+Modifizierte Phonolharze, früher oft Kunstkopale gennant, werden zur
+Herstellung von Öllacken, Einbrennlacken und Zweikomponentenlacken (säurehärtende
+Lacke) verwendet.
+Herstellung durch Polykondensation aus Phenol und Formaldehyd.
+
+# Harnstoff- und Melaminharz
+
+Zur Herstellung von Einbrennlacken und säurehätbaren Lacken verwendet.
+
+Bei den säurehärtbaren Lacken handelt es sich um Zweikomponentenlacke mit
+einer Säure als Härter (z.B. Salzsäure). Vor der Verarbeitung werden ca.
+10% Säure dem Lack beigemischt.
+
+Herstellung durch Polykondensation aus Harnstoffharz bzw. Melaminharz und
+Formaldehyd.
+
+Polyisocyanat -> CO2 + Amin -> Polyharnstoffharz
+
+# Nitrozelluloselack
+
+Farblos.
+Zwischen- und Fertiglackierung auf grundiertem (Hartgrund) naturbelassenem
+oder gebeiztem Holzwerk innen.
+
+Bindemittel: Nitrozellulose mit Kunstharzen kombiniert.
+
+Im Gegensatz zu Öllacken, die durch den Luftsauerstoff eine
+lange Trockenzeit benötigten, wurden Nitrocelluloselacke
+schnell fest. Ab 1930 wurden Nitrocelluloselacke mit
+Alkydharzen gemischt. Mit diesem Lackbindemittel konnten
+nun Metall, Holz, Gewebe lackiert werden. Heutige
+Anwendungsgebiete von Nitrocellulose-Lacken sind:
+Möbellacke, Metalllacke, Folienlacke, Textil- und
+Lederlacke, Nagellacke. Im Jahr 2007 wurden in der
+Bundesrepublik 27.000 Tonnen Nitrocellulose-Lacke
+hergestellt. Daneben gewinnt Celluloseacetat an Bedeutung,
+das in Lösungen z.B. als Elektroisolierlack Verwendung
+findet.
+Gelöstest Zellulosenitrat mit Harz und Weichmacher.
+
+Nitrozellulose wird in flüchtigen Lösungsmittel gelöst.
+Weichmacher, Harze.
+
+Nitrolacke sind besonders schnell trocknende Lacke, die wegen
+ihrer leichten Wiederlöslichkeit nur im Spritzverfahren verarbeitet werden.
+75% Lösungsmittel.
+Verdünnbar mit Nitroverdünner.
+
+Hartgrund (Einlassgrund):
+Nur auf Metall wetterbeständig.
+Grundierung auf Naturholz innen.
+Regulierung der Saugfähigkeit des Holzes. Die aufstehenden Holzfasern
+werden gehärtet und damit besser schleifbar.
+Isolierung von Flecken.
+Bindemittel: Cellulosenitrat (Nitrocellulose) in Lösungsmittel gelöst.
+Trocknet rein physikalisch.
+
+Zaponlack:
+Sie dienen meist zum Oxidationsschutz (als Schutz gegen
+Anlaufen) von Metallen wie Messing, Kupfer oder Silber. Die Lacke
+sind ungeeignet für das Lackieren von Eisen oder Stahl,
+da sie keine rostschützende Wirkung besitzen. Außerdem
+dient Zaponlack als Firnis sowie zum Lackieren von anderen
+Metallen sowie von Holz, Glas und Leder.
+Spezieller farbloser (Klarlack) Nitrolack.
+
+Cellulosenitrat:
+Bindemittel für Nitrocelluloselack.
+Schlechte Qualität (Absperrmittel, Hartgrund).
+
+# Spirituslack
+
+Entstehen durch Lösen von Lacken (Schellack (Bindemittel), Kolophonium) in Spiritus.
+
+Spirituslacke sind zum Teil härter und elastischer als andere Harzlacke.
+Nicht wetterfest.
+
+Spiritus: Äthylalkohol, Ethanon \ce{C2H5OH}
+
+# PVA-Lacke
+
+Trocknen physikalisch.
+Sehr gute Haftung auf sämtlichen Untergründen.
+Wasserquellbar.
+
+Für Leichtmetallanstriche, ölfreie Holzgrundierungen und
+Spachtel.
+Zusatz für  Nitrozellulose- oder Chlorkautschuklacke.
+
+---
+
+Füllvorlack
+
+Tauchgrund: Egalisierend, haftungsvermittelnd, gutes Eindringvermögen (dünnflüssig).
+
+Aussenvorlack enthält mehr Bindemittelanteil (fetter, elastischer) als Innenvorlack.
+
+Dispersionslack: Trocknung ca. 48h.
+
+Langölig -> Hochglanz
+
+Hartgrund: Nitrocellulosegrundierung (Holz innen), auch zum Isolieren.
+
+Nitrokombilack: "kombi" = mit Alkydharz. Trocknet sehr schnell.
+
+Dickschichtlasur: höherer Festkörpergehalt, längerer Schutz, Abplatzungen.
+Lacklasur, Überzug für Imprägnierungen.
+Auf vorausgegangene Imprägnierlasuranstriche.
+Auf masshaltige Bauteile.
+Pigmente: Keine, unsichtbare UV-Absorber oder feinst mikronisierte Pigmgente,
+z.B. transparente Eisenoxide.
+
+Dünnschichtlasur (Imprägnierlasur): pigmentiert (feinst mikronisierte Pigmente), lasierend, Imprägnierung.
+Auch als Grundierung und Zwischenanstrich zur Farbgebung
+vor Anstrichen mit Lacklasuren, Überzügen und Klarlacken.
+Renovationsintervalle von 2-3 Jahren an bewitterten Bauteilen.
+
+Decken- und Wandmattfarben: Bindemittel: Alkydharz langölig.
+
+Mattfarbe kann auch bei Minustemperaturen gestrichen werden.
+
+Innendisperion hat mehr Pigmente und weniger Bindemittel als Aussendispersionsfarbe.
+
+Lasierend (farblos): Imprägnierung ist Grundierung.
+Deckend auf Holz (Lasur): Tauchgrund ist Grundierung. Holz ist meistens schon imprägniert vom Schreiner.
+
+Asphalt-, Teer-, Bitumenfarbe:
+Teerpech aus der Steinkohle- und Bitumen aus der Erdöldestillation.
+Die meisten bitumenhaltigen Anstrich sind reversibel.
+
+Haftgrundierung
+
+Rostschutzgrund
+
+# Kunstharzklarlack
+
+Farblos.
+Für Naturbehandlung von Holzwerk innen und aussen.
+Auch als farbloser Überzug auf mit Lasuren abgetöntem oder gebeiztem Holz.
+
+Bei abschliessender Lackierung: 4-5 Schichten.
+
+Bindemittel: 
+Langölige Alkydharze.
+Einkomponenten-Polyurethanharze (feuchtigkeitshärtend).
+Acrylharze.
+
+# Fassadenmattfarbe
+
+Fassadenanstriche auf kritische Untergründe meist minieralischer Art.
+Gute Hafteigenschaften und grosses Eindringvermögen. Auf eine
+spezielle Grundierung kann daher in vielen Fällen verzichtet werden.
+Das Material ist frostunempfindlich und wird daher oft für dringende
+Fassadenrenovationen im Winter eingesetzt.
+
+Bindemittel: Polymerisatharze in Lösungsmittel gelöst.
+
+# Kunstharzemail
+
+Modifizierter Alkydharz (meist PU modifiziert).
+Lösungsmittelverdünnbare Kunstharzfarbe.
+
+Aussen: Hoher Ölanteil, langölig.
+Gute Aussenkunstharze müssen vor allem auf Holz
+eine gewisse Elastizität aufweisen. Daher werden die Anstriche
+nichto so hart und abriebfest wie ausgesprochene Innenkunstharze.
+
+Innen:
+Temperaturbeständig: Heizkörberemaille.
+
+# Dispersionslack
+
+Wasserverdünnbare Kunstharzfarbe.
+
+Elastisch, wasserdampfdurchlässiger als Kunstharzemail.
+
+Bindemittel: Acryl-Polymerisatharze.
+
+Dispersionslacke trocknen zwar sehr rasch an, brauchen
+aber bis zur vollständigen Erhärtung etwa 48 Stunden.
+Hohe Luftfeuchtigkeit bei geringen Temperaturen führen
+zu schlechter Filmbildung. Die zu streichenden Flächen müssen
+absolut fettfrei sein.
+
+# Schuppenpanzerfarbe
+
+Zwischen- und Deckanstrich im Korrosionsschutzaufbau.
+Hohe kompakte Schichtdicke, wasserundurchlässig.
+Reflektiert Licht und UV-Strahlen.
+Pigmente: Eisenglimmer, Aluminiumpulver.
+
+# Aluminiumbronce
+
+Hitzebeständige Anstriche.
+Korrosionsschutz-Deckanstriche.
+Reflektiert Licht und UV-Strahlen (85%).
+Feuchtigkeitsundurchlässig.
+Pigmente: Aluminiumpulver.

@@ -1,0 +1,6 @@
+systemctl start mongod.service
+
+sudo rm -rf /tmp/mongodb-27017.sock
+sudo service mongod start
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock

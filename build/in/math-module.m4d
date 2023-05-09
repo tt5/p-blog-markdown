@@ -1,0 +1,232 @@
+# modules
+
+A vector space with an action.
+
+If $K$ is a field, then the concepts "K-vector space" (a vector space over K) and
+K-module are identical.
+
+Given any set S, there is a *free module* with basis S, which is called free
+module on S or module of formal linear combinations of the elements of S.  A
+free module is a module with a basis – that is a generating set consisting of
+linearly indedependent elements.
+
+Let $k$ be a field and $M$ a finitely generated module over the
+polynomial ring $k[x_1,...,x_n]$.
+Then exists a *free resolution* of $M$ of length at most $n$.
+
+A module is indecomposable if it is non-zero and cannot be
+written as a direct sum of two non-zero submodules.
+
+A direct sum of indecomposables is called completely
+decomposable; this is weaker than being semisimple, which is
+a direct sum of simple modules.
+
+Every simple module is indecomposable.
+
+A **exact sequence** is a sequence, either finite or infinite, of objects and
+morphisms between them s.t. the image of one morphism equals the kernel of
+the next.  Notice that in an exact sequence, the composition $f_{i+1}$ o $f_i$
+maps $A_i$ to 0 in $A_{i+2}$, so every exact sequence is a chain complex.
+Furthermore, only $f_i$-images of elements of $A_i$ are mapped to 0 by
+$f_{i+1}$, so the homology of this chain complex is trivial. More succinctly:
+Exact sequences are precisely those chain complexes which are acyclic.
+
+Given any chain complex, its homology can therefore be thought of as a measure
+of the degree to which it fails to be exact.
+
+A chain complex $(A_{\bullet },d_{\bullet })$ is a sequence of abelian groups
+or modules connected by homomorphisms (called boundary operators or
+differentials) such that the composition of any two consecutive maps is zero.
+The differentials must preserve the extra structure if it exists; for example,
+they must be linear maps or homomorphisms of R-modules.  A chain complex is
+called acyclic or an exact sequence if all its homology groups are zero.
+
+complex:
+
+$M$, group or left Module
+
+$$
+\cdots M_{i+1}\overset{d_{i+1}}{\to}
+M_i \overset{d_i}{\to}M_{i-1}\to \cdots
+$$
+
+$∀_i\, d_i ∘ d_{i+1} = 0$
+
+Let $M$ be an R-module. A **free resolution of $M$ is a complex
+
+$$
+\cdots \to  F_{i+1}
+\overset{d_{i+1}}{\to}
+F_i
+\overset{d_i}{\to}
+F_{i-1} \to \cdots \to
+F_1
+\overset{d_1}{\to}
+F_0 \to 0
+$$
+
+where $F_i$ are free modules over $R$ and where
+
+$$
+\cdots \to  F_{i+1}
+\overset{d_{i+1}}{\to}
+F_i
+\overset{d_i}{\to}
+F_{i-1} \to \cdots \to
+F_1
+\overset{d_1}{\to}
+F_0 \to M \to 0
+$$
+
+is exact.
+
+A complex is **exact at the ith place** if $\text{ker}(d_i) =
+\text{im}(d_{i+1})$. A complex is exact if it is exact at all places.
+
+A complex is called a **short exact sequence** if it is an exact complex of the form
+
+$$
+0 \to M' \overset{i}{\to} M \overset{p}{\to} M'' \to 0
+$$
+
+Note that every long exact sequence decomposes into short exact sequences.
+
+nth homology group (or module)
+
+$$
+H_n(C_{\bullet}) =
+\frac{\text{ker}d_n}{\text{im}d_{n+1}}
+$$
+
+The annihilator of a set is a concept generalizing torsion and orthogonality.
+
+Let R be a ring, and let M be a left R-module. Choose a nonempty subset S of M.
+
+$\mathrm{Ann}_R(S)=\{r\in R\mid \forall s\in S, rs=0 \}$
+
+Subsets of right modules may be used as well, after the modification of "sr =
+0" in the definition.
+
+If $M$ is an R-module and AnnR(M) = 0, then $M$ is called a faithful module.
+
+A **group ring** is a free module and at the same time a ring.
+
+# R-Module
+
+A linear map (linear transformation)
+is a homomorphism of modules.
+
+A linear map (also called a linear mapping, linear transformation or, in some
+contexts, linear function) is a mapping V → W between two modules (including
+vector spaces) that preserves the operations of
+addition and scalar multiplication.
+
+An important special case is when V = W, in which case the map is called a
+linear operator, or an endomorphism of V. Sometimes the term linear function
+has the same meaning as linear map, while in analytic geometry it does not.
+
+Let $V$ and $W$ be vector spaces over the same field $K$. A function $f : V → W$ is
+said to be a linear map if for any two vectors x and y in V and any scalar α in
+K, the following two conditions are satisfied:
+$f(\mathbf {x} +\mathbf {y})=f(\mathbf {x} )+f(\mathbf {y} )$ additivity
+$f(\alpha \mathbf {x} )=\alpha f(\mathbf {x} )$ homogeneity of
+degree 1
+
+A linear map from $V$ to $K$ (with $K$ viewed as a vector space over itself) is
+called a linear functional.
+
+In abstract algebra, the concept of a module over a ring is
+a generalization of the notion of vector space over a field, wherein
+the corresponding scalars are the elements of an arbitrary given ring (with identity).
+
+$R$ is a ring and $1_R$ is it's multiplikativ identity.
+$M$ abelian group.
+Ring representation $\alpha : R \to End(M)$.
+Write $rx$ instead of $\alpha(r)(x)$, for $r\in R$ and $x\in M$
+
+A **left R-module** consists of an abelian group $(M,+)$
+and a map $R\times M\rightarrow M$, denoted by $(r,x) \mapsto rx$, such that for
+all $r,s\in R$ and $x,y\in M$,  
+$r(x+y)=rx+ry$,
+$(r+s)x=rx+sx$,
+$(rs)x=r(sx)$,
+$1_Rx=x$.
+
+right R-module:  
+$(x+y)r=xr+yr$,
+$x(r+s)x=xr+xs$,
+$x(rs)=(xr)s$,
+$x 1_R=x$.
+
+If $R$ is commutative, then left R-modules are the
+same as right R-modules and are simply called
+R-modules.
+
+For any subset $S$ of an R-module M , the submodule
+generated by S, denoted by RS, is the smallest submodule of M containing S.
+A subset S ⊆ M is linearly independent if, whenever
+$x_1 , . . . , x_n$ belong to S and $r_1 x_1 + · · · + r_n x_n = 0$ for some $r_1 , . . . , r_n ∈ R$,
+then $r_1 = · · · = r_n = 0$. An R-module M is free if it is contains a basis, that
+is, a linearly independent subset B such that RB = M .
+
+If $M$ is a left R-module, then the action of an element $r$ in $R$ is defined to be
+the map M → M that sends each $x$ to $rx$ (or $xr$ in the case of a right module),
+and is necessarily a group endomorphism of the abelian group (M,+). The set of
+all group endomorphisms of M is denoted EndZ(M) and forms a ring under addition
+and composition, and sending a ring element r of R to its action actually
+defines a ring homomorphism from $R$ to EndZ(M).
+
+Such a ring homomorphism R → EndZ(M) is called a representation of
+R over the abelian group M; an alternative and equivalent way of
+defining left R-modules is to say that a left R-module is an
+abelian group M together with a representation of R over it.
+
+A representation is called faithful if and only if the map R → EndZ(M) is
+injective. In terms of modules, this means that if r is an element of R such
+that rx = 0 for all x in M, then r = 0. Every abelian group is a faithful
+module over the integers or over some modular arithmetic Z/nZ.
+
+# Cohen-Macaulay module
+
+A module $M$ over a ring R is a Cohen-Macaulay module
+if its depth is defined and equals its Krull dimension. A
+ring is said to be Cohen-Macaulay (or just C-M) if it is a
+Cohen-Macaulay module viewed as a module over itself.
+
+Our goal is to understand the possible Betti diagrams
+that can occur for Cohen-Macaulay modules.
+is objective seems however as of
+yet out of reach. The central idea of Boij-Söderberg theory is rather to describe
+Betti diagrams up to a multiple by a rational number. I.e. we do not determine if
+a diagram β is a Betti diagram of a module, but we will determine if qβ is a Betti
+diagram for some positive rational number q.
+
+If the module M has codimension c, equivalently its Krull dimension is $n − c$, the
+depth of $M$ is ≤ $n − c$. By the Auslander-Buchsbaum theorem, the length of the
+resolution is $l ≥ c$. To make things simple we assume that $l$ has its smallest possible
+value $l = c$ or equivalently that $M$ has depth equal to the dimension $n − c$. This
+gives the class of Cohen-Macaulay (CM) modules.
+
+# ---
+
+$M, N$, abelian groups
+
+If $N \sube M$ is a submodule, then the quotient abelian group $M/N$ is
+an $R$-module, with action defined by $r(x + N) = rx + N$, for all $r \in R$
+and $x \in M$.
+
+Every abelian group is $\mathbb{Z}$-module and conversely. The action is given
+by letting $nx$ be the $n$-fold sum $x + \dots + x$, for $n \geq 0$ and the
+$|n|$-fold sum for $n$ negative.
+
+Every ring $R$ is a module over itself, with action given by multiplication in $R$.
+The $R$-submodules are its ideals.
+
+An $R$-module $M$ is **free** if it contains a **basis**, that is a linearly independent
+subset $B$ s.t. $RB = M$.
+
+An $R$-module $M$ is **graded** if it is equipped with a direct sum
+decomposition $\bigoplus_{n\geq 0} M_n$.
+
+A graded module $M = \bigoplus_{n \geq 0} M_n$ is free, of finite type if
+each homogenous component $M_n_ is a free module of finite rank.

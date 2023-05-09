@@ -1,0 +1,56 @@
+
+# eliptic curve
+
+An eliptic curve $E$ over $\mathbb{Q}$ has a Weierstrass equation of
+the form $$E: y^2=x^3+ax+b$$ with $a,b\in \mathbb{Z}$, such that
+its discriminant $$\delta := -16(4a^3 + 27b^2)=\not= 0$$
+
+Every eliptic curve over $\mathbb{B}$ has an integral Weierstrass model (or equation):
+$$y^2 + a_1xy + a_3y = x^3 + a_2x^2 + a_4x + a_6$$
+$a_1,a_2,a_3,a_4,a_6$ are integers.
+
+Each such equation has a discriminant $\delta$.
+
+A **minimal Weierstrass equation** is one of which $|\delta|$ is minimal
+among all Weierstrass models for the same curve.
+
+For elliptic curves over $\mathbb{Q}$, minimal models exist, and there
+is a unique **reduced minimal model** which satisfies the additional
+constraints $a_1,a_3\in{0,1}$, $a_2\in{-1,0,1}$.
+If the minimal Weierstrass equation of $E$ is of the form of the
+integral Weierstrass model, then $\delta$ is given by a polynomial
+expression in $a_1,...,a_6$. Namely,
+$$\delta=-b_2^2 b_8 -8b_4^3 -27b_6^2 +9b_2b_4b_6$$
+where
+$b_2=a_1^2 +4a_2$,  
+$b_4= 2a_4 + a_1a_3$,  
+$b_6= a_3^2 +4a_6$,  
+$b_8= a_1^2a_6 +4a_2a_6 -a_1a_3a_4 +a_2a_3^2 -a_4^2$.
+
+If the rank of an elliptic curve is 0, then the curve has only a finite number
+of rational points. On the other hand, if the rank of the curve is greater than
+0, then the curve has an infinite number of rational points.
+Although Mordell's theorem shows that the rank of an elliptic curve is always
+finite, it does not give an effective method for calculating the rank of every
+curve. The rank of certain elliptic curves can be calculated using numerical
+methods but (in the current state of knowledge) these cannot be generalised to
+handle all curves.
+
+An L-function L(E, s) can be defined for an elliptic curve E by constructing an
+Euler product from the number of points on the curve modulo each prime p. This
+L-function is analogous to the Riemann zeta function and the Dirichlet L-series
+that is defined for a binary quadratic form. It is a special case of a
+Hasse–Weil L-function.
+
+The natural definition of L(E, s) only converges for values of s in the complex
+plane with Re(s) > 3/2. Helmut Hasse conjectured that L(E, s) could be extended
+by analytic continuation to the whole complex plane. This conjecture was first
+proved by Deuring (1941) for elliptic curves with complex multiplication. It
+was subsequently shown to be true for all elliptic curves over Q, as a
+consequence of the modularity theorem.
+
+Finding rational points on a general elliptic curve is a difficult problem.
+Finding the points on an elliptic curve modulo a given prime p is conceptually
+straightforward, as there are only a finite number of possibilities to check.
+However, for large primes it is computationally intensive.
+

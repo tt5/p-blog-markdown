@@ -1,0 +1,622 @@
+
+
+# Lösungsmittel
+
+Lösungs- und Verdünnungsmittel:
+Aus dem Anstrich heraus verdunstende Flüssigkeiten.
+Sie machen ein verarbeitungsfähiges Bindemittel-Lösemittel Gemisch.
+Lösen Stoffe ohne chemische Umsetzung.
+Einstellen der Konsistenz.
+
+Nassschichtdicke.
+Trockenschichtdicke.
+
+Die meisten sind Kohlenwasserstoffe (KWS).
+
+Anorganisch, organisch.
+Wasser ist anorganisch..
+
+Brennbar, nicht brennbar.
+Ungiftig, giftig (narkotisierend).
+
+Niedrig siedend: Siedepunkt unter 100°C.
+Mittel siedend: Siedepunkt zwischen 100 und 150°C.
+Hochsiedend: Siedepunkt über 150°C.
+
+Ausser Wasser und Terpentinöl werden Lösungsmittel
+in der Petrochemie hergestellt.
+
+Solvents work on the principle of "like dissolves like" e.g.
+solvents are chemically much more similar to greases than
+water and can therefore dissolve them more effectively.
+
+With the exception of alcohol, organic solvents are produced
+from oil. The amount of oil used for solvent production is,
+however, relatively low. Only about 1 % of the world's oil
+production is used in solvent production. Many solvents are
+also recycled so that they can be used again.
+
+2-Butoxyethanol
+
+\chemfig{
+              % 1
+        -[:30]% 2
+       -[:330]% 3
+        -[:30]% 4
+       -[:330]O% 5
+        -[:30]% 6
+       -[:330]% 7
+    -[:30,,,1]OH% 8
+}
+
+As a relatively nonvolatile, inexpensive solvent of low
+toxicity, it is used in many domestic and industrial
+products because of its properties as a surfactant (Tensid).
+
+In use since the 1930s, glycol ethers are solvents that
+dissolve both water-soluble and hydrophobic substances.
+
+2-(2-Ethoxyethoxy)ethanol
+
+Hygroskopisch.
+At direct contact it causes drying of skin by leaching fats, and is mildly irritating to the eyes. It is flammable.
+
+\chemfig{
+               % 1
+         -[:30]% 2
+        -[:330]O% 3
+         -[:30]% 4
+        -[:330]% 5
+         -[:30]O% 6
+        -[:330]% 7
+         -[:30]% 8
+    -[:330,,,1]OH% 9
+}
+
+niedrig siedend: unter 100°C
+
+Wasser, Terpentinöl.
+
+Erdöldestilat: Testbenzin
+
+Steinkohleteer-Destilat: Toluol, Xylol, Kunstharzverdünner (Gemisch)
+
+Synthese von Kohlenstoff und Kohlenstoffverbindungen:
+Alkohole, Ester, Chlorwasserstoffe (Mischung).
+Für Spirituslack, Nitrolack, Polyurethanlack.
+
+Wasser.
+Für Leim, Kaseinleim, Wasserglas.
+
+Terpene.
+Für pflanzliche Öle, Wachse.
+
+Alkohol.
+Wasserlöslich.
+Für Schelllack.
+
+Aliphate:
+Aromatenanteil < 25%.
+Streichverdünner,
+für Alkydharzprodukte.
+Benzin, Petrol.
+
+Aromaten.
+für Kunstharz.
+Toluol (Kunstharzspritzverdünner), Xylol (Kunstharzstreichverdünner).
+
+Ester (Alkohol + Essigsäure) (z.B. Ethylacetat).
+Für Nitrocellulose, 2K-Lacke.
+
+Ketone (z.B. Aceton, Methylethylketon).
+Ketogruppe: (=O).
+
+Chlorkohlenwasserstoffe (unbrennbar, wasserlöslich).
+Abbeizpasten. Z.B. Methylenchlorid, Dichlormethan, Tetrachlorethen.
+
+## Dichlormethan
+
+Verboten in Abbeizmitteln.
+Es gibt keinen wirksamen Atemschutz, der vor der Inhalation
+von Dichlormethan schützen kann. Ein wirksamer Atemschutz
+kann nur durch Fremdluftmasken bereitgestellt werden, welche
+im privaten Bereich überhaupt nicht, im Gewerbe nur in
+seltenen Fällen anzutreffen sind.
+Seit Beginn des Einsatzes dichlormethanhaltiger Abbeizer
+kamen nach Angaben der Berufsgenossenschaft der
+Bauwirtschaft (BG BAU) in Europa 30 Menschen ums Leben. Dies
+rührt vor allem daher, dass Dichlormethan im Körper zu
+Kohlenmonoxid abgebaut wird. Bei schlechter Belüftung droht
+daher der Erstickungstod.
+Bei der Verwendung von Dichlormethan-freien Abbeizern muss
+der Arbeitsablauf angepasst werden, da diese langsamer
+wirken. Sie sind aber problematisch auf 2K-Lacken und
+teilweise auf Kunstharzlacken.[14] Bei den Alternativen
+muss auf die Art des Lackes geachtet werden, da diese nicht
+universell wirksam sind.
+
+Dichlormethan dient als Abbeizmittel für Lacke,
+Entfettungsmittel und Extraktionsmittel für Koffein sowie
+als Lösungsmittel für Harze, Fette, Kunststoffe und
+Bitumen.
+
+Folgende Kunststoffe eignen sich zum Kleben mit
+Dichlormethan: Polystyrol, Acrylglas, Polycarbonat,
+Polyethylenterephthalat und Acrylnitril-Butadien-Styrol.
+Dagegen lassen sich Polypropylen und Polyethylen nicht
+kleben, weil diese nicht löslich sind.
+
+## 1-Methoxy-2-propylacetat 
+
+Methoxypropylacetat
+
+1-Methoxy-2-propylacetat wird durch Veresterung von 1-Methoxy-2-propanol mit Essigsäure hergestellt.
+
+Es eignet sich insbesondere für
+Lacke, die Polyisocyanate enthalten. Die Verdunstungszahl
+liegt bei 33. Um Peroxidbildung zu verhindern, wird es mit
+Butylhydroxytoluol (BHT) inhibiert.
+
+## Methoxypropanol
+
+Methoxypropanol wird als Lösungsmittel für Druckfarben, Verdünnungsmittel,
+Veredelungsmittel und zur Herstellung von Lacken verwendet. Es ist ein
+Standardlösemittel bei der Produktion von wasserlöslichen Kunstharzen. 2003
+wurden in der EU ca. 190.000 Tonnen verarbeitet.
+
+Die Verbindung hat eine sehr geringe akute Toxizität, ist gut biologisch
+abbaubar und hat ein geringes Potenzial für die Bioakkumulation.
+1-Methoxy-2-propanol gilt nicht als umweltgefährdender Stoff.
+
+## Ester 
+
+Alkohol (oder Phenol) + Säure
+
+Säure + Alcohol -> Ester
+
+Esters contain carbonyl (C=O) and ether (O-C) dipoles arising from covalent bonding between
+electronegative oxygen atoms and electronically neutral carbon atoms. Because
+of the π-bonding
+arrangement of the carbonyl (C=O), this is the stronger of the two dipoles. The
+presence of these
+dipoles allows esters to act as hydrogen-bond acceptors. Thus esters can
+participate in hydrogen
+bonding with water and other protic solvents; the oxygen atoms can accept
+hydrogen bonds from
+water. As a result the water solubility of esters is greater than that of
+corresponding hydrocarbons.
+
+The presence of a carbonyl (C=O) and ether (O-C) dipole renders the "central"
+carbonyl carbon of
+an ester electron deficient; it is an electrophilic carbon atom.
+
+-oic acid -> -oate
+
+\small
+\chemname{\chemfig{R-C(-[:-30]OH)=[:30]O}}{Carboxylic\\ acid}
++
+\chemname{\chemfig{R′OH}}{Alcohol}
+->
+\chemname{\chemfig{R-C(-[:-30]OR′)=[:30]O}}{Ester}
++
+\chemname{\chemfig{H_2O}}{Water}
+\normalsize
+
+Veresterung. Umgekehrt: Verseifung.
+
+formate (methyl methanoate):
+\chemfig{(=[2]O)-[7]O-[1]}
+
+acetate (methyl ethanoate):
+\chemfig{-[1](=[2]O)-[7]O-[1]}
+
+ethyl formate (ethyl methanoate):
+\chemfig{(=[2]O)-[7]O-[1]-[7]}
+
+## Glykoletherester
+
+Butylglykolacetate
+
+## Methyl acetate
+
+Essigsäuremethylester ist der Ester aus Essigsäure und
+Methanol. Er wird auch Methylacetat oder nach der neuen
+IUPAC-Nomenklatur Methylethanoat genannt.
+Gilt nicht als VOC.
+
+\chemfig{
+           % 1
+     -[:30]% 2
+              (
+         =[:90]O% 3
+              )
+    -[:330]O% 4
+     -[:30]% 5
+}
+
+Methylacetat ist in Wasser gut löslich mit 319 g/l bei 20 °C.
+
+Flammpunkt (−13 °C)
+
+Essigsäuremethylester wird als Lösungsmittel in z. B. Farben, Lacken und Klebstoffen eingesetzt.
+
+## Ethyl Acetate
+
+In Klebstoffen ist es eines der am häufigsten eingesetzten
+Lösungsmittel. In hoher Konzentration wirkt es als
+Rauschmittel, welches von sogenannten „Schnüfflern“
+verwendet wird, um sich zu berauschen.
+
+## Ether
+
+## Glycolether
+
+### 1-Methoxy-2-propanol
+
+\chemfig{
+           % 1
+     -[:30]% 2
+              (
+     -[:90,,,1]OH% 6
+              )
+    -[:330]% 3
+     -[:30]O% 4
+    -[:330]% 5
+}
+
+(Flammpunkt 38 °C, Zündtemperatur 278 °C)
+
+Es ist ein Standardlösemittel bei der
+Produktion von wasserlöslichen Kunstharzen. 2003 wurden in
+der EU ca. 190.000 Tonnen verarbeitet.
+
+Es entsteht als Nebenprodukt in großen Mengen bei der Herstellung von Hydroxypropylmethylcellulose (HPMC).
+
+### Butylglycol
+
+Ethylenglycolmonobutylether
+
+(Flammpunkt 61 °C, Zündtemperatur 240 °C) 
+
+Die Jahresproduktion in Europa betrug 2003 etwa 161.000 Tonnen.
+
+In kommerziellen Produkten werden 0,008 – 0,012 %
+Butylhydroxytoluol zugefügt um die Bildung von Peroxiden zu
+unterdrücken.
+
+Etwa 60 % der Verbindung wird in Europa für Farben
+und Lacken verwendet, etwa 11 % wird in Wasch- und
+Reinigungsmitteln verwendet
+
+## Tetrahydrofuran (THF)
+
+\chemfig{
+           % 1
+    -[:180]% 2
+    -[:252]% 3
+    -[:324]O% 4
+     -[:36]% 5
+              (
+        -[:108]% -> 1
+              )
+}
+
+## Diethyl ether
+
+Ether
+
+\chemfig{
+           % 1
+     -[:30]% 2
+    -[:330]O% 3
+     -[:30]% 4
+    -[:330]% 5
+}
+
+Diethylether wird auch als Rauschmittel konsumiert. Von
+Mitte bis Ende des 19. Jahrhunderts war Diethylether in
+Irland auf Grund hoher Alkoholpreise das am häufigsten
+verwendete Rauschmittel und wurde in Läden verkauft. Dabei
+wurde der Ether zusammen mit Wasser getrunken. Der Gebrauch
+von Diethylether sank ab 1890, als er als Gift eingestuft
+wurde und nur noch zum Verkauf an Chemiker oder Apotheker
+zugelassen wurde. Außer in Irland war das Ethertrinken
+auch in Schottland, Russland und Norwegen verbreitet. In
+Frankreich wurde Ether mit Cognac, in Michigan (USA) mit
+Whiskey getrunken.
+
+## Ketones
+
+## Acetone
+
+\chemfig{
+          % 1
+    -[:90]% 2
+             (
+       =[:150]O% 3
+             )
+    -[:30]% 4
+}
+
+Hauptsächlich dient es zur Herstellung von
+Polymethylmethacrylat (PMMA), umgangssprachlich als
+Acrylglas oder Plexiglas bezeichnet. Dazu wird das
+Aceton zunächst durch Addition von Blausäure in das
+Acetoncyanhydrin überführt, das im sauren Milieu leicht
+Wasser abspaltet (Mesomeriestabilisierung der Doppelbindung
+aufgrund der Konjugation zur Dreifachbindung der
+Nitrilgruppe). Das dabei entstehende 2-Methylpropennitril
+wird durch Zugabe eines Gemisches aus konzentrierter
+Schwefelsäure und Methanol zu Methylmethacrylat umgesetzt,
+das in einem weiteren Schritt zum Acrylglas polymerisiert
+wird.
+
+Ferner wird Aceton in Kleinmengen als nützliches
+Lösungsmittel für Harze, Fette und Öle, Kolophonium,
+Celluloseacetat sowie als Nagellackentferner und
+Plastikkleber eingesetzt. Des Weiteren wird es zum Entfernen
+von durch Bauschaum entstandenen Verunreinigungen zum
+Beispiel der Reinigung von PU-Schaum-Pistolen eingesetzt. Es
+löst ein Vielfaches seines Volumens an Ethin (Acetylen).
+
+Auf der Haut verursacht Aceton Trockenheit, da es die Haut entfettet.
+
+## Butanone
+
+\chemfig{
+           % 1
+    -[:330]% 2
+     -[:30]% 3
+              (
+        =[:330]O% 4
+              )
+     -[:90]% 5
+}
+
+Methyl Ethyl Ketone (MEK)
+
+2001 wurden global 950.000 Tonnen Butanon verwendet.
+
+## Cycloparaffin
+
+Methylcyclohexan kommt im Erdöl vor. Hergestellt werden
+kann es über Dehydrocyclisierung von n-Heptan. Auf diese
+Weise hergestelltes Methylcyclohexan wird meist weiter zu
+Toluol dehydriert.
+
+## Aliphatische Kohlenwasserstoffe
+
+## Terpentinersatz
+
+White Spirit (UK).
+Terpentinersatz, Terpentinölersatz
+Sangajol
+
+Der Schmelzpunkt liegt bei Minus 15 Grad, der Siedepunkt bei
+153 bis 193 Grad. Dichte 0,788. Flammpunkt höher als 40
+Grad, Zündpunkt ca 235 Grad.
+
+## Testbenzin
+
+Mineral Spirit (US)
+
+"Test" heisst in diesem Falle, dass sein Flammpunkt getestet=geprüft ist
+Flammpunkt 21 Grad. 
+
+Ähnlich wie Terpentinersatz, aber leichter flüchtig, d.h. es verdunstet schneller.
+
+Testbenzine sind raffinierte Benzine aus der Gruppe der
+Schwerbenzine[6], bei denen der Siedepunkt zwischen 130
+und 220 °C liegt und der nach Abel-Pensky (DIN 51755)
+ermittelte Flammpunkt über  21 °C. Die Testbenzine
+werden nach den DIN-Normen 51632-1 und 51632-2[8] –
+abhängig vom Siedebereich – in fünf Gruppen und
+zusätzlich in Normalware und Entaromatisierte Ware[9]
+unterteilt. Testbenzine enthalten flüchtige Organische
+Verbindungen (VOC) mit mittlerer Flüchtigkeit. Der Name
+Testbenzin bezieht sich darauf, dass das Benzin für einen
+bestimmten Bereich (Flammpunkt, Siedebereich) getestet ist.
+
+## Brennspiritus
+
+umgangssprachlich Spiritus, Weingeist, Alkohol,
+vom Chemiker als Ethylalkohol bezeichnet,
+
+Brennspiritus ist mit Methylethylketon, Petrolether,
+Cyclohexan, Phthalsäurediethylester (Diethylphtalat) oder
+ähnlichem versetzter Alkohol, um ihn aus steuerlichen
+Gründen für den menschlichen Genuss unbrauchbar zu machen.
+Die Herstellung erfolgt chemisch aus Steinkohle oder Erdöl,
+sehr oft auch durch Destillation vergorener zuckerhaltiger
+Früchte oder stärkehaltiger Abfälle der Holzindustrie.
+Siedepunkt ca.78 Grad Celsius, Flammpunkt bei 11 Grad.
+Enthält Luft 3 - 12 % Alkohol besteht Explosionsgefahr!
+
+B. ist ein sehr gutes Lösungsmittel für Harze und das einzige Lösungsmittel für Schellack 
+
+Beim Feinschliff von Holz kann mit einem Lappen B. dünn
+aufgetragen werden, wodurch sich die Fasern gut aufstellen,
+ohne dass das Holz zuviel Wasser aufnimmt und quillt.
+B. dient auch zum Anrühren sog. Spiritusbeizen, deren
+Hauptvorteil die kurze Trockenzeit ist und die Vermeidung
+des Aufquellens der Hölzer.
+
+## Aromatische Kohlenwasserstoffe
+
+BTEX oder BTXE ist eine Abkürzung für die aromatischen Kohlenwasserstoffe Benzol, Toluol, Ethylbenzol und die Xylole.
+Die Giftwirkung besteht in Leberschäden und chronischen Nervenschäden. Benzol ist zusätzlich krebserregend.
+
+Die Alkylbenzole sind Abkömmlinge des Benzols, bei dem
+ein oder mehrere Wasserstoffatome nur durch Alkylgruppen
+unterschiedlicher Größe ausgetauscht werden. Sie sind
+eine Untergruppe der aromatischen Kohlenwasserstoffe.
+Der einfachste Vertreter ist das Toluol, bei dem ein
+Wasserstoffatom des Benzols durch eine Methylgruppe ersetzt
+wurde.
+
+## Toluene
+
+Toluol
+
+\chemfig{
+            % 1
+           -% 2
+    =^[:300]% 3
+           -% 4
+     =^[:60]% 5
+     -[:120]% 6
+    =^[:180]% 7
+               (
+         -[:240]% -> 2
+               )
+}
+
+Häufig ersetzt es als Lösungsmittel das giftige Benzol.
+Es ist unter anderem auch im Benzin enthalten.
+
+Toluol kommt im Erdöl und in dem Leichtöl, das bei der
+Steinkohleteerdestillation anfällt, in kleineren Mengen
+vor.
+
+ Flammpunkt bei 6 °C. Der Explosionsbereich liegt zwischen
+1,1 Vol.‑% (42 g/m3) als untere Explosionsgrenze (UEG) und
+7,8 Vol.‑% (300 g/m3) als obere Explosionsgrenze (OEG).
+
+## Xylene
+
+\chemfig{
+            % 1
+     -[:330]% 2
+     =_[:30]% 3
+     -[:330]% 4
+    =_[:270]% 5
+     -[:210]% 6
+    =_[:150]% 7
+               (
+          -[:90]% -> 2
+               )
+     -[:210]% 8
+}
+
+Rohstoffquellen für die Gewinnung der Xylole sind Kohle
+(aus Steinkohlenteer) und Erdöl (durch Cracken), wobei
+Isomerengemische anfallen.
+Xylene exists in three isomeric forms. 
+
+Da der Flammpunkt von Xylol oberhalb von 21 °C liegt, ist
+es in der Praxis neben Butylacetat eines der wichtigsten
+Lösungsmittel für Lacke.
+
+## Ethylbenzol
+
+Es ist wichtiger Ausgangsstoff für die Synthese des Styrols. 
+
+## Paraffin
+
+bezeichnet ein Gemisch aus acyclischen Alkanen (gesättigten
+Kohlenwasserstoffen) mit der allgemeinen Summenformel
+\ce{CnH_{2n+2}}. Die Zahl n liegt zwischen 18 und 32, die molare
+Masse damit zwischen 275 und 600 Gramm pro Mol. Hartparaffin
+schmilzt zwischen 50 und 60 °C, Weichparaffin bei etwa 45
+°C.
+
+Hauptabnehmer von Paraffin ist weltweit die Kerzenindustrie
+(Teelichte, Haushaltskerzen, Dekorationskerzen). Es ist
+preiswerter als das Stearin, das aus tierischen oder
+pflanzlichen Produkten gewonnen wird.
+
+## Verdunstungszahl
+
+Länger als Ethylenether (Äther) = 1.
+
+
+Leichtflüchtig: < 10
+Mittelflüchtig: 10 – 35
+Schwerflüchtig: > 35
+
+Terpentinersatz: 300
+Sangajol: 50
+Xylol: 14
+Ethanol: 9
+Toluol: 6
+
+## Terpene
+
+Die Terpene [tɛʁˈpeːnə] sind eine stark heterogene und
+sehr große Gruppe von chemischen Verbindungen, die als
+sekundäre Inhaltsstoffe in Organismen natürlich vorkommen.
+Sie leiten sich formal vom Isopren ab und zeichnen sich
+dabei durch eine große Vielfalt an Kohlenstoffgerüsten
+und geringere Anzahl an funktionellen Gruppen aus.[1]
+Es sind über 8.000 Terpene und über 30.000 der nahe
+verwandten Terpenoide bekannt. Die meisten Terpene sind
+Naturstoffe, hauptsächlich pflanzlicher und seltener
+tierischer Herkunft.
+Terpenoide sind eine Stoffgruppe an Naturstoffen oder
+verwandten Verbindungen, die sich strukturell vom Isopren
+ableiten. Von den ähnlichen Terpenen unterscheiden sie sich
+darin, dass sie funktionelle Gruppen enthalten, während es
+sich bei Terpenen um reine Kohlenwasserstoffe handelt.
+
+## Testbenzin (Terpentinersatz)
+
+Als preiswertere Alternative (Terpentinersatz) wird heute häufig Testbenzin verwendet.
+Testbenzine enthalten flüchtige Organische Verbindungen
+(VOC) mit mittlerer Flüchtigkeit. Der Name Testbenzin
+bezieht sich darauf, dass das Benzin für einen bestimmten
+Bereich (Flammpunkt, Siedebereich) getestet ist.
+
+## Universalverdünner
+
+Bestandteile sind organische Lösungsmittel wie Ketone, Ester, Alkohole und andere Kohlenwasserstoffe.
+Sie unterscheiden sich von den speziellen Nitroverdünnungen dadurch, daß sie im wesentlichen aus Testbenzin bestehen.
+
+In der Regel teurer als ein speziell für ein Anstrichmittel
+eingestellter Verdünner, da er mehr verschiedene Löser und
+Verdünner enthalten muss.
+
+## Wasser
+
+Lösemittel für:
+Leim-, Tempera-, Kasein-, Dispersions-Farben und -Lacke.
+Emulsionsfarben, Kalkfarben, Slikatfarben, Slikonemulsionsfarben.
+
+## N-Methyl-2-pyrrolidon
+
+\chemfig{
+           % 1
+    -[:336]N% 2
+     -[:30]% 3
+    -[:318]% 4
+    -[:246]% 5
+    -[:174]% 6
+              (
+        -[:102]\phantom{N}% -> 2
+              )
+    =[:228]O% 7
+}
+
+NMP wird wegen seiner thermischen Stabilität und hohen
+Polarität oft als Lösungsmittel verwendet. Es eignet sich
+als Lösungsmittel für Polymere wie Acrylate, Epoxide,
+Polyurethane, Polyvinylchlorid, Polyimide, Polyamidimid und
+für zahlreiche organische Synthesen.[12] Weitere wichtige
+Anwendungen umfassen die Lackentfernung und die Herstellung
+von Polyurethan-Schaum (PU-Schaum).
+
+# Seifen
+
+Löslich, unlöslich.
+
+Fettsäure und Base.
+
+Als Metallseifen werden Salze der Fettsäuren, sowie Salze von Harz- und
+Naphthensäuren mit Metallen unter Ausschluss der Natrium- und Kaliumsalze
+bezeichnet.
+
+Kernseife:
+Natriumsalze von Fettsäuren.
+
+Schmierseife:
+Kaliumsalze von Fettsäuren.
+

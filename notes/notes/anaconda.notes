@@ -1,0 +1,7 @@
+conda update --all
+conda env list
+
+conda create -n one
+
+conda activate one
+conda deactivate

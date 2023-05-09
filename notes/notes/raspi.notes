@@ -1,0 +1,35 @@
+# raspi
+
+rpi-update
+uname -a
+apt-get update
+apt-get upgrade
+/etc/apt/sources.list
+/etc/apt/sources.list.d/raspi.list
+apt update
+apt -y dist-upgrade
+apt full-upgrade
+sudo vcdbg log msg
+dtc -I fs /proc/device-tree
+wifi-menu
+raspi-config
+apt-get autoremove
+apt clean
+df -h
+dpkg -l
+
+framebuffer_width=
+framebuffer_height=
+
+/boot/config.txt
+/boot/cmdline.txt
+
+/etc/default/keyboard
+setupcon
+"ctrl:swapcaps"
+
+gpasswd -a username uucp
+/etc/rc.local
+/etc/default/console-setup
+tput civis
+tput cvvis

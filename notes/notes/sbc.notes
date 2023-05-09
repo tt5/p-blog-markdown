@@ -1,0 +1,45 @@
+# sway
+
+swaymsg -t get-outputs
+
+fucus left
+focus down
+layout stacked
+layout tabbed
+layout toggle split
+move
+
+splith
+splitv
+resize shrink width
+resize shrink height
+resize grow
+
+# foot
+
+sixel
+
+c-s-v
+c-s-c
+c-+
+c--
+c-s-r
+
+search binding:
+c-g c-c esc
+c-r c-s c-w
+s-ins
+
+# debian
+
+r-base
+r-base-dev
+libatlas3-base
+
+R> update.packages(.libPaths()[1])
+
+# armbian
+
+nmcli r wifi on
+nmcli def wifi
+nmcli dev wifi connnect "name" password "password"

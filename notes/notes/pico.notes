@@ -1,0 +1,31 @@
+
+# pico
+
+arm cortex-m0+ dual-core
+264 kB staticRAM (SRAM)
+2MB flash storage
+
+main.py (starts on bootup)
+
+import utime
+import gc
+
+os.listdir()
+gc.mem_free()
+
+8x programmable IO (PIO) state machines
+
+## machine
+
+Pin, ADC, UART, SPI, I2C, Timer, WDT
+
+pin = machine.Pin(25, machine.Pin.OUT, machine.Pin.PULL_DOWN)
+
+## GPIO's
+
+hardware interrupts
+16 pulse-width modulation (PWM)
+3x 12-bit analog-digital converter (ADC)
+2x UART
+2x I2C
+2x SPI

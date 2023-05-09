@@ -1,0 +1,52 @@
+# vim
+
+:mks! file.vim
+vim -S file.vim
+
+## Emmet
+
+`>` `+` `^`
+`*` `()`
+\# . []
+`$` `$$$` {}
+
+$@N
+
+## Ctags
+
+c-]
+:tag name
+c-w }
+c-w z
+g<c-]>
+
+## ---
+
+c-x c-]
+c-x c-n
+c-x c-l
+c-x c-f
+
+c-n
+c-p
+
+## ---
+
+send-to-term
+
+## sandwich
+
+sdt
+saipt
+srtt
+
+# lsp
+
+tsserver
+cssl
+rust-analyzer
+pyright
+
+# neovim
+
+neoformat

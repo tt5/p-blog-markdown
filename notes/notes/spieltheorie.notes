@@ -1,0 +1,10 @@
+
+
+# Spieltheorie
+
+Ein Nash-Gleichgewicht ist ein Strategienpaar (bzw. bei mehr als zwei Spielern
+ein Strategien-N-Tupel), bei dem es sich für keinen Spieler auszahlt, einseitig
+(alleine) von seiner Strategie abzuweichen. Strategisch aus der Sicht eines
+Spielers betrachtet bedeutet dies: “Ich tue das Beste, was ich kann, unter
+Berücksichtigung dessen, was du tust.” und “Du tust, unter Berücksichtigung
+dessen, was ich tue, das Beste, was Du tun kannst.”

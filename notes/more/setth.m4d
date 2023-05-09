@@ -1,0 +1,167 @@
+
+# Set Theory
+
+Most objects in mathematics are infinite, and set theory is just a theory of the infinite.
+
+Any finite collection of objects can be put in order just by
+labelling the objects with distinct whole numbers.
+**Ordinal number** are thus the "labels" needed to arrange infinite
+collections of objects in order.
+
+Eine Menge ist unendlich, wenn sie in eine one-to-one Beziehung
+zu einer Untermenge gebracht werden kann.
+
+**Cardinal numbers** are a generalization of the natural numbers used
+to measure the cardinality of sets.
+
+The aleph numbers (infinite cardinals of well-ordered sets) are indexed
+by ordinal numbers.
+The set of all finite ordinals, called $\omega$ or $\omega_0$,
+has cardinality $\aleph_0$.
+A set has cardinality $\aleph_0$ if and only if there is a
+bijection between it and the natural numbers.
+
+If the axiom of countable choice (a weaker version of the axiom of choice)
+holds, the $\aleph_0$ is smaller than any other infinite cardinal.
+
+The assumption that the cardinality of each infinite set is an aleph
+number is equivalent over ZF to the existence of a well-ordering of
+every set, which in turn is equivalent to the axiom of choice.
+
+The (cartesian) **product** of sets $A$ and $B$:
+$A\times B=\{(a,b)\colon a\in A \text{ and } b\in B\}$
+
+**Quotientenmenge** von $M$ nach der Äquivalenzrelation $~$ von $M$:
+Die Äquivalenzklassen einer Menge $M$ werden zu einer neuen
+Menge $Q$ zusammengefasst. Alle Äquivalenzklassen von $x\in M$ sind ein Element von $Q$.
+
+If a set $A$ is equivalent to a subset of
+the set of integers, we say $A$ is **countable**.
+
+A **partition** of a set $A$ is a collection of
+nonempty, pairwise disjoint subsets $\{A_1,...,A_n\}$
+whose union is A.
+
+Composition: $\alpha \vDash n$  
+A **composition $\alpha$ is a partition of $n$, $\alpha \vdash n$, if
+$\alpha_1 \geq \alpha_2 \geq ...$
+
+The compositions 4 are (4), (3,1), (1,3), (2,2), (2,1,1), (1,2,1), (1,1,2), (1,1,1,1)
+
+The partitions of 4 are (4), (3,1), (2,2), (2,1,1), (1,1,1,1)
+
+**Setoid**
+$(X,\sim)$, $X$ set, $\sim$ binary relation.  
+Reflexivity, $a\sim a$ $\forall a\in X$.  
+Transitivity, $a\sim b$ and $b\sim c$ then $a\sim c$ $\forall a,b,c\in X$.
+
+An **injective function** does not collapse things.
+
+Eine surjective Funktion, trifft jedes Element der Zielmenge.
+
+**bijective**, injective and surjective
+
+Wenn es eine Bijektion f von A auf eine Teilmenge von B gibt, dann heißt A höchstens gleichmächtig zu B.
+
+Wenn es eine Bijektion f von A auf eine Teilmenge von B
+gibt, aber keine Bijektion von A nach B existiert, dann heißt A
+weniger mächtig als B und B mächtiger als A.
+
+Das Cantor-Bernstein-Schröder-Theorem lautet:
+
+Sei eine Menge A gleichmächtig zu einer Teilmenge einer Menge B, und
+sei B gleichmächtig zu einer Teilmenge von A. Dann sind A und B gleichmächtig.
+
+Dabei heißen zwei Mengen gleichmächtig (they have the same
+*cardinality*), wenn es eine bijektive Abbildung zwischen
+ihnen gibt.
+
+Mächtiger (oder gleich mächtig).
+Alle Mengen sind so vergleichbar.
+
+Die natürlichen Zahlen sind die "kleinst mächtige" Menge.
+
+$\aleph_0 := |\mathbb{N}|$
+
+Die Kontinuumhypothese (CH) besagt, dass es keine Menge gibt, die mächtiger ist
+als $\mathbf{N}$, aber weniger mächtig als $\mathbf{R}$ . Wie
+Die Kontinuumhypothese besagt also, dass
+$|\mathbf{R}| = |\mathcal{P}(\mathbf{N})| = 2^{\aleph_0}$
+die zweitkleinste unendliche Kardinalzahl $\aleph_1$ ist.
+
+The **closure** of a set $S$ is the set $S$ together
+with all of its limit points.
+Also defined as the union of $S$ and its boundary.
+
+A totally ordered set that satisfies the *descending chain* condition
+is called **well-ordered** set.
+
+**directed sum**:
+A nonempty set with a preorder, with the additional property that every pair
+of elements has an upper bound.
+
+## Axiom of Choice (AC)
+
+Every infinite set has a denumerable subset. This principle, weaker than
+AC, cannot be proved without AC in the context of the remaining axioms of set theory.
+
+Every vector space has a basis. This was proved equivalent to AC.
+
+It is a remarkable fact that, assuming only the framework of intuitionistic
+logic together with certain further presuppositions (Predicative Comprehension, Extensionality of
+Functions, Two Distinct Individuals), the Axiom of Choice can be shown to
+entail the cardinal rule of classical logic, the law of excluded middle.
+
+## ZFC
+
+Extensionality  
+Null Set  
+Pair  
+Power Set  
+Union  
+Infinity  
+Separation  
+Replacement  
+Foundation  
+Choice  
+
+## Zorn's Lemma (ZL)
+
+Eine halbgeordnete Menge, in der jede Kette eine obere Schranke hat, enthält mindestens ein maximales Element.
+
+Zorn's lemma can be used to show that every connected graph has a spanning tree.
+
+Max Zorn, apparently unacquainted with previous formulations of maximal principles, publishes
+(1935) his definitive version thereof later to become celebrated as his
+lemma. ZL was first formulated in Hamburg in 1933, where Chevalley
+and Artin quickly “adopted” it. It seems to have been Artin who
+first recognized that ZL would yield AC, so that the two are
+equivalent (over the remaining axioms of set theory). 
+
+(Kripke–Platek set theory)
+
+## Poset
+
+$P$, partially ordered set.
+$p,q \in P$.
+
+If $q$ covers $p$, then we write $p \lessdot q$.
+
+$p,q$ are called **comparable** if $p\leq q$ or $q\leq p$.
+
+A **chain** (Kette) is a poset in which any two elements are comparable.
+Totalgeordnete Untermenge von partiell geordneten Mengen.
+
+A **saturated chain** of length $n-1$ in a poset is subset with order
+$q_1\lessdot ... \lessdot q_n$.
+
+We say a poset is **graded** if it has a unique minimal element $\hat{0}$ and
+every saturated chain between $\hat{0}$ and a poset element $x$ has the
+same length, called **rank** of $x$.
+**ranked poset**: all maximal chains have the same length.
+A poset is graded if it is ranked and bounded.
+
+Möbius function:  
+If $x\leq z$ in a poset $P$, then $\mu_p(x,z)= \sum (-1)^{l(C)}$,
+where the sum is over all chains $C$ from $x$ to $z$ in $P$.
+

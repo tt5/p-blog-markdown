@@ -1,0 +1,5 @@
+podman run -it --rm alpine
+podman top -l
+podman stop -l
+podman ps -a
+podman rm -l

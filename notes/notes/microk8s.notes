@@ -1,0 +1,14 @@
+sudo apt-get install snapd
+sudo snap install core
+sudo snap install microk8s --classic
+sudo systemctl status snapd
+
+sudo usermod -a -G microk8s $USER
+sudo chown -f -R $USER ~/.kube
+su - $USER
+
+microk8s kubectl get nodes
+microk8s stop
+microk8s start
+
+microk8s.kubectl config view --raw > $HOME/.kube/config

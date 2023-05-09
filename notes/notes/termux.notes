@@ -1,0 +1,22 @@
+apt-get update
+pkg upgrade
+termux-setup-storage
+termux/termux.properties
+termux-reload-settings
+
+startarch
+login user
+vncserver -localhost -geometry 1420x720
+vncserver -kill :1
+.vnc/xstartup
+termux 123456
+127.0.0.1
+5901
+
+# sxhkd
+
+m-c
+m-g
+m-(s-){h,j,k,l}
+m-(s-){0-9}
+m-(s-){z, u, i, o}

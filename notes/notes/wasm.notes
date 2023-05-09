@@ -1,0 +1,223 @@
+
+# wat
+
+```wat
+(module
+  (func (export "main") 
+        (result i32)
+    i32.const 42 
+    return))
+```
+
+i32.const x
+Pushes the 32-bit value x to the stack.
+
+return
+Exits the current function and returns the value(s) on the top of the stack.
+
+The return instruction could be omitted as the function returns the value(s) on
+the top of the stack automatically.
+
+Parameters are practically local variables with values initialized by the caller.
+
+```wat
+(module
+  (func (export "sum") 
+        (param $a i32)
+        (param $b i32)
+        (result i32)
+    local.get $a
+    local.get $b
+    i32.add
+    return))
+```
+
+local.get pushes a variable to the stack.
+
+i32.add adds the two topmost values and pushes the result to the stack.
+
+numtype:
+i32 i64 f32 f64
+
+values of number type can be stored in memories
+
+reftype:
+funcref externref
+
+values of reference type can be stored in tables
+
+valtype
+numtype reftype
+
+resulttype:
+sequence of values, written with brackets
+
+functype:
+resulttype -> resulttype
+
+limits
+
+memtype:
+limits
+
+The limits are given in units of page size
+
+tabletype:
+limits reftype
+
+The limits are given in numbers of entries
+
+globaltype:
+mut valtype
+
+mut:
+`const` | `val`
+
+externtype:
+`func` functype
+`table` tabletype
+`mem` memtype
+`global` globaltype
+
+## Instructions
+
+WebAssembly code consists of sequences of instructions.
+
+reference
+
+parametric  
+can operate on operands of any value type
+
+the drop instr simply throws away a single operand
+
+The select instr selects one of its first two operands based on whether its
+third operand is zero or not. It may include a value type determining the
+type of these operands. If missing, the operands must be of numeric type.
+
+variable
+
+table
+
+memory
+
+The static address offset is added to the dynamic address operand, yielding a
+33 bit effective address. little endian.
+
+expressions
+Funcion bodies, initialization values for globals, and offset of elements or data
+segments are given as expressions.
+
+expr: instr* `end`
+
+### numeric
+
+These operations closely match respective operations available in hardware.
+
+sx: `u` | `s`
+
+iunop: clz ctz popcnt
+ibinop: add sub mul div_sx rem_sx and or xor shl shr_sx rotl rotr
+funop: abs neg sqrt ceil florr trunc nearest
+fbinop: add sub mul div min max copysign
+itestop: eqz
+irelop: eq ne lt_sx gt_sx le_sx ge_sx
+frelop: eq ne lt gt le ge
+
+constants
+unary
+binary
+tests
+comparisons
+conversions
+
+### control
+
+blocktype:
+typeidx
+valtype$_{opt}$
+
+instr:
+`nop`
+`unreachable`
+`block` blocktype instr* `end`
+`loop` blocktype instr* `end`
+`if` blocktype instr* `else` instr* `end`
+`br` labelidx
+`br_if` labelidx
+`br_table` vec(labelidx) labelidx
+`return`
+`call` funcidx
+`call_indirect` tableidx typeidx
+
+The block, loop and if instr are structured instr.
+A structured instruction can consume input and produce output on
+the operand stack according to its annotated block type.
+
+Indexing of labes is relative by nesting depth, that is, label 0 refers
+to the innermost structured control instr enclosing the referenced from within
+the associated structured control instr.
+
+## Modules
+
+module:
+`types` vec(functype)
+`funcs` vec(func)
+`tables` vec(table)
+`mems` vec(mem)
+`globals` vec(global)
+`elems` vec(elem)
+`datas` vec(elem)
+`start` start$_{opt}$
+`imports` vec(import)
+`exports` vec(export)
+
+each of the vectors may be empty
+
+Definitions are referenced with zero-based indices.
+Each class of definition has it own index space.
+
+typeidx
+funcidx
+tableidx
+memidx
+globalidx
+elemidx
+dataidx
+localidx
+localidx
+labelidx
+
+func:
+{ type typeidx, locals vec(valtype), body expr }
+
+The index of the first local is the smallest index not referencing a parameter.
+
+functions are referenced through function indices, starting with the smallest
+index not referencing a function import.
+
+A memory is a vector of raw uninterpreted bytes.
+
+In the current version of WebAssembly, only tables of tlements type funcref can
+be initialized with an element segment.
+
+The data component of a module defines a vector of data segments
+
+datamode:
+passive
+active { memory memidx, offset expr}
+
+## wat
+
+Instruction can be written as S-expr by grouping them into folded form.
+
+( `block` label blocktype instr* )
+( `loop` label blocktype instr* )
+( `if` label blocktype foldedinstr* ( `then` instr1* ) ( `else` instr2* )$_{opt}$ )
+
+For example, the instr sequence
+
+(local.get $x) (i32.const 2) i32.add (i32.const 3) i32.mul
+
+can be folded into
+
+(i32.mul (i32.add (local.get $x) (i32.const 2)) (i32.const 3))

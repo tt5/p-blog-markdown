@@ -1,0 +1,1038 @@
+# numberth
+
+A primitive n-th roof ot $x$ is s.t. $x^k \neq 1$ for $k=1,2,...,n-1$, but $x^n = 1$.
+
+# A002326
+
+Multiplictive order of 2 mod 2n+1
+
+Least m>0 s.t. $2n+1$ divides $2^m-1$
+
+Number of riffle shuffles of $2n+2$ cards required to return a deck
+to its initial state.
+
+For all $n>0$, $a(n)$ is the degree of the largest irreducible polynomial
+factor for the polynomial $\frac{x^{2n+1}}{x+1}$ over $GF(2)$
+
+a(1)=2 because a riffle shuffle of [1234] requires 2 iterations
+[1234]→[1324]→[1234]
+
+a **riffle shuffle** replaces a list s(1), s(2), ..., s(m) by
+s(1), s((i/2)+1), s(2), s((i/2)+2), ...
+
+in-shuffle:  
+[12345678] → [5 **1** 6 **2** 7 **3** 8 **4** ]  
+out-shuffle (riffle shuffle)
+→ [ **1** 5 **2** 6 **3** 7 **4** 8]
+
+```txt
+12345678
+15263748
+13572468
+--------
+12345678
+```
+
+n=3, 2$\star$ 3+2=8, l(3)=3
+
+a(n)=l(2n+1)
+l(n)=a((n-1)/2)
+
+φ(9)=6
+a(4)=6
+l(9)=6
+
+l(35)=12
+l(17)=8
+l(5)=4
+
+a(n) is a factor of $φ(2n+1)$
+l(n) is a factor of $φ(n)$
+
+If $2n+1$ is prime, then the polynomial $\frac{x^{2n+1}+1}{x+1}$ factors
+into $frac{2n}{a(n)}$ polynomials of the same degree $a(n)$ over $GF(1)$.
+
+For example, the polynoial $\frac{x^{31}+1}{x+1}$ factors into six polynomials of
+degree 5 over $GF(2)$. Thus if $2n+1$ is prime then $2n$ will always be a multiple of $a(n)$.
+# Number theory
+
+An arithmetic function a is **completely additive** if a(mn) = a(m) + a(n) for
+all natural numbers m and n; **completely multiplicative** if a(mn) = a(m)a(n)
+for all natural numbers m and n; **additive** if a(mn) = a(m) + a(n) for all
+coprime natural numbers m and n; **multiplicative** if a(mn) = a(m)a(n) for all
+coprime natural numbers m and n.
+
+All Dirichlet characters χ(n) are completely multiplicative.
+
+Dirichlet characters are certain arithmetic functions which arise from
+completely multiplicative characters on the units of
+$\mathbb{Z} /k\mathbb {Z}$. Dirichlet characters are
+used to define Dirichlet L-functions
+
+The principal character (mod n) is denoted by χ0(a) (or χ1(a)). It is defined as
+
+$$
+\chi _{0}(a)={\begin{cases}
+1&{\text{if }}\gcd(a,n)=1,\\0&{\text{if }}\gcd(a,n)\neq 1.\end{cases}}
+$$
+
+The quadratic character (mod n) is denoted by the Jacobi symbol for odd n (it
+is not defined for even n.):
+
+$$
+{\Bigg (}{\frac {a}{n}}{\Bigg )}=
+\left({\frac {a}{p_{1}}}\right)^{a_{1}}\left({\frac {a}{p_{2}}}\right)^{a_{2}}\cdots \left({\frac {a}{p_{\omega (n)}}}\right)^{a_{\omega (n)}}.
+$$
+
+In this formula $({\tfrac {a}{p}})$ is the Legendre symbol
+
+$p\in \mathbb{P}$  
+$n,d \in \mathbb{N}$  
+
+$n=p_1^{a_1} ... p_k^{a_k}$, where
+$p_1 < p_2 < ... < p_k$ and $a_j$ are positive
+integers. $1$ is given by the empty product.
+
+$\omega(n)=k$  
+$\Omega(n) = a_1 + a_2 + ... + a_k$
+
+$r=\omega(n)$, number of distinct prime factors of $n$.  
+$p_i$, $i$th prime number.  
+$a_i$, maximum power of $p_i$ by which $n$ is divisible.  
+
+$p \mid n$ distinct prime numbers dividing $n$.
+
+$\prod_{d\mid 12} f(d) = f(1)f(2)f(3)f(4)f(6)f(12)$
+
+$\prod_{p\mid 18} f(p) = f(2)f(3)$
+
+$\prod_{p^k} f(p^k) = f(2)f(3)f(4)f(5)f(7)f(8)f(9)...$
+
+$\prod_{p^k \mid 24} f(p^k) = f(2)f(3)f(4)f(8)$
+
+A number is **squarefree** if it is not divisible
+by the square of a prime.
+10 is squarefree. 18 is not squarefree.
+
+A008683
+The **Möbius function** $\mu (n)$ is defined to be $0$ if $n$ is
+not squarefree and otherwise is $(-1)^r$ if $n=p_1 ... p_r$ is a product
+of $r$ distinct primes.
+
+$$\sigma_x(n)=\prod_{i=1}^{r}\frac{p_i^{(a_i+1)x}-1}{p_i^x-1}$$
+$$=\prod_{i=1}^{r}\sum_{j=0}^{a_i}p_i^{ix}$$
+$$=\prod_{i=1}^{r}(1+p_i^x +p_i^{2x}+...+p_i^{a_ix})$$
+
+setting $k=0$ in the second product gives
+
+$$\tau(n)=d(n)=(1+a_1)(1+a_2)...(1+a_{\omega(n)})$$
+
+$$\sigma_0(n) = \prod_{i=1}^{r}(a_i + 1)$$
+
+For example $\sigma_0(24) = (3+1) (1+1) = 8$.
+
+In general, $\sigma_k (n)$ is used to denote the sum of the kth powers of the
+divisors of n, that is,
+
+$\sigma_x(n)$ sum of positive divisors function.
+
+$\sigma_k (n) = \sum_{d|n} d^k$
+
+$\sigma(n) \equiv \sigma_1(n)$
+
+$d(n), v(n), \tau(n)$ are also used to denote $\sigma_0(n)$ (number of divisors function).
+
+**aliquot sum**: $s(n) \equiv \sigma_1(n)-n$ (sum of proper divisors).
+
+For example, $\sigma_3(6) = 1^3 + 2^3 + 3^3 + 6^3 = 252$. So, the function that
+we have been calling $\sigma(n)$ is really $\sigma_1(n)$, and $\sigma_0(n)$ tells how
+many divisors n has
+
+$\sigma_0(12)=6$  
+$\sigma_1(12)=28$  
+$s(12)=16$
+
+**aliquot sequence**: $s_0= k$; $s_n= s(s_{n-1})= \sigma_1(s_{n-1})-s_{n-1}$, if $s_{n-1} > 0$
+
+For example, the aliquot sequence of 10 is 10, 8, 7, 1, 0.
+
+$\sigma_1(10)-10=5+2+1=8$  
+$\sigma_1(8)-8=4+2+1=7$  
+$\sigma_1(7)=1$  
+$\sigma_1(1)=0$
+
+There are a variety of ways in which an aliquot sequence might not terminate.
+
+$$
+\sum_{n=1}^\infty \frac{\sigma_a(n)}{n^s} = \zeta(s) \zeta(s-a)
+$$, for $s>1, s>a+1$
+
+$$
+\text{lim sup}_{n\to\infty} \frac{\sigma(n)}{n\log\log n}= e^\gamma
+$$
+
+$ \sigma (n) < e^\gamma n \log \log n$, $n > 5040$, if and only if RH.
+
+A **perfect** number has a repeating aliquot sequence of period 1.
+A **amicable** number has a repeating aliquot sequence of period 2.
+A **sociable** number has a repeating aliquot sequence of period 3 or greater.
+
+Some numbers have an aliquot sequence which is eventually periodic, but the
+number itself is not perfect, amicable, or sociable.  Numbers like 95 that are
+not perfect, but have an eventually repeating aliquot sequence of period 1 are
+called **aspiring numbers**.  As of April 2015, there were 898 positive
+integers less than 100,000 whose aliquot sequences have not been fully
+determined, and 9190 such integers less than 1,000,000.
+
+If $s(n) > n$ then $n$ is an **abundant** number and if $s(n) < n$ then $n$ is
+a **deficient** number.
+
+superabundant (A004394): for all $m<n$
+
+$$
+\frac{σ(m)}{m} < \frac{\sigma (n)}{n}
+$$
+
+# Euler's totient function
+
+Die Funktion $\varphi(n)$ ordnet jeder natürlichen Zahl $n$
+die Ordnung $\varphi(b)$ der primen Restklassengruppe zu.
+
+Number of primitive n-th roots of unity.
+Number of complex Dirichlet characters modulo n.
+
+$$\varphi(n) := |\{ a\in\mathbb{N} : 1\leq a \leq n \wedge \text{ggT}(a,n)=1 \}|$$
+
+Euler's Product forumula:
+$$\varphi(n)= n\prod_{p|n}(1-\frac{1}{p}) = J_1$$
+
+$$\sum_{n=1}^\infty \frac{\varphi(n)}{n^s}=\frac{\zeta(s-1)}{\zeta(s)}$$
+
+$$\sum_{d|n} \varphi(d) = n$$
+
+$$
+\varphi(n) = \sum_{d|n}\frac{\mu(d)}{d}
+$$
+
+$$
+\varphi(n) = n \lim_{s\to 1} \zeta(s) \sum_{d|n} \mu(d) ( e^{\frac{1}{d}})^{s-1}
+$$
+
+Euler's theorem:
+
+$(n,a)=1 <=> a^{\varphi(n)}≡1 (\text{mod} n)$
+
+Any factor of $n$ divides $a^{\varphi(n)}-1$.
+
+Fermat's little theorem is a special case of
+Euler's theorem in which $n$ is a prime number $p$.
+
+# Roots of unity
+
+For any positive integer n, there are n complex numbers, evenly spaced around
+the unit circle, whose nth power is equal to 1. These are called the nth roots
+of unity.
+
+```txt
+\includegraphics[width=0.225\textwidth]{kreismitdots}
+```
+
+{{< figure src="data/kreismitdots.png" >}}
+
+If we suppose the circles to be centered at the origin and have radius 1 (which
+turns out to work nicely), then the above blue dots happen to correspond to the
+complex numbers 1/2 $\pm$ i $\sqrt{3}$/2
+
+Now, notice that when we take the sixth power of 1/2 + i $\sqrt{3}$/2, we rotate
+all the way around to the x-axis, and we get 1 + 0i = 1. So 1/2 + i $\sqrt{3}$/2
+is a sixth root of 1. In fact, all the powers of 1/2 + i $\sqrt{3}$/2 are sixth
+roots of 1
+
+Consider the first nth root around the circle from the positive x-axis. Let’s
+call this number $\omega_n.$
+For example $\omega_6$ = 1/2 + i $\sqrt{3}$/2. Then
+the other dots around the circle—the other nth roots of 1—are obtained by
+taking powers of $\omega_n$. The next dot is $\omega_n^2$, the next is $\omega_n^3$,
+… and finally $\omega_n^n = 1$.
+
+$$
+\sum_{k=0}^{n-1} \omega_n^k = \begin{cases} 1 \qquad n=1 \\ 0
+\qquad n > 1 \end{cases} 
+$$
+
+# Some
+
+Jordan's totient function:
+
+$$J_k(n) = n^k \prod_{p|n}(1-\frac{1}{p^k})$$
+
+# Carmichael numbers
+
+a **Carmichael number** is a composite number $n$ which satisfies
+the modular arithmetic congruence relation:
+
+$$b^{n-1}\equiv 1{\pmod {n}}$$
+
+for all integers $1<b<n$ which are relatively prime to $n$.
+
+The existence
+of infinitely many Carmichael numbers was first established in the celebrated
+1994 paper of Alford, Granville and Pomerance [1].
+
+there are infinitely many Carmichael numbers in an arithmetic progression a 
+$a+bc$, ($c\in \mathbb{Z}$)
+whenever $(a,b)=1$.
+
+Let $n=\mathbb{N}$.
+If $n | a^n-a$ for every $a\in \mathbb{Z}$ and $n$ is not
+a prime then $n$ is a Carmichael number.
+
+A positive composite integer $n$ is a Carmichael number if
+and only if $n$ is square-free, and for all prime divisors $p$
+of $n$, it is true that
+$p-1\mid n-1$.
+
+The number 
+$(6k+1)(12k+1)(18k+1)$ is a Carmichael number if its
+three factors are all prime.
+
+For an integer $a > 1$, if a composite integer $x$ divides $a^{x−1} − 1$, then $x$ is
+called a **Fermat** pseudoprime to base $a$.
+
+A Fermat pseudoprime is often called a pseudoprime, with the modifier Fermat
+being understood.  Pseudoprimes to base 2 are sometimes called Poulet numbers.
+
+An integer $q$ is called a **quadratic residue** modulo $n$ if it is congruent
+to a perfect square modulo $n$.  Otherwise, $q$ is called a **quadratic
+nonresidue** modulo $n$.
+
+Let f and g be two functions defined on the positive integers. Then the
+**Dirichlet convolution** of $f$ and $g$, written $f \ast g$, is another function on the
+positive integers, defined as follows:
+
+$(f \ast g)(n) = \sum_{ab = n} f(a) g(b)$
+
+The sum is taken over all possible factorizations of n into a product ab of
+positive integers. For example, suppose $f(n) = n$ and $g(n) = n^2$. Then
+
+$$
+\begin{array}{rcl} (f \ast g)(6) &=& \sum_{ab = 6}
+²nn¹ f(a) g(b) &=& f(1)g(6) + f(2)g(3) + f(3)g(2) + f(6)g(1) &=& 1
+²nn¹ 6^2 + 2 \cdot 3^2 + 3 \cdot 2^2 + 6 \cdot 1^2 &=& 36 + 18 + 12 + 6 = 72.
+²nn¹ \end{array} 
+$$
+
+$$
+\varepsilon(n) =
+\begin{cases} 1 & \text{if } n=1
+²nn¹ 0 & \text{otherwise.}
+²nn¹ \end{cases}
+$$
+
+$f \ast \varepsilon = \varepsilon \ast f = f$
+
+$\ast$ is commutative and associative, and has $\varepsilon(n)$ as an identity.
+
+$\mathbf{1}(n) = 1$
+
+$$ (\mathbf{1} \ast f)(n) = \sum_{ab=n} \mathbf{1}(a) f(b) =
+ \sum_{ab=n} f(b) = \sum_{d \mid n} f(d) $$
+
+# Möbius Function
+
+$\mu(n)$ Möbius function 
+
+$\mu$ satisfies the same equation as S, that is,
+
+$$
+\sum_{d \mid n} \mu(d) = \begin{cases}1 \qquad n=1 \\\\ 0 \qquad n>1\end{cases}
+$$
+
+and that therefore $\mu(n) = S(n)$ for all $n \geq 1$, that is, $\mu(n)$ is the sum
+of all the nth primitive roots of unity.
+$S(n)$ sum of all the primitive nth roots of unity.
+
+$S(n) = \mu(n)$ for all $n \geq 1$
+
+$$
+\sum_{d \mid n} S(d) = \begin{cases}1 \qquad n=1 \\ 0 \qquad n>1.\end{cases}
+$$
+
+$$
+\sum_{d \mid n} \mu(d) = \begin{cases}1 \qquad n=1 \\ 0 \qquad n>1.\end{cases}
+$$
+
+for a given n, if we take the primitive roots for each of the divisors of n,
+together they make up exactly the set of all nth roots of unity
+
+$$
+\sum_{0 \leq k < n} \omega_n^k = \sum_{d \mid n} S(d) =
+\begin{cases}1 \qquad n=1 \\ 0 \qquad n>1\end{cases}
+$$
+
+S(1) = 1.
+
+When n = 2, the equation tells us that S(1) + S(2) = 0, so it must be that S(2)
+= -1.
+
+When $n = 3$, we have $S(1) + S(3) = 0$ (note that S(2) is not included since 2 is
+not a divisor of 3), so S(3) = -1 as well.
+
+$S(1) + S(2) + S(4) = 1 + (-1) + S(4) = 0$, so $S(4) = 0$
+
+# Möbius inversion
+
+Suppose g(n) is defined for $n \geq 1$ as the sum of another
+function f over all the divisors of n:
+
+$g(n) = \sum_{d \mid n} f(d).$
+
+Then we can “invert” this relationship to express f as a sum over g:
+
+$f(n) = \sum_{ab = n} \mu(a) g(b)$
+
+Möbius inversion is really just saying that if $f = \mathbf{1} \ast g, then \mu
+\ast f = g$, because $\mu$ is the inverse of $\mathbf{1}$.
+
+$\mathbf{1} \ast \mu = \varepsilon$
+
+$\varphi$ denotes the Euler totient function, which counts how many positive
+integers less than or equal to n are relatively prime to n. 
+
+A000010
+
+$\sum_{d \mid n} \varphi(d) = n$
+
+$12 = \varphi(1) + \varphi(2) + \varphi(3) + \varphi(4) + \varphi(6) +
+\varphi(12) = 1 + 1 + 2 + 2 + 2 + 4$
+
+the sum over all divisors of the function $g(n) = \varphi(n)$ is equal to the
+function f(n) = n. So we conclude that
+
+$\varphi(n) = \sum_{d \mid n} \mu(d) (n/d)$
+
+or, factoring out n,
+
+$\varphi(n) = n \sum_{d \mid n} \frac{\mu(d)}{d}$
+
+which is interesting since it expresses $\varphi(n)$ as a fraction of n.
+
+$$ (\mathbf{1} \ast \mu)(n) = \sum_{d \mid n} \mu(d) = \varepsilon(n) $$
+
+is the function which ignores its input and always returns 1. 
+
+the Möbius function $\mu$ is the inverse of $\mathbf{1}$ with respect to Dirichlet
+convolution. As an example, we noted that $\mathbf{1} \ast \varphi =
+\mathit{id}$ (that is, the sum of $\varphi(d)$ over all divisors d of n is equal
+to n), and hence by Möbius inversion $\varphi = \mu \ast \mathit{id}$.
+
+$$
+(\mathbf{1} \ast \mathbf{1})(n) = \sum_{d \mid n} \mathbf{1}(d)
+\mathbf{1}(n/d) = \sum_{d \mid n} 1,
+$$
+
+which is just counting the number of divisors of n. This function is often denoted $\tau$.
+
+$\mathbf{1} \ast \mathbf{1} = \tau$, so by Möbius inversion, we immediately
+conclude that $\mathbf{1} = \mu \ast \tau$, that is,
+
+$1 = \sum_{ab = n} \mu(a) \tau(b)$.
+
+$\mathbf{1} \ast \mathit{id}$ gives us $\sum_{d \mid n} d$, the sum of the
+divisors of n. This is usually denoted $\sigma$. 
+
+$\mathbf{1} \ast \mathit{id} = \sigma$, by Möbius inversion we immediately
+conclude $\mathit{id} = \mu \ast \sigma$
+
+# Cyclic numbers
+
+Primes p that give cyclic numbers in base b are called full reptend primes or
+long primes in base b
+
+A number $n$ is called a **cyclic number** if it has the property that $\mathbf{Z}/n$ is
+the only group of order $n$, which is true exactly when $\gcd(n,\phi(n))=1$, ($\phi(n)$
+Euler's totient function).
+
+A0032277
+
+$x^n =1 (\mod n)$ has no solution for $2\leq x \leq n$.
+Also number $m$ such that $n^n=r (\mod m)$ is solvable for any $r$.
+
+Any divisor of a Carmichael number must be odd and cyclic.
+
+# Legendre Symbol
+
+The Legendre symbol (a/p) is defined for all integers a and all odd primes p by
+
+
+$ ( \frac{a}{p} ) = \lbrace$
+
+$$
+\begin{array}{rl} 0 & \text{if } a \equiv 0 \pmod{p},
+²nn¹ 1&{\text{if }}a\not \equiv 0{\pmod {p}}{\text{ and for some integer }}x\colon a\equiv x^{2}{\pmod {p}},
+²nn¹ -1 & {\text{if }}a\not \equiv 0 {\pmod {p}}{\text{ and there is no such }}x.
+²nn¹ \end{array}
+$$
+$\rbrace$
+
+
+Following the normal convention for the empty product, (a/1) = 1.
+
+It is also called the *quadratic character*.
+
+properties:
+
+$$
+\left(\frac{ab}{p}\right)=
+\left(\frac{a}{p}\right)
+\left(\frac{b}{p}\right)
+$$
+
+$$
+\left( \frac {x^2}{p} \right) =
+\left\{{
+    \begin{array}{rl}
+      1&{\text{if }} p \nmid x,\\
+      0&{\text{if }} p \mid x
+\end{array}}\right.
+$$
+
+Quadratic reciprocity law:
+$$
+\left(\frac{q}{p}\right)
+\left(\frac{p}{q}\right) =
+(-1)^{\frac{p-1}{2} \frac{q-1}{2}}
+$$
+
+The Legendre and Jacobi symbols are indistinguishable exactly when the lower
+argument is an odd prime, in which case they have the same value.
+
+The **Jacobi symbol** $(frac{a}{n})$ is a generalization of the Legendre symbol that allows
+for a composite second (bottom) argument n, although n must still be odd and
+positive. This generalization provides an efficient way to compute all Legendre
+symbols without performing factorization along the way.
+
+A further extension is the Kronecker symbol, in which the bottom argument may
+be any integer.
+
+For any integer a and any positive odd integer n, the Jacobi symbol (a/n) is
+defined as the product of the Legendre symbols corresponding to the prime
+factors of n.
+
+If the Euler criterion formula is used modulo a composite number, the result
+may or may not be the value of the Jacobi symbol, and in fact may not even be
+−1 or 1. For example,
+
+$\displaystyle
+\begin{aligned}\left({\frac {19}{45}}\right)&=1&&{\text{ and }}&19^{\frac {45-1}{2}}&\equiv 1{\pmod {45}}.
+²nn¹ \left({\frac {8}{21}}\right)&=-1&&{\text{ but }}&8^{\frac {21-1}{2}}&\equiv 1{\pmod {21}}.
+²nn¹ \left({\frac {5}{21}}\right)&=1&&{\text{ but }}&5^{\frac {21-1}{2}}&\equiv 16{\pmod {21}}.\end{aligned}
+$
+
+If it is unknown whether a number n is prime or composite, we can pick a random
+number a, calculate the Jacobi symbol (a/n) and compare it with Euler's
+formula; if they differ modulo n, then n is composite; if they have the same
+residue modulo n for many different values of a, then n is "probably prime".
+
+This is the basis for the probabilistic Solovay–Strassen primality test and
+refinements such as the Baillie-PSW primality test and the Miller–Rabin
+primality test.
+
+Euler's criterion is a formula for determining whether an integer is a
+quadratic residue modulo a prime. Precisely,
+
+Let p be an odd prime and a an integer coprime to p. Then
+
+$$
+    a^{\tfrac {p-1}{2}}\equiv {\begin{cases}\;\;\,1{\pmod {p}}&{\text{ if there
+      is an integer }}x{\text{ such that }}a\equiv x^{2}{\pmod {p}}\\-1{\pmod
+      {p}}&{\text{ if there is no such integer.}}\end{cases}}
+$$
+
+Euler's criterion can be concisely reformulated using the Legendre symbol:[2]
+
+$$
+\left({\frac
+    {a}{p}}\right)\equiv a^{(p-1)/2}{\pmod {p}}.
+$$
+
+The criterion first appeared in a 1748 paper by Euler.
+
+The congruence classes relatively prime to the modulus are a group under
+multiplication, called the group of units of the ring Z/nZ, and the squares are
+a subgroup of it. Different nonresidues may belong to different cosets, and
+there is no simple rule that predicts which one their product will be in.
+Modulo a prime, there is only the subgroup of squares and a single coset.
+
+Let $n$ be a non-zero integer, with prime factorization
+
+```txt
+$
+n=u\cdot p_{1}^{e_{1}}\cdots p_{k}^{e_{k}}
+$,
+```
+
+where $u$ is a unit ($u=\pm 1$), and the $p_{i}$ are primes. Let $a$ a be
+an integer. The Kronecker symbol $\left({\frac {a}{n}}\right)$ is defined by
+
+$$
+ \left({\frac {a}{n}}\right)=\left({\frac {a}{u}}\right)\prod _{i=1}^{k}\left({\frac {a}{p_{i}}}\right)^{e_{i}}
+$$
+
+For odd $p_{i}$, the number $\left({\frac {a}{p_{i}}}\right)$ is simply the usual Legendre symbol.
+This leaves the case when $p_{i}=2$. We define $\left({\frac {a}{2}}\right)$ by
+
+$$
+ \left({\frac {a}{2}}\right)={\begin{cases}0&{\mbox{if }}a{\mbox{ is even,}}\\1&{\mbox{if }}a\equiv \pm 1{\pmod {8}},\\-1&{\mbox{if }}a\equiv \pm 3{\pmod {8}}.\end{cases}}
+$$
+
+Since it extends the Jacobi symbol, the quantity $(a|u)$ is simply 1 when $u = 1$. When  $u=-1$, we define it by
+
+$$
+ \left({\frac {a}{-1}}\right)={\begin{cases}-1&{\mbox{if }}a<0,\\1&{\mbox{if }}a\geq 0.\end{cases}}
+$$
+
+Finally, we put
+
+$$
+ \left({\frac {a}{0}}\right)={\begin{cases}1&{\text{if }}a=\pm 1,\\0&{\text{otherwise.}}\end{cases}}
+$$
+
+These extensions suffice to define the Kronecker symbol for all integer values $a$ , $n$.
+
+If p is an odd prime number, then the function
+
+$\chi (n)=\left({\frac {n}{p}}\right)$, where $\left({\frac {n}{p}}\right)$ is the Legendre symbol, is a primitive Dirichlet character modulo p.
+
+More generally, if m is a positive odd number, the function
+
+$\chi (n)=\left({\frac {n}{m}}\right)$, where $\left({\frac {n}{m}}\right)$ is the Jacobi symbol, is a Dirichlet character modulo m.[9]
+
+These are examples of real characters. In general, all real characters arise
+from the Kronecker symbol.
+
+# Some
+
+Quadratic reciprocity theorem:
+
+If p and q are distinct odd primes, then the quadratic reciprocity theorem
+states that the congruences
+
+$x^2\equiv q (\mod p)$  
+$x^2\equiv p (\mod q)$
+
+are both solvable or both unsolvable unless both p and q leave the remainder 3
+when divided by 4 (in which case one of the congruences is solvable and the
+other is not). Written symbolically (Legendre symbol),
+
+$(p/q)(q/p)=(-1)^{((p-1)(q-1)/4)}$.
+
+The genus theorem states that the Diophantine equation
+
+$x^2+y^2=p$
+
+can be solved for p a prime iff $p=1 (\mod 4)$ or $p=2$. 
+
+# Some
+
+Bézout's identity (also called Bézout's lemma) is a theorem in elementary
+number theory: let a and b be nonzero integers and let d be their greatest
+common divisor. Then there exist integers x and y such that
+
+$ax+by=d$
+
+# Dirichlet ...
+
+It is expected, but far from proven, that the Selberg class S of Dirichlet
+series is precisely the collection of analytic L-functions.
+It is conjectured that a very precise form of the functional
+equation exists for every element of S.
+
+## Dirichlet Series
+
+$$\sum_{n=1}^{\infty} \frac{a_n}{n^s},$$
+where $s$ is complex, and $a_n$ is a complex sequence. 
+
+## L-function
+
+All L-functions can be expressed as Dirichlet series.
+Each L-function has a Dirichlet series, a functional equation, and an Euler product.
+
+An **analytic L-function** is a Dirichlet series that
+has an Euler product and satisfies *certain* type of functional equation.
+
+All known analytic L-functions have a functional equation that can be written
+in the form:
+
+$$\Lambda (s) :=
+N^{s/2}
+\prod_{j=1}^J \Gamma_{\mathbb R}(s+\mu_j) \prod_{k=1}^K \Gamma_{\mathbb C}(s+\nu_k)
+\cdot L(s) = \varepsilon \overline{\Lambda}(1-s)
+$$
+
+where $N$ is an Integer, Re($\mu_j$)=$0$ or $1$ (assuming Selberg's eigenvalue conjecture),
+Re($\nu_k$) is a positive integer or half-integer.
+$2\sum \mu_j + \sum \nu_k$ is real.
+
+The integer $d=J+2K$ is the degree of the L-function. The integer $N$
+is the level of the L-function.
+The pair $[J,K]$ is the signature of the L-function.
+
+www.lmfdb.org
+
+## Dirichlet Character
+
+A Dirichlet character is obtained from an ordinary (group)
+character by “lifting” the values to the integers, i.e. defining $χ(n)$ to be the value of
+$\hat{χ}$ at $n$ modulo $k$ if $n$ has no common factor with $k$, and 0 otherwise.
+
+A Dirichlet character is any function $\chi$ from the integers $\mathbb{Z}$
+to the complex numbers $\mathbb{C}$ such that $\chi$ has the following properties:
+
+-    There exists a positive integer $k$ such that $χ(n) = χ(n + k)$ for all $n$.
+-    If $\gcd(n,k) > 1$ then $χ(n) = 0$; if $gcd(n,k) = 1$ then $χ(n) ≠ 0$.
+-    $χ(mn) = χ(m)χ(n)$ for all integers $m$ and $n$.
+
+$s$ complex number, $\Re >1$.
+$L(s,χ)=\sum_{n\geqslant 1} \frac{χ(n)}{n^s}=\prod_{p} (1-\frac{χ(n)}{p^s})^{-1}$
+
+There are $\varphi (n)$
+different characters on the group
+$(\mathbb {Z} /n\mathbb {Z} )^{\times }$,
+$\varphi (n)$ is the Euler
+Phi function.
+
+# Some
+
+\minisec{logarithmic integral function}
+
+$\text{li}(x)=\int_0^x \frac{dt}{\ln t}$
+
+Offset logarithmic integral:
+$\text{Li}(x)=\text{li}(x) - \text{li}(2) = \int_2^x \frac{dt}{\ln t}$
+
+\minisec{Hurwitz Zeta function}
+
+$\Re(s)>1$, $a=0,-1,-2,...$ oder
+$0<\Re(a)\leqslant 1$
+$$
+\zeta(s,a)=\sum_{n=0}^\infty \frac{1}{(n+a)^s}
+$$
+$$
+=\zeta(s,a+m)+\sum_{n=0}^{m-1}\frac{1}{(n+a)^s}
+$$
+
+\minisec{first Chebychev function}
+
+$p$ prime
+$$
+ϑ(x)=\sum_{p\leqslant x} \log p
+$$
+
+\minisec{second Chebychev function}
+
+$$
+\psi(x)=\sum_{p^k\leqslant x} \log p=\sum_{n\leqslant x} \Lambda(n)
+$$
+$\operatorname{lcm}(1,...,n)=e^{\psi(n)}$
+
+\minisec{von Mangoldt function}
+
+$$
+\Lambda(n)=\left\{
+  \begin{array}{ll}
+\log p & : n=p^k, p\,\text{prime}, k\,\text{integer}\geqslant 1\\
+0 & : \text{otherwise}
+\end{array}
+\right\}
+$$
+
+\minisec{Riemann xi function}
+$s\in\mathbb{C}$
+$$
+\xi(s)=\frac{1}{2}s(s-1) \pi^\frac{-s}{2}
+\Gamma(\frac{s}{2})\zeta(s)
+=\xi(1-s)
+$$
+
+# Some
+
+Lucas numbers A000032, A000204
+Bell numbers A000110
+perfect number A000396
+π(n) A000720
+jacobsthal A001045
+abundant numbers A005101
+squarefree A005117
+Least prime dividing n A020639
+
+# Bernoulli, Euler numbers
+
+$B_n$ Bernoulli number, $E_n$ Euler number.
+For odd $n$, $B_n = E_n = 0$ with exception $B_1$
+
+$B_n = B_n(0)$
+
+$
+\frac{z}{e^z-1} = \sum_{k\geq0} \frac{B_k}{k!}z^k
+$
+
+$ B_n = \sum_{k=0}^{n-1}\binom{n-1}{k} \frac{n}{4^n-2^n}E_k $, $n=2,4,6,\dots$
+
+$$
+B_{2n} = (-1)^{n-1}\frac{2n}{4^{2n}-2^{2n}} A_{2n-1}
+$$, for $n>0$
+
+$B_0 = 1$,
+$B_1 = ±\frac{1}{2}$,
+$B_2 = \frac{1}{6}$,
+$B_3 = 0$,
+$B_4 = \frac{-1}{30}$
+
+$\displaystyle
+\sum_{k=1}^n k^p = 
+\sum_{k=0}^p \frac{(-1)^{p-k}}{k+1} \binom{p}{k}B_{p-k}n^{k+1}
+$
+
+$\displaystyle
+\sum_{k=1}^n k^p = 
+\frac{1}{p+1}(B_{p+1}(n+1)-B_{p+1}(1))
+$
+
+$\displaystyle
+\sum_{k=1}^n k^p = 
+\frac{1}{p+1} \sum_{j=0}^p \binom{p+1}{j} B_j n^{p+1-j}
+$
+
+for example:
+$p=4, n=4$
+
+$1^4 + 2^4 + 3^4 + \dots + n^4 = $
+$\displaystyle
+\frac{1}{5} \sum_{j=0}^{4} \binom{5}{j} B_j n^{5-j} =
+$
+$\frac{1}{5}(B_0n^5 + 5B_1n^4 + 10B_2n^3 + 10B_3n^2 + 5B_4n) = $
+$\frac{1}{5}n^5 + \frac{1}{2}n^4 + \frac{1}{3}n^3 - \frac{1}{30}n $
+$ = \frac{6n^5 + 15n^4 + 10n^3 -n}{30} = $
+$\frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}$
+
+$\displaystyle
+(n+1)^{k+1}-1 = \sum_{m=1}^n ((m+1)^{k+1}-m^{k+1})= \sum_{p=0}^k \binom{k+1}{p}(1^p+2^p+\dots+n^p)
+$
+
+$ E_n = \sum_{k=1}^{n}\binom{n}{k-1} \frac{2^k-4^k}{k}B_k $, $n=2,4,6,\dots$
+
+$\pi \sim 2(2^{2n}-4^{2n})\frac{B_{2n}}{E_{2n}}$
+
+$\sec(x) = \frac{1}{\cos(x)}$
+
+$$
+\tan x + \sec x =
+1 + 1x +
+\frac{1}{2}x^2
+\frac{1}{3}x^3
+\frac{5}{24}x^4
+\frac{2}{15}x^5
+\frac{61}{720}x^6
+...
+$$
+
+$A_n$, alternating permutation
+
+```text
+{1, 2, 3, 4}
+1324 because 1<3>2<4
+1423         1<4>2<3
+2314         2<3>1<4
+2413         2<4>1<3
+3421         3<4>1<2
+```
+
+$E_n = A_{2n}$
+
+$E_n = 2^nE_n(\frac{1}{2})$
+
+The **Euler number** $A_{r,n}$ counts permutations on $n$
+elements with $r$ ascents.
+
+SeidelEulerTriangle(11)
+
+```txt
+           1
+           0   1
+       1   1   0
+       0   1   2   2
+       5   5   4   2   0
+       0   5  10  14  16  16
+  61  61  56  46  32  16   0
+0 61 122 178 224 256 272 272
+
+[1385, 1385, 1324, 1202, 1024, 800, 544, 272, 0]
+[0, 1385, 2770, 4094, 5296, 6320, 7120, 7664, 7936, 7936]
+[50521, 50521, 49136, 46366, 42272, 36976, 30656, 23536, 15872, 7936, 0]
+[0,50521,101042,150178,196544,238816,275792,306448,329984,345856,353792,353792]
+```
+
+Seidel describes the course of the computation "... always starts on the side
+where the 0 is, and alternately calculates from left to right and from right to
+left (boustrophedon).") ("... stets auf der Seite beginnt, wo in ihnen die 0
+steht, und also abwechselnd von links nach rechts und von rechts nach links
+rechnet (βoνστρoφηδóν).") Because of this characteristic the algorithm is also
+called 'boustrophedon transform'.
+
+The triangle above computes the secant $U_{2n}$ and the tangent $T_{2n+1}$
+numbers (n≥0) in unparalleled simplicity and elegance just starting from the 1.
+
+The elements of the left diagonal (the secant numbers) are the signless Euler
+numbers, a name given by Raabe in 1851 to the secant numbers.  For some
+reason R. P. Stanley does not follow this traditional convention. He calls
+the number of alternating permutations Euler numbers.
+
+The elements of the right diagonal are the tangent numbers.
+
+Median Euler numbers  
+These are the elements in the even numbered rows of the central column of
+Seidel's triangle.
+
+The classical Euler numbers count 2-alternating permutations of length 2n.
+The generalized Euler numbers count the n-alternating permutations in the
+symmetric group of permutations of [m] where n divides m.
+
+A181985
+
+A002115, A211212	4-alternating permutations of length 4n. 
+
+A030662 		Number of combinations of n things from 1 to n at a time, with repeats allowed. 
+
+A211213 		n-alternating permutations of length 3n. 
+
+A181991 		n-alternating permutations of length 4n. 
+
+For an integer n>0, a permutation s = s1 ... sk is an n-alternating permutation
+if it has the property that si < si+1 if and only if n divides i. The André
+numbers count the n-alternating permutations.  A181937 
+
+A000111 		Euler or up/down numbers: e.g.f. sec(x) + tan(x). Also for n >= 2, half the number of alternating permutations on n letters
+
+A001250 		Number of alternating permutations of order n. 
+
+Recall that the characteristic of the Seidel transform was that the flow of
+computation is turning like oxen in ploughing. This means you 'plow' across the
+triangle from right to left, then turn around and 'plow' from left to right,
+and so on.
+
+The next step introduces a small but crucial change. Now we have the freedom to
+start a new line of computation at whatever side of the triangle we want. The
+monotone zig-zag is now replaced by zig-zag-zag or zag-zig-zag-zag or whatever.
+Oxen cannot fly from one side of the acre to the other but boolean values can
+be easily changed.
+
+The most simple example for this is to change in the Seidel algorithm the
+condition $n mod 2 = 0$ by $n mod k = 0$. And voilá, the classical
+boustrophedon algorithm has turned into a boolophedon algorithm and the
+computation of the coefficients of sec + tan is generalized to the computation
+of the André numbers.  The next step in generalizing Seidel's algorithm is to
+provide additionally to the control function a sequence for the first term of
+those rows which are marked 'true' by the control function. These were set to 0
+in the original setup by Seidel.  Let us give an example. Let the control
+sequence be n -> n mod 2 = 0 as in the original Seidel algorithm and S the
+constant sequence 1 (instead of the constant sequence 0 in the original case).
+Then we get the Salie numbers A000795 on the right hand side of the triangle.
+
+Because of the symmetry in the computation there is also a second sequence
+which qualifies as an output: those numbers on the left hand side which are not
+predetermined by the input sequence. In our example we get the sequence
+A003719, the odd part of the expansion of $tan(x)\star cosh(x)$.  The last step of our
+generalization is quite obvious. We can also predetermine those initial values
+on the left hand side of the triangle for which the control sequence is false
+
+The (generalized) Euler numbers are nothing else than the Euler zeta numbers
+times n!. Looking at the even or at the odd indexed numbers gives the Euler
+tangent numbers and the classic Euler numbers respectively.
+
+In a similar way the Bernoulli numbers are obtained. The generalized Bernoulli
+numbers are the Euler zeta numbers shifted by one times n!/(4n − 2n). Again
+looking at the even and the odd indexed numbers gives the classical and the
+secant Bernoulli numbers, respectively.
+The Euler zeta numbers and all flavors of the Bernoulli numbers are fractions.
+
+Euler Zeta Numerator A099612  
+Numerators of coefficients in expansion of sec(x) + tan(x).
+
+Euler Zeta DenominatorA099617  
+enominators of coefficients in expansion of sec(x) + tan(x).
+
+```txt
+ZetaBS := z -> (Zeta(0,z,1/4) - Zeta(0,z,3/4))/(2^z-2):
+ZetaBG := z -> Zeta(z) + ZetaBS(z):
+
+# Generalized Bernoulli function
+BGF := z -> -z*ZetaBG(1-z):
+
+# Tangent (classical) Bernoulli function
+BTF := z -> -z*Zeta(1-z):
+
+# Secant (lost) Bernoulli function
+BSF := z -> -z*ZetaBS(1-z):   
+
+ZetaES := z -> Zeta(0,z,1/4) - Zeta(0,z,3/4):
+ZetaET := z -> (2^z-2)*Zeta(z):
+
+# Generalized Euler function
+EGF := z -> 2*4^z*(ZetaES(-z) + ZetaET(-z)):
+
+# Secant (classical) Euler function
+ESF := z -> 2*4^z*ZetaES(-z):
+
+# Tangent Euler function
+ETF := z -> 2*4^z*ZetaET(-z):
+```
+
+André's theorem:
+
+$$\sec(x) + \tan(x) = \sum_{n=0}^\infty A_n\frac{x^n}{n!}$$
+
+Tangent ("Zag") numbers e.g.f $\tan(x)$
+
+Euler (Secant, "Zag") numbers e.g.f (even powers only) $\sec(x)$
+
+$
+\tan x = \sum_{n+1}^\infty$
+
+$\frac{(-1)^{n-1} 2^{2n}(2^{2n}-1)B_{2n}x^{2n-1}}{(2n)!} =$
+
+$x + \frac{1}{3}x^3 + \frac{2}{15}x^5 + \frac{17}{315}x^7 + \dots
+$
+
+$ \sec x =$
+
+$\sum_{n=0}^\infty  \frac{(-1)^nE_{2n} x^{2n}}{(2n)!} =$
+
+$1+\frac{1}{2}x^2+\frac{5}{24}x^4+\frac{61}{720}x^6\dots
+$
+
+$S_n$ := $1, 1, \frac{1}{2}, \frac{1}{3},  \frac{5}{24},\frac{2}{15}, \frac{61}{720},\frac{17}{315},\dots$
+
+# partition function
+
+Euler function $\phi(q) = \prod_{k=1}^\infty (1-q^k)$
+
+$p(k)$ partial function
+A000041
+Number of conjugacy classes in $S_n$.
+Number of irrep of $S_n$.
+Number of distinct abelian groups of orfder $p^n^, $p\in\mathbb{p}$.
+
+1, 1, 2, 3, 5, 7, 11, 15, 22, 30, 42
+
+$p(0) = 1$, $p(n)=0$ for $n$ negative.
+
+$$
+\frac{1}{\phi(p)} = \sum_{k=0}^\infty p(k)q^k
+$$
+
+$$
+\phi(q) = \underset{\text{q-Pochhammer symbol}}{(q;q)_\infty}
+$$
+
+

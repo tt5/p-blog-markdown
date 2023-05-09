@@ -1,0 +1,12 @@
+
+# Hopf algebra
+
+Hopf algebras are convenient substitutes – essentially generalizations – of the
+notion of a group
+
+A **Hopf algebra** is an (associative and coassociative) bialgebra
+over a field (or a commutative ring) together with a an antipode and
+some axioms.
+
+Any graded, connected bialbegra has an antipode.
+

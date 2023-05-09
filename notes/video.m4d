@@ -1,0 +1,29 @@
+# Video
+
+*H.262*  
+MPEG-2 Part 2 standard (ISO/IEC 13818-2).
+
+*H.264*  
+Advanced Video Coding (AVC) is the most widely used standard in the series of
+international video coding standards.  2001.  ITU-T H.264 standard and the
+ISO/IEC MPEG-4 Part 10 standard (formally, ISO/IEC 14496-10) are technically
+identical.
+
+*H.265*  
+High Efficiency Video Coding (HEVC) was completed in January 2013 for its first
+edition. HEVC has approximately twice the compression capability of its
+H.264/MPEG-4 It is also standardized as ISO/IEC 23008-2 (MPEG-H Part 2).
+
+*Theora*  
+It is a free lossy video compression format.  Theora video streams can be
+stored in any suitable container format, but they are most commonly found in
+the Ogg container with Vorbis or FLAC audio streams. This combination provides
+a completely open, royalty-free multimedia format. It can also be used with the
+Matroska container.
+
+# ffmpeg
+
+`-crf`  
+constant rate factor (0-51, smaller = better), default: 23,
+18 visually lossless.  
+`-crf 18 out.mp4`

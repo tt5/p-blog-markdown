@@ -1,0 +1,17 @@
+```bash
+#!/bin/bash
+
+SESSION="NEW"
+if [ "$SESSIONEXISTS" = "" ]
+then
+  tmux new-session -d -s $SESSION
+  tmux rename-window -t 0 'Main'
+  tmux send-keys -t 'Main' 'v -c "Telescope find_files"' C-m
+  tmux new-window -t $SESSION:1 -n 'server'
+  tmux send-keys -t 'server' 'uvicorn app:app --reload --ssl-keyfile=./localhost+2-key.pem --ssl-certfile=./localhost+2.pem' C-m
+  tmux new-window -t $SESSION:2 -n 'bash'
+  tmux send-keys -t 'bash' "bash" C-m 'clear' C-m
+
+fi
+tmux attach-session -t $SESSION:0
+```

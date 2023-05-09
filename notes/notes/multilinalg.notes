@@ -1,0 +1,43 @@
+# Multilinear Algebra
+
+```tex
+\begin{tikzpicture}
+\matrix (mymat) [matrix of nodes,
+    nodes={
+      line width=1pt,
+      align=left,text width=3cm, 
+      minimum width=1.5cm, minimum height=1cm
+      }
+]
+{
+linear algebra & function \\
+linear transformation & linear operator \\
+dot product & inner product \\
+Eigenvector & Eigenfunction \\
+};
+\hhlline{mymat}{1}{2};
+\end{tikzpicture}
+```
+
+space: all ploynomials
+
+basis functions:  
+$b_0(x)=1$  
+$b_1(x)=x$  
+$b_2(x)=x^2$  
+...
+
+linear operator / linear function:  
+$\frac{d}{dx}(1x^3 + 5x^2 + 4x + 5)$
+
+$\displaystyle
+\begin{pmatrix} 0 & 1 & 0 & 0 & \ldots
+²nn¹ 0 & 0 & 2 & 0 & \ldots
+²nn¹ 0 & 0 & 0 & 3 & \ldots
+²nn¹ 0 & 0 & 0 & 0 & \ldots
+²nn¹ \vdots & \vdots & \vdots & \vdots & \ddots
+²nn¹ \end{pmatrix}
+\begin{pmatrix} 5 ²nn¹ 4 ²nn¹ 5 ²nn¹ 1 ²nn¹ \vdots ²nn¹ \end{pmatrix} =
+\begin{pmatrix} 1\cdot 4 ²nn¹ 2\cdot 5 ²nn¹ 3\cdot 1 ²nn¹ \vdots ²nn¹ \end{pmatrix} =
+3x^2+10x+4
+$

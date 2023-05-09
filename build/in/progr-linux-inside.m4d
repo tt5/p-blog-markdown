@@ -1,0 +1,281 @@
+
+# Entry Point
+
+https://www.gitbook.com/book/0xax/linux-insides/details
+
+80386 and later CPUs define the following predefined data in CPU registers
+after the computer resets:
+
+```text
+IP          0xfff0
+CS selector 0xf000
+CS base     0xffff0000
+```
+
+The processor starts working in real mode.
+
+To get a physical address in memory, we need to multiply the segment part by 16
+and add the offset part:
+
+PhysicalAddress = Segment * 16 + Offset
+
+For example if CS:IP is 0x2000:0x0010, the corresponding physical address will
+be:
+
+`>>> hex((0x2000 << 4) + 0x0010)`
+'0x20010'
+
+But if we take the largest segment part and offset: 0xffff:0xffff, it will be:
+
+`>>> hex((0xffff << 4) + 0xffff)`
+'0x10ffef'
+
+which is 65519 bytes over first megabyte. Since only one megabyte is
+accessible in real mode, 0x10ffef becomes 0x00ffef with disabled A20.
+
+CS register consists of two parts: the visible segment selector and hidden base
+address. We know predefined CS base and IP value, so the logical address will
+be:
+
+0xffff0000:0xfff0
+
+The starting address is formed by adding the base address to the value in the
+EIP register:
+
+`>>> 0xffff0000 + 0xfff0`
+'0xfffffff0'
+
+We get 0xfffffff0 which is 4GB - 16 bytes. This point is called the Reset
+vector. This is the memory location at which the CPU expects to find the first
+instruction to execute after reset. It contains a jump instruction which
+usually points to the BIOS entry point.
+
+# BIOS
+
+After initializing and checking the hardware, it needs to
+find a bootable device. A boot order is stored in the BIOS configuration,
+controlling which devices the kernel attempts to boot from. When attempting to
+boot from a hard drive, the BIOS tries to find a boot sector. On hard drives
+partitioned with an MBR partition layout, the boot sector is stored in the
+first 446 bytes of the first sector (which is 512 bytes). The final two bytes
+of the first sector are 0x55 and 0xaa, which signals the BIOS that this device
+is bootable.
+
+For example:
+
+```text
+;
+; Note: this example is written in Intel Assembly syntax
+;
+[BITS 16]
+[ORG  0x7c00]
+
+boot:
+    mov al, '!'
+    mov ah, 0x0e
+    mov bh, 0x00
+    mov bl, 0x07
+
+    int 0x10
+    jmp $
+
+times 510-($-$$) db 0
+
+db 0x55
+db 0xaa
+```
+
+Build and run it with:
+
+`nasm -f bin boot.nasm`  
+`qemu-system-x86_64 boot &`
+
+This will instruct QEMU to use the boot binary we just built as a disk image.
+QEMU will treat the binary as the master boot record(MBR) of a disk image.
+
+In this example we can see that the code will be executed in 16 bit real mode
+and will start at 0x7c00 in memory.  After starting it calls the 0x10 interrupt
+which just prints the !  symbol. It fills the rest of the 510 bytes with zeros
+and finishes with the two magic bytes 0xaa and 0x55.
+
+A real-world boot sector has code to continue the boot process and the
+partition table instead of a bunch of 0's and an exclamation mark :) From this
+point onwards, BIOS hands over control to the bootloader.
+
+General real mode's memory map is:
+
+```text
+0x00000000 - 0x000003FF - Real Mode Interrupt Vector Table
+0x00000400 - 0x000004FF - BIOS Data Area
+0x00000500 - 0x00007BFF - Unused
+0x00007C00 - 0x00007DFF - Our Bootloader
+0x00007E00 - 0x0009FFFF - Unused
+0x000A0000 - 0x000BFFFF - Video RAM (VRAM) Memory
+0x000B0000 - 0x000B7777 - Monochrome Video Memory
+0x000B8000 - 0x000BFFFF - Color Video Memory
+0x000C0000 - 0x000C7FFF - Video ROM BIOS
+0x000C8000 - 0x000EFFFF - BIOS Shadow Area
+0x000F0000 - 0x000FFFFF - System BIOS
+```
+
+0xFFFE_0000 - 0xFFFF_FFFF: 128 kilobyte ROM mapped into address space
+
+At the start of execution, the BIOS is not in RAM, but in ROM.
+
+There are a number of bootloaders that can boot Linux, such as
+GRUB 2 and syslinux. The Linux kernel has a Boot protocol which
+specifies the requirements for bootloaders to implement Linux support.
+
+This example will describe GRUB 2.
+
+Now that the BIOS has chosen a boot device and transferred control to the boot
+sector code, execution starts from `boot.img`. This code is very simple due to
+the limited amount of space available, and contains a pointer which is used to
+jump to the location of GRUB 2's core image. The core image begins with
+`diskboot.img`, which is usually stored immediately after the first sector in the
+unused space before the first partition. The above code loads the rest of the
+core image into memory, which contains GRUB 2's kernel and drivers for handling
+filesystems.  After loading the rest of the core image, it executes grub_main.
+
+grub_main initializes the console, gets the base address for modules, sets the
+root device, loads/parses the grub configuration file, loads modules etc. At
+the end of execution, grub_main moves grub to normal mode. grub_normal_execute
+(from grub-core/normal/main.c) completes the last preparation and shows a menu
+to select an operating system. When we select one of the grub menu entries,
+grub_menu_execute_entry runs, which executes the grub boot command, booting the
+selected operating system.
+
+The bootloader has now loaded the Linux kernel into memory, filled the
+header fields and jumped to it. Now we can move directly to the kernel
+setup code.
+
+Technically the kernel hasn't run yet, we need to set up the kernel,
+memory manager, process manager etc first.
+
+After the kernel setup got the control from the bootloader, the first
+jmp instruction is located at 0x200 (first 512 bytes) offset from the
+start of the kernel real mode.
+
+After the jump to start_of_setup, it needs to do the following:
+
+Be sure that all values of all segment registers are equal.
+Setup correct stack if needed.
+Setup bss.
+Jump to C code at main.c.
+
+First of all it ensures that ds and es segment registers point to the
+same address and disables interrupts with cli instruction.
+
+It also needs to align cs from 0x10200 to 0x10000 as all other segment
+registers.
+
+After that we set up the stack. Push ds value to stack, and address of
+6 label and execute lretw instruction. When we call lretw, it loads
+address of label 6 into the instruction pointer register and cs with
+value of ds. After this we will have ds and cs with the same values.
+
+Actually, almost all of the setup code is preparation for the C
+language environment in real mode. The next step is checking of ss
+register value and make a correct stack if ss is wrong
+
+This can lead to 3 different scenarios:
+
+ss has valid value 0x10000 (as all other segment registers beside cs)
+
+ss is invalid and CAN_USE_HEAP flag is set (see below)
+
+ss is invalid and CAN_USE_HEAP flag is not set (see below)
+
+The last two steps that need to happen before we can jump
+to the main C code, are setting up the BSS area and
+checking the "magic" signature.
+
+The BSS section is used to store statically allocated, uninitialized data.
+
+That's all, we have the stack, BSS so we can jump to the main() C function
+
+## Kernel
+
+Before we can move to the native Intel64 Long Mode, the kernel must
+switch the CPU into protected mode. Protected mode was first added to
+the x86 architecture in 1982 and was the main mode of Intel processors
+from the 80286 processor until Intel 64 and long mode came.
+
+Protected mode brought many changes, but the main one is the
+difference in memory management. The 20-bit address bus was replaced
+with a 32-bit address bus. It allowed access to 4 Gigabytes of memory
+vs 1 Megabyte of real mode. Also paging support was added.
+
+Memory segmentation was completely redone in protected mode. There are
+no 64 Kilobyte fixed-size segments. Instead, the size and location
+of each segment is described by an associated data structure called
+Segment Descriptor. The segment descriptors are stored in a data
+structure called Global Descriptor Table (GDT).
+
+The GDT is a structure which resides in memory. It has no fixed place
+in the memory so, its address is stored in the special GDTR register.
+
+GDTR is a 48-bit register and consists of two parts:
+
+size(16-bit) of global descriptor table;
+
+address(32-bit) of the global descriptor table.
+
+Each descriptor is 64-bits in size.
+
+The algorithm for the transition from real mode into protected mode is:
+
+Disable interrupts.
+Describe and load GDT with lgdt instruction.
+Set PE (Protection Enable) bit in CR0 (Control Register 0).
+Jump to protected mode code.
+
+Copying boot parameters into the "zeropage"
+
+Console initialization
+
+Heap initialization
+
+CPU validation
+
+Memory detection
+
+Keyboard initialization
+
+The next couple of steps are queries for different parameters.
+
+Video mode initialization and transition to protected mode
+
+Transition to 64-bit mode
+
+Long mode is the native mode for x86_64 processors. First of all let's look at some differences between x86_64 and x86.
+
+It provides features such as:
+
+New 8 general purpose registers from r8 to r15 + all general purpose registers are 64-bit now
+64-bit instruction pointer - RIP
+New operating mode - Long mode
+64-Bit Addresses and Operands
+RIP Relative Addressing
+
+Long mode is an extension of legacy protected mode. It consists of two sub-modes:
+
+64-bit mode
+compatibility mode
+
+Preparation before kernel decompression
+
+Kernel decompression
+
+## Data types
+
+```txt
+Type char short int long u8 u16 u32 u64
+Size    1     2   4    8  1   2   4   8
+```
+
+## Compilation
+
+The top Makefile of Linux kernel is responsible for building two major
+products: vmlinux (the resident kernel image) and the modules (any module
+files).

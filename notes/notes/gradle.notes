@@ -1,0 +1,11 @@
+mkdir demo
+cd demo
+gradle init
+
+build.gradle
+tasks.withType(CppCompile).configureEach {
+
+    // Define a compiler options
+    compilerArgs.add '-std=c++20'
+
+}

@@ -1,0 +1,261 @@
+# linux
+
+To switch between the VTs, press $\fbox{C-M-F6}$
+for VT 6. (or $\fbox{ALT-F6}$ from the VT).
+
+```bash
+cpupower frequency-info
+cpupower frequency-set -g performance
+```
+
+```bash
+lspci
+lm_sensors
+sensors-detect
+sensors
+```
+
+
+# some
+
+```bash
+df
+du
+```
+
+```bash
+>(command_list)
+<(command_list)
+```
+
+Process substitution uses `/dev/fd/<n>` files to send the results of the
+process(es) within parentheses to another process.
+
+```bash
+ps -l  
+ps auxw
+kill -l  
+
+tty  
+stty -a  
+stty -a -F `tty`  
+stty intr o  
+stty sane  
+```
+
+## utils
+
+**cat** ²q¹ is a utility used to concatenate the contents of several files together.
+
+**tr**  
+**wc**  
+**ps**  
+**nc**  
+**ab** ²q¹ (apache)  
+**bcat** ²q¹ https://github.com/rtomayko/bcat  
+**ln** ²q¹ `ln -s`
+
+`ln -vfns ...` ²q¹ update symlink
+
+ls  
+xsel
+
+### less
+
+$\fbox{q}$
+$\fbox{f b}$
+$\fbox{/ ?}$
+$\fbox{n N ESC-u}$  
+$\fbox{[ / ? ],C-K}$  
+*N* $\fbox{g}$ $\fbox{G}$  
+$\fbox{m}$ *letter*  
+$\fbox{'}$ *letter* $\fbox{''}$  
+
+### coreutils
+
+cp
+mkdir
+mv
+rm
+touch
+cat
+echo
+printf
+pwd
+
+```bash
+cat /proc/cpuinfo
+lscpu
+```
+
+## --
+
+texlive  
+htop  
+feh ²q¹ x11 image viewer  
+dot
+
+otf-stix ²q¹ STIX Two  
+otf-gfs (Goschen, Didot) ²q¹ GFS Didot, GFS Goschen  
+adobe-source-sans-pro-fonts  
+ttf-linux-libertine  
+adobe-source-code-pro-fonts ²q¹ Source Code Pro  
+adobe-source-han-sans-otf-fonts  
+adobe-source-han-serif-otf-fonts  
+
+fc-cache  
+fc-list  
+fc-query
+
+chmod +x file  
+chmod 0444  
+chmod 0555 (directories)
+
+/usr/share/fonts/OTF 
+/usr/share/fonts/adobe-source-code-pro 
+/usr/share/fonts/otf-gfs
+
+## xsel
+
+selection:  
+primary middle-click `-p`  
+secondary right-click `-s`  
+clipboard `-b`
+
+input:  
+`-a` append  
+`-i` read standart input
+
+action:  
+`-c` clear
+
+X:  
+`-d` *displayname*  
+`t` *ms* ²q¹ timeout
+
+## Atlas
+
+```bash
+$ bunzip2 -c atlas3.10.2.tar.bz2 | tar xfm - 
+```
+download laback tgz
+http://www.netlib.org/lapack/
+
+```bash
+--with-netlib-lapack-tarfile=/path/to/lapack-3.x.x.tgz
+--shared
+-b 64
+-D c -DPentiumCPS=XXXX
+```
+the frequency value (to be replaced by XXXX) from the cpupower configuration.
+
+Inside the Atlas dir:
+```bash
+mkdir MyObj
+cd MyObj
+$ ../configure WITH-THE-ABOVE-OPTIONS-IN-ONE-LINE
+$ make
+$ make check
+$ make ptcheck
+$ make time
+$ su
+$ make install 
+```
+
+`hwinfo`
+
+`/usr/share/kbd/consolefonts`
+
+`setfont lat1-08`
+`setfont lat1-16`
+
+`/etc/vconsole.conf`
+
+`stty rows 8 cols 16`
+
+cut first 3 lines
+
+fbcon (framebuffer console)
+
+boot options:  
+`fbcon=font:name`  
+`fbcon=rotate:<0-3>`
+
+tail -n +3 file
+
+```bash
+mount -t tmpfs -o \
+size=5G,nr_inodes=5k,mode=700 tmpfs /tmp
+```
+
+# debian
+
+```bash
+apt update
+apt upgrade
+apt full-upgrade
+
+apt autoremove
+apt-file search file
+apt-file list package
+```
+
+systemctl reboot
+
+cat /etc/os-release
+
+fonts-mononoki
+
+python3-pip
+python3-rpi.gpio
+spidev
+
+protobuf-compiler
+libprotobuf-dev
+
+# ---
+
+apt-show-versions
+
+/usr/local/
+programs compiled and installed manually
+
+iso-image, usb key
+debian-installer
+dmesg
+
+`cat debian-10.0.0-amd64-netinst.iso > /dev/sdb; sync`
+
+apt-get remove -- purge package
+
+dpkg -i file.deb
+dpkg -r package
+dpkg -P package
+
+/etc/bash.bashrc
+/etc/profile
+
+# boot
+
+init (systemd)
+/lib/systemd/system
+/etc/systemd/system
+
+# ---
+
+ls -al /proc/N/exe
+
+mesa-vulkan-drivers
+apt list *vulkan*
+
+ip a
+
+wl-clipboard
+wl-paste -p
+wl-copy "!!"
+
+libjack-jackd2-dev
+
+youtube-dl -f 'bestaudio' URL
+
+curl -s "https://get.sdkman.io" | bash

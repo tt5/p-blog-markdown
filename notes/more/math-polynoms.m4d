@@ -1,0 +1,358 @@
+# polynoms
+
+Binomials: polynomials with at most two terms.
+
+A **monic polynomial** is a univariate polynomial
+in which the leading coefficient is equal to $1$.
+
+Division by a monic polynomial:
+$$\frac{x^3-12x^2-42}{x^2+x-3}$$
+
+$1 (-1)=-1$, $-3 (-1)=3$.
+
+```txt
+    |1 -12 0 -42
+   3|↓     3
+ -1 |↓ -1
+ ---------------
+     1 -13
+```
+
+```txt
+    |1 -12  0 -42
+   3|↓      3 -39|
+ -1 |↓  -1 13
+ ---------------
+     1 -13|16 -81
+```
+
+$$=x-13+\frac{16x-81}{x^2+x-3}$$
+
+# The fundamental theorem of algebra
+
+The **fundamental theorem of albebra** states that every non-constant
+single-variable polynomial with complex coefficients has at least one complex
+root.  Equivalently (by definition), the theorem states that the fieldd of
+complex numbers is algebraically closed. Its name was given at a time when the
+study of algebra was mainly concerned with the solution of polynomial equations
+with real or complex coefficients.
+
+# Some
+
+real plynomial: $p(z)=a_0z^n+\ldots +a_{n-1}z+a_n$
+
+A real polynomial is **stable** (that is, all its
+roots have strictly negative real part) iff all leading
+principal minors of the matrix $H(p)$ are positive.
+
+$$
+H(p)=
+\begin{pmatrix} a_1& a_3& \cdots&&&
+²nn¹ a_0& a_2&&& \vdots&
+²nn¹ 0& a_1& \ddots&&0&
+²nn¹ \vdots& a_0&&& a_n& \vdots
+²nn¹ & 0&&&a_{n-1}&0
+²nn¹ & \vdots&&&a_{n-2}&a_n
+²nn¹ \end{pmatrix}
+$$
+
+$\text{det}\begin{pmatrix}a_1\end{pmatrix}>0$,
+
+$\text{det}\begin{pmatrix}a_1& a_3 ²nn¹  a_0& a_2 ²nn¹ \end{pmatrix}>0$,
+
+$\text{det}
+\begin{pmatrix}a_1& a_3& a_5
+²nn¹ a_0& a_2& a_4
+²nn¹ 0& a_1& a_3
+²nn¹ \end{pmatrix}>0
+$, and so on.
+
+**Sturm's theorem** expresses the number of distinct
+real roots of $p$ located in an interval in terms of
+the number of changes of signs of the values of the
+Sturm's sequence at the bounds of the interval.
+
+A **Sturm sequence** is a finite sequence of polynomials
+$p_0,\ldots,p_m$ of degree.
+$p$ square free,
+$p_0=p$,
+if $p(X)=0$, then $\operatorname{sign}(p_1(X))=\operatorname{sign}(p^{\prime} (X))$,
+if $p_i(X)=0$, for $0<i<m$ then
+$\operatorname{sign}(p_{i-1}(X))=-\operatorname{sign}(p_{i+1}(X))$,
+$p_m$ does not change its sign.
+
+#### Euclid's algorithm to optain a Sturm sequence
+
+$p_0(x) := p(x)$  
+$p_1(x) := p\text{'}(x)$  
+$p_2(x) := -\operatorname{rem}(p_0,p_1)$  
+$p_3(x) := -\operatorname{rem}(p_1,p_2)$  
+...  
+$0=-\operatorname{rem}(p_{m-1},p_m)$  
+
+Sturm sequence: $p_0,...,p_m$. $p_m$ non-zero
+constant polynomial.
+Successively take the remainders with polynomial
+division and change their signs.
+
+$p(x)=x^4+x^3-x-1$  
+$p_0(x)=p(x)$  
+$p_1(x)=p\text{'}(x)=4x^3+3x^2-1$  
+$p_2(x)=\frac{3}{16}x^2+\frac{3}{4}x+\frac{15}{16}$  
+$p_3(x)=-32x-64$  
+$p_4(x)=-\frac{3}{16}$  
+
+To find the number of roots between $-\infty$ and
+$\infty$, first evaluate $p_0,...,p_4$ at $-\infty$
+and note the sequence of signs of the results:
+`+-++--`. Sign changes: $3$.
+The same procedure for $\infty$ gives the sign sequence
+`+++--` ($1$ sign change).
+The number of roots of the original polynomial between
+$-\infty$ and $\infty$ is $3-1=2$.
+
+# square-free decomposition
+
+A univariate polynomial over a field $k$, $f\in k[X]$
+is **square-free** if and only if $b^2\nmid f$ for
+every polynomial $b\in k[X]$ of positive degree.
+
+A **square-free decomposition** of
+a polynomial is a factorization into powers of
+square-free factors. $f=a_1,a^2_2,a^3_3,...,a^n_n$
+where $a_k$ that are not equal to $1$ are pairwise
+coprime square-free polynomials. Every non-zero
+polynomial with coefficients in a field admits
+a square-free factorization, which is unique up to
+the multiplication of the factors by non zero constants.
+
+\minisec{algorithm for the square-free decomposition}
+$f$ a non-zero polynomial.
+$f=a_1a_2^2a_3^3...a_k^k$.
+
+$a_0 := \gcd(f,f\text{'})$;  
+$b_1 := \frac{f}{a_0}$;  
+$c_1 := \frac{f\text{'}}{a_0}$;  
+$d_1 := c_1-b_1\text{'}$;  
+$i := 1$;  
+repeat  
+$a_i := \gcd(b_i,d_i)$;  
+$b_{i+1} := \frac{b_i}{a_i}$;  
+$c_{i+1} := \frac{d_i}{a_i}$;  
+$i := i+1$;  
+$d_i := c_i-b_i\text{'}$;  
+until $b=1$;  
+output: $a_1,...,a_{i-1}$
+
+# Gröbner basis
+
+Gröbner bases are primarily defined for ideals in a
+polynomial ring $R=K[x_1,\ldots,x_n]$ over a field $K$.
+
+Every set of polynomials can be transformed into a Gröbner basis (Gb).
+
+$S(f,g) = \frac{M}{\text{in}(f)}f - \frac{M}{\text{in}(g)}g$
+
+$M$= monic least common multiple of in($f$), in($g$).
+The smallest combination of $f$ an $g$ that cancels their leading term ("$\operatorname{in}()$").
+
+Buchberger's criterion:
+
+$I = \langle G \rangle = \langle g_1, ..., g_n \rangle$
+
+$G$ is a Gröbner bases <-> $S(g_i,g_j)\equiv 0 \mod G$, for each
+$i,j$ $S(g_i,g_j)$ leaves remainder 0 upon long division by
+$g_1$, then $g_2,...,g_n$.
+
+(Buchberger's algorithm)
+
+$\operatorname{in}()$, "initial term"
+
+A Gb $G={g_1,...,g_m}$ is **minimal** if
+- each $\operatorname{in}(g_i)$ is monic
+- no $\operatorname{in}(g_j)$ is a multiple of
+$\operatorname{in}(g_i)$, $i\neq j$
+
+A Gb is **reduced** if it is minimal
+and no monomial in $g_j$ is a multiple
+of $\operatorname{in}(g_i)$, $i\neq j$
+
+Given $<,I$ there is a unique reduced Gb.
+
+# Some
+
+A **homogeneous** polynomial is a polynomial whose nonzero terms all have the
+same degree. For example, $x^{5}+2x^{3}y^{2}+9xy^{4}$ is a homogeneous
+polynomial of degree 5, in two variables; the sum of the exponents in each term
+is always 5.
+
+A polynomial is homogeneous if and only if it defines a homogeneous function.
+
+A **homogeneous function** is one with multiplicative scaling behaviour: if all
+its arguments are multiplied by a factor, then its value is multiplied by some
+power of this factor.
+
+For example, a homogeneous function of two variables x and y is a real-valued
+function that satisfies the condition $f(\alpha x,\alpha y)=\alpha ^{k}f(x,y)$
+for some constant $k$ and all real numbers $\alpha$ . The constant $k$ is
+called the degree of homogeneity.  Homogeneous functions can also be defined
+for vector spaces with the origin deleted.
+
+An **algebraic form**, or simply **form**, is a function defined by a
+homogeneous polynomial.  A **binary form** is a form in two variables. A *form*
+is also a function defined on a vector space, which may be expressed as a
+homogeneous function of the coordinates over any basis.  A form of degree 1 is
+a linear form.[3] A form of degree 2 is a quadratic form.
+
+A homogeneous polynomial defines a homogeneous function. This means that, if a
+multivariate polynomial P is homogeneous of degree d, then
+
+$$
+P(\lambda x_{1},\ldots ,\lambda x_{n})=\lambda ^{d}\,P(x_{1},\ldots ,x_{n})\,,
+$$
+
+for every $\lambda$ in any field containing the coefficients of P. Conversely,
+if the above relation is true for infinitely many $\lambda$ then the polynomial
+is homogeneous of degree d.
+
+In particular, if P is homogeneous then
+
+$$
+P(x_{1},\ldots ,x_{n})=0\quad \Rightarrow \quad P(\lambda x_{1},\ldots ,\lambda x_{n})=0,
+$$
+
+for every $\lambda$ . This property is fundamental in the definition of a
+projective variety.
+
+Any nonzero polynomial may be decomposed, in a unique way, as a sum of
+homogeneous polynomials of different degrees, which are called the homogeneous
+components of the polynomial.
+
+Given a polynomial ring $R=K[x_{1},\ldots
+,x_{n}]$ over a field (or, more generally, a ring) K,
+the homogeneous polynomials of degree d form a vector space (or a module),
+commonly denoted $R_{d}$. The above unique
+decomposition means that $R$ is the direct sum of the
+$R_{d}$ (sum over all nonnegative integers).
+
+The dimension of the vector space (or free module) $R_{d}$
+is the number of different monomials of degree d in n variables (that is
+the maximal number of nonzero terms in a homogeneous polynomial of degree d in
+n variables). It is equal to the binomial coefficient
+
+$$
+ {\binom {d+n-1}{n-1}}={\binom {d+n-1}{d}}={\frac {(d+n-1)!}{d!(n-1)!}}.
+$$
+
+# Laguerre polynomials
+
+the name (generalized) Laguerre polynomials is used for solutions of
+
+$$
+xy''+(\alpha +1-x)y'+ny=0~.
+$$
+
+These polynomials, usually denoted L0, L1, ..., are a polynomial sequence which may be defined by the Rodrigues formula,
+
+$$
+L_{n}(x)={\frac {e^{x}}{n!}}{\frac {d^{n}}{dx^{n}}}\left(e^{-x}x^{n}\right)={\frac {1}{n!}}\left({\frac {d}{dx}}-1\right)^{n}x^{n},
+$$
+
+reducing to the closed form of a following section.
+
+They are orthogonal polynomials with respect to an inner product
+
+$$
+\langle f,g\rangle =\int _{0}^{\infty }f(x)g(x)e^{-x}\,dx.
+$$
+
+The Rook polynomials in combinatorics are more or less the same as Laguerre
+polynomials, up to elementary changes of variables. 
+
+The Laguerre polynomials arise in quantum mechanics, in the radial part of the
+solution of the Schrödinger equation for a one-electron atom.
+
+Physicists sometimes use a definition for the Laguerre polynomials which is
+larger by a factor of n! than the definition used here.
+
+One can also define the generalized Laguerre polynomials recursively, defining
+the first two polynomials as
+
+$$
+L_{0}^{(\alpha )}(x)=1
+$$
+
+$$
+L_{1}^{(\alpha )}(x)=1+\alpha -x
+$$
+
+and then using the following recurrence relation for any k ≥ 1:
+
+$$
+L_{k+1}^{(\alpha )}(x)={\frac {(2k+1+\alpha -x)L_{k}^{(\alpha )}(x)-(k+\alpha )L_{k-1}^{(\alpha )}(x)}{k+1}}.
+$$
+
+The simple Laguerre polynomials are the special case α = 0 of the generalized
+Laguerre polynomials:
+
+$$
+L_{n}^{(0)}(x)=L_{n}(x).
+$$
+
+$$
+{\begin{aligned}L_{n}^{(\alpha )}(x)&={x^{-\alpha }e^{x} \over n!}{d^{n} \over dx^{n}}\left(e^{-x}x^{n+\alpha }\right)\\&=x^{-\alpha }{\frac {({\frac {d}{dx}}-1)^{n}}{n!}}x^{n+\alpha }.\end{aligned}}
+$$
+
+The generating function for them is
+
+$$ \sum _n^\infty t^n L_n^{(\alpha )}(x)= $$
+
+$$
+\frac {1}{(1-t)^{\alpha +1}}
+e^{-\frac{tx}{1-t}}.
+$$
+
+
+Laguerre functions are defined by confluent hypergeometric functions and
+Kummer's transformation as.
+
+$$
+L_{n}^{(\alpha )}(x):={n+\alpha \choose n}M(-n,\alpha +1,x).
+$$
+
+$$
+{n+\alpha \choose n}
+$$
+
+$$
+{n+\alpha \choose n}
+$$
+
+is a generalized binomial coefficient. When n is an integer the function
+reduces to a polynomial of degree n. It has the alternative expression[4]
+
+$$
+L_{n}^{(\alpha )}(x)={\frac {(-1)^{n}}{n!}}U(-n,\alpha +1,x)
+$$
+
+in terms of Kummer's function of the second kind.
+
+rational function (that is, a fraction such that the numerator and the
+denominator are both polynomials)
+
+the partial fraction decomposition may be seen as the inverse procedure of the
+more elementary operation of addition of rational fractions, which produces a
+single rational fraction with a numerator and denominator usually of high
+degree. The full decomposition pushes the reduction as far as it can go:
+
+# Bernoulli polynomials
+
+$B_k(x)$
+
+generating function:
+
+$$
+\frac{ze^{xz}}{e^z-1} =
+\sum_{k\geq 0} \frac{B_k(x)}{k!} z^k
+$$
+

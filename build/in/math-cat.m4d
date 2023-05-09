@@ -1,0 +1,719 @@
+# cat
+
+The concepts of categories, functors and natural transformations constitute the
+“language of categories”. This language now allows to formulate the concept of
+adjoint functors and more generally that of adjunctions
+This is concept that category theory, as a theory, is all about.
+
+Part of the data involved in an adjunction is its adjunction unit and
+adjunction counit and depending on their behaviour special
+cases of adjunctions are identified
+
+"Categorification" refers to the process of turning sets into categories by
+adding morphism, whose indroduction typically demands a re-interpretation of
+the elements of the sets as related mathematical objects.
+
+Any adjunction restricts to define an equivalence between certain
+subcategories, but categories connected by adjunctions need not be equivalent.
+When a "forgetful" functor admits an adjoint, that adjoint defines a "free"
+(or, less commonly, the dual "cofree") construction.
+
+The notion of *algebra* is given a precice meaning in relation to a monad, an endofunctor
+that provides a syntactic encoding of algebraic structure that may be borne
+by objects in the category on which it acts.
+
+# Category
+
+A category $\mathcal{C}$ is
+
+1:
+
+a class $\text{Obj}_{\mathcal{C}}$, called the class of objects;
+
+2:
+
+for each pair $X,Y \in \text{Obj}\_\mathcal{C}$
+of objects, a set $\text{Hom}_\mathcal{C}(X,Y)$, called the set of morphisms from $X$ to $Y$, or the hom-set, for short.
+We denote the elements of this set by arrows like this:
+$X \overset{f}{\longrightarrow} Y \in \text{Hom}\_{\mathcal{C}}(X,Y) \,$.
+
+3:
+
+for each object
+$X \in \text{Obj}\_{\mathcal{C}}$
+a morphism
+$X \overset{id_X}{\to} X $
+$\in \text{Hom}\_{\mathcal{C}}(X,X)$
+called the identity morphism on $X$;
+
+4:
+
+for each triple $X_1, X_2, X_3 \in \text{Obj}$ of objects, a function
+$ \text{Hom}\_\mathcal{C}(X_1, X_2)\times $
+$\text{Hom}\_\mathcal{C}(X_2, X_3)$
+$\overset{\circ\_{X_1,X_2,X_3}}{\longrightarrow} \text{Hom}\_\mathcal{C}(X_1, X_3)$
+$X_1 \overset{f}{\to} X_2, X_2 \overset{f}{\to} X_3 \mapsto X_1 \overset{ g \circ f }{\longrightarrow} X_3$
+called composition;
+
+such that:
+
+1)
+for all pairs of objects $X,Y \in Obj_{\mathcal{C}}$ unitality holds: given
+
+$X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)$
+
+then
+
+$
+X \overset{id_Y \circ f}{\longrightarrow} Y \;=\; X \overset{f}{\longrightarrow} Y \;=\; X \overset{f \circ id_X }{\longrightarrow} Y \,;
+$
+
+2)
+for all quadruples of objects $X_1, X_2, X_3, X_4 \in Obj_{\mathcal{C}}$ composition satifies associativity: given
+
+$X_1 \overset{f_{12}}{\to} X_2 \overset{f_{23}}{\to} X_3 \overset{f_{34}}{\to} X_4$
+
+then
+
+$$
+X_1 \overset{f_{34} \circ (f_{23} \circ f_{12})}{\longrightarrow} X_4 \;\;=\;\; X_1 \overset{(f_{34} \circ f_{23}) \circ f_{12}}{\longrightarrow} X_4 \,.
+$$
+
+Naively, we may think of objects as the ‘elements’ of a category.
+
+More generally, in higher category theory the objects of an $(n,r)$-category
+are the $0$-dimensional cells of that structure, the $0$-morphisms.
+
+The terminal category $\ast$ is the category whose class of objects
+is the singleton set, and which has a single morphism on this object,
+necessarily the identity morphism.
+
+a morphism $X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)$
+
+is called an isomorphism if there exists an inverse morphism
+$Y \overset{f^{-1}}{\longrightarrow} Y \;\; \in Hom_{\mathcal{C}}(Y,X)$
+
+A morphism $f\colon a\to b$
+is a **isomorphism** if there is an
+inverse morphism $f^{-1}\colon b\to a$
+such that $f^{-1}\circ f=id_a$ and $f\circ f^{-1}=id_b$.
+
+Two objects in a category are said to be isomorphic if there are arrows for one
+to the other, and back, and the composition of these two arrows is equivalent
+to identity in both directions.
+
+A **groupoid** is a category in which every morphism is an isomorphism.
+
+Let $G$ be a group. Then there is a groupoid, denoted $B G$, with a single
+object $p$, with morphisms $Hom_{B G}(p,p) \coloneqq G$
+
+the elements of $G$, with composition the multiplication in $G$, with identity
+morphism the neutral element in $G$ and with inverse morphisms the inverse
+elements in $G$.
+
+Loop space objects are defined in any (∞,1)-category $\mathbf{C}$ with homotopy
+pullbacks: for $X$ any pointed object of $\mathbf{C}$ with point $\star \to X$,
+its loop space object is the homotopy pullback $\Omega X$ of this point along
+itself:
+
+$$
+\begin{array}{ccc} \Omega X & \to & \star
+²nn¹ \downarrow & & \downarrow
+²nn¹ \star & \to & X 
+²nn¹ \end{array}
+$$
+
+Conversely, if $A$ is given and a homotopy pullback diagram
+
+$$
+\begin{array}{ccc} A &\to& {\star}
+²nn¹ \downarrow && \downarrow
+²nn¹ {\star} &\to& \mathbf{B}A
+²nn¹ \end{array}
+$$
+
+exists, with the point ${\star} \to \mathbf{B} A$ being essentially unique, by
+the above $A$ has been realized as the loop space object of $\mathbf{B} A$
+
+$A = \Omega \mathbf{B} A$
+
+and we say that $\mathbf{B} A$ is the delooping of $A$.
+
+A (generalised) element of $\Omega X$ may be thought of as a loop in $X$ at the
+base point $\star$.
+
+This is also called the delooping of $G$.
+
+Since, generally, there is more than one element in a homotopy type, these are
+like “groups with several elements”, and as such they are called groupoids.
+A groupoid where there is only one object is a usual group.
+
+If there are higher order gauge-of-gauge transformations/homotopies of
+homotopies between the transformations in such a groupoid, one speaks of
+2-groupoids, 3-groupoids, … n-groupoids, and eventually of ∞-groupoids. The
+plain sets are recovered as the special case of 0-groupoids.
+
+Due to the higher orders nn appearing here, mathematical structures based not
+on sets but on homotopy types are also called higher structures.  Homotopy
+theory may be understood as the non-abelian generalization of homological
+algebra.  Ideally, abstract homotopy theory would simply be a complete
+replacement of set theory, obtained by removing the assumption of strict
+equality, relaxing it to gauge equivalence/homotopy. As such, abstract homotopy
+theory would be part and parcel of the foundations of mathematics themselves,
+not requiring any further discussion. This ideal perspective is the promise of
+homotopy type theory.
+
+Hence homotopy types are equivalently ∞-groupoids. This perspective makes
+explicit that homotopy types are the unification of plain sets with the concept
+of gauge-symmetry groups.
+
+The notion of a category embodies the idea of structuralism applied to concepts
+in mathematics.  Maps are called morphisms.  This structuralism-principle
+bootstraps itself to life by considering morphisms between categories
+themselves to be those “maps” that respect their structuralism, namely the
+connectivity and composition of the morphisms between their objects: These are
+the functors.
+
+# Quiver
+
+In mathematics it happens at times that one and the same concept is given two
+different names to indicate a specific perspective, a certain attitude as to
+what to do with such objects.
+
+A quiver is just a directed graph (pseudograph, to be explicit).
+
+But one says quiver instead of directed graph when one is interested in
+studying quiver representations: functors from the free category on that graph
+to the category of finite-dimensional vector spaces.  On the other hand, beware
+that in graph theory, the term “directed graph” is often taken to mean that
+there is at most one edge from one vertex to another.  To emphasize that a
+quiver allows more edges between vertices one may speak of directed
+pseudographs.
+
+A category is a quiver (a directed graph with multiple edges) with a rule
+saying how to compose two edges that fit together to get a new edge.
+Furthermore, each vertex has an edge starting and ending at that vertex, which
+acts as an identity for this composition.
+
+$\mathbf{Cat}$ is the category with:
+
+-    small categories as objects
+
+-    functors as morphisms
+
+-    composition of morphisms the evident composition of functors
+
+A *small category* is an internal category in the category $\mathbf{Set}$.
+
+$\mathbf{Set}$ is the (or a) category with sets as objects and functions between sets as morphisms.
+
+There are two broad ways to write down the definition of category; in the usual
+foundations of mathematics. Here is one of them:
+
+A **category** $C$ consists of
+
+-    a collection $C_0$ of objects
+
+-    a collection $C_1$ of morphisms (or arrows)
+
+-    two functions $s, t\colon C_1 \to C_0$ which assign, to every morphism,
+     its source (or domain) and target (or codomain)
+
+-    a partial function $\circ\colon C_1 \times C_1 \to C_1$ which assigns, to
+     any pair of morphisms $f, g$ such that $t(f) = s(g)$, their composite
+     morphism $g \circ f \in C_1$ (also written $g f$ or sometimes $f;g$
+
+-    a function $id\colon C_0 \to C_1$ which assigns to each object $x$ a
+     morphism $id_x$ or $1_x$, the identity morphism on $x$
+
+-    such that the following properties are satisfied:
+
+-    -   source and target are respected by composition: $s(g \circ f) = s(f)$
+         and $t(g\circ f) = t(g)$
+
+-    -   source and target are respected by identities: $s(1_x) = x$ and
+         $t(1_x) = x$
+
+-    -   composition is associative: $(h \circ g)\circ f = h\circ (g \circ f)$
+         whenever $t(f) = s(g)$ and $t(g) = s(h)$
+
+-    -   composition satisfies the left and right unit laws: if $s(f) = x$ and
+         $t(f) = y$, then $1_y \circ f = f = f \circ 1_x$
+
+People also often write $x \in C$ instead of $x \in C_0$ as a short way to
+indicate that $x$ is an object of $C$. Also, some people write $Ob(C)$ and
+$Mor(C)$ instead of $C_0$ and $C_1$. One usually writes $f\colon x \to y$ if $f
+\in C_1$ to state that $s(f) = x$ and $t(f) = y$. Finally, people often write
+$hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f\colon
+x \to y$.
+
+The Elementary Theory of the Category of Sets , or ETCS for short, is an
+axiomatic formulation of set theory in a category-theoretic spirit.
+The theory intends to capture in an invariant way the notion of a (constant)
+‘abstract set’ whose elements lack internal structure and whose only external
+property is cardinality with further external relations arising from mappings.
+The membership relation is local and relative i.e. membership is meaningful
+only between an element of a set and a subset of the very same set.
+
+category theory and various elaborations like ETCS are first-order theories,
+just as ZFC is. One doesn’t need a theory of sets prior to a theory of
+categories, any more than one needs a theory of sets prior to a theory of sets.
+Fully formalized, ETCS makes no mention of sets, only a signature and a list of
+axioms; the only background is first-order logic (which gives the rules for
+deducing theorems).
+
+Material set theory (also called membership-based set theory) is a style of set
+theory that contrasts with structural set theory. In a material set theory, the
+elements of a set exist independently of that set. (The terminology ‘material’,
+or at least ‘materialistic’, goes back at least to Friedman 1997.) The standard
+example is ZFC.
+
+Any model of material set theory gives rise to a category of sets, which is a
+model of structural set theory. Conversely, from any structural set theory we
+can construct a model of material set theory by using graphs to model
+hereditary membership relations, as described at pure set. Viewed in the
+correct context, these two constructions are a pair of adjoint functors.
+Moreover, the adjunction is idempotent, and thus induces an equivalence between
+models of the two types of set theory which satisfy appropriate
+“foundation-type” axioms.
+
+Fully formalized, ETCS makes no mention of sets, only a signature and a list of
+axioms; the only background is first-order logic (which gives the rules for
+deducing theorems).
+
+The theory ZFC is usually described using a single-sorted relational signature
+with one binary relation $\in$.  Examples where multisorted signatures are used
+is the theory of categories (with an object sort and a morphism sort) and
+(multi)directed graphs (with a vertex sort and an edge sort).
+
+# Functors
+
+Functors are mappings between categories that preserve structure.
+If there are different ways to map a category to a category, one can
+ask how are the images related. Natural transformations map between
+two functors and preserve structure.
+
+`[C,D]` or $D^C$ "functor-category"
+
+Morphisms connect objects, functors connect
+categories, natural transformations connect functors.
+
+But we’ve also seen that, what appears as an action at one level of
+abstraction, becomes an object at the next level. A set of morphisms turns into
+a function object. As an object, it can be a source or a target of another
+morphism. That’s the idea behind higher order functions.
+
+A functor maps objects to objects, so we can use it as a type constructor, or a
+parametric type. A functor also maps morphisms, so it is a higher order
+function — `fmap`. There are some simple functors, like Const, product, and
+coproduct, that can be used to generate a large variety of algebraic data
+types. Function types are also functorial, both covariant and contravariant,
+and can be used to extend algebraic data types.
+
+Functors may be looked upon as objects in the functor category. As such, they
+become sources and targets of morphisms: natural transformations. A natural
+transformation is a special type of polymorphic function.
+
+# Category
+
+A structure-preserving map is called **morphism**.
+
+If $f$ is a morphism with source object $A$ and target object $B$, we write $f : A \to B$.
+
+$\mathcal{C}$ category. 
+
+Elements of a category:  
+A class of Objects, a set of Morphisms between Objects.
+
+Composition is associative and satisfies the left and right unit laws.
+
+$g\circ f$ "g after f"
+
+concrete categories,
+that is, categories in which objects are sets with additional structure, ar-
+rows are structure-preserving functions, and the composition law is ordinary
+composition of functions.
+
+A concrete category is a category C, together with a faithful functor $U : C → \text{Set}$.
+
+A discrete category is one whose only arrows are the identity
+arrows. A discrete category is completely determined by its set of objects;
+thus discrete categories and sets are essentially the same notion. A discrete
+category is not necessarily concrete.
+
+automorphism
+
+**epimorphism**  
+$f::a\to b$ is an epimorphism if
+$\forall c. \forall g_1,g_2 :: b \to c. g_1 \circ f = g_2 \circ f \implies g_1 = g_2$
+
+**monomorphism**  
+$f::a\to b$ is a monomorphism if
+$\forall c. \forall g_1,g_2 :: c \to a f \circ g_1 = f \circ f_2 \implies g_1 = g_2$
+
+In a concrete category,
+(i) Injective ⇒ monic.
+(ii) Surjective ⇒ epi.
+
+In the category Set,
+(i) Monic ⇒ injective.
+(ii) Epi ⇒ surjective.
+
+If $f : a → b$ and $g : b → a$ are arrows in a category that satisfy $gf = 1a$
+then we say that $f$ is a section of $g$, and $g$ is a retraction of f.  In
+other words, a section of an arrow is a right inverse and a retraction is a
+left inverse; hence, in particular, an arrow is both a section and a retraction
+if and only if it is an isomorphism.
+
+In a category,
+(i) Every section is monic.
+(ii) Every retraction is epi.
+
+The **initial object** is the object that has one and only one morphism going
+to any object in the category.
+
+Here are some examples: The initial object in a partially ordered set (often
+called a poset) is its least element. Some posets don’t have an initial object
+— like the set of all integers, positive and negative.
+
+In the category of sets, the initial object is the empty set. Remember, an
+empty set corresponds to the Haskell type `Void` (there is no corresponding type
+in C++) and the unique polymorphic function from `Void` to any other type is
+called `absurd`:
+
+```txt
+absurd :: Void -> a
+```
+
+It’s this family of morphisms that makes Void the initial object in the category of types.
+
+The **terminal object** is the object with one and only one morphism coming to it
+from any object in the category.
+
+```txt
+unit :: a -> ()
+unit _ = ()
+```
+
+**functor** can be thought of as homomorphisms
+between categories.
+
+A functor maps all commutative
+diagrams to commutative diagrams.
+
+forgetful functors, that is, functors
+defined on concrete categories that ‘forget’ part of the structure of an object.
+
+A functor F : C → D is faithful if F : C(a, b) → D(F (a), F (b))
+is injective for all objects a, b ∈ C. The functor F is full if F : C(a, b) →
+D(F (a), F (b)) is surjective for all a, b ∈ C. A functor is an embedding if it is
+faithful and is an injective function on objects.
+
+Diagram: For categories C and J, a diagram of type J in C is a covariant
+functor $D:J\rightarrow C$.
+
+(Category theoretical) presheaf: For categories C and J, a J-presheaf on C is a
+contravariant functor $D:C\rightarrow J$.
+
+Presheaves: If X is a topological space, then the open sets in X form a
+partially ordered set Open(X) under inclusion. Like every partially ordered
+set, Open(X) forms a small category by adding a single arrow U → V if and only
+$U\subseteq V$. Contravariant functors on
+Open(X) are called presheaves on X. For instance, by assigning to every open
+set U the associative algebra of real-valued continuous functions on U, one
+obtains a presheaf of algebras on X.
+
+Endofunctor: A functor that maps a category to itself.
+
+The category of endofunctors on some category has as objects every endofunctor,
+and as arrows natural transformations between these endofunctors. Here identity
+is the identity transformation, and composition is composition between natural
+transformations.
+
+a product category is a category whose objects are pairs of objects from some
+other category, and whose arrows are pairs of the corresponding arrows between
+those two objects. Arrow equivalence, identity and composition, follow
+similarly. Thus, every object in a product category is a product, and arrows
+must always “operate on products”.
+Bifunctors
+
+If a functor maps from a product category to some other category (which could
+also be another product category, but doesn’t have to be), we call it a
+bifunctor. Another way to think of it is as a “functor of two arguments”.
+
+Monoidal categories
+
+A monoidal category reveals the structure of a tensor operation in the
+category, plus a special object, the unit of the tensor operation. Along with
+these come laws expressed in terms of isomorphisms between the results of the
+tensor:
+
+```txt
+tensor : C × C ⟶ C where "x ⨂ y" := (tensor (x, y));
+I : C;
+
+unit_left  {X} : I ⨂ X ≅ X;
+unit_right {X} : X ⨂ I ≅ X;
+
+tensor_assoc {X Y Z} : (X ⨂ Y) ⨂ Z ≅ X ⨂ (Y ⨂ Z)
+```
+
+Note that the same category may be monoidal in multiple different ways. Also,
+we needed product categories, since the tensor is a bifunctor from the product
+of some category C to itself.
+
+The category of endofunctors on C is a monoidal category, taking the identity
+endofunctor as unit, and endofunctor composition as the tensor. It is monoidal
+in other ways too, but this is the structure of interest concerning monads.
+
+A monoid object in a monoidal category is an object in the category, plus a
+pair of arrows. Let’s call the arrows mappend and mempty. These map from a
+tensor product of the monoid object to itself, and from the monoidal unit to
+the monoid object, along with preservation of the monoid laws in terms of arrow
+equivlances. In Coq it looks like this:
+
+```txt
+Context `{C : Category}.
+Context `{@Monoidal C}.
+
+-- Here [mon] is the monoid object.
+Class Monoid (mon : C) := {
+  mappend : mon ⨂ mon ~> mon;
+  mempty : I ~> mon;
+
+  mempty_left : (* I ⨂ mon ≈ mon *)
+    mappend ∘ bimap mempty id ≈ to (@unit_left C _ mon);
+  mempty_right : (* mon ⨂ I ≈ mon *)
+    mappend ∘ bimap id mempty ≈ to (@unit_right C _ mon);
+
+  (* (mon ⨂ mon) ⨂ mon ≈ mon ⨂ (mon ⨂ mon) *)
+  mappend_assoc :
+    mappend ∘ bimap mappend id
+      ≈ mappend ∘ bimap id mappend ∘ to tensor_assoc
+}.
+```
+
+Given all of the above, we can now state that every monad is a monoid object in
+the monoidal category of endofunctors, taking composition as the tensor
+product. return is the mempty natural transformation of that object, and join,
+the mappend natural transformation:
+
+```txt
+Context `{C : Category}.
+Context `{M : C ⟶ C}.
+
+Definition Endofunctors `(C : Category) := ([C, C]).
+
+Program Definition Monoid_Monad
+        (m : @Monoid (Endofunctors C) Composition_Monoidal M) : 
+  Monad := {|
+  ret  := transform[mempty[m]];
+  join := transform[mappend[m]]
+|}.
+```
+
+Dual vector space: The map which assigns to every vector space its dual space
+and to every linear map its dual or transpose is a contravariant functor from
+the category of all vector spaces over a fixed field to itself.
+
+Tensor products: If C denotes the category of vector spaces over a fixed field,
+with linear maps as morphisms, then the tensor product
+$V\otimes W$ defines a functor C × C → C which is covariant in both
+arguments
+
+Lie algebras: Assigning to every real (complex) Lie group its real (complex)
+Lie algebra defines a functor.
+
+A bifunctor (also known as a binary functor) is a functor whose domain is a
+product category.
+
+A multifunctor is a generalization of the functor concept to n variables. So,
+for example, a bifunctor is a multifunctor with n = 2.
+
+a monoidal category (or tensor category) is a category C equipped with a
+bifunctor
+
+$⊗ : C × C → C$
+
+that is associative up to a natural isomorphism, and an object I that is both a
+left and right identity for ⊗, again up to a natural isomorphism. The
+associated natural isomorphisms are subject to certain coherence conditions,
+which ensure that all the relevant diagrams commute.
+
+The ordinary tensor product makes vector spaces, abelian groups, R-modules, or
+R-algebras into monoidal categories. Monoidal categories can be seen as a
+generalization of these and other examples. Every (small) monoidal category may
+also be viewed as a "categorification" of an underlying monoid, namely the
+monoid whose elements are the isomorphism classes of the category's objects and
+whose binary operation is given by the category's tensor product.
+Three natural isomorphisms subject to certain coherence conditions expressing
+the fact that the tensor operation
+
+- is associative: there is a natural (in each of three arguments A, B, C)
+isomorphism $\alpha$, called associator, with components $\alpha _{A,B,C}\colon
+(A\otimes B)\otimes C\cong A\otimes (B\otimes C)$, 
+
+- has I as left and right identity: there are two natural isomorphisms
+$\lambda$ and $\rho$, respectively called left and right unitor, with
+components $\lambda _{A}\colon I\otimes A\cong A$ and $\rho _{A}\colon A\otimes
+I\cong A$.
+
+The coherence conditions for these natural transformations are:
+
+-    for all $A$, $B$, $C$ and $D$ in $\mathbf {C}$, the pentagon diagram
+
+Monoidal category pentagon.svg
+
+commutes;
+
+-    for all $A$ and $B$ in $\mathbf {C}$, the triangle diagram
+
+Monoidal category triangle.svg
+
+commutes;
+
+A strict monoidal category is one for which the natural isomorphisms α, λ and ρ
+are identities. Every monoidal category is monoidally equivalent to a strict
+monoidal category.
+
+#
+
+The collection of all morphisms from X to Y is denoted $\text{hom}_C(X,Y)$ or simply
+$\text{hom}(X, Y)$ and called the hom-set between X and Y.
+
+A faithful functor is injective on hom-sets.
+A full functor is surjective on hom-sets.
+
+Constant funtor, $\Delta_c$, collapses all morphism to the id of the single
+object c.
+
+Suppose that P is a property that arrows in any category may or may not have.
+(i) A functor F preserves P if f having property P implies that F (f ) has
+property P .  (ii) A functor F reflects P if F (f ) having property P implies
+that f has property P .
+
+(i) All functors preserve isomorphisms.
+(ii) All full and faithful functors reflect isomorphisms.
+(iii) All faithful functors reflect monics and epis.
+
+**endofunctor**: A functor that maps a category to itself.
+
+Topoi behave much like the category of sets and possess a notion
+of localization; they are in a sense a generalization of point-set topology.
+
+A preordered class is a **thin category**, that is a category whith
+at most one morphism from an object to another.
+
+A category C is called small if both ob(C) and hom(C) are actually sets and not
+proper classes, and large otherwise. A locally small category is a category
+such that for all objects a and b, the hom-class hom(a, b) is a set, called a
+homset. Many important categories in mathematics (such as the category of
+sets), although not small, are at least locally small.
+
+An object s in a category C is initial if, for each object
+a . An object t is terminal if there
+a ∈ C, there is precisely one arrow s
+is precisely one arrow $a \to t$ , for each a; and z ∈ C is null if it is both
+initial and terminal.
+
+A category with one Element is called a **monoid**.
+
+In mathematics, a commutativity constraint $\gamma$ on
+a monoidal category $\mathcal {C}$ is a choice
+of isomorphism $\gamma _{A,B}:A\otimes B\rightarrow B\otimes A$
+for each pair of objects A and B which form a "natural family." In
+particular, to have a commutativity constraint, one must have
+$A\otimes B\cong B\otimes A$ for all
+pairs of objects $A,B\in {\mathcal {C}}$.
+
+A braided monoidal category is a monoidal category $\mathcal {C}$
+equipped with a braiding - that is, a commutativity
+constraint $\gamma$ which satisfies the hexagon
+identities as defined below. The term braided references the fact that the
+braid group plays an important role in the theory of braided monoidal
+categories
+
+For $\mathcal {C}$ along with the commutativity constraint $\gamma$ to be
+called a braided monoidal category, the following hexagonal diagrams must
+commute for all objects $A,B,C\in {\mathcal {C}}$. Here $\alpha$ is the
+associativity isomorphism coming from the monoidal structure on $\mathcal {C}$: 
+
+Braid category hexagon.svg,
+Braid category inverse hexagon.svg
+
+## Monad
+
+A monad is a functor T and two natural transformations plus some laws
+(associativity, identity).
+
+Monads are monoids in categories of endofunctors.
+Endofunctor: A functor that maps a category to itself.
+Functors can be thought of as homomorphisms between categories.
+A monoid is a semigroup with identity.
+
+A **monad** is a functor $M : C \to C$, along with two morphisms for every
+object $X$ in $C$:
+
+$\mathit{unit}^M_X : X \to M(X)$  
+$\mathit{join}^M_X : M(M(X)) \to M(X)$
+
+Join does different things to different functors, and doesn't make much sense for
+some of them.
+
+Given a monad $M : C \to C$ and a morphism $f : A \to B$ for $A, B \in C$,
+
+$$\mathit{ join } \circ M(\mathit{join}) = \mathit { join } \circ \mathit { join } $$
+$$\mathit { join } \circ M(\mathit{unit}) = \mathit { join } \circ \mathit{unit} = \mathit { id } $$
+$$\mathit { unit } \circ f = M(f) \circ \mathit { unit } $$
+$$\mathit { join } \circ M(M(f)) = M(f) \circ \mathit { join }$$
+
+`mbind` `>>=`
+`x >>= f = join (fmap f x)`
+
+A monad is used to represent a sequence of steps of computation.
+
+Do-notation is a shorthand for monadic bind.
+
+# generalised element
+
+If a category C has a terminal object 1, a global element of another object x
+is a morphism $1 \to x$.
+
+So a global element is a generalized element at “stage of definition” $1$.
+
+In a category $C$ with a terminal object $1$, a **pointed object** is an object
+$X$ equipped with a global element $1\to X$, often called its basepoint.
+
+# F-Algebra
+
+A **initial algebra** is an initial object in
+the category of F-algebras for a given endofunctor $F$.
+
+If $C$ is a category, and $F: C\to C$ is an endofunctor
+of $C$, then an **F-algebra** is an object $A$ of $C$
+together with a $C$-morphism $F(A)\to A$.
+
+```tex
+\begin{tikzpicture}
+  \matrix (m) [matrix of math nodes,row sep=3em,column sep=4em,minimum width=2em]
+  {
+     F(A) & A \\
+     F(B) & B \\};
+  \path[-stealth]
+    (m-1-1) edge node [left] {$F(f)$} (m-2-1)
+            edge node [above] {$\alpha$} (m-1-2)
+    (m-2-1.east|-m-2-2) edge node [above] {$\beta$} (m-2-2)
+    (m-1-2) edge node [right] {$f$} (m-2-2)
+            ;
+\end{tikzpicture}
+```
+
+F-algebras generalize algebraic structure.
+Not all mathematical structures are F-algebras.
+
+Monoids are F-algebras of signature $F(M) = 1 + M\times M$.
+In the same vein, semigroups are F-algebras of signature $F(S) = S\times S$.
+
+# ---
+
+A **point** of a set $X$ is a map $1 \to X$.

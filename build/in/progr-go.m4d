@@ -1,0 +1,24 @@
+# go
+
+The blank identifier is represented by the underscore character "_".
+
+Declaration = ConstDecl | TypeDecl | VarDecl
+
+TopLevelDecl = Declaration | FunctionDecl | MethodDecl
+
+go env
+go test ./...
+go get github/some/repo
+go run .
+
+go mod init mymodule
+cd mymodule
+mkdir mypackage
+
+in main.go 
+`import( "mymodule/mypackate" )`
+
+docker login
+ko build .
+
+

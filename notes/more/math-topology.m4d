@@ -1,0 +1,101 @@
+# topology
+
+Shapes.
+
+Coordination freeness.
+Invariance under deformation.
+Compressed representation (ex. trangulation).
+
+Let $X$ be a nonempty set, and let $\tau$ be a collection of subsets of $X$.
+We say that $\tau$ defines a **topology** on $X$ if the empty set $\empty$ and $X$
+itself lie in $\tau$, if the union of any family of elements of $\tau$ is again
+an element of $\tau$, and if the intersection of any finite collection of elements
+of $\tau$ is also an element of $\tau$.
+The combination of $X$ and $\tau$ is called a **topological space**.
+
+The finest topology on X is the discrete topology; this topology makes all
+subsets open. The coarsest topology on X is the trivial topology; this topology
+only admits the empty set and the whole space as open sets.
+
+# Space
+
+An **open set** is an abstract concept generalizing the
+idea of an open interval in the real line.
+
+Each choice of definition for *open set* is called **topology**.
+A set with a topology is called a **topological space**.
+
+let X be a set and let τ be a family of subsets of X. Then τ is called a
+topology on X if:
+
+-    Both the empty set and X are elements of τ.
+-    Any union of elements of τ is an element of τ.
+-    Any intersection of finitely many elements of τ is an element of τ.
+
+If τ is a topology on X, then the pair (X, τ) is called a topological space. The notation Xτ may be used to denote a set X endowed with the particular topology τ.
+
+The members of τ are called open sets in X. A subset of X is said to be closed
+if its complement is in τ (i.e., its complement is open). A subset of X may be
+open, closed, both (clopen set), or neither. The empty set and X itself are
+always both closed and open. A subset of X including an open set containing a
+point x is called a 'neighborhood' of x.
+
+Two coninuous functions from one topological space
+to another are called **homotopic** if one can be "continuously
+deformed" into the other, such a deformation being called
+a **homotopy** between the two functions.
+
+A set might be open, closed, both, or neither.
+
+$X$ topolical space  
+$p\in X$  
+A **neighbourhood** of $p$ is a subset $V$ of $X$
+that includes an open set $V$ contining $p$.  
+$p\in U \subseteq V$  
+Two points are **topologically indinguistable** if they have
+exactly the same neighbourhoods.
+
+A **space** is a set (sometimes called a universe) with some added structure.
+A **topological space** may be defined as a *set* of *points*, along with a set of
+*neighbourhoods* for each point, satisfying a set of *axioms* relating points and
+neighbourhoods.
+
+-    *Continuous functions*, intuitively, take nearby points to nearby points.
+-    *Compact sets* are those that can be covered by finitely many sets of arbitrarily small size.
+-    *Connected sets* are sets that cannot be divided into two pieces that are far apart.
+
+The words 'nearby', 'arbitrarily small', and 'far apart' can all be made
+precise by using open sets.
+Each choice of definition for 'open set' is called a topology. A set with a
+topology is called a topological space.
+
+Let $X$ be a set and $\tau$ be a family of sets.
+We say that $\tau$ is a **topology** on $X$ if:
+
+- $X$ and $\empty$ are in $\tau$
+- any union of sets in $\tau$ is in $\tau$
+- any finite intersection of sets in $\tau$ is in $\tau$
+
+We call the sets in τ $\tau$ the open sets.
+
+Every subset A of a topological space X contains a (possibly empty) open set;
+the largest such open set is called the interior of A. It can be constructed by
+taking the union of all the open sets contained in A.
+
+Given topological spaces X and Y, a function f from X to Y is continuous if the
+preimage of every open set in Y is open in X. The function f is called open if
+the image of every open set in X is open in Y.
+
+If there are two topologies on the same set, a set U that is open in the first
+topology might fail to be open in the second topology. For example, if X is any
+topological space and Y is any subset of X, the set Y can be given its own
+topology (called the 'subspace topology') defined by "a set U is open in the
+subspace topology on Y if and only if U is the intersection of Y with an open
+set from the original topology on X." This potentially introduces new open
+sets: if V is open in the original topology on X, but $V\cap Y$ isn't, then
+$V\cap Y$ is open in
+the subspace topology on Y but not in the original topology on X.
+
+Topological notions (continuity, convergence, open sets, closed sets etc.) are
+defined naturally in every Euclidean space. In other words, every Euclidean
+space is also a topological space.

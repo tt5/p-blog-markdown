@@ -1,0 +1,318 @@
+
+An elliptic hypergeometric series is a series $\sum c_n$ such that the
+ratio $\frac{c_n}{c_n−1}$ is an elliptic function of n, analogous to generalized
+hypergeometric series where the ratio is a rational function of n, and basic
+hypergeometric series where the ratio is a periodic function of the complex
+number n.
+
+The basic hypergeometric series $_2φ_1(q^α,q^β;q^γ;q,x)$ was first considered
+by Eduard Heine (1846).  Heine's basic hypergeometric series, or hypergeometric
+q-series, are q-analogue generalizations of generalized hypergeometric series,
+and are in turn generalized by elliptic hypergeometric series. A series xn is
+called hypergeometric if the ratio of successive terms $\frac{x_{n+1}}{x_n}$ is
+a rational function of n. If the ratio of successive terms is a rational
+function of qn, then the series is called a basic hypergeometric series. The
+number q is called the base.
+
+a q-Pochhammer symbol, also called a q-shifted factorial, is a q-analog of the
+common Pochhammer symbol. It is defined as
+
+$$
+ (a;q)_{n}=\prod
+    _{k=0}^{n-1}(1-aq^{k})=(1-a)(1-aq)(1-aq^{2})\cdots (1-aq^{n-1})
+$$
+
+with
+
+$ (a;q)_{0}=1 $
+
+by definition.
+
+Unlike the ordinary Pochhammer symbol, the q-Pochhammer symbol can be extended
+to an infinite product:
+
+$$
+(a;q)_{\infty
+    }=\prod _{k=0}^{\infty }(1-aq^{k}).
+$$
+
+This is an analytic function of q in the interior of the unit disk, and can
+also be considered as a formal power series in q. The special case
+
+$$
+\phi (q)=(q;q)_{\infty }=\prod _{k=1}^{\infty }(1-q^{k})
+$$
+
+is known as Euler's function.
+
+Euler's function is a model example of a q-series, a modular form, and provides
+the prototypical
+example of a relation between combinatorics and complex analysis.
+
+The coefficient $p(k)$ in the formal power series
+expansion for $1/\phi (q)$ gives the
+number of all partitions of k. That is,
+
+$$
+{\frac {1}{\phi (q)}}=\sum _{k=0}^{\infty }p(k)q^{k}
+$$
+
+where $p(k)$ is the partition function of k.
+
+The partition function p(n) represents the number of possible partitions of a
+natural number n, which is to say the number of distinct ways of representing n
+as a sum of natural numbers (with order irrelevant). By convention p(0) = 1,
+p(n) = 0 for n negative.
+
+$$
+p(n)=\sum _{k}(-1)^{{k-1}}p(n-g_{k})
+$$
+
+$g_k = k(3k-1)/2$ for k = 1, −1, 2, −2, 3, ... are called (generalized)
+pentagonal numbers.
+
+The Euler function is related to the Dedekind eta function through a Ramanujan
+identity as
+
+$$
+\phi (q)=q^{-{\frac {1}{24}}}\eta
+    (\tau )
+$$
+
+where $q=e^{2\pi i\tau }$ is
+the square of the nome.
+
+the **nome** is a special function and is given by
+
+$$
+q = e^{-{\frac{\pi K \text{'}}{K}}}
+$$
+
+$$
+= e^{\frac{\text{i}\pi \omega _{2}}{\omega _{1}}}=e^{\text{i}\pi
+\tau }
+$$
+
+where K and iK′ are the quarter periods, and ω1 and ω2 are the fundamental pair
+of periods. Notationally, the quarter periods K and iK′ are usually used only
+in the context of the Jacobian elliptic functions, whereas the half-periods ω1
+and ω2 are usually used only in the context of Weierstrass elliptic functions.
+
+a fundamental pair of periods is an ordered pair of complex numbers that define
+a lattice in the complex plane. This type of lattice is the underlying object
+with which elliptic functions and modular forms are defined.
+
+the quarter periods K(m) and iK ′(m) are special functions that appear in the
+theory of elliptic functions.
+
+The quarter periods K and iK ′ are given by
+
+$$
+K(m)=\int _{0}^{\frac {\pi }{2}}{\frac {d\theta }{\sqrt {1-m\sin ^{2}\theta }}}
+$$
+
+and
+
+$$
+{\text{i}}K\text{'}(m)={\text{i}}K(1-m).\,
+$$
+
+When m is a real number, 0 ≤ m ≤ 1, then both K and K ′ are real numbers. By
+convention, K is called the real quarter period and iK ′ is called the
+imaginary quarter period. Any one of the numbers m, K, K ′, or K ′/K uniquely
+determines the others.
+
+A **generalized hypergeometric series** is a power series in which the ratio of
+successive coefficients indexed by n is a rational function of n. The series,
+if convergent, defines a generalized hypergeometric function, which may then be
+defined over a wider domain of the argument by analytic continuation. The
+generalized hypergeometric series is sometimes just called the hypergeometric
+series, though this term also sometimes just refers to the Gaussian
+hypergeometric series. Generalized hypergeometric functions include the
+(Gaussian) hypergeometric function and the confluent hypergeometric function as
+special cases, which in turn have many particular special functions as special
+cases, such as elementary functions, Bessel functions, and the classical
+orthogonal polynomials.
+
+An orthogonal polynomial sequence is a family of polynomials such that any two
+different polynomials in the sequence are orthogonal to each other under some
+inner product.
+The most widely used orthogonal polynomials are the classical orthogonal
+polynomials, consisting of the Hermite polynomials, the Laguerre polynomials,
+the Jacobi polynomials together with their special cases the Gegenbauer
+polynomials, the Chebyshev polynomials, and the Legendre polynomials.
+
+A hypergeometric series is formally defined as a power series
+
+$$
+ \beta _{0}+\beta
+    _{1}z+\beta _{2}z^{2}+\dots =\sum _{n\geqslant 0}\beta _{n}z^{n}
+$$
+
+in which the ratio of successive coefficients is a rational function of n. That
+is,
+
+$$
+ {\frac {\beta _{n+1}}{\beta
+    _{n}}}={\frac {A(n)}{B(n)}}
+$$
+
+where A(n) and B(n) are polynomials in n.
+
+For example, in the case of the series for the exponential function,
+
+$$
+ 1+{\frac
+    {z}{1!}}+{\frac {z^{2}}{2!}}+{\frac {z^{3}}{3!}}+\dots ,
+$$
+
+we have:
+
+$$
+ \beta _{n}={\frac
+    {1}{n!}},\qquad {\frac {\beta _{n+1}}{\beta _{n}}}={\frac {1}{n+1}}.
+$$
+
+So this satisfies the definition with A(n) = 1 and B(n) = n + 1.
+
+It is customary to factor out the leading term, so β0 is assumed to be 1. The
+polynomials can be factored into linear factors of the form (aj + n) and (bk +
+n) respectively, where the aj and bk are complex numbers.
+
+For historical reasons, it is assumed that (1 + n) is a factor of B. If this is
+not already the case then both A and B can be multiplied by this factor; the
+factor cancels so the terms are unchanged and there is no loss of generality.
+
+The ratio between consecutive coefficients now has the form
+
+$$
+    {\frac {c(a_{1}+n)\dots (a_{p}+n)}{d(b_{1}+n)\dots
+    (b_{q}+n)(1+n)}}
+$$
+
+where c and d are the leading coefficients of A and B. The series then has the form
+
+$$
+    1+{\frac {a_{1}\dots a_{p}}{b_{1}\dots b_{q}.1}}{\frac {cz}{d}}+{\frac
+    {a_{1}\dots a_{p}}{b_{1}\dots b_{q}.1}}{\frac {(a_{1}+1)\dots
+    (a_{p}+1)}{(b_{1}+1)\dots (b_{q}+1).2}}\left({\frac
+    {cz}{d}}\right)^{2}+\dots 
+$$
+
+or, by scaling z by the appropriate factor and rearranging,
+
+$$
+ 1+{\frac {a_{1}\dots
+    a_{p}}{b_{1}\dots b_{q}}}{\frac {z}{1!}}+{\frac {a_{1}(a_{1}+1)\dots
+    a_{p}(a_{p}+1)}{b_{1}(b_{1}+1)\dots b_{q}(b_{q}+1)}}{\frac
+    {z^{2}}{2!}}+\dots 
+$$
+
+This has the form of an exponential generating function. The standard notation
+for this series is usually denoted by:
+
+$$
+{}_{p}F_{q}(a_{1},\ldots ,a_{p};b_{1},\ldots ,b_{q};z)
+$$
+
+or
+
+$$
+    \,{}_{p}F_{q}\left[{\begin{matrix}a_{1}&a_{2}&\ldots
+      &a_{p}\\b_{1}&b_{2}&\ldots &b_{q}\end{matrix}};z\right]
+$$
+
+Using the rising factorial or Pochhammer symbol:
+
+$$
+    {\begin{aligned}(a)_{0}&=1,\\ (a)_{n}&=a(a+1)(a+2)...(a+n-1),&&n\geq
+      1\end{aligned}}
+$$
+
+this can be written
+
+$$
+{}_{p}F_{q}(a_{1},\ldots
+    ,a_{p};b_{1},\ldots ,b_{q};z)=\sum _{n=0}^{\infty }{\frac {(a_{1})_{n}\dots
+    (a_{p})_{n}}{(b_{1})_{n}\dots (b_{q})_{n}}}\,{\frac {z^{n}}{n!}}
+$$
+
+(Note that this use of the Pochhammer symbol is not standard, however it is the
+standard usage in this context.)
+
+**Special functions** are particular mathematical functions which have more or less
+established names and notations due to their importance in mathematical
+analysis, functional analysis, physics, or other applications.
+
+In mathematics, an elementary function is a function of one variable which is
+the composition of a finite number of arithmetic operations (+ – × ÷),
+exponentials, logarithms, constants, and solutions of algebraic equations (a
+generalization of nth roots).
+
+The elementary functions include the trigonometric and hyperbolic functions and
+their inverses, as they are expressible with complex exponentials and
+logarithms.
+
+It follows directly from the definition that the set of elementary functions is
+closed under arithmetic operations and composition. It is also closed under
+differentiation. It is not closed under limits and infinite sums.
+
+Importantly, the elementary functions are not closed under integration
+
+The term generating function is used to describe an infinite sequence of
+numbers (an) by treating them as the coefficients of a series expansion. The
+sum of this infinite series is the generating function. Unlike an ordinary
+series, this formal series is allowed to diverge, meaning that the generating
+function is not always a true function and the "variable" is actually an
+indeterminate. Generating functions were first introduced by Abraham de Moivre
+in 1730.
+
+A rational function is any function which can be defined by a rational
+fraction, i.e. an algebraic fraction such that both the numerator and the
+denominator are polynomials. The coefficients of the polynomials need not be
+rational numbers, they may be taken in any field K. In this case, one speaks of
+a rational function and a rational fraction over K. The values of the variables
+may be taken in any field L containing K. Then the domain of the function is
+the set of the values of the variables for which the denominator is not zero
+and the codomain is L.
+
+A function $f(x)$ is called a rational function if
+and only if it can be written in the form
+
+$$
+f(x)={\frac {P(x)}{Q(x)}}
+$$
+
+where $P$, and $Q$, are polynomials
+in $x$, and $Q$, is not the zero
+polynomial. The domain of $f$, is the set of all points $x$ , for which the
+denominator
+$Q(x)\,$ is not zero.
+
+\minisec{Appell's four series}
+
+$F_1$ is defined for $|x| < 1, |y| < 1$ by the double series:
+
+$$
+F_{1}(a,b_{1},b_{2},c;x,y)=
+\sum_{m,n=0}^{\infty }{\frac {(a)_{m+n}(b_{1})_{m}(b_{2})_{n}}{(c)_{m+n}\,m!\,n!}}\,x^{m}y^{n}~,
+$$
+
+the function $F_2$ is defined for $|x| + |y| < 1$ by the series:
+
+$$
+F_{2}(a,b_{1},b_{2},c_{1},c_{2};x,y)=\sum _{m,n=0}^{\infty }{\frac {(a)_{m+n}(b_{1})_{m}(b_{2})_{n}}{(c_{1})_{m}(c_{2})_{n}\,m!\,n!}}\,x^{m}y^{n}~,
+$$
+
+the function $F_3$ for $|x| < 1, |y| < 1$ by the series:
+
+$$
+F_{3}(a_{1},a_{2},b_{1},b_{2},c;x,y)=\sum _{m,n=0}^{\infty }{\frac {(a_{1})_{m}(a_{2})_{n}(b_{1})_{m}(b_{2})_{n}}{(c)_{m+n}\,m!\,n!}}\,x^{m}y^{n}~,
+$$
+
+and the function $F_4$ for $|x|^{\frac{1}{2}} + |y|^{\frac{1}{2}} <$ 1 by the series:
+
+$$
+F_{4}(a,b,c_{1},c_{2};x,y)=\sum _{m,n=0}^{\infty }{\frac {(a)_{m+n}(b)_{m+n}}{(c_{1})_{m}(c_{2})_{n}\,m!\,n!}}\,x^{m}y^{n}~.
+$$
+

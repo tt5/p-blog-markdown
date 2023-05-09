@@ -1,0 +1,552 @@
+# fonts
+
+ttx
+
+Linux:
+
+`/usr/share/fonts`  
+`$ fc-cache -vf`
+
+http://www.greekfontsociety.gr  
+GFS Didot  
+GFS Garaldus  
+GFS Goschen
+
+XITS Math  
+Adobe Source Code Pro  
+Adobe Source Sans Pro  
+Adobe source serif pro  
+Adobe source han sans  
+Linux Libertine  
+Linux Biolinum  
+Fira ²q¹  https://github.com/mozilla/Fira  
+Questa (Jos Buivenga)  
+Vollkorn (Friedrich Althausen)  
+
+CharisSILCompact (ipa)  
+EzraSIL (hebrew)  
+Scheherazade (arabic)  
+
+Tallys (Jos Buivenga)  
+
+Haskelig
+
+## Tools
+
+fontforge
+
+https://github.com/behdad/fonttools.git
+
+`ttx` command can be used to convert binary font
+files (.otf, .ttf, etc) to the TTX xml format, edit them, and
+convert them back to binary format. TTX files have a .ttx file extension
+
+TTX will never overwrite existing files, but if necessary will append a
+unique number to the output filename (before the extension) such as Arial\\`#`1.ttf
+
+`ttx -h`
+
+# Typographie
+
+*kursiv*  
+**fett**  
+`typewriter`  
+\textsc{Kapitälchen}  
+
+---
+fraktur letters  
+greek letters  
+script
+
+**encoded character**\q
+A code point.  
+**glyph**\q
+Visual representation of the character.  
+**Metrik**\q
+Abmessung der Zeichenboxen, keine Umrisse.  
+**Outline**\q
+Tatsächliches Aussehen der Glyphen.  
+**Durchschuss**\q
+Abstand zwischen Textzeilen.  
+
+**text element**\q
+Sequence of one or more encoded characters.  
+
+**grapheme clusters**\q
+Text Elements that can be perceived as single characters.  
+
+**Schriftschnitt**\q
+Variante einer Schriftart in Laufweite, Strichstärke, Neigung, Zeichenvorrat,
+usw.  
+
+**Gliederung**\q
+Einteilung eines Dokuments in Teile, Kapitel, Abschnitte und weitere
+Gliederungsebenen.  
+
+**Seite**\q
+Ränder, Kopfbereich, Fussbereich, Textkörper (Satzspiegel).  Die Aufteilung
+dieser Bereiche, sowie ihre Anordnung zueinander und auf dem Papier nennen wir
+Satzspiegeldefinition oder -Konstruktion.  
+
+**Schriftart/\,Font**\q
+Ansammlung von Glyphen in einem bestimmten Stil und evtl. mehreren
+Schriftschnitten.  Der Font liegt auf dem PC in einem bestimmten Format vor.  A
+typeface is a set of typographical symbols and characters.  A font is a
+complete character set within a typeface, often of a particular size and style.
+Type families are groups of typefaces with related designs.  
+
+Ein geübter Leser liest keine Buchstaben, sondern Wortbilder. Das Auge bewegt
+sich nicht regelmässig über die Zeile, sondern springt in Saccaden von einer
+Fixation zur nächsten.
+
+Als Schnellleser bezeichnet man Menschen, die mit 600 bis 700 Wörtern pro
+Minute etwa doppelt bis dreimal so schnell lesen wie der durchschnittliche
+Leser und trotzdem den wesentlichen Teil des Textes erfassen. Experimentelle
+Untersuchungen zeigen jedoch, dass ein durchschnittlicher Leser, der die
+Anweisung erhält, einen Text „zu überfliegen“, eine vergleichbare
+Geschwindigkeit und Aufnahmefähigkeit erreicht.
+
+\minisec{Lineares Lesen}
+Romane.
+
+Renaissance-Antiqua.
+Mattes, nicht hochweisses Papier.
+Schriftgrösse 8 bis 11 Punkt,
+60 bis 70 Zeichen pro Zeile,
+ausgewogene Proportionen von Satzspiegel
+und Rändern.
+Kursive Auszeichnung für Betonungen,
+Kapitälchen für Eigennamen.
+
+\minisec{Informierendes Lesen}
+Sachbücher, Zeitungen.
+
+40 bis 50 Zeichen pro Zeile,
+häufig mehrspaltig.
+Kurze Abschnitte mit aktiv (halbfett)
+ausgezeichneten Überschriften.
+
+\minisec{Differenzierendes Lesen}
+Lehrbücher, wissenschaftliche Bücher, Dramen.
+
+Schriften mit mindestens Kursiv, Kapitälchen,
+Halbfett und Halbfett-Kursiv.
+Bei ausreichendem Zeilenabstand sind längere
+Zeilen (bis 80 Zeichen) und vollere Seiten möglich.
+Deutliche Kennzeichnung der Überschriftenhierarchie.
+
+\minisec{Konsultierendes Lesen}
+Nachschlagwerke, Legenden, Kopfzeilen,
+Fussnoten, Marginalien und Anhänge.
+
+Deutliche Auszeichnung der Überschriften
+und Stichwörter.
+Kleinere Grade gut lesbarer Schriften,
+geringerer Zeilenabstand, volle, oft
+mehrspaltige Seiten.
+
+## Formal definierte graphische Mittel
+
+*Selbständige Grapheme*  
+- Buchstabe  
+- Hilfszeichen (punctuation (Komma, Punkt, u.s.w.; als Teil vom Wort))  
+- Lehrzeichen  
+- Sonderzeichen  
+
+*Unselbständige Grapheme*  
+Diakritische Zeichen
+
+*Konkrete lineare Supragrapheme*  
+Unterstreichen
+
+*Abstrakte lineare Supragrapheme*  
+- Anfangsgrossschreibung  
+- allgemeine Grossschreibung (Versalschrift)  
+- Kapitälchen  
+- Schriftart  
+- Schriftauszeichnung (Schriftschnitt, Schriftfarbe)  
+- Schriftgrösse  
+- Sperren  
+- Ligaturen  
+- Hoch-, Tiefstellung  
+
+*Konkrete flächige Supragrapheme*  
+Ton-, Rasterflächen
+
+*Abstrakte flächige Supragrapheme*  
+- Zeile, Textblock  
+- Ausschluss  
+- Einzug  
+- Zeilenanfang, -ende  
+
+## Schriftarten
+
+Grossbuchstaben der römischen Capitalis monumentalis.
+Kleinbuchstaben der Karolingischen Minuskel.
+Arabische Ziffern als Versalziffern und Minuskelziffern.
+Schwarz auf weiss, 9 bis 10 Punkt.
+
+*Renaissance-Antiqua*  
+Für Romane.
+
+*Barock-Antiqua*  
+Für Zeitungen, Zeitschriften, Taschenbücher,
+Verzeichnisse und Lexika.
+
+*Klassizistische Antiqua*  
+Für Urkunden, schöngeistige Literatur und
+Modezeitschriften.
+
+*Serifenbetonte Antiqua*  
+Für Gebrauchsanweisungen, Verpackungen und
+Zeitungen.
+
+*Serifenlose Aniqua*  
+Für Formulare, Folien, Statistiken und
+technische Bücher.
+
+*Schriftenmischung*  
+Deutlicher Kontrast ist erforderlich, daher nie
+Renaissance-, Barock- und klassizistische Antiqua
+untereinander mischen. Weitere Auswahlkriterien
+sind x-Höhe und Strichstärke.
+
+## Layout, Gliederung
+
+**Gliederung**\q
+Eine Gliederung ist die Aufteilung eines Ganzen in mehrere strukturelle Teile oder
+Bereiche, die in sich weitgehend abgeschlossen sind, aber aus dem Ganzen als
+Einheit nicht entfernt werden können ohne dieses unvollständig zu machen.
+
+Linien unterschiedlicher Funktion
+(Gliederungsline, Fussnotenlinie) müssen
+unterscheidbar sein.
+
+**Absätze**\q strukturieren innerhalb des inhaltlichen
+Zusammenhangs.
+
+**Abschnitte**\q beginnen neue Gedanken und Aspekte.
+
+*Satzspiegel*  
+*A5-Papier:* 8 bis 11 Punkte.
+*A4-Papier:* 9 bis 12 Punkte.
+Satzspiegel und Papier haben gleiche Seitenverhältnisse.
+
+*Spalten*  
+Zweispalter mit Abbildungen im Blocksatz setzen.
+Spaltenabstand: eine Zeile. Bei Spaltenlinie
+(sinnvoll, falls viele Abbildungen und Überschriften):
+Breite von "mii".
+Vernünftiger Blocksatz erfordert mindestens 40 Zeichen
+pro Zeilen.
+
+*Überschriften*  
+Maximal vier Hierarchiestufen, deutlich unterschieden.
+*Klassisch*: Versalien, Grundschrift, Kursiv.
+*Modern*: Halbfett in verschiedenen Graden.
+
+*Kolumnentitel, Pagina*  
+Leere Seiten haben weder Pagina noch Kopfzeile.
+Keine Kopfzeile auf Kapitelanfangsseiten.
+Kopfzeile und Pagina zentriert oder aussen.
+Pagina in Grundschrift, Kopfzeile ausgezeichnet,
+1 bis 2 Grade kleiner.
+
+*Gleitobjektplatzierung*  
+Gleitobjekte begleiten den Text und stören
+am Seitenanfang oder -ende deutlich weniger.
+Keine halbvollen Seiten.
+Bei vielen Gleitobjekten und wenig Text:
+Platzierung im Anhang.
+
+*Legenden*
+Kursiv oder serifenlos, 1 bis 2 Grade kleiner.
+Typ und Nummer halbfett und freigestellt setzen.
+
+*Tabellen*
+Tabellen haben Überschriften.
+
+*Fussnoten*
+Fussnotenmarken nicht auszeichnen, kleine
+hochgestellte Ziffer, leicht spatiiert, ohne Klammer.
+Blindzeile vor Fussnotenlinie von 4 Cicero Länge.
+Fussnotenzähler halbfett, ohne Klammer, mit Punkt und
+Halbgeviert Abstand.
+Tabellenfussnoten mit Kleinbuchstaben nummerieren,
+direkt unter Tabellenfusslinie.
+Fussnoten besser als separater Anmerkungsteil.
+
+*Marginalien*  
+Aktiver als Fussnoten.
+1 bis 2 Grade kleiner.
+Geviertabstand zum Text.
+Kein Blocksatz.
+
+\minisec{Titelei}
+
+Grosse römische Nummerierung, falls Pagina
+in Versalziffern.
+
+-1. Schmutztitel  
+-2. Vakatseite  
+-3. Haupttitel  
+-4. Copyright  
+-5. (V) Widmung, Motto  
+-6. (VII) Danksagung  
+-7. (IX) Inhaltsverzeichnis  
+-8. (XI) Abbildungsverzeichnis, Tabellenverzeichnis  
+-9. (XIII) Abkürzungs- und Symbolverzeichnis  
+-10. (XV) Vorwort  
+-11. (1) Einleitung des Haupttextes  
+
+*Schmutztitel*:
+Schlichte Gestaltung, Grundschrift.
+Beginnt in der ersten Zeile des Satzspiegels.
+Autorennachname und abgekürzter Titel.
+
+*Haupttitel*:
+Verlagsgruppe mit Verlag, Ort und Jahr
+unten in Grundschrift.
+Titelgruppe mit Vorname, Nachname und Titel
+im oberen Drittel.
+Name 1 bis 2 Grade grösser, Titel nochmal
+1 bis 2 Grade grösser.
+
+*Impressum*:
+1 bis 2 Grade kleiner.
+Enthält Copyright-Angaben (Autor/Verleger),
+ISBN (eigene Zeile), CIP, Jahr und Auflage.
+
+*Widmung*:
+Grundschrift.
+Privater Charakter: Kursive.
+Offizieller Charakter: Kapitälchen/Versalien.
+
+*Motto*:
+1 bis 2 Grade kleiner.
+Breite: 1/3 bis 1/2 der Satzspiegelbreite.
+Ausrichtung wie Überschrift oder am rechten Rand.
+Oder: Motto auf Satzbreite, Schriftmischung.
+
+*Danksagung*:
+Grundschrift.
+
+*Verzeichnisse*:
+Literaturverzeichnis unnummeriert aufnehmen.
+Pagina rechtsbündig, davor von rechts mit
+Geviertpunkten auffüllen.
+
+*Anhang*:
+Anmerkungen, Glossar,
+Literatur- und Quellenverzeichnis, Zeittafel,
+Register, Druckvermerk.
+
+# Bibliografie, Citations
+
+http://docs.citationstyles.org/en/stable/\\  
+specification.html
+
+Blah blah [-@smith04; @book01].
+
+*Literaturverzeichnis*: Hinweise auf allgemeine,
+weiterführende oder empfohlene Literatur.
+*Quellenverzeichnis*: Nachweis der im Text
+benutzten Literatur.
+
+Hinweis auf diese Unterscheidung.
+
+Wichtig ist, dass Sie alle Einträge Ihrer Bibliographie einheitlich gestalten; Standard ist
+hierbei das MLA-Handbook.
+
+*Reihenfolge*:
+Autorenname (Nachn, Vorn)  
+Titel  
+Untertitel  
+ggf Name des Hrgb (und ggf Übersetzer)  
+verwendete Auflage  
+ggf verwendetes Band (falls mehrbändig)  
+Publikationsort  
+Verlag  
+Publikationsjahr  
+Seitenzahlen (bei Artikeln und Aufsätzen in Sammelbänden)  
+
+Wann werden Titel kursiv, wann in Anführungszeichen gesetzt?
+Texte, die unabhängig publiziert wurden, werden kursiv gesetzt:
+Romane und Kurzgeschichtensammlungen, Theaterstücke, lange, als Buch
+veröffentlichte Gedichte, Pamphlete, Zeitschriften (Zeitungen, Magazine, Journale),
+Filme, Radiosendungen, Fernsehprogramme, CDs, Kassetten, Schallplatten, Ballette,
+Opern, instrumentale Kompositionen, Gemälde, Skulpturen; kursiviert werden auch
+Namen von Schiffen, Flugzeugen, Raumschiffen usw.
+
+Arbeiten, die als Teile von größeren Arbeiten publiziert wurden, werden in
+Anführungszeichen gesetzt (“unselbständige Publikationen”):
+Artikel, Essays, Short Stories, kurze Gedichte, Buchkapitel, einzelne Sendungen von
+Radio- und Fernsehprogrammen, Lieder, nicht publizierte Arbeiten (Reden,
+Vorlesungen, unveröffentlichte Dissertationen)
+
+Wenn Titel in Anführungszeichen selbst wieder Anführungszeichen enthalten, werden
+diese einfach gesetzt.
+
+Grundform für eigenständige Publikationen:
+Nachname, Vorname. *Titel: Untertitel*. Auflage. Publikationsort: Verlag, Erscheinungsjahr.
+
+Beispiel 1: Ein Buch von einem Autor bzw. Herausgeber  
+Gelfert, Hans-Dieter. Wie interpretiert man ein Drama? Stuttgart: Reclam, 1992.
+
+Beispiel 2: Bücher von zwei oder mehreren Autoren oder Herausgebern  
+Callaghan, Dympna C., Lorraine Helms, and Jyotsna Singh. The Weyward Sisters:
+Shakespeare and Feminist Politics. Oxford: Blackwell, 1994.
+
+Beispiel 3: Werkausgabe  
+Shakespeare, William. Othello. Ed. Norman Sanders. Cambridge: Cambridge UP, 2003.
+
+Beispiel 4: Übersetzungen  
+Greenblatt, Stephen. Verhandlungen mit Shakespeare: Innenansichten der englischen
+Renaissance. Trans. Robin Cackett. Frankfurt a.M.: Fischer, 1993.
+
+Beispiel 5: Artikel in Zeitschriften  
+Barner, Wilfried. “Neuphilologische Rezeptionsforschung und die Möglichkeiten der
+klassischen Philologie.” Poetica 7 (1977): 499-521.
+
+Beispiel 6: Anthologien  
+Docherty, Thomas, ed. Postmodernism: A Reader. New York: Columbia UP, 1993.
+
+Beispiel 7: Kapitel in Büchern, Artikel in Sammelbänden oder Texte in Anthologien  
+Lyotard, Jean-François. “Answering the Question: What Is Postmodernism?” Postmodernism:
+A Reader. Ed. Thomas Docherty. New York: Columbia UP, 1993. 38-46.
+
+Bemerkung zur Nennung des Verlags: University Press wird mit UP abgekürzt. In allen
+anderen Fällen entfällt Books, House, Press, Publishers.
+
+Beispiel:  
+University of Georgia Press Æ U of Georgia P
+Dial Press Æ Dial
+Bantam Books Æ Bantam
+
+Beim Zitieren von *Internetseiten* müssen angegeben werden:  
+-- der Titel der Seite kursiv, wenn es sich um ein Gesamtprojekt handelt; in
+Anführungszeichen, wenn es sich um einen Teil eines Internetprojekts handelt  
+-- der Name des Verfassers oder Herausgebers (wenn angegeben)  
+-- Information über die Publikation wie (wenn gegeben) die aktuelle Version, das Datum
+der Erstellung oder des letzten Updates, der Name der fördernden Institution  
+-- das Datum des Zugriffs und die URL
+
+Beispiele:  
+Electronic Texts Center. Ed. David Seeman. 2002. Alderman Lib., University of
+Virginia. 19 June 2002 <http://etext.lib.virginia.edu/>.
+
+# Citations
+
+Citations appear in the form of either in-text citations (in the author
+(e.g. “[Doe]”), author-date (“[Doe 1999]”), label (“[doe99]”) or number
+(“[1]”) format) or notes.
+
+## in-text
+
+when a work is cited, a citation is added to the sentence. The citation points directly to an entry in the bibliography.
+
+\minisec{"author-date" and "author" styles}
+
+Yeast cells were grown at 25°C in batch cultures on 0.5\% methanol
+for 36 hours (Gidijala et al. 2008) or in carbon-limited chemostat cultures
+(van der Klei et al. 1991; Zwart et al. 1983).
+
+Sentence (author)
+
+Yeast cells were grown at 25°C in batch cultures on 0.5\% methanol
+for 36 hours (Gidijala et al.) or in carbon-limited chemostat cultures (van
+der Klei et al.; Zwart et al.).
+
+...
+
+Bibliography
+
+Gidijala L, Bovenberg RA, Klaassen P, van der Klei IJ, Veenhuis M,
+et al. (2008) Production of functionally active Penicillium chrysogenum isopenicillin N synthase
+in the yeast Hansenula polymorpha. BMC Biotechnol 8: 29.
+
+van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in
+a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156:
+15-23.
+
+Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in
+the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+
+\minisec{"numeric" style}
+
+Sentence
+
+Yeast cells were grown at 25°C in batch cultures on 0.5\% methanol
+for 36 hours [6] or in carbon-limited chemostat cultures [21, 22].
+
+...
+
+Bibliography
+
+6. Gidijala L, Bovenberg RA, Klaassen P, van der Klei IJ, Veenhuis
+M, et al. (2008) Production of functionally active Penicillium chrysogenum isopenicillin N
+synthase in the yeast Hansenula polymorpha. BMC Biotechnol 8: 29.
+
+21. Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes
+in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+
+22. van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism
+in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol
+156: 15-23.
+
+\minisec{"label" styles}
+
+Sentence
+
+Yeast cells were grown at 25°C in batch cultures on 0.5\% methanol
+for 36 hours [GBKv2008] or in carbon-limited chemostat cultures [ZwVH1983; vaHV1991].
+
+...
+
+Bibliography
+
+[GBKv2008] Gidijala L, Bovenberg RA, Klaassen P, van der Klei IJ, Veenhuis
+M, et al. (2008) Production of functionally active Penicillium chrysogenum isopenicillin N
+synthase in the yeast Hansenula polymorpha. BMC Biotechnol 8: 29.
+
+[ZwVH1983] Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes
+in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+
+[vaHV1991] van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism
+in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol
+156: 15-23.
+
+## note
+
+When a work is cited, a marker is added to the sentence. The marker, a
+number or symbol, points to a foot or endnote. In contrast to in-text
+citations, foot or endnotes typically contain all information required to
+locate the cited work(s). Some "note" styles include a bibliography listing
+the cited works.
+
+# Physik, Math
+
+Vectors and matrices are bold and italic type.
+
+Symbols for units and mathematical
+operators, numbers, labels are Roman (upright) type.
+
+features: ssty, dtls
+MathML (firefox)
+STIX Two Math
+
+# css
+
+```css
+:root {
+  font-size: clamp(100%, 90% + 0.5vi, 150%);
+  line-height: 1.35;
+}
+```
+line-height depends on X-height of the font.
+
+tailwindcss:
+
+font-sans, font-serif, font-mono
+
+

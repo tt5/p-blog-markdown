@@ -1,0 +1,5 @@
+http2_push_preload on;
+
+Link: </style.css>; as=style; rel=preload
+
+NGINX intercepts this header and commences a server push of /style.css.

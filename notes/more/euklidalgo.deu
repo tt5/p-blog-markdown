@@ -1,0 +1,61 @@
+
+## Euclidean Algorithm
+
+```txt
+EUCLID(a,b)
+  if b = 0
+    then return a
+  else return EUCLID(b, a mod b)
+```
+
+```txt
+EUCLID(a,b)
+  while b not equal 0
+    h <- a mod b
+    a <- b
+    b <- h
+  return a
+```
+
+continued fraction:  
+$1071=1\cdot 1029 + 42$  
+$1029=24 \cdot 42 +21$  
+$42 = 2 \cdot 21 + 0$  
+$ggT(1071,1029)=21$  
+
+$\frac{1071}{1029} = 1+\frac{42}{1029} =
+1+\frac{1}{\frac{1029}{42}} =
+1+\frac{1}{24+\frac{21}{24}} =
+1+\frac{1}{24+\frac{1}{2}}$
+
+Lemma of Bézout: 
+$a,b,s,t\in \mathbf{Z}$,
+$a,b$ not both $0$.
+$\operatorname{ggT}(a,b)=s\cdot a+t\cdot b$.
+Are $a,b$ coprime, then there is $s,t$,
+such that $1=s\cdot a + t \cdot b$ is true.
+
+extended:
+
+$$\operatorname{ggT}(a,b) = s \cdot a + t \cdot b$$
+
+Das Haupteinsatzgebiet des erweiterten euklidischen
+Algorithmus ist die Berechnung der inversen Elemente in
+ganzzahligen Restklassenringen.
+
+$(d=\operatorname{ggT}(a,b), s, t)$
+
+entweder $d=1$ und damit $1\equiv t\cdot b \pmod a$, $t$ also das
+multiplikative Inverse von $b$ modulo $a$
+
+oder aber $d\neq 1$
+($b$ modulo $a$ hat kein Inverses)
+
+example:
+99, 78  
+$99 = 1*78+21$\quad $21 = 1*99+1*78$
+$78 = 3*21+15$\quad $15 = 1*78-3*21 = -3*99+4*78$
+$21 = 1*15+6$\quad $6 = 1*21-1*15 = 4*99-5*78$
+$6 = 2*3+0$\quad $3 = 1*15-2*6 = -11*99+14*78$
+$6 = 2*3+0$.
+

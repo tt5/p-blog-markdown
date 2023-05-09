@@ -1,0 +1,24 @@
+
+walk
+
+**path**: walk with all distinct vertices.
+
+**cycle**: closed path.
+
+planar graph
+
+A graph with no loops is called a **tree**.
+A graph with no cycles (acyclic) is called a **forest**.
+A connected forest is a tree.
+
+**simple** graph: no loops or multiple edges.
+
+A **simple cycle** may be defined either as a closed walk with no repetitions of
+vertices and edges allowed, other than the repetition of the starting and
+ending vertex, or as the set of edges in such a walk.
+
+# hike
+
+A **hike** from $v_i$ to $v_j$ is a monomial $h = w_{i_1 j_1} ... w_{i_l j_l}$
+that can be decomposed into the product of a walk from $v_i$ to $v_j$ and cycles.
+

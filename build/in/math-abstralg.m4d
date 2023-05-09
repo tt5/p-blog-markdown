@@ -1,0 +1,1170 @@
+# Intr
+
+A **algebra** is a collection of sets, operators
+on sets and rules.
+
+An operation is **idempotent** that can be applied multiple times without changing
+the result beyond the initial application.
+
+$A,B$ Mengen.
+
+A $n$-ary **relation** on a set $A$ is a subset of $A^n$.
+**Relation** ($R$), $R$ Teilmenge von $A \times B$.
+
+A relation $f : U → V$ from a set $U$ to a set $V$ is a subset of the cartesian
+product $U × V$ .
+
+The **domain** and the **range** of $f : U → V$ are the sets
+$D(f ) = \{x ∈ U : (x, y) ∈ f, \text{for some} y ∈ V \}$ and $R(f ) = \{y ∈ V :
+(x, y) ∈ f, \text{for some} x ∈ U \}$, respectively. If $f : U → V$ and $g : V → W$ are
+relations, then the **composition** $g ◦ f : U → W$ is the set $\{(u, w) : (u, v) ∈
+f \text{and} (v, w) ∈ g, \text{for some} v ∈ V \}$. The **converse** of a relation $f : U → V$ is
+the relation $f^−1 : V → U$ given by $f^−1 = \{(v, u) : (u, v) ∈ f \}$.
+
+The *equivalence class* of $a$ under $\sim$,
+donated $[a]$, is defined as $[a]=\{b\in X|a\sim b\}$.
+
+**Equality** (congruence) also adds:  
+(substitutable) $a=b \Rightarrow f(a)=f(b)$
+
+A **preorder** is a binary relation that is reflexive and transitive.
+
+If $P_1$ and $P_2$ are two posets and $\alpha$
+is a map from $P_1$ to $P_2$, then we say $\alpha$ is **order-preserving** if
+$\alpha(a) \leqslant \alpha(b)$ holds in $P_2$ whenever $a \leqslant b$
+holds in $P_1$.
+
+**Poset**, partial order, $(X,\leqslant)$.  
+Antisymmetrie, if $a\leqslant b$ and $b\leqslant a$ then $a=b$.
+
+A category P is a partial order, or poset, if |P(a, b)∪P(b, a)| ≤
+1, for all a, b ∈ P.
+
+In order theory, a Hasse diagram is a type of
+mathematical diagram used to represent a finite partially ordered set, in the
+form of a drawing of its transitive reduction. Concretely, for a partially
+ordered set $(S, ≤)$ one represents each element of $S$ as a vertex in the plane
+and draws a line segment or curve that goes upward from $x$ to $y$ whenever $y$
+covers $x$ (that is, whenever $x < y$ and there is no $z$ such that $x < z < y$). These
+curves may cross each other but must not touch any vertices other than their
+endpoints. Such a diagram, with labeled vertices, uniquely determines its
+partial order.
+
+**Total order**, every pair of elements is comparable.
+
+Indexing needs a total order.
+
+#### Magma
+
+A *set* and a binary operation  
+Closed.
+
+shorthand notation: xy = (x ⋅ y)
+
+medial: $xy⋅uz=xu⋅yz$  
+semimedial: left semimedial and right semimedial  
+left semimedial: $xx⋅yz=xy⋅xz$  
+right semimedial $yz⋅xx=yx⋅zx$  
+autodistributive: left distributive and right distributive  
+left distributive $x⋅ yz=xy⋅xz$  
+right distributive $yz⋅x=yx⋅zx$  
+unital if it has an identity element
+
+A binary tree is a free Magma.
+
+#### Quasigroup
+
+Magma $(Q,\star )$, Latin square property (divisability)
+For each $a,b\in Q$ there exists unique elements
+$x,y\in Q$ such that
+$$
+a\star x=b\\
+y\star a=b
+$$
+In other words: Each element of the set occurs exactly once in each row and
+exactly once in each column of the quasigroup's multiplication table, or Cayley
+table. This property ensures that the Cayley table of a finite quasigroup is a
+Latin square.
+The unique solutions to these equations are written $x = a \ b$ and $y = b / a$.
+The operations '\' and '/' are called, respectively, left and right division.
+
+#### Loop
+Quasigroup, identity.
+
+A nonempty quasigroup is a loop
+iff it satisfies the "slightly associative identity"
+$x(y/y)\cdot z=x\cdot (y/y)z$
+
+#### Semigroup}
+Magma, associativity.
+
+#### Monoid}
+Semigroup, identity.
+
+A monoid is a category M having precisely one object. In such a category, the
+object, say ∗, is of no interest (at least from the point of view of category
+theory). All of the structure of M resides in its set of arrows M(∗, ∗), which
+is a set together with an associative binary operation and identity element for
+this operation, that is, a monoid by the traditional definition.
+
+We can make a group $X^\star $ simply by including only the elements from X that do
+have inverses.
+
+#### group}
+Monoid, inverse elements.  
+*or*  
+Loop, associativity.
+
+A group is a category having one object, in which every
+arrow is an isomorphism.
+
+#### abelian group}
+Group, commutativity.
+$(\mathbb{Z},+)$
+
+# Group Theorie
+
+$(G,\cdot)$ group.
+$g,h\in G$.
+
+$M\cdot N\coloneq\{m\cdot n : m\in M, n\in N\}$
+
+$MN\coloneq M\cdot N$
+
+$gN\coloneq\{g\}\cdot N$
+
+$Ng\coloneq N\cdot\{g\}$
+
+$G/N\coloneq\{gN:g\in G\}$,
+**Faktorgruppe** (oder Quotientengruppe) von $G$ nach $N$.
+"G mod N".
+$G$ original group, $N$ normal subgroup.
+
+Lagrange’s Theorem: if H is a subgroup of G, then the order of H evenly divides
+the order of G.
+
+Let G be a group and H a subgroup of G. Then for each element $a \in G$ we can
+define a left coset of H by
+
+$aH = \{ ah \mid h \in H \}$.
+
+That is, $aH$ is the set we get by combining a (on the left) with every element of $H$.
+
+When the left and right cosets of a subgroup coincide, we say that the subgroup
+is normal. (Hence every subgroup of a group with a commutative binary operation
+is normal; but this can also happen even when the binary operation is not
+commutative.  You can “divide” a group by one of its normal subgroups to get a
+“quotient group”.  The coset aH has to have the same size as H: there is
+exactly one element in aH for each element of H, and they all have to be
+different.
+
+Center:
+$$Z(G) = \{z \in G \mid \forall g\in G, zg = gz \}$$
+
+A group $G$ is abelian if and only if $Z(G) = G$.
+
+The center of $G$ is always a normal subgroup of $G$.
+
+#### trivial group}
+$(\star ,\{e\})$
+
+$e\star e=e$
+
+#### simple group}
+A nontrivial group whose only normal
+subgroups are the trivial group and the
+group itself.
+
+A group that is not simple can be broken
+into two smaller groups, a normal subgroup
+and the quotient group, and the process
+can be repeated. If the group is finite,
+then eventually one arrives at uniquely
+determined simple groups.
+
+The **general linear group** (GLN) of degree n is the set of n×n invertible
+matrices, together with the operation of ordinary matrix multiplication.
+
+A linear map $L : V → W$ between two vector spaces $V$ and $W$:
+
+$$\ker(L) = \lbrace \mathbf{v} \in V | L(\mathbf{v})=\mathbf{0} \rbrace$$
+
+The **commutator** of two element, $g$ and $h$,
+of a group $G$, is the element $[g,h]=g^{-1}h^{-1}gh$
+(or in other definitions $ghg^{-1}h^{-1}$).
+It is equal to the group's identity if and only if $g$ and $h$ commute.
+
+The expression $a^x$ denotes the conjugate of $a$ by $x$,
+defined as $x^{-1}ax$.
+
+$x^y=x[x,y]$  
+$[y,x]=[x,y]^{-1}$  
+$[x, zy]=[x,y]\cdot [x,z]^y$  
+$[xz,y]=[x,y]^z\cdot [z,y]$  
+
+Every group can be trivially made into a topological group by considering it
+with the discrete topology; such groups are called **discrete groups**.
+
+### Lie group
+
+A **Lie group** is a group that is also a differentiable manifold, with the
+property that the group operations are compatible with the smooth structure.
+Any Lie group gives rise to a Lie algebra.  $R^n$ ist ebenso wie GL(n,R) eine
+Lie-Gruppe, das heißt eine topologische Gruppe, bei der die topologische
+Struktur die einer Mannigfaltigkeit ist.
+
+Euclidean space $\mathbb{R}^n$ with ordinary vector addition as the
+group operation becomes an n-dimensional noncompact abelian
+Lie group.
+
+The unitary group $U(n)$ consisting of $n × n$ unitary matrices
+(with complex entries) is a compact connected Lie group
+of dimension $n^2$. Unitary matrices of determinant 1 form a
+closed connected subgroup of dimension $n^{2 − 1}$ denoted
+$SU(n)$, the special unitary group.
+
+The group GL(n, R) is a Lie group of dimension $n^2$, called the
+general linear group. It has a closed connected subgroup
+SL(n, F), the special linear group, consisting of matrices
+of determinant 1 which is also a Lie group.
+
+A complex square matrix $U$ is unitary if $U^\star U=UU^\star =I$
+
+### algebraic group
+
+Loosely speaking, an algebraic group over a field $k$ is a group
+defined by polynomials.
+
+An algebraic group over $k$ is a group object in the category
+of algebraic schemes over $k$.
+In mathematics, a scheme is a mathematical structure that enlarges the notion
+of algebraic variety.
+
+For example, the group of matrices of determinant 1 is an algebraic group, as
+is the orthogonal group of a symmetric bilinear form. The classification of
+algebraic groups and the elucidation of their structure were among the great
+achievements of twentieth century mathematics (Borel, Chevalley, Tits and
+others, building on the work of the pioneers on Lie groups). Algebraic groups
+are used in most branches of mathematics, and since the famous work of Hermann
+Weyl in the 1920s they have also played a vital role in quantum mechanics and
+other branches of physics (usually as Lie groups).
+
+What we call an affine algebraic group is usually called an
+affine group scheme of finite type.
+
+Affine group schemes
+are the Tannaka duals of certain tensor categories.
+
+For a finite-dimensional vector space $V$ , we define GL(V), resp.
+SL(V), to be the group of
+automorphisms of $V$, resp. automorphisms with determinant 1.
+
+### Direct Product
+
+Direct sum of abelian groups
+
+Given groups $(G,\star )$ and $(H,\cdot)$, the direct product $G×H$ is defined as follows:
+
+The elements of $G\oplus H$ are ordered pairs $(g, h)$, where
+$g ∈ G$ and $h ∈ H$. That is, the set of
+elements of $G × H$ is the Cartesian product of the sets $G$ and $H$.
+The binary operation on $G × H$ is defined componentwise:
+
+$$(g_1, h_1) ° (g_2, h_2)  =  (g_1 \star g_2, h_1 \cdot h_2)$$
+
+The resulting algebraic object satisfies the axioms for a group. 
+
+### Group Representation
+
+Group representations can be used to represent
+group elements as matrices, so that the group operation
+can be representated by matrix multiplication.
+
+A **representation** (rep.) of a group $G$ on a vector space $V$
+over a field $K$ is a group homomorphism from $G$ to
+GL($V$), $\rho:G$→GL($V$).
+
+$\rho(gh)=\rho(g)\rho(h)$
+
+$g.v=\rho(g)(v)$ makes $V$ a $G$-module.
+
+$a\in G$, $G$ group. The representation of $a$ is $D(a)$.
+
+$\displaystyle
+\begin{pmatrix} D(a)_1\text{}_1 & \cdots & D(a)_1\text{}_n
+²nn¹ \vdots & & \vdots
+²nn¹ D(a)_n\text{}_1 & \cdots & D(a)_n\text{}_n
+²nn¹ \end{pmatrix}
+$
+
+#### Character table}
+
+complex number.
+Rows indexed by $\text{Irr}(G)$.
+Columns indexed by the set of classes of $G$.
+Usually the first column corresponds to the class of
+the identity in $G$ and the first row
+corresponds to the principle character $1_G$.
+
+**Character table**. Two-dimensional table whose rows
+correspond to irreducible group representations,
+and whose columns correspond to conjugacy classes
+of group elements. The entries consist of *characters*.
+
+$S_3$:
+
+```txt
+ 1  1  1
+ 1 -1  1
+ 2  0 -1
+```
+
+$V$ finit-dimensional vector space over a field $F$.
+The **character** of $\rho$ is the function $\chi_{\rho}: G→F$
+given by $\chi_{\rho}(g)=\operatorname{Tr}(\rho(g))$, $g\in G$.
+
+An **irreducible representation** (irrep.) $(\Pi, V)$ of an algebraic
+structure $A$ is a nonzero representation that has no proper subrepresentation
+$(\Pi,W), W \subset V$ closed under the action of $\Pi(a), a\in A$.
+
+If group $G$ is finite then every rep. of $G$ is a
+direct sum, $\oplus$, of irreps.
+
+A linear subspace $W\subset V$ is called **G-invariant** if
+$\rho(g)w\in W$ for all $g\in G$ and all $w\in W$.
+
+The restriction of $\rho$ to a G-invariant subspace $W\subset V$ is known
+as a **subrepresentation**.
+
+A repr. $\rho : G \rightarrow \text{GL}(V)$ is said to be **irreducible** if
+it has only trivial subrepresentations.
+
+To say $X$ is irreducible means that it
+is *not* similar to a representation $Y$ of the form
+
+$$X(g)=
+\begin{pmatrix}
+  U(g) & 0\\
+    \star & V(g)\\
+\end{pmatrix}
+$$
+
+Note: Here, $U$ and $V$ are representations.
+
+$G$ finite group  
+$\rho: G \rightarrow \text{GL}(V)$  
+
+There is a nondegenerate bilinear form on $V$
+which is invariant under the action of $G$.
+
+$<u,v> = <g.u,g.v>$, $g\in G$, $u,v \in V$
+
+($g.u$ "$g$ acts on $u$", $\rho(g)u$)
+
+You are able to choose matrices for $G$ of the form:
+
+For example:
+
+$\displaystyle
+\rho(g)=
+\begin{pmatrix} \star & | &   & 0
+²nn¹ - & \star & \star & 
+²nn¹   & \star & \star & -
+²nn¹ 0 &   & | & \star
+²nn¹ \end{pmatrix}
+$
+
+And the same block form for centralizer objects $\in Z_G(V)$:
+
+$\displaystyle
+\rho(g)=
+\begin{pmatrix} a & | &   & 0
+²nn¹    - & b & b & 
+²nn¹      & b & b & -
+²nn¹    0 &   & | & c
+²nn¹\end{pmatrix}
+$
+
+if $Z_G(V)=\{ cI : c \not= 0 \}$
+then $\rho$ is irreducible.
+
+#### Young tableau
+
+A Young tableau is called **standard** (STY) if the entries in each row and
+each column are increasing.
+
+A representation of the symmetric group on n elements, $Sn$
+is also a representation of the symmetric group on $n − 1$
+elements, Sn−1. However, an irreducible representation of
+$Sn$ may not be irreducible for $Sn−1$. Instead, it may be a
+direct sum of several representations that are irreducible
+for $Sn−1$. These representations are then called the
+factors of the restricted representation (see also induced
+representation).
+
+The question of determining this decomposition of
+the restricted representation of a given irreducible
+representation of $Sn$, corresponding to a partition λ of
+n, is answered as follows. One forms the set of all Young
+diagrams that can be obtained from the diagram of shape λ
+by removing just one box (which must be at the end both of
+its row and of its column); the restricted representation
+then decomposes as a direct sum of the irreducible
+representations of $Sn−1$ corresponding to those diagrams,
+each occurring exactly once in the sum.
+
+$\lambda \vdash n$
+
+$$f^\lambda = |\text{STY}| \text{of shape}\lambda = \frac{n!}{\prod_{u\in \lambda} h(u)}$$
+
+$h(u) = \lambda_i -1 +\lambda_j\text{'}-j+1$ **hook length** of the square $u=(i,j)$
+
+### Symmetric Group
+
+Symmetric groups are Coxeter groups and reflection groups. They can be realized
+as a group of reflections with respect to hyperplanes
+
+$S_n$, symmetrical group on $n$ letters.
+
+$\sigma_i$ swappes the $i$th and the $i+1$th position.
+
+*generators*: $\sigma_1, ...,\sigma_{n-1}$
+
+*relations*:
+
+-   $\sigma_i^2 = 1$
+-   $\sigma_i \sigma_j = \sigma_j \sigma_i$ if $j\neq (i±1)$
+-   $(\sigma_i \sigma_{i+1})^3 = 1$
+
+#### $S_3$
+
+#### def 1}
+
+Six elements, not abelian.
+
+#### def 2}
+
+Elements: permutations of $[3]={1,2,3}$.
+
+Operations: composition of permutations.
+`231 * 132 = 213`
+
+`231`:
+```txt
+1 2 3
+ \\/ 
+  X\
+ /| |
+3 1 2
+```
+
+`231 * 132 = 213`
+```txt
+132 |X
+
+231 \X
+    /\\
+    213
+```
+
+#### def 3}
+
+Generators: $a$, $b$
+
+Relations: $a^2=e$, $b^2=e$, $aba=bab$
+
+Elements: Words in the alphabeth ${a,b}$ modulo the relations.
+
+Operations: Concatenation.
+
+```txt
+a = X|
+
+b = |X
+```
+#### def 4}
+
+Two mirrors, $a,b$, with an angel of 60°.
+
+### Point Group
+
+elements: points, lines, planes with the object
+
+operations: movements that take an object between
+equivalent configurations -- indistinguishable
+from the original configuration.
+
+Point symmetry operations: rotation, reflection, inversion
+(improper rotation), identity.
+
+At least one point remains stationary in a point operation.
+
+Convention is to list the simpler operation.
+
+#### Low symmetry point groups}
+$C_1$ $\{E\}$
+
+$C_s$ $\{E,\sigma_h\}$
+
+$C_i$ $\{E,i\}$
+
+#### linear point groups}
+$C_{\infty v}$ $\{E,2C_\infty \phi,...,\infty \sigma_v\}$
+
+$C_{\infty h}$ $\{E,2C_\infty \phi,...,\infty C_2,i,2S_\infty \phi, \infty \sigma_v\}$
+
+#### D point group}
+$D_h$ $\{E,(n-1)C_n,n\perp C_2\}$
+
+$D_{nh}$ depends on $n$, with $h=4n$  
+$D_{3h}$ $\{E,2C_3,3C_2,\sigma_h,2S_3,3\sigma_v\}$
+
+$D_{nd}$ depends on $n$
+$D_{2d}$ $\{E,2S_4,C_2,2C_2,2\sigma_d\}$
+
+#### high symmetric point groups}
+$T_d$ $\{E,8C_3,3C_2,6S_4,6\sigma_d\}$ (24)
+
+$O_h$ $\{E,8C_3,6C_2,6C_4,3C_2,i,6S_4,8S_6,3\sigma_h,6\sigma_d\}$ (48)
+
+$I_h$ $\{E,12C_5,12C_5^2,20C_3,15C_2,i,12S_{10},12S_{10}^320 S_6,15\sigma\}$ (120)
+z.B. $C_{60}$ Buckminsterfullerene
+
+$T$ $\{E,4C_3,4C_3^2,3C_2\}$
+
+$T_h$ $\{E,4C_3,3C_3^2,3C_2,i,4S_6,4S_6^2,3\sigma_h\}$
+
+$O$ $\{E,8C_3,6C_2,6C_4,3C_2\}$
+
+$I$ $\{E,12C_5,12C_5^2,20C_3,15C_2\}$
+
+#### C point groups}
+$C_n$ $\{E,(n-1)C_n\}$  
+$C_2$ $\{E,C_2\}$
+
+$C_{nv}$ $\{E,(n-1)C_n,n\sigma_v\}$  
+$C_{3v}$ $\{E,2C_3,3\sigma_v\}$
+
+$C_{nh}$ depends on n, with h=2n  
+$C_{2h}$ $\{E,C_2,i,\sigma_h\}$
+
+#### S point group}
+$S_{2n}$ depends on n  
+$S_4$ $\{E,S_4,C_2,S_4^3\}$
+
+## Ring
+
+$(R,+,\cdot)$.
+$(R,+)$, abelsche Gruppe.
+$(R,\cdot)$, Monoid.
+Multiplication distributes over addition,
+$a(b+c)=ab+ac$, $(b+c)a=ba+ca$.
+
+Ist $f\colon A\rightarrow B$ ein Ringhomomorphismus,
+so ist die Menge $\ker(f)\coloneq  \lbrace a \in A | f(a) = 0 \rbrace$
+der **Kern** von $f$. Er ist ein Ideal in $A$.
+
+A **unit** is an element having a multiplicative
+inverse. The set of units of a ring is a group
+under ring multiplication.
+
+A subring of $A$ is a subset that contains $1_A$ and is closed under addition,
+multiplication, and the formation of negatives.
+
+A ring is an integral domain if it is not the zero ring and if $ab = 0$ in the
+ring implies that $a = 0$ or $b = 0$.
+
+The **center** of a ring $R$ is the subset of $R$ consisting of all
+those elements $x$ of $R$ such that $xr = rx$ for all $r$ in $R$. The
+center is a commutative subring of $R$, and $R$ is an algebra
+over its center.
+
+
+## Ideal
+
+Ring $R$.
+**Ideal** $I$:
+Subring of $R$ st.  
+$IR\subseteq I$  
+$RI\subseteq I$
+
+Trinomial ideals are not special, binomial ideals are.
+A Gröbner basis of a binomial ideal is binomial.
+Binomial ideal is generated by binomials.
+
+A non-empty subset $l$ of a partially ordered set $(P, \leqslant)$
+is an **Ideal**, if the following conditions hold:
+1. For every $x$ in $l$, $y<x$ => $y\in l$
+2. For every $x,y$ in $l$, there is some element $z$ in $l$,
+such that $x\leqslant z$ and $y\leqslant z$. ($l$ is a directed set)
+
+Lattice:  
+A subset $l$ of a lattice $(P,\leqslant)$ is an ideal if and only if
+it is a lower set that is closed under finite joins (suprema),
+i.e., it is nonempty and for all $x,y$ in $l$ the element
+$x\vee$ of $P$ is also in $l$.
+The dual notation of an ideal, the concept optained by reverting
+all $\leqslant$ and exchanging $\vee$ with $\wedge$, is a **filter**.
+
+$L/K$, $L$ field, $K$ subfield of $L$.
+$L$ is an **extension field** of $K$.
+
+If $L$ is an extension of $K$, then an element of $L$
+which is a root of a nonzero polynomial over $K$ is
+said to be **algebraic** over $K$. Elements that are
+non algebraic are called **transcendental**.
+
+The special case of $\mathbb{C}/\mathbb{Q}$ is
+especially important, and the names **algebraic number**
+and **transcendental number** are used to describe
+the complex numbers that are algebraic and
+transcendental (respectively) over $\mathbb{Q}$.
+
+An **ordered field** is a field $F$ together with
+a total ordering $<$ that satisfies the following
+properties. For every $x,y\in F$, if $x<y$ then
+$x+z<y+z$; and if $x<y$ and $z>0$, then
+$xz<yz$.
+
+A ordered field with the least upper bound property
+is **complete**.
+
+$F$, ordered field, has the **least upper bound property**
+if every non-empty subset of $F$ that has an *upper bound*
+has a *least upper bound*.
+
+Let $A$ be a set of real numbers. $s\in\mathbb{R}$,
+$t\in\mathbb{R}$. $s$, **upper bound**:
+$\forall a\in A \, a\leqslant s$.
+
+$s$, **least upper bound** (supremum):
+$\forall t<s\exists a\in A>t$.
+
+There exists a complete ordered field.
+There is only one **complete ordered field**,
+in the sense that any two complete ordered fields
+are isomorphic.
+
+An algebraic closure of a field K is an algebraic extension of K that is
+algebraically closed.
+
+# Generating Set
+
+Generating set of a group:
+A set of group elements which are not contained in
+any subgroup of the group other than the group itself.
+
+A generating set of a group is a subset such that every element of the group
+can be expressed as the combination (under the group operation) of finitely
+many elements of the subset and their inverses.
+
+When there is only a single element x in S, $〈S〉$ is usually written as $〈x〉$.
+In this case, $〈x〉$ is the cyclic subgroup of the powers of x, a cyclic group,
+and we say this group is generated by x. Equivalent to saying an element x
+generates a group is saying that $〈x〉$ equals the entire group G. For finite
+groups, it is also equivalent to saying that x has order |G|.
+
+If S is finite, then a group G = $〈S〉$ is called finitely generated.
+If a finite group is generated by a subset S, then each group element may be
+expressed as a word from the alphabet S of length less than or equal to the
+order of the group.
+Every finite group is finitely generated since $〈G〉 = G$.
+
+The most general group generated by a set S is the group freely generated by S.
+Every group generated by S is isomorphic to a quotient of this group
+
+Let S be a set and let $F_S$ be the free group on S. Let R be a set of words on S,
+so R naturally gives a subset of $F_S$. To form a group with presentation <S | R>,
+the idea is to take FS quotient by the smallest normal subgroup such that each
+element of R gets identified with the identity. Note that R might not be a
+subgroup, let alone a normal subgroup of $F_S$, so we cannot take a quotient by R.
+The solution is to take the normal closure N of R in $F_S$. The group <S | R> is
+then defined as the quotient group
+
+$\langle S\mid R\rangle =F_{S}/N$.
+
+The elements of S are called the generators of <S | R> and the elements of R
+are called the relators. A group G is said to have the presentation <S | R> if
+G is isomorphic to <S | R>.
+
+It is a common practice to write relators in the form x = y where x and y are
+words on S. What this means is that $y^{−1}x ∈ R$. This has the intuitive meaning
+that the images of x and y are supposed to be equal in the quotient group. Thus
+e.g. rn in the list of relators is equivalent with rn = 1. Another common
+shorthand is to write [x, y] for a commutator $xyx^{−1}y^{−1}$.
+
+the conjugate closure of a subset S of a group G is the subgroup of G generated
+by $S^G$, i.e. the closure of $S^G$ under the group operation, where SG is the set of
+the conjugates of the elements of S:
+
+$S^G = {g^{−1}sg | g ∈ G and s ∈ S}$
+
+The conjugate closure of S is denoted $<S^G>$ or $\langle S \rangle ^G$.
+
+The conjugate closure of any subset S of a group G is always a normal subgroup
+of G; in fact, it is the smallest (by inclusion) normal subgroup of G which
+contains S. For this reason, the conjugate closure is also called the normal
+closure of S or the normal subgroup generated by S.
+Any normal subgroup is equal to its normal closure.
+
+Generating set of a ring:
+A subring $S$ of a ring $A$ **generates** $A$ if the only
+subring of $A$ containing $S$ is $A$ itself.
+
+A **minimal generating set** of a module over a ring $R$
+is a generating set of the module such that no proper
+subset of the set generates the module.
+
+# Lattice
+
+Two lattices $L_1$ and $L_2$ are isomorphic
+iff there is a bijection $\alpha$ form $L_1$ to $L_2$
+such that both $\alpha$ and $\alpha^{-1}$ are
+order-preserving.
+
+Two binary operations $∗$ and $\circ$, are said
+to be connected by the absorption law if:
+$a∗(a\circ b)=a\circ (a∗b)=a$.
+
+A set equipped with two commutative, associative and
+idempotent binary operations $\vee$ ("join") and $\wedge$
+("meet") that are connected by the absorption law is called
+a **lattice**. 
+
+A lattice is a poset in which any two elements x
+and y have a least upper bound (lub) (join, supremum), denoted by
+$x\vee y$, and a greatest lower bound (glb) (meet, infimum), denoted by
+$x\wedge y$.
+
+A lattice $L$ is **distributive** if the following two equivalent
+conditions hold $x\wedge (y\vee z) = (x\wedge y)\vee (x\wedge z)$
+or equivalently $x\vee (y\wedge z) = (x\vee y) \wedge (x \vee z)$
+$\forall x,y,z \in L$. The Boolean algebra $B_n$ is a distributive
+lattice.
+
+A **matroid lattice** is a lattice that is both atomistic and semimodular.
+A **geometric lattice** is a finite matroid lattice.
+Some authors consider only finite matroid lattices, and use the terms
+"geometric lattice" and "matroid lattice" interchangeably for both.
+
+A graded lattice is **semimodular** if, for every x  and y,
+its rank function obeys the identity
+
+$$
+r(x)+r(y)\geq r(x\wedge y)+r(x\vee y).\,
+$$
+
+In a poset the atoms are the elements that cover some minimal element of the poset.
+
+A lattice is said to be atomistic if every element is the lub of some set of atoms.
+
+A poset is graded when it can be given a rank function $r ( x )$  mapping its
+elements to integers, such that
+$r(x)>r(y)$ whenever $x>y$, and
+in particular $r(x)=r(y)+1$
+whenever $x :> y$.
+
+When a graded poset has a bottom element, one may assume, without loss of
+generality, that its rank is zero. In this case, the atoms are the elements
+with rank one.
+
+The geometric lattices are cryptomorphic to (finite, simple) matroids, and the
+matroid lattices are cryptomorphic to simple matroids without the assumption of
+finiteness.
+Two objects, especially systems of axioms or semantics for
+them, are called cryptomorphic if they are equivalent but not obviously
+equivalent.
+
+Like geometric lattices, matroids are endowed with rank functions.
+The maximal sets of a given rank are called flats. The intersection of two
+flats is again a flat, defining a greatest lower bound operation on pairs of
+flats; one can also define a least upper bound of a pair of flats to be the
+(unique) maximal superset of their union that has the same rank as their union.
+In this way, the flats of a matroid form a matroid lattice, or (if the matroid
+is finite) a geometric lattice.
+
+Conversely, if L is a matroid lattice, one may define a
+rank function on sets of its atoms, by defining the rank of a set of atoms to
+be the lattice rank of the greatest lower bound of the set. This rank function
+is necessarily monotonic and submodular, so it defines a matroid. This matroid
+is necessarily simple, meaning that every two-element set has rank two.
+
+These two constructions, of a simple matroid from a lattice and of a lattice
+from a matroid, are inverse to each other: starting from a geometric lattice or
+a simple matroid, and performing both constructions one after the other, gives
+a lattice or matroid that is isomorphic to the original one.
+
+# Algebra (structure)
+
+**Algebra structure**. Sets with finitary operations.
+
+An **algebra** is a monoid in the category `Vect`.
+A **coalgebra** is a monoid in the category `Vect`$_{op}$.
+
+`type Algebra fa = fa -> a`
+
+Given a Category.  
+$F$ endofunctor. Used to form expressions.
+$a$ object in the Category.  
+
+Fa  
+$a$ ist the carrier object
+
+Fa -> a  
+this morphism is the evaluation morphism (structure map). Evals expressions.
+
+A monoid is the simplest algebra.
+
+Commutative rings ⊃ integral domains ⊃ integrally closed domains ⊃ unique factorization
+domains ⊃ principal ideal domains ⊃ Euclidean domains ⊃ fields ⊃ finite fields 
+
+The trivial absolute value is the absolute value with | x | = 0 when x = 0 and
+| x | = 1 otherwise.[2] Every integral domain can carry at least the trivial
+absolute value. The trivial value is the only possible absolute value on a
+finite field because any element can be raised to some power to yield 1.
+
+If | x + y | satisfies the stronger property | x + y | ≤ max(|x|, |y|), then
+| x | is called an ultrametric or non-Archimedean absolute value, and otherwise
+an Archimedean absolute value
+
+any field, complete with respect to an Archimedean absolute value, is
+(algebraically and topologically) isomorphic to either the real numbers or the
+complex numbers.
+
+A vector space with a linear product operation between elements of the space is
+called an algebra.  An algebra over a field is a vector space (a module over a
+field) equipped with a bilinear product.  In some areas of mathematics, such as
+commutative algebra, it is common to consider the more general concept of an
+algebra over a ring, where a commutative unital ring R replaces the field K.
+The only part of the definition that changes is that A is assumed to be an
+R-module (instead of a vector space over K).
+
+A graded ring is a ring that is a direct sum of abelian groups $R_{i}$ such
+that $R_{i}R_{j}\subset R_{i+j}$ . The index set is usually the set of
+nonnegative integers or the set of integers, but can be any monoid. The direct
+sum decomposition is usually referred to as gradation or grading.
+
+A graded module is defined similarly (see below for the precise definition). It
+generalizes graded vector spaces. A graded module that is also a graded ring is
+called a **graded algebra**. A graded ring could also be viewed as a graded
+Z-algebra.
+
+A graded vector space is a vector space that has the extra structure of a
+grading or a gradation, which is a decomposition of the vector space into a
+direct sum of vector subspaces.
+
+# Coxeter Group
+
+Coxeter diagrams of finite groups correspond to point
+groups generated by reflections.
+
+A group with presentation
+
+$$< r_1, r_2, ..., r_n | (r_i r_j)^{m_{ij}}=1 >$$
+
+where  
+$m_{ii}=1$  
+$m_{ij}\ge 2$ for $i\not = j$  
+$m_{ij}=\infty$ means no relation of the form $(r_i r_j)^m$
+should be imposed.
+
+#### Coxeter system}
+
+$W$ group.
+$S$ generators for $W$ of order 2.
+
+TFAE:
+
+-   $(W,S)$ is a **coxeter system**
+-   $(W,S)$ satisfies exchange
+-   $(W,S)$ satisfies deletion
+
+exchange property:
+
+if $w=s_1 ... s_k$ and $l(sw)<l(w)$, $s\in S$
+then $sw=s_1 ... \hat s_i ... s_k$, (eliminate $\hat s_i$), for some $i$
+
+deletion property:
+
+if $w=s_1 ... s_k$ and $l(w)<k$
+then $sw=s_1 ... \hat s_i ... \hat s_j ... s_k$, (eliminate $\hat s_i, \hat s_j$), for some $i,j$
+
+If two reduced words represent the same element of a Coxeter group, then
+Matsumoto's theorem states that the first word can be transformed into the
+second by repeatedly transforming
+
+xyxy... to yxyx... (or vice versa)
+
+where
+
+xyxy... = yxyx...
+
+is one of the defining relations of the Coxeter group.
+
+Matsumoto's theorem implies that there is a natural map (not a group
+homomorphism) from a Coxeter group to the corresponding braid group, taking any
+element of the Coxeter group represented by some reduced word in the generators
+to the same word in the generators of the braid group.
+
+# Braid group
+
+$B_n$ braid group of $n$ strands.
+
+The braid group is generated by $n-1$ elements $\tau_1, ..., \tau_{n-1}$ where
+$\tau_i$ is the braid which crosses the $i$th string over the $(i+1)$st  string.
+
+$B_n = < \tau_1, ..., \tau_{n-1} | \tau_i\tau_{i+1}\tau_i = \tau{i+1}\tau_i\tau_{i+1},
+\tau_i\tau_j = \tau_j\tau_i for i+1 < j >$
+
+With the additional relations \tau_i = \tau_i^{-1} the group reduces to the symmetric group.
+
+An **Artin group** is a group with presentation of the form
+
+$A = \langle s_1, \dots, s_n | s_i s_j s_i ... = s_j s_i s_j ... \text{for all } i \neq j \rangle$ where
+$m_{ij} = m_{ji}$ is an integer $\ge 2$ or $m_ij = \infty$ in which case we omit the relation between $s_i$ and $s_j$.
+
+$s_i s_j s_i ... = m_{ij}$
+$s_j s_i s_j ... = m_{ji}$
+
+With the additional relations $s_i = s_i^{-1}$ for all $i$, we optain a Coxeter group $W$.
+
+$W = < s_i, ..., s_n | (s_i)^2 = 1, (s_is_j)^{m_ij} = 1 \text{for all} i \neq j > $
+
+$S = \{ s_1, ..., s_n \}$
+
+$(A,S)$ Artin system
+$(W,S)$ Coxeter system
+
+**rigth angled** Artin group (Coxeter group):
+$m_{ij} \in \lbrace 2, \infty \rbrace \forall$ relations. $s_is_j = s_js_i$
+
+The Artin braid group $B_n$ is the group generated by $n-1$ generators $\sigma_1,\dots,\sigma_{n-1}$
+and the "braid relations":
+
+$\sigma_i\sigma_j = \sigma_j\sigma_i$ $\forall i,j = 1,\dots,n-1$ with $|i-j|\geq 2$
+
+and
+
+$\sigma_i\sigma_{i+1}\sigma_i = \sigma_{i+1}\sigma_i\sigma_{i+1}$ $\forall i = 1,\dots,n-1$
+
+$B_1$ is a trivial group
+
+$B_2$ is an infinite cyclic group
+
+$B_n$ with $n\geq 3$ is nonabelian
+
+# Boolean Algebra
+
+$$
+p \Rightarrow q = p\text{'} \vee q$$
+"if p, then q"
+$$p \iff q = (p \Rightarrow q) \wedge (q \Rightarrow p)$$
+the dual of $p-q$ is $q \Rightarrow p$, and
+the dual of $p+q$ is $p \iff q$.
+$$p|q = p\text{'} \wedge q\text{'}$$
+(stroke)
+
+## Complex numbers
+
+#### root of unity
+
+A root of unity is any complex number
+that gives $1$ when raised to some integer power $n$.
+$$z^n=1$$
+
+$k$-th root of unity modulo $n$ for positive
+integers $k$, $n\geqslant 2$, is a solution to the
+congruence
+$$x^k≡1$$
+If $k$ is the smallest such exponent for $x$,
+then $x$ is called a primitive $k$-th root of
+unity modulo $n$.
+
+## Quaternionen
+
+The set of three-dimensional complex numbers is not closed under
+multiplication.
+
+Proof:
+
+Assume that the usual rules of arithmetic for complex numbers hold, and that
+$i^2 = j^2 = - 1$.  The proof is by contradiction, so we assume that a closed
+multiplication exists. Since multi- plication is closed, there exist $a, b, c^2
+\in R$ that satisfy $ij = a + i b + j c$ . Multiplying this with $i$ yields $-
+j = - b + i a + ij c$. Substituting the first equation in the second equation
+yields $- j = - b + i a + ( a + i b + j c ) c$, i. e. $0 = ( ac - b ) + i ( a +
+bc ) + j ( c^2 + 1)$.  Thus $ac - b = 0$ , $a + bc = 0$ and $c^2 + 1 = 0$. The
+equation $c^2 + 1 = 0$ gives the contradiction, since $c$ is real by
+assumption.
+
+$i^2 = j^2 = k^2 = ijk = - 1$
+
+$q = a + bi + cj + dk$
+
+$a$ is the real or scalar part, and
+$(b, c, d)$ is the imaginary or vector part.
+
+$i^2 = j^2 = k^2 = ijk = -1$
+
+The conjugate of quaternion $q$, denoted
+by $q^\star $, is defined by
+$(a + bi + cj + dk)^\star = a - bi - cj - dk$
+
+$qq\star = q\star q = a^2 + b^2 + c^2 + d^2$
+
+A dual quaternion is expressed as:
+$\hat{q} = q + q′ε$
+We call $q$ the real part and $q′$ the dual
+part.
+
+$ε^2 =0$
+
+$(q_1 + q′_1ε) (q_2 + q′_2ε) = q_1 q_2 + (q_1 q′_2 + q_1′ q_2)ε + 0$
+
+The conjugate of a dual quaternion:
+$q^∗  = (q + q′ ε)^∗ = q^∗ +q^{′∗}ε$
+
+$(r_1,\ \vec{v}_1) (r_2,\ \vec{v}_2) = (r_1 r_2 - \vec{v}_1\cdot\vec{v}_2, r_1\vec{v}_2+r_2\vec{v}_1 + \vec{v}_1\times\vec{v}_2)$
+
+$\lVert q \rVert = \sqrt{qq^\star }$
+
+A unit quaternion is a quaternion of norm one. 
+
+$q^{-1} = \frac{q^\star }{\lVert q\rVert^2}$
+
+Using 2 × 2 complex matrices, the quaternion a + bi + cj + dk can be represented as
+
+$$
+\begin{bmatrix}a+bi & c+di \\ -c+di & a-bi \end{bmatrix}. 
+$$
+
+# Octonion
+
+The octonions can be thought of as octets (or 8-tuples) of
+real numbers. Every octonion is a real linear combination of
+the unit octonions:
+
+$\{e_0, e_1, e_2, e_3, e_4, e_5, e_6, e_7\}$
+
+# Lie algebra
+
+**Lie algebra** is a vector space together with a
+non-associative multiplication called Lie bracket $[x,y]$.
+
+Any associative algebra $A$ over the field $K$ becomes a Lie algebra
+over $K$ with the Lie bracket $[a,b]=ab-ba$.
+
+A **Lie algebra** is a vector space $g$ over a field $F$ on which a
+multiplication $g\times g \to g$, $x,y \to [xy]$ is defined satisfying the axioms:
+
+(i) $[xy]$ is linear in $x$  and $y$  
+(ii) $[xx] = 0$, $\forall x \in g$  
+(iii) $[[xy]z]+[[yz]x]+[[zx]y]=0$, $\forall x,y,z \in g$
+
+$[yx] = -[xy]$, $\forall x,y \in g$
+
+Let $A$ be an associative algebra, i.e. a vector space with a bilinear
+associative multiplication $xy$. Then we obtain a Lie $[A]$ by
+redefining the multiplication on $A$. We define $[xy]=xy-yx$.
+
+#
+
+Number field
+
+A number field $K$ is a finite degree algebraic extension of the rational
+numbers $\mathbb{Q}$.
+
+# Exterior Algebra
+
+The exterior algebra Λ(V) over a vector space V over a
+field K is defined as the quotient algebra of the tensor
+algebra by the two-sided ideal I generated by all elements
+of the form x ⊗ x for x ∈ V. Symbolically,
+
+$\Lambda(V) := T(V)/I$
+
+The exterior product ∧ of two elements of Λ(V) is defined by
+
+$\alpha\wedge\beta = \alpha\otimes\beta \pmod I$
+
+where the mod I means that we do the tensor product in the
+usual way and then declare every element of the tensor that
+is in the ideal to be zero.
+
+# Tensor
+
+A **Tensor** is a $n$-dimensional array of numbers.
+($n=1$: vector; $n=2$: matrix).
+
+Given any vector space $V$ over $F$, the **dual space**
+$V^\star $ is defined as the set of all linear maps (linear Functionals)
+$\varphi :V\to F$.
+The dual space $V^\star $ itself becomes a vector space over $F$
+when equipped with the following addition and scalar
+multiplication:
+$(\varphi +\psi)(x)=\varphi(x)+\psi(x)$,
+$(a\varphi)(x)=a(\varphi(x))$,
+for all $\varphi,\psi\in V^\star ,x\in V,a\in F$.
+
+$V,W$ $\mathbb{K}$-vector spaces.
+$F(V\times W)=\text{K-span}\{(v,w)|v\in V,w\in W\}$
+free Vector space on $V\times W$.
+Then $V\otimes W=F(V\times W)/I$
+where $I$ is given by $$\{$$
+$(a+b,c)=(a,c)+(b,c)$  
+$(a,b+c)=(a,b)+(a,c)$  
+$(\lambda a,b)=\lambda (a,b)$  
+$(a,\lambda b)=\lambda (a,b)$  
+$$\}$$
+
+**Tensor**: a element of the tensor product.
+
+type $(m,n)$ tensor.
+
+$\star$
+
+$\underbrace{V\otimes\dots\otimes V}_m$ $\otimes$ $\underbrace{V^\star \otimes \dots \otimes V^\star}_n$
+
+In linear algebra, the term **outer product** typically
+refers to the tensor product of two vectors. $a$, $b$ vectors,
+$a\otimes b=ab^T$.
+
+$A$, $B$, matices.
+$$
+\mathbf{A} \otimes \mathbf{B} =
+\begin{pmatrix} A_{11}\mathbf{B} & A_{12}\mathbf{B} & \cdots & A_{1n}\mathbf{B}
+²nn¹ A_{21}\mathbf{B} & A_{22}\mathbf{B} & \cdots & A_{2n}\mathbf{B}
+²nn¹ \vdots & \vdots & \ddots & \vdots \\ A_{m1}\mathbf{B} & A_{m2}\mathbf{B} & \cdots & A_{mn}\mathbf{B}
+²nn¹ \end{pmatrix} 
+$$
+
+If $V$ is a vector space, then
+the **dual vector space** is
+$V\star := \operatorname{Hom}_\mathbf{K}(V,\mathbf{K})=$
+\{ linear functionals on $V$\}
+
+$(V\star )\star =V$
+
+If $C$ is a coalgebra then $C\star $ is an algebra.
+If $A$ is a finite dimensional algebra then $A\star $ is
+a coalgebra.
+
+# quadratic characters
+
+The congruence classes relatively prime to the modulus are a group under
+multiplication, called the group of units of the ring Z/nZ, and the squares are
+a subgroup of it. Different nonresidues may belong to different cosets, and
+there is no simple rule that predicts which one their product will be in.
+Modulo a prime, there is only the subgroup of squares and a single coset.
+
+# Quantum group
+
+Roughly a quantum group is a Hopf algebra whose modules or comodules form a
+braided monoidal category.
+
+#---
+
+$B$ bilinear form
+
+A reflection with respect to $B$ is a linear map $r_u(v) = v - 2B(u,v)u$ for
+some unit vector u.

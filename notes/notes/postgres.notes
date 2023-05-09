@@ -1,0 +1,10 @@
+sudo -i -u postgres psql
+sudo su postgres -c psql
+
+sudo -u postgres createuser -s $USER
+createdb
+psql
+
+CREATE ROLE myuser LOGIN PASSWORD 'mypass';
+CREATE DATABASE mydatabase WITH OWNER = myuser;
+

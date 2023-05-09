@@ -1,0 +1,140 @@
+
+# Logic
+
+Two naive tests of whether something belongs to logic:
+
+• Do the people who study it call themselves logicians?
+
+• Does it involve the same skills as other things that
+belong to logic?
+
+We write:
+
+(p ∧ q) for (p and q)  
+(p ∨ q) for (p or q or both)  
+(p → q) for (If p then q)  
+¬p for not-p  
+
+∀x for (For everything x),
+∃x for (There exists something x).
+
+**First-order logic** is logic using just these symbols.
+
+**Propositional logic** (Aussagenlogik) is first-order logic using only ∧, ∨, →
+and ¬, not ∀ or ∃.
+
+In order to analyse Natural Deduction, Gentzen introduced **sequent calculi**
+based on Left and Right rules, instead of Introduction and Elimination rules.
+We can use the Gentzen rules as a mathematical calculus.
+When we do this, we normally write $⊢$ rather than |=.  
+
+Gottlob Frege's two-dimensional notation of the Begriffsschrift is usually
+regarded as introducing the modern concept of quantifier to logic.
+C.S. Peirce's existential graph might easily have been seminal, had history
+worked out differently.
+
+-    Hilbert style. Every line is an unconditional tautology (or theorem).
+-    Gentzen style. Every line is a conditional tautology (or theorem) with
+zero or more conditions on the left.
+-    Natural deduction. Every (conditional) line has exactly one asserted
+proposition on the right.
+-    Sequent calculus. Every (conditional) line has zero or more asserted
+propositions on the right.
+
+Sequent calculi is also called Gentzen systems.
+
+The standard semantics of a judgment in **natural deduction** is that it asserts
+that whenever $A_{1} A_{2}$, etc., are all true, $B$ will also be true. The
+judgments
+
+$A_{1},\ldots ,A_{n}\vdash B$
+
+and
+
+$\vdash (A_{1}\land \cdots \land A_{n})\rightarrow B$
+
+are equivalent in the strong sense that a proof of either one may be extended
+to a proof of the other.
+
+**Sequent calculus** generalizes the form of a natural deduction judgment to
+
+$A_{1},\ldots ,A_{n}\vdash B_{1},\ldots ,B_{k}$
+
+a syntactic object called a sequent.
+
+The three most well-known styles of proof calculi are:
+
+-    The Hilbert calculi
+-    The natural deduction calculi
+-    The sequent calculi
+
+For proof systems based on higher-order typed lambda calculus through a
+Curry–Howard isomorphism, cut elimination algorithms correspond to the strong
+normalization property (every proof term reduces in a finite number of steps
+into a normal form).
+
+A rule of inference is *admissible* in a formal system if the set of
+theorems of the system does not change when that rule is added to the existing
+rules of the system.
+
+a **variable** is a symbol that stands for an arbitrary instantiation of
+some given type (although in single-typed theories the type is trivial). Thus,
+every variable of type T is a term of type T (although typically there are
+other terms).
+
+## first order logic
+
+Many of the commonly studied interpretations associate each sentence in a
+formal language with a single truth value, either True or False. The sentences
+that are made true by a particular assignment are said to be *satisfied* by that
+assignment.
+
+No sentence can be made both true and false by the same interpretation, but it
+is possible that the truth value of the same sentence can be
+different under different interpretations. A sentence is *consistent* if it is
+true under at least one interpretation; otherwise it is *inconsistent*. A
+sentence φ is said to be *logically valid* if it is satisfied by every
+interpretation (if φ is satisfied by every interpretation that satisfies ψ then
+φ is said to be a logical consequence of ψ).
+
+A formula is *satisfiable* if it is possible to find an interpretation (model)
+that makes the formula true. A formula is *valid* if all interpretations make
+the formula true.
+
+## Ausagenlogik
+
+Eine mathematische **Aussage** ist eindeutig entweder wahr ("t") oder falsch ("f").
+
+Verbindungsoperatoren: Junktoren. Sie werden durch Wahrheitstafeln definiert.
+
+Einstellig sind:  
+Negation  
+Verum  
+Affirmation  
+Falsum  
+
+zweistellig sind (16):  
+Implikation $\implies$.
+Äquivalenz $\iff$.
+
+Aussagenlogische Formel:
+Aneinanderreihung von (mathematischen) Aussagen vermöge von Junktoren.
+
+Tautologie: Eine aussagenlogische Formel die stets den Wahrheitswert t annimmt.
+Egal welche Wahrheitswerte die Eingangsaussagen haben.
+
+$$
+(A → B) ↔ (\neg B → \neg A)
+$$
+
+## Combinatory Logic
+
+Combinatory logic is a notation to eliminate the need for quantified variables
+in mathematical logic.
+A combinator is a higher-order function that uses only function application and
+earlier defined combinators to define a result from its arguments.
+Another way of eliminating quantified variables is Quine's predicate functor
+logic. While the expressive power of combinatory logic typically exceeds that
+of first-order logic, the expressive power of predicate functor logic is
+identical to that of first order logic
+

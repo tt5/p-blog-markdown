@@ -1,0 +1,18 @@
+
+# pgn-extract
+
+https://www.cs.kent.ac.uk/~djb/pgn-extract/pgn-extract-21-02.tgz
+
+--fenpattern "<FEN>" --nomovenumbers --nocomments --quiet --notags --fencomments --startply <N> --plylimit 2
+
+--matchplylimit <N>
+--H<hash>
+--addhashcode
+--hashcomments
+--dropply <N>
+--startplay <N>
+--splitvariants
+--fenpattern
+
+zobrist polyglot hash
+

@@ -1,0 +1,117 @@
+
+# Permutation (perm)
+
+Permutation is bijective mapping.
+
+123456 → 246153  
+(124)(36)(5)
+
+$\mfrakS_n$ symmetric group on ${1,...,n}$.
+A subgroup of a symmetric group is called a **permutation group**
+
+$$
+\text{sgn}(\sigma )=
+\begin{cases}
+  +1 \text{if} \sigma \text{is even} \\
+    -1 \text{if} \sigma \text{is odd}
+\end{cases}
+$$
+
+$\omega_0$ longest element of $\mfrakS_n$, $l(w_0)=N:=\frac{n(n-1)}{2}$
+
+A **word** is any written product of group elements and their inverses.
+
+For example, given X = {1, 2, 3, 4}, the permutation that sends 1 to 3, 3 to 2,
+2 to 4 and 4 to 1 (so S = X) is a 4-cycle, and the permutation that sends 1 to
+3, 3 to 2, 2 to 1 and 4 to 4 (so S = {1, 2, 3} and 4 is a fixed element) is a
+3-cycle. On the other hand, the permutation that sends 1 to 3, 3 to 1, 2 to 4
+and 4 to 2 is not a cyclic permutation because it separately permutes the pairs
+{1, 3} and {2, 4}.
+
+A permutation is called a cyclic permutation if and only if it has a single
+nontrivial cycle (a cycle of length > 1).
+
+A cycle with only two elements is called a **transposition**.
+Any permutation can be expressed as the composition (product) of
+transpositions—formally, they are generators for the group.
+
+The set S is called the orbit of the cycle. Every permutation on finitely many
+elements can be decomposed into a collection of cycles on disjoint orbits.
+
+In the Robinson–Schensted correspondence between
+permutations and Young tableaux, the length of the first
+row of the tableau corresponding to a permutation equals
+the length of the longest increasing subsequence of the
+permutation, and the length of the first column equals the
+length of the longest decreasing subsequence.
+
+The reduced words of a perm $w$ are strings of positive integers
+that describe the ways to write $w$ as a product of adjacent transpositions.
+
+A perm is represented in one-line notation as the word $w=w(1)...w(n)$
+
+The **adjacent transpositions** in $\mfrakS_n$ are ${\sigma_i: 1\leq i < n}$,
+where $\sigma_i$ transposes $i$ and $i+1$ and
+fixes all other letters. These involutions generate $\mfrakS_n$, and
+obey the **Coxeter relations**:
+
+(1)   $\sigma_i \sigma_j = \sigma_j \sigma_i$ if $|i-j|>1$ (commutation)
+
+(2)   $\sigma_i \sigma_{i+1} \sigma_i = \sigma_{i+1} \sigma_i \sigma_{i+1}$
+for $1\leq i \leq n-2$ (braid)
+
+If $w= \sigma_{i_1} ... \sigma_{i_l}$ for $l$ minimal, then $l=l(w)$ is
+the **length** of $w$, the product $\sigma_{i_1} ... \sigma_{i_l}$ is
+a reduced decomposition of $w$, and the string $i_1 ... i_l$ is
+a **reduced word** of $w$. The set of all reduced words of $w$ is denoted $R(w)$.
+
+$l(w)=|{i<j:w(i)>w(j)}|$
+
+ex.: $3241 \in \mfrakS_4$
+
+reduced decompositions:
+$$
+\sigma_2
+\sigma_1
+\sigma_2
+\sigma_3
+;
+\sigma_1
+\sigma_2
+\sigma_1
+\sigma_3
+;
+\sigma_1
+\sigma_2
+\sigma_3
+\sigma_1
+$$
+
+$R(3241)={2123, 1213, 1231}$
+
+Reduced words are strings. A permutation in one-line notation is a string.
+A **factor** in a string is a consecutive substring.
+**Shifting** a string by $x$ means adding a fixed value $x$ to each symbol in the string.
+
+Two strings are isomomorphic if their symbols appear in the same relative order.
+
+
+---
+
+In combinatorial mathematics, the ménage problem or problème des ménages[1]
+asks for the number of different ways in which it is possible to seat a set of
+male-female couples at a dining table so that men and women alternate and
+nobody sits next to his or her partner.
+
+a derangement is a permutation of the elements of a set, such that no element
+appears in its original position.
+
+# Rook polynomials
+
+For incomplete square n × n boards, (i.e. rooks are not allowed to be played on
+some arbitrary subset of the board's squares) computing the number of ways to
+place n rooks on the board is equivalent to computing the permanent of a 0–1
+matrix.
+
+A rook polynomial is a special case of one kind of matching polynomial, which
+is the generating function of the number of k-edge matchings in a graph. 

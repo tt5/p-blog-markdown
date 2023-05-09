@@ -1,0 +1,243 @@
+
+
+# Euklidischer dreidimensionaler Vektorraum
+
+Vectorraum mit Skalarprodukt.
+
+rotation: $\operatorname{det}=1$.
+Improper rotation: $\operatorname{det}=-1$.
+
+Every $2 × 2$ orthogonal matrix has one of two possible forms
+
+$$
+\begin{pmatrix}
+\cosθ & -\sin\theta\\
+\sin\theta & \cos\theta
+\end{pmatrix}
+$$
+
+or
+
+$$
+\begin{pmatrix}
+\cosθ & \sin\theta\\
+\sin\theta & -\cos\theta
+\end{pmatrix}
+$$
+
+where $0 ≤ θ < 2 π$.
+
+$a\times b=c=\|a\|\|b\|\sin\theta n$
+
+$$
+c=
+\begin{pmatrix}
+a_2b_3-a_3b_2\\
+a_3b_1-a_1b_3\\
+a_1b_2-a_2b_1
+\end{pmatrix}
+$$
+
+$n$ unital vector, perpendicular to $a$ and $b$.
+"right hand", positive oriented.
+Daumen: $a\times b$, Zeigefinger: $a$, Mittelfinger: $b$.
+
+$a\times(b\times c)=b(a∙c)-c(a∙b)$
+
+$(a\times b)\times c=b(a∙c)-a(b∙c)$
+
+## 3D Rotation
+
+$q\in\mathbb{H}$,
+$q=(r,\vec{v})$,
+$r\in\mathbb{R}$, $\vec{v}\in\mathbb{R}^3$
+
+$(r_1,\vec{v}_1)(r_2,\vec{v}_2)=(r_1r_2-\vec{v}_1\cdot\vec{v}_2,r_1\vec{v}_2+r_2\vec{v}_1+\vec{v}_1\vectimes\vec{v}_2)$
+
+Unit rotation axis $\omega=(u_x,u_y,u_z)$ and angle $\theta$,
+corresponding quaternion is
+
+$$ q=\cos\left(\theta/2\right)+\sin\left(\theta/2\right)u_xi+
+\sin\left(\theta/2\right)u_yj+\sin\left(\theta/2\right)u_zk $$
+
+Quaternions $q$ and $-q$ give the same rotation.
+
+Composition of rotation $q_1$ and $q_2$ equals $q=q_2q_1$.
+
+$v_{\text{rot}}=v\cos\theta+(\omega\vectimes v)\sin\theta+\omega(\omega\cdot v)(1-\cos\theta)$
+
+A rotation with angle θ about unit vector
+$u$ is represented by unit quaternion
+
+```
+$ \[ \cos( \frac{θ}{2} ), \sin( \frac{θ}{2} ) u \]$
+```
+
+The so-called sandwich product performs
+a rotation: $v’ = q v q^*$
+In other words, $qvq^{-1}$ rotates the vector part
+of $v$ around the vector $r$.
+
+The vector $v$ is regarded as a pure
+imaginary quaternion.
+
+The conjugate is the inverse rotation:
+$v = q^* v’ q$
+
+A screw is a rotation about a
+line and a translation along
+the same line.
+“Any rigid-body displacement
+can be defined by a screw.”
+(Michel Chasles, 1830)
+
+# Polytopes
+
+**hyperplane**, a subplane of lower dimension.
+
+## 3-D
+
+$v$ verteces, $e$ edges, $f$ faces.
+$v-e+f=2$, $v\leqslant 2f-4$, $f\leqslant 2v-4$.
+
+# Dreieck (Trigonometrie)
+
+$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{sin C}$
+
+```
+$c^2=a^2+b^2-2ab\cos C$
+```
+
+```
+     (x3, y3)
+    /\
+   /  |
+  /    \
+ /      |
+/-------- (x2, y2)
+(x1, y1)
+```
+
+$\text{area}=\frac{1}{2}bc\sin A=(s(s-a)(s-b)(s-c))^{\frac{1}{2}}$,  
+$s=\frac{1}{2}(a+b+c)$
+
+$$
+\text{area}=
+\operatorname{det}\begin{pmatrix}
+x_1 & y_1 & 1 \\
+x_2 & y_2 & 1 \\
+x_3 & y_3 & 1
+\end{pmatrix}$$
+
+# Euklidischer dreidimensionaler Vektorraum
+
+Vectorraum mit Skalarprodukt.
+
+rotation: $\operatorname{det}=1$.
+Improper rotation: $\operatorname{det}=-1$.
+
+Every $2 × 2$ orthogonal matrix has one of two possible forms
+
+$$
+ü
+\begin{pmatrix}
+\cosθ & -\sin\theta\\
+\sin\theta & \cos\theta
+\end{pmatrix}
+$$
+
+or
+
+$$
+\begin{pmatrix}
+\cosθ & \sin\theta\\
+\sin\theta & -\cos\theta
+\end{pmatrix}
+$$
+
+where $0 ≤ θ < 2 π$.
+
+$a\times b=c=\|a\|\|b\|\sin\theta n$
+
+$$
+c=
+\begin{pmatrix}
+a_2b_3-a_3b_2\\
+a_3b_1-a_1b_3\\
+a_1b_2-a_2b_1
+\end{pmatrix}
+$$
+
+$n$ unital vector, perpendicular to $a$ and $b$.
+"right hand", positive oriented.
+Daumen: $a\times b$, Zeigefinger: $a$, Mittelfinger: $b$.
+
+$a\times(b\times c)=b(a∙c)-c(a∙b)$
+
+$(a\times b)\times c=b(a∙c)-a(b∙c)$
+
+## 3D Rotation
+
+$q\in\mathbb{H}$,
+$q=(r,\vec{v})$,
+$r\in\mathbb{R}$, $\vec{v}\in\mathbb{R}^3$
+
+$(r_1,\vec{v}_1)(r_2,\vec{v}_2)=(r_1r_2-\vec{v}_1\cdot\vec{v}_2,r_1\vec{v}_2+r_2\vec{v}_1+\vec{v}_1\vectimes\vec{v}_2)$
+
+Unit rotation axis $\omega=(u_x,u_y,u_z)$ and angle $\theta$,
+corresponding quaternion is
+
+$$ q=\cos\left(\theta/2\right)+\sin\left(\theta/2\right)u_xi+
+\sin\left(\theta/2\right)u_yj+\sin\left(\theta/2\right)u_zk $$
+
+Quaternions $q$ and $-q$ give the same rotation.
+
+Composition of rotation $q_1$ and $q_2$ equals $q=q_2q_1$.
+
+$v_{\text{rot}}=v\cos\theta+(\omega\vectimes v)\sin\theta+\omega(\omega\cdot v)(1-\cos\theta)$
+
+A rotation with angle θ about unit vector
+$u$ is represented by unit quaternion
+
+```
+$ \[ \cos( \frac{θ}{2} ), \sin( \frac{θ}{2} ) u \]$
+```
+
+The so-called sandwich product performs
+a rotation: $v’ = q v q^*$
+In other words, $qvq^{-1}$ rotates the vector part
+of $v$ around the vector $r$.
+
+The vector $v$ is regarded as a pure
+imaginary quaternion.
+
+The conjugate is the inverse rotation:
+$v = q^* v’ q$
+
+A screw is a rotation about a
+line and a translation along
+the same line.
+“Any rigid-body displacement
+can be defined by a screw.”
+(Michel Chasles, 1830)
+
+# Spherical polar coordinates
+
+(x,y,z)  
+Spherical coordinates (r, θ, φ) 
+
+$z = r\cos\theta$  
+$x = r\sin\theta\cos\phi$  
+$y = r\sin\theta\sin\phi$  
+$\frac{y}{x} = \tan\phi$  
+$\frac{x^2+y^2}{z^2} = \tan^2\theta$  
+
+Every kind of geometry is modeled on a collection of archetypical basic spaces
+and geometric homomorphisms between them. In differential geometry the
+archetypical spaces are the abstract standard Cartesian coordinate systems,
+denoted $\mathbb{R}^n$ (in every dimension $n \in \mathbb{N}$). The geometric
+homomorphism between them are smooth functions $\mathbb{R}^{n_1} \to
+\mathbb{R}^{n_2}$, hence smooth (and possibly degenerate) coordinate
+transformations.
+
+rotate = shear x, shear y, shear x

@@ -1,0 +1,516 @@
+
+Kovalente Bindungen können, je nach Elektronegativität der Bindungspartner,
+polarisiert sein. Ist eines der Elemente elektronegativer als sein
+Bindungspartner, so halten sich die Elektronen häufiger in seiner Nähe auf.
+
+positiver induktiver Effekt:
+
+t-Butylgruppe –\ce{C(CH3)3}  
+i-Propylgruppe –\ce{CH(CH3)2}  
+Alkylrest –\ce{R}  
+
+negativer induktiver Effekt:
+
+Sauerstoff in der Carbonylgruppe –\ce{C=O}  
+Hydroxygruppe –\ce{OH}  
+Nitrogruppe –\ce{NO2}  
+Aminogruppe –\ce{NH2}  
+Carboxygruppe –\ce{COOH}  
+Cyanogruppe –\ce{CN}  
+
+Als **Sublimation**, seltener auch Sublimierung, bezeichnet man in der
+Thermodynamik den Prozess des unmittelbaren Übergangs eines Stoffes vom festen
+in den gasförmigen Aggregatzustand, ohne sich vorher zu verflüssigen.
+
+Mit **Fällung** oder Präzipitation wird in der Chemie das Ausscheiden eines
+gelösten Stoffes aus einer Lösung bezeichnet. Dies geschieht durch
+Überschreiten seiner Löslichkeit aufgrund von Änderungen seiner
+Umgebungsbedingungen, z. B. durch Zusätze von geeigneten Substanzen
+(Fällungsmittel), Temperatur- und Druckänderung, Verdunstung des Lösungsmittels
+oder Änderung der Polarität des Lösungsmittels. Das Ausscheiden erfolgt als
+Niederschlag in Form von amorphen Flocken oder kristallinem Material.
+Grundsätzlich findet dabei ein Phasenübergang der zuvor gelösten Substanz
+statt.
+
+---
+
+Zu den anorganischen Stoffen zählt man alle chemischen
+Verbindungen ohne Kohlenstoff sowie die Kohlenoxide,
+die Kohlensäure und kohlenstoffhaltige Mineralien (Carbonate).
+
+Sulfide(2$^-$)\q \chemfig{\ce{S^2-}}  
+Sulfat\q \chemfig{\ce{SO4^2-}}  
+Nitrit\q \chemfig{\ce{NO2-}}  
+Nitrat\q \chemfig{\ce{NO3-}}
+
+---
+
+Schwefel fällt in riesigen Mengen bei der Erdölproduktion an.
+
+---
+
+2-Methylbuta-1,3-dien. Es ist ein Derivat des 1,3-Butadiens.
+Isopren ist die Grundeinheit der Terpene, wird selbst aber
+meist nicht zu diesen gezählt.
+
+---
+
+In der Chemischen Industrie wird Cyanamid als
+vielfältiger Ausgangsstoff, z. B. zur Herstellung von
+Herbiziden, Kunstharzen (Härtung von Epoxiden) sowie als
+Bleichaktivator für Wasserstoffperoxid bei alkalischem
+pH-Wert in Waschmitteln und zur chlorfreien Zellstoffbleiche
+benötigt.
+
+Carbodiimide sind in der Chemie eine Stoffgruppe organischer Verbindungen.
+Die Stammverbindung Carbodiimid (HN=C=NH) ist unter
+Normalbedingungen instabil, sie steht im tautomeren
+Gleichgewicht mit Cyanamid.
+
+Der Großteil des Cyanamids wird sofort zu
+Cyanoguanidin umgesetzt und weiterverarbeitet.
+
+\chemfig{ N ~ -N =[:60] ( -[,,,1]NH_2) -[:120,,,2]H_2N }
+
+## Melamin
+
+Früher spielte die Trimerisierung von Cyanoguanidin eine Rolle.
+Melamin wird heute technisch durch Trimerisierung von Harnstoff gewonnen. 
+Melamin ist Ausgangsstoff für die Herstellung von
+Melaminharzen, die als Leime und Klebstoffe verwendet oder
+zu Duroplasten umgesetzt werden.
+
+## Phthalsäure
+
+Üblicherweise wird mit Phthalsäure die ortho-Phthalsäure
+bezeichnet, die neben der Terephthalsäure die größte
+technische Bedeutung hat. Der mengenmäßig größte Teil
+der Phthalsäuren wird zur Herstellung von Kunstharzen oder
+Kunstfasern verwendet.
+
+o-Phthalsäure wurde lange Zeit nur durch Oxidation von
+Naphthalin hergestellt; heute allerdings wird bei weitem
+überwiegend o-Xylol als Rohstoff verwendet. Ebenso wird
+Isophthalsäure aus m-Xylol und Terephthalsäure aus p-Xylol
+hergestellt.
+
+o-Phthalsäure ist Rohstoff für die Herstellung von
+Polyesterharzen. Dabei wird die Phthalsäure oder meist
+deren Anhydrid mit mehrwertigen Alkoholen, z. B. Glycerin,
+verestert. Durch Verkochung von mehrfach ungesättigten
+Pflanzenölen wie Leinöl mit Phthalsäure und mehrwertigen
+Alkoholen werden Alkydharze durch Umesterung hergestellt.
+Phthalsäure ist auch Ausgangsstoff zur Darstellung vieler
+Farbstoffe, Farbpigmente oder Weichmacher.
+
+Über die Zwischenstufe Phthalsäuredinitril oder
+Phthalsäureanhydrid können die thermisch sehr
+beständigen Phthalocyanine hergestellt werden.
+Aus dem Phthalsäureanhydrid gelangt man durch
+Friedel-Crafts-Acylierung von Benzol zu Anthrachinon, aus
+dem Küpenfarbstoffe hergestellt werden können.
+\begin{english}
+
+\chemfig{ O =[:120] ( -[:180,,,2]HO) -[:60] - ( -[:300] ( -[,,,1]OH) =[:240]O) =^[:60] -[:120] =^[:180] -[:240] ( =^[:300]) }
+
+---
+
+Carbamoylgruppe ist in der Chemie eine Bezeichnung für die
+Atomgruppierung –CO–NH2 in systematischen Namen gemäß
+der IUPAC-Regel C-431.2.
+
+Eine besondere strukturelle Eigenschaft derartiger
+Verbindungen ist die deutlich eingeschränkte Drehbarkeit
+der C–N-Bindung. Die C–N-Bindung ist durchschnittlich
+nur 132 pm lang, was auf einen Doppelbindungscharakter
+hinweist, der aus der Wechselwirkung des nichtbindenden
+Elektronenpaares des Stickstoffatoms mit der Carbonylgruppe
+resultiert.
+
+In Peptiden wird die Carbamoylgruppe durch „Cbm–“ abgekürzt.
+
+Essigsäureamid ist ein Carbonsäureamid (oft nur kurz
+„Amid“ genannt) und enthält eine Carbamoylgruppe.
+N-Methylessigsäureamid und N,N-Dimethylessigsäureamid
+zählen ebenfalls zu den Carbonsäureamiden, enthalten beide
+jedoch keine Carbamoylgruppe.
+
+## Amin
+
+Acetamid ist das Amid der Essigsäure. Acetamid wird als Lösungsmittel
+verwendet.  Außerdem findet es Anwendung in der Herstellung von Methylamin.
+
+Methylamin ist das Amin des Methans. Es ist das
+einfachste organische Amin und enthält eine primäre
+Aminogruppe. Es kommt als 40\%ige wässrige Lösung und als
+druckverflüssigtes Gas in den Handel.
+Durch Umsetzung mit Alkylierungsmitteln, Epoxiden,
+Carbonylverbindungen, organischer Säuren usw.
+kann Methylamin zu zahlreichen Folgeverbindungen
+umgesetzt werden. Methylamin findet Verwendung in
+der Synthese vielerlei Produkte wie Lösungsmittel,
+Pflanzenschutzmittel, Pharmazeutika und Farbstoffe, wie z.
+B. N-Methyl-2-pyrrolidon (NMP), N-Methylformamid, Coffein,
+Ephedrin, Methamphetamin und N,N′-Dimethylharnstoff.
+
+Als Aminogruppe wird in der organischen Chemie die
+funktionelle Gruppe (–NH2) der primären Amine und der
+meisten Aminosäuren verstanden.[1] Genauer betrachtet
+werden Amine in drei Kategorien eingeteilt: primäre,
+sekundäre und tertiäre Amine.[2] Sie unterscheiden sich
+durch die Anzahl der Kohlenstoffe, die an den zentralen
+Stickstoff gebunden sind. Primäre Amine haben einen
+Kohlenstoff gebunden. Sekundäre zwei und tertiäre
+dementsprechend drei.
+
+Als Amine werden organische Abkömmlinge (Derivate) des
+Ammoniaks (NH3) bezeichnet, bei denen ein oder mehrere
+Wasserstoffatome durch Alkyl- oder Arylgruppen ersetzt sind.
+
+Amine werden zur Herstellung von Azoverbindungen verwendet,
+z. B. bei der Herstellung von Farbstoffen. Darüber hinaus
+sind Amine Bausteine für Agro- und Pharmachemikalien sowie
+für Tenside, Coatings und Schmierstoffe. Im Bereich der
+Gießereitechnik finden Amine als Katalysator Anwendung,
+um den Aushärtvorgang der Bindemittel im Formsand bei
+der Kernherstellung nach dem Cold-Box-Verfahren zu
+beschleunigen. Als Katalysatoren dienen Amine auch zur
+Herstellung von Polyurethanen.
+
+Eine Arylgruppe (abgekürzt: Ar) ist ein organisch-chemischer Rest mit einem aromatischen Grundgerüst. 
+
+---
+
+Als Lactone bezeichnet man in der organischen Chemie
+heterocyclische Verbindungen, die innerhalb des Moleküls
+eine Esterbindung, d. h. eine Sauerstoffbrücke direkt am
+selben Kohlenstoffatom einer Carbonylgruppe enthalten.
+
+## Alkyl
+
+Eine Alkylgruppe ist ein Teil eines Moleküls, der aus
+miteinander verbundenen Kohlenstoff- und Wasserstoffatomen
+besteht. Die einfachste Alkylgruppe ist die Methylgruppe
+–CH3; sie tritt relativ häufig auf. Weitere Beispiele
+sind die Ethylgruppe –CH2–CH3 und die n-Propylgruppe
+–CH2–CH2–CH3.
+
+Alkylgruppen kommen in sehr vielen Molekülen vor,
+insbesondere in den gesättigten Kohlenwasserstoffen, den
+Alkanen. Der Name Alkylgruppe leitet sich davon ab, und auch
+die Benennung der verschiedenen Alkylgruppen richtet sich
+nach dem zugrundeliegenden Alkan (oder Alken oder Alkin):
+Der Namensstamm wird mit dem Suffix „-yl“ erweitert,
+das heißt die Endung -an wird durch -yl ersetzt (oder es
+wird ein -yl angehängt). Die einfachsten Alkylgruppen sind
+Alkane, denen ein Wasserstoffatom fehlt: z. B. leiten sich
+die Methyl-, Ethyl- und Propylgruppen von Methan, Ethan und
+Propan ab. Alkylgruppen werden häufig abgekürzt, wenn sie
+in Struktur- oder Summenformeln auftreten. Beispielsweise
+steht MeOH für Methanol, Et2O für Diethylether. Ist eine
+beliebige Alkylgruppe gemeint, wird oft –R verwendet.
+Da die Abkürzung –R allerdings auch für –H oder gar
+für Reste mit funktionellen Gruppen stehen kann, wird ihre
+Bedeutung meist mit angegeben.
+
+Alkylgruppen besitzen einen schwachen elektronenschiebenden
+Effekt, +I-Effekt genannt. Sie fungieren also als schwache
+Elektronendonatoren.
+
+Vor allem verzweigte Alkylgruppen beeinflussen benachbarte
+funktionelle Gruppen durch ihren Raumbedarf und mindern
+durch diese sterische Hinderung deren Reaktivität.
+
+Je länger und zahlreicher die Alkylgruppen in einer
+Verbindung, desto schlechter wird ihre Wasserlöslichkeit
+und desto besser wird ihre Löslichkeit in unpolaren
+Lösungsmitteln.
+
+## Carbonsäureamide
+
+Bei Carbonsäureamiden unterscheidet man entsprechend der
+Anzahl der Carboxygruppen am Stickstoff zwischen primären
+(eine Carboxygruppe, zwei Wasserstoffatome), sekundären
+(zwei Carboxygruppen, ein Wasserstoffatom) und tertiären
+(drei Carboxygruppen, kein Wasserstoffatom) Amiden. Amide
+mit ein oder zwei Alkylgruppen am Stickstoffatom nennt man
+N-Alkylamide, bzw. N,N-Dialkylamide. Cyclische Amide werden
+als Lactame bezeichnet. Sekundäre Amide von Dicarbonsäuren
+werden Imide genannt. Peptide und Proteine bestehen aus –
+durch Amidbindungen verknüpften – Aminosäuren. Diese
+Form der Bindung wird oft Peptidbindung genannt. Technisch
+sehr bedeutend sind die Polyamidfasern Nylon und Perlon.
+
+Das einfachste Amid, abgeleitet von der Ameisensäure und Ammoniak
+
+\chemfig{
+              O
+       =[:330]
+    -[:30,,,1]NH_2
+}
+
+Harnstoff.
+Ein Diamid, abgeleitet von der Kohlensäure.
+
+## Imide
+
+Die Imidogruppe hat die Form: R2–C(O)–NR1–C(O)–R3,
+wobei C(O) jeweils eine Carbonylfunktion darstellt. R1, R2
+und R3 sind beliebige organische Reste (wie Alkyl- oder
+Arylgruppen) oder Wasserstoffatome.
+
+In der anorganischen Chemie werden Verbindungen, in denen
+die zweiwertige Gruppe =NH an ein Metall gebunden ist, als
+Metallimide (Beispiel Lithiumimid, Li2NH) bezeichnet. Auch
+Imidobischwefelsäure (Imidosulfonsäure, (HSO3)2NH) zählt
+zu den Imiden.
+
+Die meisten übrigen Verbindungen mit der Gruppe =NH werden als Imine bezeichnet.
+
+Die Imidogruppe wird aus zwei Carbonsäuren (oder einer
+Dicarbonsäure) und aus Ammoniak oder einem primären Amin
+gebildet. Ein häufig verwendetes Imid ist Phthalimid, das
+aus Phthalsäure und Ammoniak aufgebaut wird.
+
+## Imine
+
+Imine sind eine Gruppe chemischer Verbindungen, bei denen
+das Sauerstoff-Atom eines Aldehyds oder Ketons formal durch
+ein Stickstoff-Atom ersetzt ist. Das Stickstoff-Atom trägt
+zudem noch ein Wasserstoff-Atom oder einen organischen Rest
+R3; im letzteren Fall spricht man auch von einem Azomethin
+oder einer Schiffschen Base. Der strukturelle Aufbau ist
+also R1R2C=NR3. R1, R2 und R3 können unterschiedliche oder
+gleiche Reste sein, auch Wasserstoffatome.
+
+## Terpene
+
+Terpene, vor allem Mono-, Sesqui- und Diterpene, können aus
+Pflanzen(teilen) oder ätherischen Ölen durch physikalische
+Methoden wie zum Beispiel Wasserdampfdestillation,[22]
+Extraktion oder Chromatographie gewonnen werden.[23]
+Dabei liefern die jugendlichen Pflanzen typischerweise
+die Terpen-Kohlenwasserstoffe und die älteren Pflanzen
+zunehmend die sauerstoffhaltigen Derivate, wie Alkohole,
+Aldehyde und Ketone.
+
+Es gibt aber auch chemische Methoden zur großtechnischen
+Synthese von Terpenen, die meist sehr spezifisch sind.
+
+Die Terpene zählt man in der Systematik der organischen
+Chemie zu den Lipiden. Eine Untergruppe der Terpene
+sind die Terpenoide; hier wurden in späteren Schritten
+der Biosynthese Kohlenstoffatome ausgeschleust. Ihre
+Kohlenstoffanzahl ist folglich nicht mehr durch 5 teilbar.
+Die Zugehörigkeit zu den Terpenen begründet sich in
+einer gemeinsamen Biosynthese und der C5-Regel, nicht
+in gemeinsamen Eigenschaften. Der gemeinsame Baustein
+aller Terpene ist das Isopren. Die Terpene zählen zu den
+sekundären Pflanzenstoffen.
+
+Generell wird zwischen acyclischen, mono-, bi-, tri-, tetra-
+und pentacyclischen Terpenen unterschieden, also Molekülen
+ohne, mit einem, mit zwei, drei, vier oder fünf Ringen.
+
+Monoterpene sind zusammen mit Sesquiterpenen
+Hauptbestandteile von ätherischen Ölen, die von Pflanzen
+in großen Mengen produziert werden. So lässt sich zum
+Beispiel aus einem Quadratmeter mit Nadelstreu bedecktem
+Waldboden bis zu ein Liter an Monoterpenen gewinnen.
+
+### Monoterpene
+
+Es sind über 900 Monoterpene bekannt. Alle werden durch
+Monoterpensynthasen aus Geranylpyrophosphat synthetisiert.
+
+Es gibt rund 200 Monoterpene mit einem Cyclopentangerüst.
+Sie werden in die Iridoide und Secoiridoide unterteilt.
+Entdeckt wurden die Verbindungen zum ersten Mal in einer
+Ameisenart (Iridomyrmex) und sind somit einige der wenigen
+Terpene nichtpflanzlicher Herkunft. Sie zeichnen sich durch
+ein Grundgerüst aus, das einen Sechs- und einen Fünfring
+enthält (Cyclopentanpyrangerüst).
+
+Bicyclische Monoterpene:
+2-Pinen (α-Pinen) ist die Hauptkomponente der
+Terpentinöle, häufig findet sich auch 2(10)-Pinen
+(β-Pinen). Verbenol ist Bestandteil des Terpentins, es ist,
+zusammen mit dem in den Ölen des Rosmarins vorkommenden
+Verbenon ein Sexualpheromon des Borkenkäfers.
+
+### Sesquiterpene
+
+Es gibt mehr als 3.000 Sesquiterpene, sie sind die
+größte Untergruppe der Terpene. Sie leiten sich alle vom
+Farnesylpyrophosphat ab. Es handelt sich hierbei um aus drei
+Isopreneinheiten aufgebaute Verbindungen (15 C-Atome). Von
+den vielen Sesquiterpenen sind nur rund 20 Sesquiterpene als
+Riech- und Aromastoffe wichtig.
+
+Die meisten der Sesquiterpene sind polycyclisch. 
+
+Die monocyclischen Sesquiterpene werden hauptsächlich in
+die Stammverbindungen Bisabolane, Germacrane, Elemane und
+Humulane unterteilt.
+
+### Diterpene
+
+Es gibt rund 5000 bekannte Diterpene, alle
+Diterpene leiten sich von der Ausgangsverbindung
+(E,E,E)-Geranylgeranylpyrophosphat ab.
+
+### Sesterterpene
+
+Sesterterpene wurden erstmals 1965 aus Insektenwachs und
+niederen Pilzen isoliert. Es gibt ungefähr 150 bekannte
+Sesterterpene, davon haben 30 einen Furan-Körper, sie
+leiten sich von 3,7,11,15,19-Pentamethylicosan ab.
+
+### Triterpene
+
+Es gibt ungefähr 1700 Triterpene, die Triterpene sind aus
+sechs Isopreneinheiten aufgebaute Verbindungen (30 C-Atome).
+
+Squalen (mit Betonung auf der letzten Silbe Squalen),
+Summenformel: C30H50, ist eine organische, ungesättigte
+Verbindung aus der Gruppe der Triterpene, die von allen
+höheren Organismen produziert wird. Der Stoff spielt auch
+im menschlichen Stoffwechsel eine Rolle.
+Squalen wird industriell zu Squalan hydriert, das
+als Salbengrundlage, aber auch als Schmiermittel und
+Transformatorenöl Verwendung findet.
+
+### Tetraterpene
+
+Natürliche Tetraterpene sind die etwa 150 bekannten Carotinoide. 
+
+### Polyterpene
+
+Polyterpene, nach Leopold Ruzicka Polyprene (=Polyisoprene), bestehen aus mehr
+als acht Isopreneinheiten.
+
+Cis-Polyisopren kommt im Kautschuk vor, früher wurde der
+Naturkautschuk durch Vulkanisation zu Gummi verarbeitet.
+
+## Chinone
+
+Chinone (englisch Quinones) sind eine große und wichtige
+Gruppe organischer Verbindungen, die als Oxidationsprodukte
+von Aromaten, insbesondere von Phenolen, aufgefasst werden
+können.
+
+In der technischen Chemie sind sie vor allem zur Gewinnung von
+Wasserstoffperoxid über Anthrachinon wichtig.
+
+## Steroide
+
+Steroide sind eine Stoffklasse der Lipide (Moleküle mit lipophilen Gruppen, in
+der Regel wasserunlöslich). Steroide sind Derivate des Kohlenwasserstoffs
+Steran (Cyclopentanoperhydrophenanthren).
+
+\chemfig{
+      >[:64]
+     -[:300]
+           -
+               (
+     <[:300,,,1]OH
+               )
+      >[:60]
+     -[:120]
+               (
+         -[:180]
+                   (
+             <[:132]
+             -[:204]
+             -[:276]
+                       (
+                 -[:180]
+                           (
+                     -[:120]
+                 -[:180,,,2]HO
+                           )
+                 =[:240]O
+                       )
+                       (
+            <:[:254,,,2]HO
+                       )
+             -[:348]
+                   )
+         -[:240]
+               )
+     <:[:60]
+           -
+     -[:300]
+          =_
+     -[:300]
+               (
+               =O
+               )
+     -[:240]
+    =_[:180]
+     -[:120]
+               (
+         -[:180]
+               )
+               (
+          -[:60]
+               )
+     <[:240]
+}
+
+---
+
+steric effects:
+Einfluss der räumlichen Ausdehnung
+eines Moleküls auf den Verlauf der Reaktion.
+
+# Kohlenwasserstoffe (KWS)
+
+\end{english}
+Aliphatische (kettenförmige), gesättigte KWS, auch Paraffine, Aliphate oder
+Alkane genannt.
+
+\minisec{Aliphatische, ungesätigte KWS}
+Ethen (Ethylen), \ce{C2H4}.
+
+Polyethylen (PE).
+Es ist der weltweit mit Abstand am häufigsten verwendete
+(Standard-) Kunststoff und wird in erster Linie für
+Verpackungen verwendet.
+
+Propylen, Polypropylen (PP).
+
+Vinylchlorid, Polyvinylchlorid (PVC).
+
+\minisec{Aromatische KWS}
+Benzol.
+Toluol (Methylbenzol).
+Xylol (Dimethylbenzol).
+
+\minisec{Alkohole}
+Methanol (Sprit, sehr giftig).
+Ethanol, Glykol, Glycerin.
+
+Glycerin (von gr. glykerós ‚süß‘ [7], auch Glycerol
+oder Glyzerin) ist der Trivialname und die gebräuchliche
+Bezeichnung von Propan-1,2,3-triol. Glycerin ist ein
+Zuckeralkohol und der einfachste dreiwertige Alkohol, ein
+Triol.
+
+\chemfig{
+               HO
+      -[:30,,2]
+        -[:330]
+                  (
+        -[:270,,,1]OH
+                  )
+         -[:30]
+    -[:330,,,1]OH
+}
+
+#
+
+Fettsäuren sind meist unverzweigte Monocarbonsäuren, die
+aus einer Kohlenwasserstoffkette bestehen, an deren einem
+Ende sich eine Carboxygruppe befindet.
+

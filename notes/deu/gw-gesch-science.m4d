@@ -1,0 +1,1714 @@
+
+# Logik
+
+Die Syllogismen (von altgriechisch συν-λογισμός
+syllogismos ‚[das] Zusammenrechnen‘, ‚logischer
+Schluss‘) sind ein Katalog bestimmter Typen logischer
+Schlüsse. Sie bilden den Kern der im vierten Jahrhundert
+vor unserer Zeitrechnung entstandenen antiken Logik
+des Aristoteles und der traditionellen Logik bis ins
+19. Jahrhundert. Als Haupttechnik der Logik wurde der
+syllogistische Ansatz durch die Integration der Logik in die
+Mathematik (mit den Arbeiten von George Boole und Gottlob
+Frege im 19. und frühen 20. Jahrhundert) abgelöst.
+
+Although Aristotle's syllogistic logic dominated logic for centuries, it eventually revealed itself
+inadequate for the representation of mathematical argumentation, and it finally became displaced
+by the advent of modern quantificational logic, which originated with George Boole's
+algebraic approach to logic and Gottlob Frege's approach to logic and quantification (1879).
+
+Frege (and Russell) devised an ingenious procedure for regimenting binary
+quantifiers like “every” and “some” in terms of unary quantifiers like “everything”
+and “something”: they formalized sentences of the form ┌Some A is B┐
+and ┌Every A is B┐ as ∃x(Ax∧Bx) and ∀x(Ax→Bx), respectively.
+
+# Arithmetic
+
+Despite their arithmetical skills and geometrical sophistication, the early Greek and
+Roman mathematicians had only crude notions of division into parts, and it
+was not until the invention of place value in the 11th century
+that fractions in the sense we know them today became part of the earliest
+stages of elementary arithmetic. 
+
+# Persons
+
+Sir Isaac Newton, 1642 – 1727.
+Classical mechanics.
+
+Gottfried Wilhelm Leibniz, 1646 – 1716.
+He became one of the most prolific inventors in the field of
+mechanical calculators. While working on adding automatic multiplication and division to Pascal's
+calculator, he was the first to describe a pinwheel calculator in 1685[8]
+and invented the Leibniz wheel, used in the arithmometer, the first mass-produced
+mechanical calculator. He also refined the binary number system, which is the
+foundation of virtually all digital computers.
+
+Euler 1707 1783  
+Nikolai Ivanovich Lobachevsky 1792 1856  
+Leopold Kronecker 1823 1891  
+Clarence Irving Lewis (1883 -- 1964): axiomatische Modallogik.  
+Charles Fourier (1772 -- 1837)  
+Hugh MacColl (1831–1909)  
+Bertrand Russell 1872 – 1970  
+Bernhard Riemann  
+
+Faraday  
+Dynamo,
+Benzin,
+Faraday cage (erst später so genannt).
+With him, London became the center of scientific research.
+
+# Chemical Revolution (1789 –)
+
+John Dalton (1766–1844).
+
+## Antoine Lavoisier
+
+1743 – 1794
+
+He recognized and named oxygen (1778) and hydrogen (1783) and opposed the phlogiston theory. 
+He predicted the existence of silicon (1787)[5] and was also
+the first to establish that sulfur was an element (1777)
+rather than a compound.[6] He discovered that, although
+matter may change its form or shape, its mass always remains
+the same.
+
+The phlogiston theory is an obsolete scientific theory
+that postulated that a fire-like element called phlogiston
+is contained within combustible bodies and released
+during combustion. The name comes from the Ancient Greek
+φλογιστόν phlogistón (burning up), from φλόξ
+phlóx (flame). It was first stated in 1667 by Johann
+Joachim Becher. The theory attempted to explain burning
+processes such as combustion and rusting, which are now
+collectively known as oxidation.
+
+Lavoisier, together with L. B. Guyton de Morveau,
+Claude-Louis Berthollet, and Antoine François de Fourcroy,
+submitted a new program for the reforms of chemical
+nomenclature to the Academy in 1787, for there was virtually
+no rational system of chemical nomenclature at this time.
+The new system was tied inextricably to Lavoisier's new
+oxygen theory of chemistry. The Classical elements of earth,
+air, fire, and water were discarded, and instead some 55
+substances which could not be decomposed into simpler
+substances by any known chemical means were provisionally
+listed as elements. The elements included light; caloric
+(matter of heat); the principles of oxygen, hydrogen, and
+azote (nitrogen); carbon; sulfur; phosphorus; the yet
+unknown "radicals" of muriatic acid (hydrochloric acid),
+boracic acid, and "fluoric" acid; 17 metals; 5 earths
+(mainly oxides of yet unknown metals such as magnesia,
+barite, and strontia); three alkalies (potash, soda, and
+ammonia); and the "radicals" of 19 organic acids. The
+acids, regarded in the new system as compounds of various
+elements with oxygen, were given names which indicated the
+element involved together with the degree of oxygenation
+of that element, for example sulfuric and sulfurous acids,
+phosphoric and phosphorus acids, nitric and nitrous acids,
+the "ic" termination indicating acids with a higher
+proportion of oxygen than those with the "ous" ending.
+Similarly, salts of the "ic" acids were given the terminal
+letters "ate," as in copper sulfate, whereas the salts of
+the "ous" acids terminated with the suffix "ite," as in
+copper sulfite. The total effect of the new nomenclature can
+be gauged by comparing the new name "copper sulfate" with
+the old term "vitriol of Venus." Lavoisier described this
+system of nomenclature in Méthode de nomenclature chimique
+(Method of Chemical Nomenclature, 1787).
+This text clarified the concept of an element as a substance
+that could not be broken down by any known method of
+chemical analysis, and presented Lavoisier's theory of the
+formation of chemical compounds from elements.
+
+---
+
+As reactants and products came to be routinely weighed, it became clear
+that metals gain weight when they become a calx. But according to
+the phlogiston theory, the calx involves the loss of phlogiston. Although the
+idea that a process involving the loss of a substance could involve
+the gain of weight seems strange to us, phlogiston theorists were not
+immediately worried. Some phlogiston theorists proposed explanations based on
+the ‘levitation’ properties
+of phlogiston, what Priestly later referred to as phlogiston's ‘negative weight.’ Another
+explanation of the phenomenon was that the nearly weightless phlogiston drove out
+heavy, condensed air from the pores of the calx. The net result
+was a lighter product. Since the concept of mass did not yet
+play a central role in chemistry, these explanations were thought to be
+quite reasonable.
+
+However, by the end of the 1770s, Torbern Olaf Bergman (1735–1784) made
+a series of careful measurements of the weights of metals and their
+calxes. He showed that the calcination of metals led to a gain
+in their weight equal to the weight of oxygen lost by the
+surrounding air. This ruled out the two explanations given above, but interestingly,
+he took this in his stride, arguing that, as metals were
+being transformed into their calxes, they lost weightless phlogiston. This phlogiston combines
+with the air's oxygen to form ponderable warmth, which in turn combines
+with what remains of the metal after loss of phlogiston to form
+the calx. Lavoisier simplified this explanation by removing the phlogiston from this
+scheme on the basis of his principle of the conservation of mass.
+This moment is what many call the Chemical Revolution.
+
+Contemporary philosophical discussion about the nature of the elements begins with the
+work of Friedrich Paneth (1887–1958), whose work heavily influenced IUPAC standards and definitions.
+
+In 1761, Joseph Black discovered that heating a body doesn't always raise
+its temperature. In particular, he noticed that heating ice at 0°C converts
+it to liquid at the same temperature. Similarly, there is a latent
+heat of vaporization which must be supplied for the conversion of a
+liquid into steam at the boiling point without raising the temperature.
+
+However, as more organic compounds were isolated and analyzed, it became clear
+that elemental composition doesn't uniquely distinguish substances. Distinct compounds with the same
+elemental composition are called isomers. The term was coined by Berzelius in
+1832 when organic compounds with the same composition, but different properties, were
+first recognized. It was later discovered that isomerism is ubiquitous, and not
+confined to organic compounds.
+
+The notion of a structural formula was developed to accommodate other isomers
+that are even more similar. This was the case with a subgroup
+of stereoisomers called optical isomers, which are alike in many of their
+physical properties such as melting points and boiling points and (when first
+discovered) seemed to be alike in chemical reactivity too. Pasteur famously
+separated enantiomers (stereoisomers of one another) of tartaric acid by preparing a
+solution of the sodium ammonium salt and allowing relatively large crystals to
+form by slow evaporation. 
+Optical isomers are so called because they have the distinguishing feature of
+rotating the plane of plane polarized light in opposite directions, a phenomenon
+first observed in quartz crystals at the beginning of the 19th century.
+
+Although these discoveries are often presented as having been explained by the
+atomic or molecular hypothesis, skepticism about the status of atomism persisted throughout
+the 19th century. Late 19th century skeptics such as Ernst Mach, Georg
+Helm, Wilhelm Ostwald, and Pierre Duhem did not see atomism as an
+adequate explanation of these phenomena, nor did they believe that there was
+sufficient evidence to accept the existence of atoms. Instead, they advocated non-atomistic
+theories of chemical change grounded in thermodynamics.
+
+Bohr's conception of the atom as comprising a positively charged nucleus around
+which much lighter electrons circulated was gaining acceptance.
+
+Skeptics about atomism finally became convinced at the beginning of the 20th
+century by careful experimental and theoretical work on Brownian motion, the fluctuation
+of particles in an emulsion. With the development of kinetic theory it
+was suspected that this motion was due to invisible particles within the
+emulsion pushing the visible particles. But it wasn't until the first decade
+of the 20th century that Einstein's theoretical analysis and Perrin's experimental work
+gave substance to those suspicions and provided an estimate of Avogadro's number,
+which Perrin famously argued was substantially correct because it agreed with
+determinations made by several other, independent, methods. This was the decisive argument
+for the existence of microentities which led most of those still skeptical
+of the atomic hypotheses to change their views.
+
+In 1841, Christian Doppler noticed that sound changes in frequency as a
+source moves toward and away from an observer. By 1845 he had
+generalized this to include all wave phenomena, including light.
+
+Mach's early intellectual development was very much a product of the outstanding
+developments in the sciences of his time. Whereas a generation before, there
+existed only one truly mature science, physics, by the early 1860's both
+psychology and biology had entered the scientific scene. Previously, scientifically based views
+on reality were essentially Newtonian-mechanistic. After Darwin and Fechner, the new sciences
+of psychology and evolutionary theory opened up new areas of philosophic-scientific interaction.
+The possibility of a new scientific view opened up, one based upon
+these new sciences, and sought to displace the Newtonian paradigm with one
+based upon developmental orientations.
+
+Kekulé (1829–1896). Kekulé noted that carbon tended to combine with univalent elements in a 1:4 ratio.
+He argued that this was because each carbon atom could form bonds to four other
+atoms, even other carbon atoms.
+In later papers, Kekulé dealt with apparent exceptions to carbon's valency of
+four by introducing the concept of double bonds between carbon atoms. 
+Yet his presentations of structure theory lacked a clear system of diagrammatic
+representation so most modern systems of structural representation originate with Alexander Crum
+Brown's (1838–1932) paper about isomerism among organic acids ([1864] 1865). Here, structure
+was shown as linkages between atoms
+Edward Frankland (1825–1899) simplified and popularized Crum Brown's notation in successive editions
+of his Lecture Notes for Chemical Students (Russell, 1971; Ritter, 2001). Frankland
+was also the first to introduce the term ‘bond’ for the linkages
+between atoms.
+
+by the end of the century, spatial structure was being put to
+use in explaining the aspects of the reactivity and stability of organic
+compounds with Viktor Meyer's (1848–1897) conception of steric hindrance and Adolf von
+Baeyer's (1835–1917) conception of internal molecular strain.
+
+1894 Argon
+
+G.N. Lewis (1875–1946) was responsible for the first influential theory of the
+chemical bond (Lewis, 1923; see Kohler, 1971, 1975 for background). His theory
+said that chemical bonds are pairs of electrons shared between atoms. Lewis
+also distinguished between what came to be called ionic and covalent compounds,
+which has proved to be remarkably resilient in modern chemistry.
+
+An important part of Lewis' account of molecular structure concerns directionality of
+bonding. In ionic compounds, bonding is electrostatic and therefore radially symmetrical. Hence
+an individual ion bears no special relationship to any one of its
+neighbors. On the other hand, in covalent or non-polar bonding, bonds have
+a definite direction; they are located between atomic centers.
+
+In the earliest quantum mechanical models, something very much like the structural
+conception of bonding was preserved; electron density was, for the most part,
+localized between atomic centers and was responsible for holding molecules together.
+However, these early models made empirical predictions about bond energies and bond
+lengths that were only in qualitative accord with experiment.
+
+Subsequent models of molecular structure yielded much better agreement with experiment when
+electron density was “allowed” to leave the area between the atoms and
+delocalize throughout the molecule. 
+
+There are well over 100,000,000 compounds that have been discovered or synthesized,
+all of which have been formally characterized.
+
+Correlating positions in the Periodic Table with whole numbers finally provided a
+criterion determining whether any gaps remained in the table 
+
+Wilhelm Maximilian Wundt (16 August 1832 – 31 August 1920) was a
+German physician, physiologist, philosopher, and professor, known today as one of the
+founding figures of modern psychology. Wundt, who noted psychology as a science
+apart from biology and philosophy, was the first person to ever call
+himself a psychologist. He is widely regarded as the "father of experimental psychology".
+Wundt concentrated on three areas of mental functioning; thoughts, images and feelings.
+These are the basic areas studied today in Cognitive psychology. 
+
+William James (January 11, 1842 – August 26, 1910) 
+Along with Charles Sanders Peirce and John Dewey, he is considered to
+be one of the major figures associated with the philosophical school known
+as pragmatism, and is also cited as one of the founders of functional psychology.
+
+Functional psychology or functionalism refers to a psychological philosophy that considers mental
+life and behaviour in terms of active adaptation to the person's environment.
+Functionalism arose in the U.S. in the late 19th century as an
+alternative to Structuralism (psychology).[2] While functionalism never became a formal school, it
+built on structuralism's concern for the anatomy of the mind and led
+to greater concern over the functions of the mind, and later to behaviourism.
+
+Structuralism in psychology refers to a theory of consciousness developed by Wilhelm
+Wundt and his mentee Edward Bradford Titchener.
+
+# Dampflokomotive
+
+(1769); 1804; 1825
+
+# Georges Cuvier
+
+His most famous work is Le Règne Animal (1817; English: The Animal Kingdom).
+
+In his Essay on the Theory of the Earth (1813) Cuvier was
+interpreted to have proposed that new species were created
+after periodic catastrophic floods. In this way, Cuvier
+became the most influential proponent of catastrophism in
+geology in the early 19th century.
+
+Among his other accomplishments, Cuvier established that
+elephant-like bones found in the USA belonged to an extinct
+animal he later would name as a mastodon, and that a
+large skeleton dug up in Paraguay was of Megatherium, a
+giant, prehistoric ground sloth. He named the pterosaur
+Pterodactylus, described (but did not discover or name) the
+aquatic reptile Mosasaurus, and was one of the first people
+to suggest the earth had been dominated by reptiles, rather
+than mammals, in prehistoric times.
+
+Cuvier is also remembered for strongly opposing the
+evolutionary theories of Jean-Baptiste de Lamarck and
+Geoffroy Saint-Hilaire. Cuvier believed there was no
+evidence for the evolution of organic forms, but rather
+evidence for successive creations after catastrophic
+extinction events.
+
+# Étienne Geoffroy Saint-Hilaire
+
+Geoffroy was a deist, which is to say that he believed in a
+God, but also in a law-like universe, with no supernatural
+interference in the details of existence. This kind of
+opinion was common in the Enlightenment, and goes with a
+rejection of revelation and miracles, and does not interpret
+the Bible as the literal word of God. These views did not
+conflict with his naturalistic ideas about organic change.
+
+Geoffroy's theory was not a theory of common descent, but a
+working-out of existing potential in a given type. For him,
+the environment causes a direct induction of organic change.
+This opinion Ernst Mayr labels as 'Geoffroyism'.[3] It is
+definitely not what Lamarck believed (for Lamarck, a change
+in habits is what changes the animal). The direct effect
+of environment is not believed today by any main-stream
+evolutionist; even Lawrence knew by 1816 that the climate
+does not directly cause the differences between human races.
+
+Geoffroy endorsed a theory of saltational evolution that
+"monstrosities could become the founding fathers (or
+mothers) of new species by instantaneous transition from
+one form to the next."[4] In 1831 he speculated that
+birds could have arisen from reptiles by an epigenetic
+saltation.[5] Geoffroy wrote that environmental pressures
+could produce sudden transformations to establish new
+species instantaneously.[6] In 1864 Albert von Kölliker
+revived Geoffroy's theory that evolution proceeds by large
+steps, under the name of heterogenesis.[7]
+
+Geoffroy noted that the organization of dorsal and ventral
+structures in arthropods is opposite that of mammals.
+The inversion hypothesis was met with criticism and was
+rejected, however, some modern molecular embryologists have
+since resurrected this idea.
+
+# Jean-Baptiste Lamarck
+
+Although he was not the first thinker to advocate organic
+evolution, he was the first to develop a truly coherent
+evolutionary theory.[8] He outlined his theories regarding
+evolution first in his Floreal lecture of 1800, and then in
+three later published works:
+
+-   Recherches sur l'organisation des corps vivants, 1802.
+-   Philosophie Zoologique, 1809.
+-   Histoire naturelle des animaux sans vertèbres, (in seven volumes, 1815–22).
+
+Lamarck employed several mechanisms as drivers of evolution,
+drawn from the common knowledge of his day and from his own
+belief in chemistry pre-Lavoisier. He used these mechanisms
+to explain the two forces he saw as comprising evolution;
+a force driving animals from simple to complex forms, and
+a force adapting animals to their local environments and
+differentiating them from each other. He believed that these
+forces must be explained as a necessary consequence of basic
+physical principles, favoring a materialistic attitude
+toward biology.
+
+# Ernst Mach
+
+Whereas geometrical space is unbounded, infinite, and homogeneous (at least in its
+Euclidean form), physiological space is highly bounded, finite, and non-uniform. Geometrical
+space is detached from our emotional psyche, but physiological space is intertwined
+with basic emotions: a tiger nearby in physiological space brings about different
+emotions than a tiger far away in physiological space. Similarly, upness and
+downness, rightness and leftness are not just abstract directions but have physiological,
+and thus psychological meaning. When objects in physiological space are moved,
+their (apparent)size changes (similarly, when we move, the size of objects in
+physiological space also changes). And, importantly, physiological space does not, at least
+in its origins, have a metric. The origins of physiological space are
+in unconscious biological need, whereas the origins of geometrical space are in
+physiological space and intellectual development.
+
+Physics is based upon measurements, but measurements are ultimately
+physiological comparisons. According
+to Mach, physics can never escape its biological origins. Planck and Einstein
+accepted Mach's critique of the old physics, that it was under the
+spell of concepts which were derivative of unreflective development, but rejected Mach's
+claim that physics was stuck, so to speak, in psychology.
+
+He became embroiled in a long-standing dispute with Boltzmann, propounder of the
+kinetic theory of gasses. Boltzmann and Mach ended up agreeing in essence:
+if atomic theory was fruitful it should be used, but adopted what
+today might be considered an anti-metaphysical stance toward a theory that was
+still largely unsubstantiated. It is generally agreed that it was not until
+1905 with Einstein's study of Brownian motion that the kinetic theory of
+molecules found full verification.
+
+# Computer
+
+The theoretical models that were proposed in order to understand solvable
+and unsolvable problems led to the development of real computers.
+
+1890
+Hermann Hollerith builds the first
+electromechanical counting machine, the
+US government buys it to complete the census.
+
+1921 Czech author Karel Capek: "robot".  
+1940 Alan Turing breaks the Enigma code.  
+1943 Manhattan Project  
+1947 Transistor  
+1948 bit, Claude Shannon  
+1949 Claude Shannon, proof that the one-time pad is unbreakable.  
+1951 MIT Whirlwind I  
+1952 UNIVACI predicts the result of the Presidental election (promotion).  
+1956 MIT TX-0, first general-purpose computer to be built with transistor.  
+1956 IBM hard drive  
+1957 Compiler for FORTRAN, the first high-level programmming language.  
+1958 LISP, John McCarthy  
+1958 integrated circuit  
+1959 Concept of nondeterminism into computer science.  
+1960 Quicksort  
+1960 Measuring the complexity of a string by the length of the shortest program that generates it.  
+1961 first computer time-sharing system  
+1962 Edward Lorentz, chaos theory  
+1963 Joseph Weizenbaum, ELIZA  
+1963 Sketchpad, first CAD software  
+1963 first edition of ASCII  
+1964 IBM, System/360, one of the first computer based on integrated circuits.  
+1965 rediscover FFT  
+1969 ARPAnet  
+1971 email  
+1991 Linux  
+1993 GPS  
+1997 robotic rover on mars.  
+
+Auch wenn das Jahr 1888 als Geburtsstunde der Flüssigkristallforschung gilt, blieben die
+„fließenden Kristalle“ – der Ausdruck wurde später von Otto Lehmann geprägt –
+nahezu 80 Jahre lang ein Phänomen ohne größere praktische Anwendung. Erst zu
+Beginn der 1970er Jahre konnte mit den elektrooptischen Anzeigen auf Basis von
+Flüssigkristallen (LCDs) eine erste Anwendung in Armbanduhren, Taschenrechner
+und ähnlichem gefunden werden.
+Bis zur breiten Anwendung in flachen Fernsehern sollten weitere 35 Jahre vergehen.
+
+## tty
+
+In 1869, the stock ticker was invented. It was an electro-mechanical machine
+consisting of a typewriter, a long pair of wires and a ticker
+tape printer, and its purpose was to distribute stock prices over long
+distances in realtime. This concept gradually evolved into the faster, ASCII-based teletype.
+Teletypes were once connected across the world in a large network, called
+Telex, which was used for transferring commercial telegrams, but the teletypes weren't
+connected to any computers yet.
+
+Meanwhile, however, the computers — still
+quite large and primitive, but able to multitask — were becoming powerful
+enough to be able to interact with users in realtime. When the
+command line eventually replaced the old batch processing model, teletypes were used
+as input and output devices, because they were readily available on the
+market.
+
+There was a plethora of teletype models around, all slightly
+different, so some kind of software compatibility layer was called for. In
+the UNIX world, the approach was to let the operating system kernel
+handle all the low-level details, such as word length, baud rate, flow
+control, parity, control codes for rudimentary line editing and so on. Fancy
+cursor movements, colour output and other advanced features made possible in the
+late 1970s by solid state video terminals such as the VT-100, were
+left to the applications.
+
+In present time, we find ourselves in
+a world where physical teletypes and video terminals are practically extinct. Unless
+you visit a museum or a hardware enthusiast, all the TTYs you're
+likely to see will be emulated video terminals — software simulations of
+the real thing.
+
+# Gummi
+
+Im Jahre 1839 erfand Charles Goodyear das Verfahren der Vulkanisation, durch das
+der plastische Kautschuk in elastisches Gummi umgewandelt werden kann. Dies bot viele
+neue Anwendungsmöglichkeiten, so dass es in der Amazonasregion in den Jahren von
+1839 bis 1910 zu einem Kautschukboom kam, der die Städte Manaus und
+Belém zu den damals reichsten Regionen Brasiliens machte.
+
+Zur Vulkanisation wird eine Kautschukmischung, bestehend aus Rohkautschuk,
+Schwefel oder schwefelspendenden Stoffen
+wie z. B. Dischwefeldichlorid (\ce{S2Cl2}), Katalysatoren (zur Erhöhung der
+Reaktionsgeschwindigkeit werden z.
+B. 2-Mercaptobenzothiazol oder Tetramethylthiuramdisulfid sowie Zinkoxid
+und Fettsäuren verwendet) und Füllstoffen erhitzt.
+Vulkanisiert wird heutzutage meist mit 1,8 bis 2,5 % Schwefel und einer
+Temperatur von 120 bis 160 °C. Dabei werden die langkettigen Kautschukmoleküle durch
+Schwefelbrücken vernetzt. Hierdurch gehen die plastischen Eigenschaften des
+Kautschuks bzw. der Kautschukmischung
+verloren, der Stoff wird mittels des Verfahrens der Vulkanisation vom plastischen in
+einen elastischen Zustand überführt.
+
+Während des Ersten und Zweiten Weltkriegs verlor das Deutsche Reich den Zugang
+zu seinen Kautschuk-Quellen, wodurch die Suche nach Alternativen gefördert wurde. Im Ersten
+Weltkrieg wurde von Fritz Hofmann aus Dimethyl-Butadien sogenanntes
+Methyl-Kautschuk (Synthetischer Kautschuk), ein
+Gummiersatz, hergestellt. Auch während des Zweiten Weltkriegs wurde Kautschuk knapp, diesmal jedoch
+nicht nur für die europäischen Achsenmächte, sondern auch für die Alliierten, da
+die asiatischen Plantagen durch Japan erobert worden waren. Im Deutschen Reich produzierte
+der Chemiekonzern I.G. Farben ab 1935 in den Buna-Werken in Schkopau Styrol-Butadien-Kautschuk
+unter dem Namen Buna. Als Rohstoff diente beispielsweise in Schkopau Braunkohle, der
+notwendige Wasserstoff stammte aus dem benachbarten Leunawerk.
+
+Im Jahr 1943 übertraf die US-Produktion von 185.175 t „Government Rubber“ erstmals
+die deutsche Produktion von 110.569 t und konnte bis zum Kriegsende noch
+auf über 730.000 t/Jahr gesteigert werden.
+
+# Astronomie
+
+## Tycho Brahe
+
+After disagreements with the new Danish king Christian IV in 1597, he
+was invited by the Bohemian king and Holy Roman emperor Rudolph II
+to Prague, where he became the official imperial astronomer. He built the
+new observatory at Benátky nad Jizerou. There, from 1600 until his death
+in 1601, he was assisted by Johannes Kepler who later used Tycho's
+astronomical data to develop his three laws of planetary motion.
+
+On 11 November 1572, Tycho observed (from Herrevad Abbey) a very bright
+star, now named SN 1572, which had unexpectedly appeared in the constellation
+Cassiopeia. Because it had been maintained since antiquity that the world beyond
+the Moon's orbit was eternally unchangeable (celestial immutability was a fundamental axiom
+of the Aristotelian world-view), other observers held that the phenomenon was something
+in the terrestrial sphere below the Moon. However, in the first instance
+Tycho observed that the object showed no daily parallax against the background
+of the fixed stars. This implied it was at least farther away
+than the Moon and those planets that do show such parallax. He
+also found the object did not change its position relative to the
+fixed stars over several months as all planets did in their periodic
+orbital motions, even the outer planets for which no daily parallax was
+detectable. This suggested it was not even a planet, but a fixed
+star in the stellar sphere beyond all the planets. In 1573 he
+published a small book, De nova stella thereby coining the term nova
+for a "new" star (we now classify this star as a supernova
+and we know that it is 7500 light-years from Earth). This discovery
+was decisive for his choice of astronomy as a profession. Tycho was
+strongly critical of those who dismissed the implications of the astronomical appearance,
+writing in the preface to De nova stella: "O crassa ingenia. O
+caecos coeli spectatores" ("Oh thick wits. Oh blind watchers of the sky").
+
+# George Herbert Mead
+
+1863 – 1931
+
+In Abgrenzung zum deutschen Idealismus (Johann Gottlieb Fichte, Friedrich Wilhelm Joseph Schelling,
+Georg Wilhelm Friedrich Hegel), dem Mead „solipsistischen Spuk“ vorwarf, versteht Mead –
+inspiriert von der Evolutionstheorie Darwins – das Bewusstsein des Menschen als evolutionäres
+Produkt der Auseinandersetzung des Organismus mit seiner Umwelt und nicht als Gabe,
+die dem Menschen etwa in die Wiege gelegt wäre und in Aprioris
+der Erkenntnis zu beschreiben wäre. Dabei setzt man, so Mead, das zu
+Erklärende bereits voraus.
+
+# 20 Jhd
+
+Special Relativity 1905  
+General Relativity 1915  
+Quantum Mechanics ca. 1925  
+Antimatter 1932  
+Higgs Boson 2012  
+The quantum pattern is also seen in the cosmic microwave background.  
+
+The confidence of at least some
+mathematicians in their understanding of this subject (or in its coherence as
+a subject at all) was shaken by the discovery of paradoxes in
+“naive” set theory around the beginning of the 20th century.
+
+# Farbstoffindustrie
+
+Die Entdeckung der Azokupplung (1858) leitete eine stürmische
+Entwicklung der Farbstoffindustrie ein.
+
+Die meisten grösseren europäischen Chemiefirmen sind ursprünglich
+als Farbenfabriken entstanden: die Ballung der chemischen Industrie
+in Basel geruht auf der dort seit jeher ansässigen Seidenfärberei und
+ist auch eine Folge der Tatsache, dass die Schweiz in der zweiten
+Hälfte des 19. Jahrhunderts noch keine Patentgesetzgebung kannte.
+
+\minisec{Färberkrapp}
+Die Farbe zeichnet sich als Textilfarbe durch eine hohe Lichtechtheit und Waschbeständigkeit aus.
+Der Färberkrapp spielte von der Antike bis zur Entdeckung der synthetischen Herstellung
+von Alizarin eine zentrale Rolle als Färbepflanze in Mitteleuropa und im gesamten
+Mittelmeergebiet. Es ist eines der ältesten Farbmittel der Menschheit und
+verhältnismäßig preisgünstig,
+verglichen mit anderen Färbemitteln, die ein Rot ergaben. Die Krappwurzel war eine
+der wichtigsten Kulturpflanzen und ein bedeutendes Handelsgut zwischen Asien und Europa. Angebaut
+wurde Krapp bereits im Altertum von den Ägyptern, den Persern, den Griechen und den Römern.
+In historischer Zeit war das Färben mit Färberkrapp durchaus anspruchsvoll.
+Die Qualität der verwendeten Wurzeln schwankte stark und das Färbeergebnis wurde auch
+von der Außentemperatur beeinflusst. Verhältnismäßig häufig war das Farbergebnis ein Orange oder
+Ziegelrot, das die Färber preisgünstiger mit anderen Pflanzen erzielen konnten. Gegen Ende
+des Mittelalters und zu Beginn der Neuzeit waren es vor allem Färber
+des Osmanischen Reiches und aus Indien, die konsistent den gewünschten Farbton erzielten.
+Dazu trug auch bei, dass das beste Farbergebnis mit Färberkrapp auf Baumwolle
+erzeugt wurde. Dieses Material war jedoch damals in Europa verhältnismäßig unbekannt. 
+Detaillierte Kenntnisse über die einzelnen Arbeitsschritte wurden in Europa
+erst im 18. Jahrhundert bekannt.
+Seit man 1869 den Farbstoff Alizarin auch synthetisch aus Steinkohleteer herstellen konnte,
+ging der wesentlich teurere Krappanbau drastisch zurück. 
+
+Mit verschiedenen Metalloxiden beziehungsweise Metallsalzen (Aluminium-
+oder Zinnsalze) bilden die enthaltenen Farbstoffe
+sehr farbenfrohe Komplexe, die als Krapplacke bezeichnet werden.
+Krapplack ist bereits seit der Antike bekannt.
+Der natürliche Lack ist nicht vollkommen lichtbeständig.
+
+# Psychology
+
+Behaviorism (early 20^th^ century).
+
+Contemporary academia considers Skinner a pioneer of modern behaviorism along with John
+B. Watson and Ivan Pavlov.
+Perhaps Skinner's best known critic, Noam Chomsky published a review of Skinner's
+Verbal Behavior two years after it was published. Chomsky argued that Skinner's
+attempt to use behaviorism to explain human language amounted to little more
+than word games. Conditioned responses could not account for a child's ability
+to create or understand an infinite variety of novel sentences. The 1959
+review became better known than the book itself. Chomsky's review has been
+credited with launching the cognitive movement in psychology and other disciplines. 
+
+Skinner:
+Operant (instrumental) conditioning.
+
+Cognitivism (1950s–present).
+
+# Lvov-Warsaw School
+
+The development of logic in Warsaw had two subperiods in 1918–1939, namely
+1918–1929 and 1929–1939. The first decade consisted in intensive teaching and scientific
+work at the seminars of Leśniewski and Łukasiewicz. Not many results were
+published at that time. The explosion of publications took place in 1929 and later. 
+The founders of the Polish mathematical school made a brave experiment consisting
+in inviting two philosophers with a modest mathematical background as professors at
+the Faculty of Mathematics and Natural Sciences; this did not happen in
+any other country. 
+
+In 1939, the entire school comprised about 80 scholars actively working in
+all branches of philosophy as well as in other academic fields, like
+psychology, sociology, theoretical linguistics, history of art and literary studies.
+
+World War II had disastrous consequences for the LWS.
+Many emigrated from Poland during World War II or shortly after it:
+Łukasiewicz (Dublin), Tarski (Berkeley), Hiż (Philadelphia),
+Kalicki (Berkeley), Lejewski (Manchester), Mehlberg (Toronto,
+Chicago), Sobociński (Notre Dame) and Wundheiler (New York); Bocheński (Fribourge) and Poznański
+(Jerusalem, before 1939).
+
+The situation in Poland in 1945–1948 was similar as before 1939. The
+Marxist ideological offensive against bourgeois philosophy started in 1949. The policy became
+more liberal after 1956. Although many scholars of the LWS actively taught
+and worked in the new political reality, it would be difficult to
+say that the school continued its former manner of existence. The tradition
+of the LWS was rather preserved in individual hands, but not as
+an organized enterprise.
+
+The LWS acted in a country which never belonged to the philosophical
+superpowers. This circumstance is important for any assessment of the significance of
+the LWS. One can measure it on a national or an international
+scale. The importance of the LWS for Polish philosophical culture was enormous.
+Twardowski fully realized his task. He introduced scientific philosophy in his sense
+into Poland and created a powerful philosophical school. It did very much
+for the subsequent development of philosophy in the country. In particular, it
+popularized very high standards of doing philosophy. This was important in the
+difficult times after 1945, when Marxism started an ideological and political offensive
+against bourgeois philosophy. In fact, due to the strong methodological tradition related
+to the LWS, Polish philosophy did not lose its academic quality in 1945–1989.
+
+# Photographie
+
+1816, first photgraph on paper.
+
+The first sucessful photographic image, produced
+by Nicephore Niépce (France) with over eight
+hours exposure time in 1827.
+
+1835 earliest permanent paper negative known,
+William Henry Fox Talbot.
+Unlike the daguerreotype images, it is reproducible.
+
+Heliografie
+Niépces diesbezügliche Experimente hatten bereits 1811 begonnen, 1822 hatte er die erste
+lichtbeständige heliografische Kopie eines grafischen Blattes hergestellt. Das
+Experiment von 1826 gilt
+als eigentliche Geburtsstunde der Fotografie, weil es Niépce erstmals gelang, mittels der
+Kamera dauerhafte fotografische Abbildungen zu schaffen. Niépce arbeitete ab 1829 mit Louis
+Daguerre zusammen.
+
+Daguerreotypie (1830s).
+Kamerea Opscura, lange Belichtungszeit.
+Die Daguerreotypie war schon bei ihrer Veröffentlichung ein voll praxistaugliches System.
+Nachdem sie in den ersten Jahren um 1840 wegen der langen Belichtungszeit
+hauptsächlich für Architekturaufnahmen verwendet wurden, erlangten
+die Daguerreotypien bald insbesondere als kleinformatige
+Porträts Popularität. Sie waren preiswerter als die bis zu dieser Zeit üblichen
+gemalten Miniaturen, dabei aber von unübertroffener, damals überraschender Naturtreue.
+Die Daguerreotypie erfreute sich bis gegen Ende der 1850er Jahre großer Beliebtheit.
+In der Schärfe und Detailgenauigkeit war sie auch dem ersten Negativ-Positiv-Verfahren der
+Talbotypie (auch bekannt als „Kalotypie“) von William Henry Fox Talbot deutlich überlegen,
+das zur selben Zeit hauptsächlich in Großbritannien gebräuchlich war. Sie war allerdings
+wegen des lästigen Spiegelns – anders als die Talbotypie – für große
+Bildformate und als Wandschmuck kaum geeignet. Das Daguerreotypie-Verfahren war in Europa bis
+etwa Mitte der 1850er Jahre vorherrschend (in den USA noch eine gewisse
+Zeit länger),[14] wurde ab dann aber einerseits durch die Kollodium-Negativ-Verfahren und die
+Albumin-Abzüge (insbesondere die preiswerten Visitenkarten-Porträts),
+andererseits durch das auch auf dieser neuen
+Technologie beruhende Positiv-Verfahren der Ambrotypien verdrängt. Diese waren
+ebenfalls Unikate, dienten daher
+als Ersatz für die Daguerreotypien und wurden ähnlich kostbar eingefasst. 
+
+The collodion process is an early photographic process, invented by Frederick Scott
+Archer. It was introduced in the 1850s and by the end of
+that decade it had almost entirely replaced the first practical photographic process,
+the daguerreotype. During the 1880s the collodion process, in turn, was largely
+replaced by gelatin dry plates—glass plates with a photographic emulsion of silver
+halides suspended in gelatin. The dry gelatin emulsion was not only more
+convenient but could be made much more sensitive, greatly reducing exposure times.
+
+Die Gelatine-Platten zeichneten sich gegenüber nassen Kollodiumplatten durch ihre Haltbarkeit aus, so
+dass sie auf Reisen bequem mitgeführt werden konnten; sie waren überdies sechs-
+bis zehnmal empfindlicher als Kollodiumplatten und erlaubten deshalb Aufnahmen mit erheblich kürzeren
+Belichtungszeiten, also auch Momentaufnahmen. 
+
+Das Trockenverfahren wiederum wurde selbst ab etwa 1880 durch den fotografischen Film
+– zunächst Papier-, dann Zelluloid-, sowie später Sicherheitsfilm – abgelöst.
+
+# Belle Époque
+
+Auf den Deutsch-französischen Krieg von 1870/71 folgte eine ungewohnt lange Zeit des
+Friedens. Sie war die Grundlage für einen deutlichen Aufschwung von Wirtschaft und
+Kultur in den europäischen Kernländern Großbritannien, Frankreich, Deutschland und Österreich-Ungarn.
+
+Insbesondere auf dem Gebiet der Physik kam es zu vielen neuen Erkenntnissen.
+An erster Stelle wäre die Entdeckung der Röntgenstrahlen durch Röntgen 1895 und
+des Radiums 1898 durch das Ehepaar Marie und Pierre Curie zu nennen.
+Es folgten die Quantentheorie (1900) von Max Planck und Albert Einsteins Relativitätstheorie
+(1905). 1911 leitete Ernest Rutherford aus Streuversuchen das Rutherford'sche Atommodell ab. Bereits
+zwei Jahre später, gestützt auf Rutherfords Erkenntnisse, stellte Niels Bohr sein Atommodell:
+(Bohrsches Atommodell) auf. Diese neuen Erkenntnisse widersprachen in mehreren Punkten der klassischen
+Physik, die von Isaac Newton ausging.
+
+Durch die Entwicklung verbesserter Mikroskope ab Mitte des 19. Jahrhunderts eröffnete sich
+die Sicht in die Mikrobiologie und der bedeutende Bakteriologe Robert Koch entdeckte
+den Tuberkulose- und Cholera-Erreger.
+
+Dank Sigmund Freud (1956–1939), der 1890 die Psychoanalyse begründete, kam eine neue Sichtweise
+über die menschliche Psyche auf, die in der Öffentlichkeit große Aufmerksamkeit erfuhr.
+
+# Grassmann
+
+Grassmann’s plan was to develop a purely formal algebra to model natural (syn-
+thetic) operations on geometric objects: flat, or linear pieces of space of all possible
+dimensions. His approach was to be synthetic, so that the symbols in his algebra
+would denote geometric objects themselves, not just numbers (typically, coordi-
+nates) that could be derived from those objects by measurement. His was not to
+be an algebra of numerical quantities, but an algebra of pieces of space.
+
+In the analytic approach, so typical in the teaching of Euclidean geometry, we are
+encouraged to assign “unknown” variables to the coordinates of variable points, to
+express our hypotheses as equations in those coordinates, and to derive equations
+that will express our desired conclusions.
+
+Grassmann emphasizes that he is building an abstract theory that can then be
+applied to real physical space. He starts not with geometric axioms, but simply
+with the notion of a skew-symmetric product of letters, which is assumed to be
+distributive over addition and modifiable by scalar multiplication. Thus if a and
+b are letters, and A is any product of letters, then Aab + Aba = 0. This is the
+skew-symmetry. It follows that any product with a repeated letter is equal to zero.
+
+He also develops a notion of dependency, saying that a letter e is dependent upon
+a set {a, b, c, d} if and only if there are scalars α, β, γ, δ such that
+α a + β b + γ c + δ d = e.
+
+He uses an axiom of distributivity of product over sums to prove that the product of
+letters forming a dependent set is equal to zero. With a, b, c, d, e as above:
+abcde = α abcda + β abcdb + γ abcdc + δ abcdd = 0
+the terms on the right being zero as products because each has a repeated letter.
+
+The center of gravity of several points can be interpreted as their sum, the dis-
+placement between two points as their product, the surface area lying between three
+points as their product, and the region (a pyramid) between four points as their
+product.
+
+abc = abd iff line ab parallel to line cd.
+
+abcd = abce iff line de parallel to plane abc.
+
+At the beginning of the next millenium, in 1900, Sir Robert Ball, in his Theory
+of Screws will use a bit of Euclidean geometry to show that a sum of 2-extensors
+in 3-space can be expressed as the sum of a force along a line plus a moment in
+a plane perpendicular to that line. He called these general antisymmetric tensors
+screws. Such a combination of forces, also called a wrench, when applied to a rigid
+body produces a screw motion.
+
+Much of the study of screws, with applications to statics, is to be found at the
+end of Chapter 2 in Grassmann. He discusses coordinate notation, change of basis,
+and even shows that an anti-symmetric tensor S of step 2 (a screw) is an extensor
+if and only if the exterior product SS is equal to zero. This is the first and most
+basic invariant property of anti-symmetric tensors.
+
+# Evolution
+
+Mary Anning (21 May 1799 – 9 March 1847) was an English
+fossil collector, dealer, and palaeontologist who became
+known around the world for important finds she made in
+Jurassic marine fossil beds in the cliffs along the English
+Channel at Lyme Regis in the county of Dorset in Southwest
+England.[2] Her findings contributed to important changes in
+scientific thinking about prehistoric life and the history
+of the Earth.
+
+Fosilien gefunden von Mary Anning:
+
+1811 Ichthyosaurus  
+1823 Plesiosaurus  
+1828 Pterosaurus  
+
+# Sarin
+
+The toxicity of sarin in humans is largely based on
+calculations from studies with animals. The general
+consensus is that the lethal concentration of sarin in
+air is approximately 35 mg per cubic meter per minute for
+a two-minute exposure time by a healthy adult breathing
+normally (exchanging 15 liters of air per minute). This
+number represents the estimated lethal concentration for 50%
+of exposed victims, the LCt50 value.
+
+Sarin was discovered in 1938 in Wuppertal-Elberfeld in
+Germany by scientists at IG Farben who were attempting to
+create stronger pesticides; it is the most toxic of the
+four G-Series nerve agents made by Germany. The compound
+was named in honor of its discoverers: **S**chrader, **A**mbros, Gerhard
+**R**itter, and Van der L**in**de.
+
+In mid-1939, the formula for the agent was passed to the
+chemical warfare section of the German Army Weapons Office,
+which ordered that it be brought into mass production for
+wartime use. Pilot plants were built, and a high-production
+facility was under construction (but was not finished)
+by the end of World War II.
+Though sarin, tabun and soman were incorporated into
+artillery shells, Germany did not use nerve agents against
+Allied targets.
+
+1950s (early): NATO adopted sarin as a standard chemical
+weapon, and both the USSR and the United States produced
+sarin for military purposes.
+
+1957: Regular production of sarin chemical weapons ceased in
+the United States, though existing stocks of bulk sarin were
+re-distilled until 1970.
+
+1976: Chile's intelligence service, DINA, assigns biochemist
+Eugenio Berríos to develop sarin gas within its program
+Proyecto Andrea, to be used as a weapon against its
+opponents.[43] One of DINA's goals was to package it in
+spray cans for easy use, which, according to testimony by
+former DINA agent Michael Townley, was one of the planned
+procedures in the 1976 assassination of Letelier.[43]
+Berríos later testified that it was used in a number of
+assassinations.
+
+March 1988: Over two days in March, the ethnic Kurd city of
+Halabja in northern Iraq (population 70,000) was bombarded
+with chemical bombs, which included sarin, in the Halabja
+poison gas attack. An estimated 5,000 people died.[46]
+
+April 1988: Sarin was used four times against Iranian
+soldiers at the end of the Iran–Iraq War, helping Iraqi
+forces to retake control of the al-Faw Peninsula during the
+Second Battle of al-Faw.
+
+1993: The United Nations Chemical Weapons Convention was
+signed by 162 member countries, banning the production and
+stockpiling of many chemical weapons, including sarin. It
+went into effect on April 29, 1997, and called for the
+complete destruction of all specified stockpiles of chemical
+weapons by April 2007.
+
+1994: Matsumoto incident; the Japanese religious sect Aum
+Shinrikyo released an impure form of sarin in Matsumoto,
+Nagano, killing eight people and harming over 200. The
+Australian sheep station Banjawarn was a testing ground.
+1995: Tokyo subway sarin attack; the Aum Shinrikyo sect
+released an impure form of sarin in the Tokyo Metro.
+Thirteen people died.
+
+2004: Iraqi insurgents detonated a 155 mm shell containing
+binary precursors for sarin near a U.S. convoy in Iraq. The
+shell was designed to mix the chemicals as it spun during
+flight. The detonated shell released only a small amount of
+sarin gas, either because the explosion failed to mix the
+binary agents properly or because the chemicals inside the
+shell had degraded with age. Two United States soldiers were
+treated after displaying the early symptoms of exposure to
+sarin.
+
+The Khan al-Assal chemical attack was a chemical attack
+in Khan al-Assal, Aleppo, Syria, on 19 March 2013,
+which according to the Syrian Observatory for Human
+Rights resulted in at least 26 fatalities including 16
+government soldiers and 10 civilians, and more than
+86 injuries. Immediately after the incident the
+Syrian government and opposition accused each other of
+carrying out the attack, but neither side presented clear
+documentation. The Syrian government asked the
+United Nations to investigate the incident, but disputes
+over the scope of that investigation led to lengthy delays.
+In the interim, the Syrian government invited Russia to send
+specialists to investigate the incident. Samples taken at
+the site led them to conclude that the attack involved the
+use of sarin, which matched the assessment made by the
+United States. Russia held the opposition responsible for
+the attack, while the US held the government responsible.
+UN investigators finally arrived on the ground in Syria
+in August (with a mandate excluding the evaluation of
+culpability for the chemical weapons attacks[9]), but their
+arrival coincided with the much larger-scale 2013 Ghouta
+attacks which took place on 21 August, pushing the Khan
+al-Assal investigation "onto the backburner" according to a
+UN spokesman.[6] The UN report,[3] which was completed on
+12 December, found "likely use of chemical weapons in Khan
+al-Assal" and assessed that organophosphate poisoning was
+the cause of the "mass intoxication".
+
+2013: Ghouta chemical attack; sarin was used in an attack in
+the Ghouta region of the Rif Dimashq Governorate of Syria
+during the Syrian civil war.[49] Varying[50] sources gave a
+death toll of 322[51] to 1,729.[52]
+The attack was the deadliest use of chemical weapons since the Iran–Iraq War.[14][15][16]
+The evidence available concerning the nature, quality and
+quantity of the agents used on 21 August indicated that
+the perpetrators likely had access to the chemical weapons
+stockpile of the Syrian military, as well as the expertise
+and equipment necessary to manipulate safely large amount
+of chemical agents."[30] It also stated that the chemical
+agents used in the Khan al-Assal chemical attack "bore the
+same unique hallmarks" as those used in Al-Ghouta attack.
+The Syrian government and opposition blamed each other for
+the attack.[33] Many governments said the attack was carried
+out by forces of Syrian President Bashar al-Assad,[34][35]
+a conclusion echoed by the Arab League and the European
+Union.[36][37] The Russian government called the attack
+a false flag operation by the opposition to draw foreign
+powers into the civil war on the rebels' side.
+Several countries including France, the United Kingdom,
+the United States, debated whether to intervene militarily
+against government forces.[40][41][42][43] On 6 September
+2013, the United States Senate filed a bill to authorize
+use of military force against the Syrian military, mainly
+in response to the Ghouta attack.[44] On 10 September 2013,
+the military intervention was averted when the Syrian
+government accepted a US–Russian negotiated deal to turn
+over "every single bit" of its chemical weapons stockpiles
+for destruction and declared its intention to join the
+Chemical Weapons Convention.
+Murad Abu Bilal, Khaled Naddaf and other Center for
+Documentation of Violations in Syria and Local Coordination
+Committees of Syria (LCC) media staff went to Zamalka soon
+after the attacks to film and obtain other documentary
+evidence. Almost all the journalists died from inhalation of
+the neurotoxins, except Murad Abu Bilal, who was the only
+Zamalka LCC media member to survive.[167][168] The videos
+were published on YouTube, attracting world-wide media
+attention.
+
+# Quasisymetric
+
+Roger Penrose is well known for his 1974 discovery of
+Penrose tilings, which are formed from two tiles that
+can only tile the plane nonperiodically, and are the
+first tilings to exhibit fivefold rotational symmetry.
+Penrose developed these ideas based on the article Deux
+types fondamentaux de distribution statistique (1938;
+an English translation Two Basic Types of Statistical
+Distribution) by Czech geographer, demographer and
+statistician Jaromír Korčák. In 1984, such patterns were
+observed in the arrangement of atoms in quasicrystals by Dan Schechtman.
+
+In 1961, Hao Wang asked whether determining if a set of
+tiles admits a tiling of the plane is an algorithmically
+unsolvable problem or not. He conjectured that it is
+solvable, relying on the hypothesis that every set of tiles
+that can tile the plane can do it periodically (hence, it
+would suffice to try to tile bigger and bigger patterns
+until obtaining one that tiles periodically). Nevertheless,
+two years later, his student Robert Berger constructed a set
+of some 20,000 square tiles (now called Wang tiles) that can
+tile the plane but not in a periodic fashion. As further
+aperiodic sets of tiles were discovered, sets with fewer and
+fewer shapes were found. in 1976 Roger Penrose discovered
+a set of just two tiles, now referred to as Penrose tiles,
+that produced only non-periodic tilings of the plane. These
+tilings displayed instances of fivefold symmetry. One year
+later Alan Mackay showed experimentally that the diffraction
+pattern from the Penrose tiling had a two-dimensional
+Fourier transform consisting of sharp 'delta' peaks arranged
+in a fivefold symmetric pattern.[7] Around the same time
+Robert Ammann created a set of aperiodic tiles that produced
+eightfold symmetry.
+
+Mathematically, quasicrystals have been shown to be
+derivable from a general method that treats them as
+projections of a higher-dimensional lattice. Just as
+circles, ellipses, and hyperbolic curves in the plane can
+be obtained as sections from a three-dimensional double
+cone, so too various (aperiodic or periodic) arrangements
+in two and three dimensions can be obtained from postulated
+hyperlattices with four or more dimensions. Icosahedral
+quasicrystals in three dimensions were projected from a
+six-dimensional hypercubic lattice by Peter Kramer and
+Roberto Neri in 1984.[8] The tiling is formed by two tiles
+with rhombohedral shape.
+
+Shechtman first observed ten-fold electron diffraction
+patterns in 1982, as described in his notebook. The
+observation was made during a routine investigation, by
+electron microscopy, of a rapidly cooled alloy of aluminium
+and manganese prepared at the US National Bureau of
+Standards (later NIST).
+
+In the summer of the same year Shechtman visited Ilan
+Blech and related his observation to him. Blech responded
+that such diffractions had been seen before.[9][10] Around
+that time, Shechtman also related his finding to John Cahn
+of NIST who did not offer any explanation and challenged
+him to solve the observation. Shechtman quoted Cahn as
+saying: "Danny, this material is telling us something and I
+challenge you to find out what it is".
+
+The observation of the ten-fold diffraction pattern lay
+unexplained for two years until the spring of 1984, when
+Blech asked Shechtman to show him his results again. A
+quick study of Shechtman's results showed that the common
+explanation for a ten-fold symmetrical diffraction pattern,
+the existence of twins, was ruled out by his experiments.
+Since periodicity and twins were ruled out, Blech, unaware
+of the two-dimensional tiling work, was looking for another
+possibility: a completely new structure containing cells
+connected to each other by defined angles and distances but
+without translational periodicity. Blech decided to use a
+computer simulation to calculate the diffraction intensity
+from a cluster of such a material without long-range
+translational order but still not random. He termed this new
+structure multiple polyhedral.
+
+The idea of a new structure was the necessary paradigm shift
+to break the impasse. The “Eureka moment” came when
+the computer simulation showed sharp ten-fold diffraction
+patterns, similar to the observed ones, emanating from the
+three-dimensional structure devoid of periodicity. The
+multiple polyhedral structure was termed later by many
+researchers as icosahedral glass but in effect it embraces
+any arrangement of polyhedra connected with definite angles
+and distances (this general definition includes tiling, for
+example).
+
+Shechtman accepted Blech's discovery of a new type of
+material and it gave him the courage to publish his
+experimental observation. Shechtman and Blech jointly
+wrote a paper entitled "The Microstructure of Rapidly
+Solidified Al6Mn" [11] and sent it for publication around
+June 1984 to the Journal of Applied Physics (JAP). The JAP
+editor promptly rejected the paper as being better fit for
+a metallurgical readership. As a result, the same paper
+was re-submitted for publication to the Metallurgical
+Transactions A, where it was accepted. Although not noted
+in the body of the published text, the published paper was
+slightly revised prior to publication.
+
+Meanwhile, on seeing the draft of the Shechtman-Blech
+paper in the summer of 1984, John Cahn suggested that
+Shechtman's experimental results merit a fast publication
+in a more appropriate scientific journal. Shechtman agreed
+and, in hindsight, called this fast publication "a winning
+move”. This paper, published in the Physical Review
+Letters (PRL),[5] repeated Shechtman's observation and used
+the same illustrations as the original Shechtman-Blech paper
+in the Metallurgical Transactions A. The PRL paper, the
+first to appear in print, caused considerable excitement in
+the scientific community.
+
+Next year Ishimasa et al. reported twelvefold symmetry
+in Ni-Cr particles.[12] Soon, eightfold diffraction
+patterns were recorded in V-Ni-Si and Cr-Ni-Si alloys.[13]
+Over the years, hundreds of quasicrystals with various
+compositions and different symmetries have been discovered.
+The first quasicrystalline materials were thermodynamically
+unstable—when heated, they formed regular crystals.
+However, in 1987, the first of many stable quasicrystals
+were discovered, making it possible to produce large samples
+for study and opening the door to potential applications.
+In 2009, following a 10-year systematic search, scientists
+reported the first natural quasicrystal, a mineral found
+in the Khatyrka River in eastern Russia.[3] This natural
+quasicrystal exhibits high crystalline quality, equalling
+the best artificial examples.[14] The natural quasicrystal
+phase, with a composition of Al63Cu24Fe13, was named
+icosahedrite and it was approved by the International
+Mineralogical Association in 2010. Furthermore, analysis
+indicates it may be meteoritic in origin, possibly delivered
+from a carbonaceous chondrite asteroid.[15]
+
+Quasicrystalline substances have potential applications in
+several forms. The tendency to brittleness is a problem that
+must be overcome.
+Quasicrystalline coatings benefit from hardness while avoiding the brittleness in bulk material.
+Metallic quasicrystalline coatings can be applied by
+plasma-coating or magnetron sputtering. A problem that
+must be resolved is the tendency for cracking due to the
+materials' extreme brittleness.
+
+## Penrose Tiling
+
+1970s
+
+It is non-periodic, which means that it lacks any translational symmetry.
+
+It is self-similar, so the same patterns occur at larger
+and larger scales. Thus, the tiling can be obtained through
+"inflation" (or "deflation") and any finite patch from the
+tiling occurs infinitely many times.
+
+It is a quasicrystal: implemented as a physical structure
+a Penrose tiling will produce Bragg diffraction and its
+diffractogram reveals both the fivefold symmetry and the
+underlying long range order.
+
+# Roger Penrose
+
+He argues that the present computer is unable to have
+intelligence because it is an algorithmically deterministic
+system. He argues against the viewpoint that the rational
+processes of the mind are completely algorithmic and can
+thus be duplicated by a sufficiently complex computer. This
+contrasts with supporters of strong artificial intelligence,
+who contend that thought can be simulated algorithmically.
+He bases this on claims that consciousness transcends formal
+logic because things such as the insolubility of the halting
+problem and Gödel's incompleteness theorem prevent an
+algorithmically based system of logic from reproducing such
+traits of human intelligence as mathematical insight. These
+claims were originally espoused by the philosopher John
+Lucas of Merton College, Oxford.
+
+The Penrose/Lucas argument about the implications of
+Gödel's incompleteness theorem for computational theories
+of human intelligence has been widely criticised by
+mathematicians, computer scientists and philosophers, and
+the consensus among experts in these fields seems to be that
+the argument fails, though different authors may choose
+different aspects of the argument to attack.[15] Marvin
+Minsky, a leading proponent of artificial intelligence,
+was particularly critical, stating that Penrose "tries to
+show, in chapter after chapter, that human thought cannot be
+based on any known scientific principle." Minsky's position
+is exactly the opposite – he believes that humans are,
+in fact, machines, whose functioning, although complex,
+is fully explainable by current physics. Minsky maintains
+that "one can carry that quest [for scientific explanation]
+too far by only seeking new basic principles instead of
+attacking the real detail. This is what I see in Penrose's
+quest for a new basic principle of physics that will account
+for consciousness."[16]
+
+Penrose responded to criticism of The Emperor's New Mind
+with his follow up 1994 book Shadows of the Mind, and in
+1997 with The Large, the Small and the Human Mind. In those
+works, he also combined his observations with that of
+anesthesiologist Stuart Hameroff.
+
+Penrose and Hameroff have argued that consciousness is the
+result of quantum gravity effects in microtubules, which
+they dubbed Orch-OR (orchestrated objective reduction). Max
+Tegmark, in a paper in Physical Review E,[17] calculated
+that the time scale of neuron firing and excitations in
+microtubules is slower than the decoherence time by a
+factor of at least 10,000,000,000. The reception of the
+paper is summed up by this statement in Tegmark's support:
+"Physicists outside the fray, such as IBM's John A. Smolin,
+say the calculations confirm what they had suspected all
+along. 'We're not working with a brain that's near absolute
+zero. It's reasonably unlikely that the brain evolved
+quantum behavior'".[18] Tegmark's paper has been widely
+cited by critics of the Penrose–Hameroff position.
+
+In their reply to Tegmark's paper, also published in
+Physical Review E, the physicists Scott Hagan, Jack
+Tuszynski and Hameroff[19][20] claimed that Tegmark did
+not address the Orch-OR model, but instead a model of his
+own construction. This involved superpositions of quanta
+separated by 24 nm rather than the much smaller separations
+stipulated for Orch-OR. As a result, Hameroff's group
+claimed a decoherence time seven orders of magnitude greater
+than Tegmark's, but still well short of the 25 ms required
+if the quantum processing in the theory was to be linked to
+the 40 Hz gamma synchrony, as Orch-OR suggested. To bridge
+this gap, the group made a series of proposals.
+
+He supposed that the interiors of neurons could alternate
+between liquid and gel states. In the gel state, it was
+further hypothesized that the water electrical dipoles are
+oriented in the same direction, along the outer edge of the
+microtubule tubulin subunits. Hameroff et al. proposed that
+this ordered water could screen any quantum coherence within
+the tubulin of the microtubules from the environment of the
+rest of the brain. Each tubulin also has a tail extending
+out from the microtubules, which is negatively charged, and
+therefore attracts positively charged ions. It is suggested
+that this could provide further screening. Further to this,
+there was a suggestion that the microtubules could be pumped
+into a coherent state by biochemical energy.
+Roger Penrose in the University of Santiago de Compostela to receive the Fonseca Prize.
+
+Finally, he suggested that the configuration of the
+microtubule lattice might be suitable for quantum error
+correction, a means of holding together quantum coherence in
+the face of environmental interaction. In the last decade,
+some researchers who are sympathetic to Penrose's ideas
+have proposed an alternative scheme for quantum processing
+in microtubules based on the interaction of tubulin tails
+with microtubule-associated proteins, motor proteins and
+presynaptic scaffold proteins. These proposed alternative
+processes have the advantage of taking place within
+Tegmark's time to decoherence.
+
+Hameroff, in a lecture in part of a Google Tech talks
+series exploring quantum biology, gave an overview of
+current research in the area, and responded to subsequent
+criticisms of the Orch-OR model.[21] In addition to this,
+a recent 2011 paper by Roger Penrose and Stuart Hameroff
+gives an updated model of their Orch-OR theory, in light of
+criticisms, and discusses the place of consciousness within
+the universe.[22]
+
+Phillip Tetlow, although himself supportive of Penrose's
+views, acknowledges that Penrose's ideas about the human
+thought process are at present a minority view in scientific
+circles, citing Minsky's criticisms and quoting science
+journalist Charles Seife's description of Penrose as "one
+of a handful of scientists" who believe that the nature of
+consciousness suggests a quantum process.[18]
+
+In January 2014 Hameroff and Penrose announced that a
+discovery of quantum vibrations in microtubules by Anirban
+Bandyopadhyay of the National Institute for Materials
+Science in Japan[23] confirms the hypothesis of Orch-OR
+theory.[24] A reviewed and updated version of the theory was
+published along with critical commentary and debate in the
+March 2014 issue of Physics of Life Reviews.[25]
+
+# Modern Mathematics
+
+Modern “abstract” mathematics arose at around the time of Riemann’s Habilita-
+tion lecture in 1854 on the foundations of geometry. Subsequent mathematicians
+such as Cantor and Dedekind developed the kind of “naı̈ve” theory of sets and
+functions needed for the then new mathematics to flourish.
+In 1901, Russell discovered his well-known paradox: should we admit, for each
+property φ, the existence of a set {x | φ} of all elements satisfying φ, then we are
+led to consider the troublesome set R := {x | x ∈
+/ x}. In response to this and other
+paradoxes arising from the naı̈ve view of sets, Russell introduced his type theory.
+In Russell’s type theory, each set is to be associated with a natural number, which
+should be thought of as indicating the “level” at which it has been constructed.
+So we would write, x : 3, y : 13, . . . in such a way that the relation a ∈ b is allowed
+to hold only for a : n and b : n + 1. 3 The natural numbers annotating the sets
+are called their types. This theory is usually taken to be the historical origin of
+type theory, although some of the ideas undoubtedly go back much further and
+modern type theory is quite different from Russell’s theory. Ultimately, Russell’s
+type theory failed to attract much of a following and the de facto foundational
+system eventually became, and still remains, Zermelo-Frankel set theory with the
+Axiom of Choice.
+
+Although mostly known for his work in topology, Brouwer advocated an approach
+to foundations starkly at odds with the set theoretic trend of the time. Brouwer
+himself was against the formal codification of mathematical principles, but his
+student Heyting formalized his ideas as what is called intuitionistic logic.
+
+# organic chemistry
+
+Stereochemie
+
+Tartaric acid was first isolated from potassium bitartrate circa 800 AD, by the
+alchemist Jābir ibn Hayyān.[4] The modern process was developed in 1769 by the
+Swedish chemist Carl Wilhelm Scheele.
+Tartaric acid played an important role in the discovery of chemical chirality. 
+This property of tartaric acid was first observed in 1832 by Jean Baptiste
+Biot, who observed its ability to rotate polarized light. Louis Pasteur
+continued this research in 1847 by investigating the shapes of ammonium sodium
+tartrate crystals, which he found to be chiral. 
+By manually sorting the differently shaped crystals under magnification,
+Pasteur was the first to produce a pure sample of levotartaric acid.
+
+# Wave equation
+
+In 1746, d’Alembert discovered the one-dimensional wave equation, and within
+ten years Euler discovered the three-dimensional wave equation.
+
+# Photon
+
+An anomaly arose in the late 19th century involving a contradiction between the
+wave theory of light and measurements of the electromagnetic spectra that were
+being emitted by thermal radiators known as black bodies. Physicists struggled
+with this problem, which later became known as the ultraviolet catastrophe,
+unsuccessfully for many years. In 1900, Max Planck developed a new theory of
+black-body radiation that explained the observed spectrum. Planck's theory was
+based on the idea that black bodies emit light (and other electromagnetic
+radiation) only as discrete bundles or packets of energy. These packets were
+called quanta. Later, Albert Einstein proposed that light quanta be regarded as
+real particles. Later the particle of light was given the name photon, to
+correspond with other particles being described around this time, such as the
+electron and proton.
+
+EM radiation in a vacuum travels at the speed of light, relative to the
+observer, regardless of the observer's velocity. (This observation led to
+Einstein's development of the theory of special relativity.)
+In 1905, Einstein proposed that space and time appeared to be
+velocity-changeable entities for light propagation and all other processes and
+laws. These changes accounted for the constancy of the speed of light and all
+electromagnetic radiation, from the viewpoints of all observers—even those in
+relative motion.
+
+Electromagnetic radiation of wavelengths other than those of visible light were
+discovered in the early 19th century. The discovery of infrared radiation is
+ascribed to astronomer William Herschel, who published his results in 1800
+before the Royal Society of London.[5] Herschel used a glass prism to refract
+light from the Sun and detected invisible rays that caused heating beyond the
+red part of the spectrum, through an increase in the temperature recorded with
+a thermometer. These "calorific rays" were later termed infrared.
+
+In 1801, German physicist Johann Wilhelm Ritter discovered ultraviolet in an
+experiment similar to Hershel's, using sunlight and a glass prism. Ritter noted
+that invisible rays near the violet edge of a solar spectrum dispersed by a
+triangular prism darkened silver chloride preparations more quickly than did
+the nearby violet light. Ritter's experiments were an early precursor to what
+would become photography. Ritter noted that the ultraviolet rays (which at
+first were called "chemical rays") were capable of causing chemical reactions.
+
+In 1862-4 James Clerk Maxwell developed equations for the electromagnetic field
+which suggested that waves in the field would travel with a speed that was very
+close to the known speed of light. Maxwell therefore suggested that visible
+light (as well as invisible infrared and ultraviolet rays by inference) all
+consisted of propagating disturbances (or radiation) in the electromagnetic
+field. Radio waves were first produced deliberately by Heinrich Hertz in 1887,
+using electrical circuits calculated to produce oscillations at a much lower
+frequency than that of visible light, following recipes for producing
+oscillating charges and currents suggested by Maxwell's equations. Hertz also
+developed ways to detect these waves, and produced and characterized what were
+later termed radio waves and microwaves.
+
+Wilhelm Röntgen discovered and named X-rays. After experimenting with high
+voltages applied to an evaccuated tube on 8 November 1895, he noticed a
+fluorescence on a nearby plate of coated glass. In one month, he discovered
+X-rays' main properties.
+
+The last portion of the EM spectrum to be discovered was associated with
+radioactivity. Henri Becquerel found that uranium salts caused fogging of an
+unexposed photographic plate through a covering paper in a manner similar to
+X-rays, and Marie Curie discovered that only certain elements gave off these
+rays of energy, soon discovering the intense radiation of radium. The radiation
+from pitchblende was differentiated into alpha rays (alpha particles) and beta
+rays (beta particles) by Ernest Rutherford through simple experimentation in
+1899, but these proved to be charged particulate types of radiation. However,
+in 1900 the French scientist Paul Villard discovered a third neutrally charged
+and especially penetrating type of radiation from radium, and after he
+described it, Rutherford realized it must be yet a third type of radiation,
+which in 1903 Rutherford named gamma rays. In 1910 British physicist William
+Henry Bragg demonstrated that gamma rays are electromagnetic radiation, not
+particles, and in 1914 Rutherford and Edward Andrade measured their
+wavelengths, finding that they were similar to X-rays but with shorter
+wavelengths and higher frequency, although a 'cross-over' between X and gamma
+rays makes it possible to have X-rays with a higher energy (and hence shorter
+wavelength) than gamma rays and vice versa. The origin of the ray
+differentiates them, gamma rays tend to be a natural phenomena originating from
+the unstable nucleus of an atom and X-rays are electrically generated (and
+hence man-made) unless they are as a result of bremsstrahlung X-radiation
+caused by the interaction of fast moving particles (such as beta particles)
+colliding with certain materials, usually of higher atomic numbers.
+
+# Christiaan Huygens
+
+On his third visit to England, in 1689, Huygens met Isaac Newton on 12 June.
+Newton's influence on John Locke was mediated by Huygens, who assured Locke
+that Newton's mathematics was sound, leading to Locke's acceptance of a
+"corpuscular-mechanical" physics.
+Huygens designed more accurate clocks than were available at the time.
+Huygens was the first to derive the formula for the period of an ideal
+mathematical pendulum (with massless rod or cord and length much longer than
+its swing), in modern notation:
+
+$$T=2\pi {\sqrt {\frac {l}{g}}}$$
+
+with T the period, l the length of the pendulum and g the gravitational acceleration.
+
+# Nuklearenergy und Atombombe
+
+Als Spaltstoffe bezeichnet man in der Kerntechnik Nuklide, die sich nach
+Absorption eines Neutrons unter Energieabgabe spalten und dabei gleichzeitig
+mehrere Neutronen abgeben, die wiederum neue Kernspaltungen auslösen können
+(Kettenreaktion).
+
+Die kleinste Spaltstoffmasse, die eine sich selbst erhaltende Kettenreaktion in
+Gang setzt, ist die kritische Masse. Sie beträgt bei Uran-235 etwa 50 kg, bei
+Plutonium-239 ca. 10 kg. Durch technische Maßnahmen kann die kritische Masse
+verringert werden.
+
+Harold Urey:  
+During World War II Urey turned his knowledge of isotope separation to the
+problem of uranium enrichment. He headed the group located at Columbia
+University that developed isotope separation using gaseous diffusion. The
+method was successfully developed, becoming the sole method used in the early
+post-war period
+By the end of 1943, Urey had over 700 people working for him on gaseous
+diffusion.[39] The process involved hundreds of cascades, in which corrosive
+uranium hexafluoride diffused through gaseous barriers, becoming progressively
+more enriched at every stage.
+
+# Function
+
+Euler’s Introductio in Analysis Infinitorum
+of 1748 was the first work to base the calculus explicitly on the notion of a
+function; but, for Euler, functions were given by piecewise analytic expressions,
+
+most of the
+historical literature on the function concept focuses on functions from the real or
+complex numbers to the real or complex numbers. There is a good reason for that:
+for most of the history of the function concept, from Euler’s 1748 introduction to the
+analysis of the infinite to the dramatically different approaches to complex function
+theory by Riemann and Weierstrass in the latter half of the nineteenth century, the
+word “function” was used exclusively in that sense. Moreover, authors generally
+tended to assume, implicitly, than any function is given by an analytic expression
+of some sort. In 1829, in a paper on the Fourier analysis of “arbitrary functions,”
+Dirichlet went out of his way to reason about functions extensionally, which is to
+say, without making use of any such representation. In that paper, he famously
+put forth the example of a function that takes one value on rational numbers and
+another value on irrational numbers as an extreme case, one that was difficult to
+analyze in conventional terms.
+
+Dirichlet’s “arbitrary” functions were, nonetheless, functions from the real num-
+bers to the real numbers. Even the notion of a “number theoretic function,” like
+the factorial function or the Euler function, is nowhere to be found in the literature;
+authors from Euler to Gauss referred to such entities as “symbols,” “characters,”
+or “notations.” Morris and I tracked down what may well be the first use of the
+term “number theoretic function” in a paper by Eisenstein from 1850
+The opening phrase
+is a nod to Dirichlet’s notion of a function as an arbitrary tabular pairing of input
+and output values.
+He went on to argue that we can extend the function concept
+to functions defined on the integers by considering them to be partially defined
+functions on the real numbers, that is, functions from the real numbers to the real
+numbers that happen to take values only on integer arguments. Indeed, the first
+hints of the modern notion of a function as an arbitrary correspondence between
+any two domains did not appear until the late 1870’s
+
+1837, Dirichlet proved a beautiful theorem that states that there are infinitely many
+prime numbers in any arithmetic progression in which the first two terms do not
+have a common factor.
+Dirichlet’s proof is a landmark
+not only because it solved a hard problem, but also because it introduced methods
+that are now central to algebraic and analytic number theory.
+Modern presentations of Dirichlet’s proof rely on the notion of a Dirichlet char-
+acter.
+Dedekind’s 1863 presentation used χ to denote the
+values of the characters and separated out some of their axiomatic properties, and
+in 1882, Weber gave the general definition of a character of an abelian group, and
+proved the general properties. In 1909, Landau enumerated four “key properties”
+of the characters, and emphasized that these are all that is needed in the proof
+of Dirichlet’s theorem; once we have them, we can forget all the details of the
+representations of the characters.
+The treatment of characters on par with common mathematical objects like
+numbers came gradually as well.
+
+Mathematicians from Euler to Cauchy seemed
+to think of functions as syntactic expressions, like f (x) = x2 , that are somewhat
+different from objects like numbers. In today’s terms, functions are “higher-order
+objects,” and what is notable is that in contemporary mathematics their status is no
+different from more fundamental mathematical entities.
+
+The history of Dirichlet’s theorem is only one manifestation of the momentous
+changes that swept across mathematics in the nineteenth century. The development
+of the modern theory of functions and the introduction of ideals and quotients
+in algebra are additional forces that pushed for both algebraic and set-theoretic
+abstraction — a new “language form,” in Carnap’s terminology.
+
+---
+
+Ernst Zermelo presented his system of
+axiomatic set theory in 1908, and Bertrand Russell and Alfred North Whitehead
+presented a system of “ramified type theory” in their monumental work, Principia
+Mathematica, the three volumes of which first appeared between 1911 and 1914.
+In 1931, Kurt G ̈del, then still a relatively unknown young logician, published his
+two incompleteness theorems.
+
+Towards the end of the twentieth century, however, computer scientists began
+to develop “computational proof assistants” that now make it possible to construct
+axiomatic proofs of substantial theorems, in full detail. The languages with which
+one interacts which such systems are much like higher-level programming languages,
+except that the “programs” are now “proofs”: they are directives, or pieces of code,
+that enable the computer to construct a formal axiomatic proof. Proof assistants
+keep track of definitions and previously proved theorems, as well as notation and
+abbreviations. They also provide various types of automation to help fill in details or
+supply information that has been left implicit. Users can, moreover, declare bits of
+knowledge and expertise as they develop their mathematical libraries, such as rules
+for simplifying expressions and inference patterns to be used by the automation
+procedures.
+The fact
+that any expression in set theory can be interpreted as a natural number, a function,
+or a set makes it hard for the system to infer the user’s intent, thus requiring users
+to provide much more information. In various systems of type theory, every object
+is tagged as an element of an associated type.
+
+# Polish school
+
+In the 1950’s, computable analysis received a substantial number of contribu-
+tions from Andrzej Grzegorczyk [82, 83, 84, 85] in Poland and Daniel Lacombe
+[82, 83, 84, 85, 124, 122, 123, 136, 137, 138, 139, 140, 141, 142, 143] in France.
+Grzegorczyk is the best known representative of the Polish school of computable
+analysis, a school of research that came into being soon after Turing published
+his seminal paper. Apparently, members of the Polish school of functional anal-
+ysis became interested in questions of computability, and Stefan Banach and
+Stanislaw Mazur gave a seminar talk on this topic in Lviv (now in Ukraine, at
+that time Polish) on January 23, 1937 [11]. Unfortunately, the second world
+war got in the way, and Mazur’s course notes on computable analysis (edited
+by Grzegorczyk and Rasiowa) where not published until much later [154].
+
+# Brouwerian intuitionism
+
+During the 1910’s, the Dutch mathematician L. E. J. Brouwer advanced a new
+philosophy of mathematics, intuitionism, which made strong pronouncements
+as to the appropriate methods of mathematical reasoning. Brouwer held that
+mathematical objects are constructions of the mind, and that we come to know
+a mathematical theorem only by carrying out a mental construction that enables
+us to see that it is true. In particular, seeing that a statement of the form A ∧ B
+is true involves seeing that A is true, and that B is true; seeing that A → B
+is true involves having a mental procedure that transforms any construction
+witnessing the truth of A to a construction witnessing the truth of B; seeing
+that ¬A is true involves having a procedure that transforms a construction
+witnessing the truth of A to a contradiction (that is, something which, evidently,
+cannot be the case); and seeing that A ∨ B is true requires carrying out a
+mental construction enabling one to see that A is true, or carrying out a mental
+construction to see that B is true; and similarly for statements involving the
+universal and existential quantifiers. This account, developed further by Heyting
+and Kolmogorov, has come to be known as the BHK interpretation. It is not
+hard to see that, according to this interpretation, the law of the excluded middle,
+A ∨ ¬A, does not generally hold. For example, if A is the statement of the
+Goldbach conjecture, then we cannot presently assert A ∨ ¬A, because we do
+not currently know that the Goldbach conjecture is true, nor do we know that
+it is false.
+
+# Hartree-Fock method
+
+The origin of the Hartree–Fock method dates back to the end of the 1920s, soon
+after the discovery of the Schrödinger equation in 1926. In 1927 D. R. Hartree
+introduced a procedure, which he called the self-consistent field method, to
+calculate approximate wave functions and energies for atoms and ions. Hartree
+was guided by some earlier, semi-empirical methods of the early 1920s (by E.
+Fues, R. B. Lindsay, and himself) set in the old quantum theory of Bohr.
+
+However, in 1928 J. C. Slater and J. A. Gaunt independently showed that the
+Hartree method could be couched on a sounder theoretical basis by applying the
+variational principle to an ansatz (trial wave function) as a product of
+single-particle functions.
+
+In 1930 Slater and V. A. Fock independently pointed out that the Hartree method
+did not respect the principle of antisymmetry of the wave function. The Hartree
+method used the Pauli exclusion principle in its older formulation, forbidding
+the presence of two electrons in the same quantum state. However, this was
+shown to be fundamentally incomplete in its neglect of quantum statistics.
+
+It was then shown that a Slater determinant, a determinant of one-particle
+orbitals first used by Heisenberg and Dirac in 1926, trivially satisfies the
+antisymmetric property of the exact solution and hence is a suitable ansatz for
+applying the variational principle. The original Hartree method can then be
+viewed as an approximation to the Hartree–Fock method by neglecting exchange.
+Fock's original method relied heavily on group theory and was too abstract for
+contemporary physicists to understand and implement. In 1935 Hartree
+reformulated the method more suitably for the purposes of calculation.
+
+In 1935 Hartree reformulated the method more suitably for the purposes of
+calculation.
+
+The Hartree–Fock method, despite its physically more accurate picture, was
+little used until the advent of electronic computers in the 1950s due to the
+much greater computational demands over the early Hartree method and empirical
+models. Initially, both the Hartree method and the Hartree–Fock method were
+applied exclusively to atoms, where the spherical symmetry of the system
+allowed one to greatly simplify the problem. These approximate methods were
+(and are) often used together with the central field approximation, to impose
+that electrons in the same shell have the same radial part, and to restrict the
+variational solution to be a spin eigenfunction. Even so, solution by hand of
+the Hartree–Fock equations for a medium-sized atom were laborious; small
+molecules required computational resources far beyond what was available before
+1950.
+
+The Hartree–Fock method is typically used to solve the time-independent
+Schrödinger equation for a multi-electron atom or molecule as described in the
+Born–Oppenheimer approximation.
+Due to the nonlinearities introduced by the Hartree–Fock approximation, the
+equations are solved using a nonlinear method such as iteration, which gives
+rise to the name "self-consistent field method."
+
+# Density functional theory
+
+Density functional theory (DFT) is a computational quantum mechanical modelling
+method used in physics, chemistry and materials science to investigate the
+electronic structure (principally the ground state) of many-body systems, in
+particular atoms, molecules, and the condensed phases.
+
+DFT has been very popular for calculations in solid-state physics since the
+1970s. However, DFT was not considered accurate enough for calculations in
+quantum chemistry until the 1990s, when the approximations used in the theory
+were greatly refined to better model the exchange and correlation interactions.
+Computational costs are relatively low when compared to traditional methods,
+such as exchange only Hartree–Fock theory and its descendants that include
+electron correlation.
+Despite recent improvements, there are still difficulties in using density
+functional theory to properly describe intermolecular interactions.
+
+# set theory
+
+In a first letter to Gödel, dated April 24, 1963, Cohen communicated his
+results. But about a week later, he wrote a second, more urgent letter, in
+which he expressed his fear that there might be a hidden flaw in the proof,
+and, at the same time, his exasperation with logicians, who could not believe
+that he was able to prove that very delicate theorem on the definability of
+forcing.
+
+Gödel and Cohen bequeathed to set theorists the only two model construction
+methods they have. Gödel’s method shows how to “shrink” the set-theoretic
+universe to obtain a concrete and comprehensible structure. Cohen’s method
+allows us to expand the set-theoretic universe in accordance with the intuition
+that the set of real numbers is very large. Building on this solid foundation,
+future generations of set theorists have been able to make spectacular
+advances.
+
+Currently, there are two main programs in set theory. The inner model program
+seeks to construct models that resemble Gödel’s universe of constructible sets,
+but such that certain strong principles, called large cardinal axioms, would
+hold in them. These are very powerful new principles, which go beyond current
+mathematical methods (axioms). As Gödel predicted with great prescience in the
+1940s, such cardinals have now become indispensable in contemporary set theory.
+One way to certify their existence is to build a model of the universe for
+them—not just any model, but one that resembles Gödel’s constructible universe,
+which has by now become what is called “canonical.” In fact, this may be the
+single most important question in set theory at the moment—whether the universe
+is “like” Gödel’s universe, or whether it is very far from it. If this question
+is answered, in particular if the inner model program succeeds, the continuum
+hypothesis will be solved.
+
+The other program has to do with fixing larger and larger parts of the
+mathematical universe, beyond the world of the previously mentioned Borel sets.
+Here also, if the program succeeds, the continuum hypothesis will be solved.
+
+We end with the work of another seminal figure, Saharon Shelah. Shelah has
+solved a generalized form of the continuum hypothesis, in the following sense:
+perhaps Hilbert was asking the wrong question! The right question, according to
+Shelah, is perhaps not how many points are on a line, but rather how many
+“small” subsets of a given set you need to cover every small subset by only a
+few of them. In a series of spectacular results using this idea in his
+so-called pcf-theory, Shelah was able to reverse a trend of fifty years of
+independence results in cardinal arithmetic, by obtaining provable bounds on
+the exponential function. The most dramatic of these is 2ℵω ≤ 2ℵ0 + ℵω4 .
+Strictly speaking, this does not bear on the continuum hypothesis directly,
+since Shelah changed the question and also because the result is about bigger
+sets. But it is a remarkable result in the general direction of the continuum
+hypothesis.
+
+# Wellentheorie des Lichts
+
+Emissionstheorien beruhen gewöhnlich auf der Annahme, dass sich das Licht
+ausschließlich in Bezug zur Lichtquelle konstant mit Lichtgeschwindigkeit
+ausbreitet. Im Gegensatz zur (stationären) Äthertheorie, wonach sich Licht
+konstant in Bezug zum Äther ausbreitet, und im Gegensatz zur speziellen
+Relativitätstheorie (SRT), wonach sich Licht konstant in allen Inertialsystemen
+ausbreitet. 
+
+Young konnte als erster nachweisen, dass die Wellentheorie des Lichts manche
+Phänomene erklären konnte, die nicht mit der Korpuskeltheorie Isaac Newtons,
+die Licht als Teilchenstrom ansah, in Einklang zu bringen waren, z. B. die
+Newtonschen Ringe. In einem Vortrag von 1801 (gedruckt 1802) schlug er als
+erster die sogenannte Dreifarbentheorie des Sehens vor,[2] die Hermann von
+Helmholtz zu der heute Young-Helmholtz-Theorie genannten Theorie
+weiterentwickelte. 
+
+Young konnte als erster nachweisen, dass die Wellentheorie des Lichts manche
+Phänomene erklären konnte, die nicht mit der Korpuskeltheorie Isaac Newtons,
+die Licht als Teilchenstrom ansah, in Einklang zu bringen waren, z. B. die
+Newtonschen Ringe. In einem Vortrag von 1801 (gedruckt 1802) schlug er als
+erster die sogenannte Dreifarbentheorie des Sehens vor,[2] die Hermann von
+Helmholtz zu der heute Young-Helmholtz-Theorie genannten Theorie
+weiterentwickelte. 
+
+Augustin Jean Fresnel  
+Die Wellentheorie des Lichts, erstmals von Thomas Young experimentell
+demonstriert, wurde zu einer großen Klasse von optischen Phänomenen erweitert
+und durch seine brillanten Entdeckungen und mathematischen Ableitungen
+dauerhaft etabliert.

@@ -1,0 +1,102 @@
+
+Karbonatisierung:
+Langsame Aushärtung zum ursprünglichen Kalkstein.
+
+# Kalkkreislauf
+
+\chemfig{
+                             O% 2
+                       =[:90]% 1
+                                (
+                      -[:150,,,2]^{-}O% 3
+                                )
+                       -[:30]O{^{-}}% 4
+    -[:323.1,2.5,,,draw=none]Ca{^{2+}}% 5
+}
+
+\ce{CaCO3}, (natürlichter) Kalkstein, Calciumcarbonat.
+Natürliches Gestein (Jura, Dolomiten), Ablagerungsgestein, kohlensaurer Kalk.
+
+brennen:
+\ce{CaCO3 -> CaO + CO2}
+
+\ce{CaO}, gebrannter Kalk, Brantkalk, Calciumoxid.
+
+löschen, einsumpfen:
+\ce{CaO + H2O -> Ca(OH)2}
+
+\ce{Ca(OH)2}, gelöschter Kalk, Sumpfkalk, Weisskalk, Grubenkalk, Kalkmilch,
+Kalkhydrat, Calciumhydroxid.
+
+Karbonatisierung, abbinden (bei Kalkmörtel):
+\ce{Ca(OH)2 + CO2 \text{(Luft)} -> CaCO3 \text{(PCC)} + H2O}
+
+# Hydraulische Kalke.
+
+Luftkalke.
+Hydraulische Kalke.
+
+Aus hydraulischem Kalk werden Mauermörtel, Grund- und Deckputze hergestellt.
+Aus Zement werden hergestellt: Beton, Mauer- und Verputzmörtel,
+Dichtungsmörtel, Fugenmörtel, Klebemittel, Spachtelmassen, Bauplatten,
+Bauelemente, Bedachungsmaterial.
+
+---
+
+Baukalk ist ein Bindemittel, das im Bauwesen als Baustoff
+verwendet wird. Es dient zur Herstellung von Kalkmörtel,
+der als Mauer- und Putzmörtel eingesetzt wird. Im
+Bereich der Baugrundverbesserung kann Baukalk zur
+Bodenverfestigung verwendet werden. Des Weiteren wird er
+bestimmten Zementsorten beigegeben, um deren Eigenschaften
+zu verändern. Reiner Kalkmörtel besitzt bei gleichen
+Mischungsverhältnissen im erhärteten Zustand eine
+erheblich geringere Festigkeit als Zementmörtel. (Zum
+Vergleich: Druckfestigkeit von Luftkalkmörtel 1 N/mm2, von
+hydraulischem Kalkmörtel (Wasserkalkmörtel) 5 N/mm2, von
+C-25-Zementmörtel 25 N/mm2)
+
+Beim Umgang mit Baukalken ist zu beachten, dass diese
+Baustoffe stark alkalisch wirken und zu Verätzungen der
+Haut führen können.[1]
+Kalk kann zur Erblindung führen, wenn er in die Augen
+gerät. Besondere Vorsicht ist im Umgang mit Branntkalk bzw.
+ungelöschtem Kalk (CaO) geboten, da dieser bei der Zugabe
+von Wasser, dem sog. "Löschen", eine besonders hohe Hitze
+freisetzt und heftig reagieren kann.
+
+In Deutschland wird gemäß Norm bei Baukalken
+grundsätzlich zwischen Luftkalk und hydraulischem Kalk
+unterschieden. Luftkalke werden weiterhin unterschieden in
+Weißkalk (Kurzzeichen CL) und Dolomitkalk (Kurzzeichen DL).
+
+Zu den hydraulischen Kalken (Kurzzeichen HL) kommt noch
+die Untergruppe der natürlichen hydraulischen Kalke
+(Kurzzeichen NHL) hinzu. Im Fall einer Beimengung des
+hydraulischen Stoffes Puzzolan erhält das Material
+die Bezeichnung natürlicher hydraulischer Kalk mit
+puzzolanischen Zusätzen (Kurzzeichen NHL-Z).
+
+Hydraulisch härtende Bindemittel sind meist härter als Luftkalke.
+
+Reine Kalkbrände werden Luftkalk genannt. Sie können
+nur in feuchter Umgebung unter gleichzeitiger Luftzufuhr
+erhärten, da das Kohlendioxid aus der Luft mit Wasser
+Kohlensäure bildet, welche zur Carbonatisierung des
+Calciumhydroxids gebraucht wird.
+
+Hydraulische Kalke sind Mischungen von Calciumhydroxid mit
+sogenannten Hydraulefaktoren, wie etwa Calciumsilikate und
+Calciumaluminaten. Der hydraulische Anteil der Bindemittel
+kann auch unter Wasser aushärten, da kein Zutritt von
+Kohlendioxid notwendig ist. Stattdessen ermöglichen
+reaktionsfähige Oxide wie Silikate (z. B. SiO2), Aluminate
+(z. B. Al2O3) und Eisenoxide (z. B. Fe2O3) die Erhärtung
+durch Hydratation.[3] Um ein hydraulisch härtendes
+Bindemittel zu erhalten wird Kalk beispielsweise mit Zement
+(hydraulisch), Ziegelmehl, Hüttensand (latent hydraulisch)
+oder Puzzolanen (Trasskalke, Vulkanasche oder Flugasche)
+gemischt. Die Herstellungsweise von hydraulischem Baukalk
+aus Kalkstein und Vulkanerde ist schon seit der Antike
+bekannt.
+

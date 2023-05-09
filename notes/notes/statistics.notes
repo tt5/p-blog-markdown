@@ -1,0 +1,14 @@
+
+# Statistik
+
+$P(A)$ probability of $A$ event occurrence.
+$P(AB)$ probability of both events occurrence.
+It does not matter in which order the events occur.
+$P(AB)=P(BA)$.
+$P(A\mid B)$ probability of $A$ event occurrence,
+provided that B event has already occured.
+$P(AB)=P(A)P(A\mid A)$.
+$$
+P(A\mid B)=\frac{P(A)P(B\mid A)}{P(B)}
+$$
+

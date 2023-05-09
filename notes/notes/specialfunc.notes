@@ -1,0 +1,102 @@
+Most special functions are considered as a function of a complex variable.
+
+# trigonometric
+
+$$\sin x=\sum_{i=0}^\infty (-1)^i\frac{x^{2i+1}}{2i+1!}$$
+
+$$\cos x=\sum_{i=0}^\infty (-1)^i \frac{x^{2i}}{2i!}$$
+
+$$\tan z = \frac{\sin z}{\cos z}$$
+
+$$\cosh(x)=\frac{1}{2}(e^x+e^{-x})$$
+
+$$\sinh(x)=\frac{1}{2}(e^x-e^{-x})$$
+
+$$\tan′(x)=1+\tan^2(x)$$
+
+$$\arctan(x)=\int_0^x\frac{1}{1+t^2}\,dt$$
+
+# exponential and logarithm
+
+*Exponentialfunktion*
+$\exp: \mathbf{R}\to \mathbf{R}_{>0}$, $x\mapsto \exp(x)$.
+
+$e= \exp(1)$
+
+*natürlicher Logarithmus*
+$\ln: \mathbf{R}_{>0}\to \mathbf{R}$, $x\mapsto \ln(x)$
+
+$\ln(1)=0$
+
+$\ln(e)=1$
+
+$$\ln(a)=\int_1^a\frac{1}{x}ⅆx$$
+
+$\ln(\frac{1}{2})=-\ln(x)$, $\forall x \in \mathbf{R}_{>0}$
+
+$e^{\ln(x)}=x$, $\forall x \in \mathbf{R}_{>0}$
+
+$\ln(e^x)=x$
+
+$\ln=\log_e$
+
+$$\log_a b = \frac{\log_c b}{\log_c a} = \frac{\ln b}{\ln a}$$
+
+$$a^b=c^{b \log_c a}=e^{\ln(a)b}$$
+
+$a,b \in \mathbf{R}_{>0}$  
+$a^x := e^{x\ln(a)}$  
+$\ln(a^x)=x\ln(a)$
+
+$$\exp(x):=\sum_{n=0}^\infty \frac{x^n}{n!} = e^x$$
+
+$\exp(x + y) = \exp(x) · \exp(y)$ für alle $x,y \in \mathbf{R}$
+
+$\ln(ab)=\ln(a)+\ln(b)$ für alle $x, y ∈ \mathbf{R}_{>0}$
+
+# Gamma
+
+A function that interpolates factorials.
+
+$$
+\Gamma(t)=\int_0^\infty x^{t-1}e^{-x}\,dx
+$$
+,$ℜt>0$
+
+$n$, nonnegative integer.
+$$
+\Gamma(\frac{1}{2}+n)=\frac{(2n)!}{4^nn!}\sqrt{\pi}
+$$
+$$
+\Gamma(\frac{1}{2}-n)=\frac{(-4)^nn!}{(2n)!}\sqrt{\pi}
+$$
+
+$m$ positive integer.
+$\gamma$ Euler-Mascheroni constant.
+$$
+\Gamma′(m+1)=m!(-\gamma +\sum_{k=1}^m\frac{1}{k})
+$$
+
+$n$ positive integer
+$$
+\Gamma(n)=(n-1)!
+$$
+
+## digamma, polygamma
+
+The logarithmic derivate of the gamma function
+is called the digamma function; higher derivates
+are polygamma functions.
+
+$$
+\psi(x)=\frac{d}{dx}\ln\Gamma(x)=
+\frac{\Gamma\text{'}(x)}{\Gamma(x)}
+=\psi^{(0)}(x)
+$$
+$$
+\psi^{(m)}(x)=\frac{d^m}{dx^m}\psi(x)
+=\frac{d^{m+1}}{dx^{m+1}}\ln\Gamma(x)
+$$
+
+$$\psi (n) = H_{n-1} - \gamma$$
+

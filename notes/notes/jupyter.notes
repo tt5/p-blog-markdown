@@ -1,0 +1,37 @@
+docker run --rm -p 8888:8888 -v $PWD:/opt/notebooks continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/jupyter notebook --ip=0.0.0.0 --port=8888 --notebook-dir=/opt/notebooks --allow-root --no-browser"
+
+jupyter kernelspec list
+
+%connect_info
+
+%matplotlib inline
+
+%load_ext autoreload
+%autoreload 2
+
+%%javascript
+const cell = Jupyter.notebook.get_cell(0)
+cell.execute()
+
+Jupyter.keyboard_manager.command_shortcuts.add_shortcut('Alt-I', {
+    help : 'Go to Running cell',
+    help_index : 'zz',
+    handler : function (event) {
+    }
+});
+
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+InteractiveShell.ast_node_interactivity = "last_expr"
+
+%%script false
+
+
+from IPython.display import Javascript
+import urllib.parse
+
+Javascript("const code = Jupyter.notebook.get_cell(0).get_text(); IPython.notebook.kernel.execute(`myvar = '${encodeURI(code)}'`);")
+urllib.parse.unquote(myvar)
+
+
+

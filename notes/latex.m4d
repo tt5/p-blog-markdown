@@ -1,0 +1,162 @@
+# latex
+
+TEXLIVE_INSTALL_PREFIX
+
+tlmgr install name
+tlmgr update --all
+
+siunitx
+koma-script
+fontspec
+polyglossia
+mathtools
+microtype
+unicode-math
+cleveref
+gpf
+xcolor
+preview
+translations
+
+chemformula
+
+#
+
+\input{file}
+
+#
+
+tocstyle
+amssymb
+ifxetex, ifluatex
+varioref
+hypcap
+etoolbox
+tikz (calc, matrix)
+l3kernel
+chemsetup
+
+#
+
+[svgnames]xcolor
+
+# mhchem
+
+\ce{}
++ ^ ^2- H+ [ ] ^{II} $\left( $\right) ^.
+- = # \bond(3)
+->[above][below]
+
+# chemfig
+
+\schemestart
+\schemestop
+
+\chemleft[
+\chemright]
+
+\chemfig{\ce{Cr}}
+\chemfig[fixed length=true]{}
+
+bonds: - = ~ < > >: <: <| >|
+( ) submolecule
+\chemfig{A-B(-[1]W-X)-C}
+
+Bond[1]Atom\quad 45°  
+[:45]\quad absolute angle  
+[::20]\quad relative bond  
+[,1.5]\quad longer bond
+[angle, coeff, n1, n2, tikz]
+
+\charge{[<p>]<position>[<tikz>]=<charge>}{<atom>}
+position:
+90=\.
+90=\:
+45=\:,135\.
+\arrow{->[up][down]}
+
+# julia.vim
+
+\pm \mp
+\highminus
+\neg
+\cdot
+\times
+\ss
+\div
+\hbar \hslash
+\to = \rightarrow
+\leqslant \geslant
+\upepsilon \varepsilon
+\varphi \chi \psi \phi
+\vartheta
+\Vert
+\lq \rq
+\quotedblleft \quotedblright
+\bullet
+\primr \pprime \ppprime \pppprime
+\quilsingleleft \quilsingleright
+\:bangbang: \:interobang:
+\tieconcat
+\tricolon
+\vertoverlay
+\overleftarrow \underleftarrow
+\vec
+\enclosecircle
+\enclosesquare
+\enclosediamond
+\overleftrightarrow \underrightarrow
+\enclosetriangle
+\:information_source:
+\partial
+\emptyset
+\increment \del
+
+\enspace
+\quad (Em)
+\thickspace
+\thinspace
+\lhspace (hair)
+\nolinebreak
+
+\in \smallin \notin \ni \nni \smallni
+\ast \circ
+\vysmblkcircke
+\sim \nsime
+\eqwim \neqsim \simeq
+\cong
+\approx \equiv
+\le \ge
+\verymuchless \ggg
+\obar
+\oplus
+
+\blockfull \blocksquare \blockatrshaded \blockhalfshaded \blockthreeatrshaded
+\endash  \mdash
+\ell
+\wp
+\lm
+
+\sans..
+\bsans..
+\isans..
+\bisans..
+\tt..
+\bf..
+\it..
+\bi..
+\bsr..
+\bfrac..
+\bbi..
+\bb..
+\src..
+\frak..
+\n....
+
+\:x: \:o:
+\:white-circle:
+\:black_large_square:
+\:white_large_square:
+\:black_circle:
+\:red_circle:
+\:large_blue_circle:

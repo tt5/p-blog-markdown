@@ -1,0 +1,24 @@
+
+$p_w$ complexity of a sequence $w$  
+$\symcal{L}_n$ set of all length-n subwords appearing in $w$
+
+$$
+p_w = #\symcal{L}_n(w)
+$$
+
+Sturmian word: $p_w(n)=n+1$, $\forall n \ge 1$
+
+$\mathrm{TM} Thue-Morse  
+$$
+p_{w_{\mathrm{TM}}}(2)= #{00,01,10,11}=4}
+$$
+
+Sturmian word:
+One of the symbols is always isolated (corresponding to the smaller of the
+components of the vector which defines our cutting sequence).  Sturmian
+sequences are balanced (in fact this is a characterisation of Sturmian
+sequences). A balanced sequence is one for which the abelianised difference of
+any two length-n subwords of the sequence has entries at most of absolute value
+1. For instance the abelianised difference of the word aababab and aabaaba is
+(−1,1) because the first word has one more a, and the second word has one more
+b.  Any aperiodic Sturmian sequence has irrational letter frequencies.
