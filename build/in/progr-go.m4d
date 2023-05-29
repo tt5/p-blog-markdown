@@ -6,19 +6,25 @@ Declaration = ConstDecl | TypeDecl | VarDecl
 
 TopLevelDecl = Declaration | FunctionDecl | MethodDecl
 
+```bash
 go env
 go test ./...
 go get github/some/repo
 go run .
+```
 
+```bash
 go mod init mymodule
 cd mymodule
 mkdir mypackage
+```
 
 in main.go 
 `import( "mymodule/mypackate" )`
 
+```bash
 docker login
 ko build .
+```
 
 

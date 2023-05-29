@@ -198,15 +198,12 @@ aexpr
 if ( expr ) stat [ else stat ]?  
 switch ( expr ) stat
 
-m4 m4exit
 Preprocessing tokens:  
 Preprocessing tokens can be seperated by white space (comments, white space characters
 (space, htab, vtab, nl, ff)).
 
 predefined identifiers:
-```c
-__func__
-```
+`__func__`
 
 The identifier `__VA_ARGS__` shall occur only in the replacement-list of a function-like
 macro that uses the ellipsis notation in the parameters.
@@ -251,32 +248,39 @@ no initializer
 `y = 3,`  
 initializer is = 3  
 `z[2] = {1, 2};`  
-initializer is = { 1, 2 }  
 
-`struct C`  
-`{`  
-\phantom{}\q`int *x,`  
-declares field 'x' of type pointer to int  
-\phantom{}\q`y:2;`  
-declares bitfield 'y' of length 2 and type int  
-`};`
+initializer is = `{ 1, 2 }`  
 
-`void f1(int*,`  
-abstract, read it like "`int *D1`"  
-\phantom{}\q`float (*)[10]`  
-abstract, read it like "`float (*D2)[10]`"  
-\phantom{}\q`);`  
-`void f2(float a, b);`  
-probably you meant "`void f2(float a, float b);`"  
+```c
+struct C  
+{  
+// declares field 'x' of type pointer to int  
+    int *x,  
+// declares bitfield 'y' of length 2 and type int  
+    y:2;  
+};
+```
 
-`void f(const int c)`  
-"externally" looks like '`void f(int c)`'  
-`{`  
-\phantom{}\q`c = 3;`  
-ERROR: cannot assign to constant object 'c'  
-`}`  
-`void f(int c);`  
-OK: this is a (redundant) declaration of the f above
+```c
+//abstract, read it like "`int *D1`"  
+void f1(int*,  
+//abstract, read it like "`float (*D2)[10]`"  
+    float (*)[10]  
+    );  
+//probably you meant "`void f2(float a, float b);`"  
+void f2(float a, b);  
+```
+
+```c
+//"externally" looks like '`void f(int c)`'  
+void f(const int c)
+{
+//ERROR: cannot assign to constant object 'c'  
+    c = 3;
+}
+//OK: this is a (redundant) declaration of the f above
+void f(int c);
+```
 
 ```c
 void foo(int bar(float, double));
@@ -306,11 +310,13 @@ ERROR: 'a' is not a modifiable lvalue
 `a;`  
 rvalue of pointer to int, the address of `a[0]`  
 
-`void f(int c[10])`  
-`{`  
-\phantom{}\q`c = NULL;`  
-probably dumb but OK  
-`}`  
+```c
+void f(int c[10])
+{
+//probably dumb but OK  
+    c = NULL;
+}
+```
 
 `void f(int c[1])`  
 read this as "`void f(int *c)`"  
@@ -322,26 +328,27 @@ read this as "`void f(int *c)`"
 void g()
 {
   int w[2];
+//this is fine  
   f(w);
+}
 ```
 
-this is fine  
-`}`
-
-`void f(int c[static 10]) { ... }`  
-`void g(int *w)`  
-`{`  
-`  f(NULL);`  
-ERROR: argument 'NULL' will never be an address to an `int [10]`  
-`  int m[5];`  
-`  f(m);`  
-ERROR: argument 'm' will never be an address to an `int [10]`  
-`  f(w);`  
-OK: I do not know anything about w  
-`  w = m;`  
-`  f(w);`  
-WARNING if the compiler does some data-flow analysis, OK otherwise  
-`}`  
+```c
+void f(int c[static 10]) { ... }
+void g(int *w
+{
+//ERROR: argument 'NULL' will never be an address to an `int [10]`  
+  f(NULL)
+  int m[5];
+//ERROR: argument 'm' will never be an address to an `int [10]`  
+  f(m);
+//OK: I do not know anything about w  
+  f(w);
+  w = m;
+//WARNING if the compiler does some data-flow analysis, OK otherwise  
+  f(w);
+}
+```
 
 `int a[10];`  
 'a' is an array 10 of int  
@@ -366,17 +373,19 @@ pa[0][1] = 3;
 void f(int (*pa)[10]);
 ```
 
-`void g()`  
-`{`  
-\phantom{}\q`int a[10];`  
-\phantom{}\q`g(&a);`  
-OK  
-\phantom{}\q`g(a);`  
-Incompatible types: argument is '`int*`' but parameter is '`int (*)[10]`'  
-\phantom{}\q`int b[11];`  
-\phantom{}\q`g(&b);`  
-Incompatible types: argument is '`int (*)[11]`' but parameter is '`int (*)[10]`'  
-`}`  
+```c
+void g(
+{
+  int a[10];
+//OK  
+  g(&a);
+//Incompatible types: argument is 'int*' but parameter is 'int (*)[10]'  
+  g(a)
+  int b[11];
+//Incompatible types: argument is 'int (*)[11]' but parameter is 'int (*)[10]'  
+  g(&b);
+}
+```
 
 ```c
 #include <stdint.h>
@@ -540,7 +549,7 @@ horizontal-tab
 vertical-tab  
 form-feed
 
-\minisec{Multibyte character}
+## Multibyte character
 
 Sequence of one or more bytes representing
 a member of the extended character set of either
@@ -615,41 +624,41 @@ control-line
 text-line  
 `#` non-directive
 
-**ifsection**\q *def*  
-ifgr [ elifgr ]\dn{nopt} [ `#` else <nl> [ grp ]\dn{nopt} ]? `#` endif <nl>
+**ifsection**²q¹*def*  
+ifgr [ elifgr ]$_{nopt}$ [ `#` else \<nl\> [ grp ]$_{nopt}$ ]? `#` endif \<nl\>
 
-**elifgr**\q *def*  
-`#` elif cexpr <nl> [grp]\dn{nopt}
+**elifgr**²q¹*def*  
+`#` elif cexpr \<nl\> [grp]$_{nopt}$
 
-**textline**\q*def*  
-ppts? <nl>
+**textline**²q¹*def*  
+ppts? \<nl\>
 
-**nondirective**\q*def*  
-ppts <nl>
+**nondirective**²q¹*def*  
+ppts \<nl\>
 
 **control-line**\q*def*  
 `#` [  
-include [ < or " ]<>[ < or " ]  
-define id ppts\dn{opts} <nl>  
-define id( [ idl\dn{opt} or .. or idl,... ] ) ppts\dn{opt} <nl>  
-undef id <nl>  
-line [ dseq <nl> or dseq " \\ \phantom{asdf} scharseq\dn{opt} " <nl>  
-(error or pragma) ppts\dn{opt} <nl> ]  
-<nl> ]
+include [ \< or " ]<>[ \> or " ]  
+define id ppts$_{opts}$ \<nl\>  
+define id( [ idl$_{opt}$ or .. or idl,... ] ) ppts$_{opt}$ \<nl\>  
+undef id \<nl\>  
+line [ dseq \<nl\> or dseq " \\      scharseq$_{opt}$ " \<nl\>  
+(error or pragma) ppts$_{opt}$ \<nl\> ]  
+\<nl\> ]
 
 **ppnumber**\q*def*  
-[ . ]\dn{opt} digit [  
+[ . ]$_{opt}$ digit [  
 [ e or p ] [ - or + ]  
 letter  
 digit  
 underscore  
 period  
-]\dn{nopt}  
+]$_{nopt}$  
 
 **jumpstat**\q*def*  
 `continue ;`\q only in loop body  
 `break ;`\q in or as a switch body or loop body  
-`return` expr\dn{opt} `;`
+`return` expr$_{opt}$ `;`
 
 ## cpp
 
@@ -680,13 +689,12 @@ Whitespace is allowed before and after the `#`
 not a punctuator: \@ \$ `` ` ``
 (with c compiler: all control characters other than NULL)
 
-\begin{description}
-\item[end-of-line markers]
+end-of-line markers
 LF, CR, LF+CR
-\item[backslashnewline]
+
+backslashnewline
 text \textbackslash\\
 text
-\end{description}
 
 # Type
 
@@ -813,15 +821,15 @@ a pointer to its operand.
 `= *= /= \%= += -= <<= >>= &= ^= |=`  
 assignment
 
-\minisec{unary}
+## unary
 `& * + - !`  
 `~`\quad bitwise complement  
 
-\minisec{binary}
+## binary
 `<< >> & ^ |`\quad bitwise  
 `+`
 
-\minisec{Di}
+## Di
 `( )`\quad grouping parantheses  
 `[ ]`\quad subscripting brackets  
 `( )`\quad function call parantheses  
@@ -1180,7 +1188,7 @@ definition for the identifier; otherwise, there shall be no more than one.
 if an identifier declared with external linkage is not used in an expression,
 there need be no external definition for it.
 
-\minisec{function definition}
+## function definition
 
 If the declarator includes a parameter type list, the declaration of each
 parameter shall include an identifier, except for the special case of a
@@ -1336,91 +1344,89 @@ unary operator expressions within it are then processed.
 
 # Library
 
-\begin{description}
-\item[assert]
+## assert
 Diagnostic
 
-\item[complex]
+## complex
 Complex arithmetic
 
-\item[ctype]
+## ctype
 character handling
 
-\item[errno]
+## errno
 errors
 
-\item[fenv]
+## fenv
 environment (floating point)
 
-\item[float]
+## float
 characteristics of floating types 5.2.4.2.2
 
-\item[inttypes]
+## inttypes
 format conversion of integer types
 
-\item[iso646]
+## iso646
 alternative spellings
 
-\item[limits]
+## limits
 sizes of integer types 5.2.4.2.1
 
-\item[locale]
+## locale
 localization
 
-\item[math]
+## math
 mathematics
 
-\item[setjmp]
+## setjmp
 nonlocal jumps
 
-\item[signal]
+## signal
 signal handling
 
-\item[stdalign]
+## stdalign
 alignment
 
-\item[stdatomic]
+## stdatomic
 atomics
 
-\item[stdbool]
+## stdbool
 boolean types and values
 
-\item[stddef]
+## stddef
 common definitions
 
-\item[stding]
+## stding
 integer types
 
-\item[stdio]
+## stdio
 input output
 
-\item[stdlib]
+## stdlib
 general utilities
 
-\item[stdnoreturn]
+## stdnoreturn
 macro: noreturn expands to \texttt{\_Noreturn}
 
-\item[string]
+## string
 string handling
 
-\item[tgmath]
+## tgmath
 type-generic math
 
-\item[threads]
+## threads
 threads
 
-\item[time]
+## time
 date and time
 
-\item[uchar]
+## uchar
 unicode utilities
 
-\item[wchar]
+## wchar
 extended multibyte and wide character utilities
 
-\item[wctype]
+## wctype
 wide character classification and mapping utilities
-\end{description}
 
 # Data structures
 
@@ -1437,20 +1443,24 @@ makes u2.c active with value `{'\1', '\0', '\0', '\0'}`
 `struct fred { char s[4]; int n; };`  
 inits `x[0]` to `{ {'a','b','c','\0'}, 1 }`  
 
-`struct fred x[ ] = { { { "abc" }, 1 },`  
-changes `x[0]` to `{ {'q','b','c','\0'}, 1 }`  
-\phantom{}\q`[0].s[0] = 'q'`  
-`};`  
-inits `x[0]` to `{ {'a','b','c','\0'}, 1 }`  
+```c
+//changes `x[0]` to `{ {'q','b','c','\0'}, 1 }
+struct fred x[ ] = { { { "abc" }, 1 },
+  [0].s[0] = 'q'
+//inits `x[0]` to `{ {'a','b','c','\0'}, 1 }
+};
+```
 
-`struct fred y[ ] = { { { "abc" }, 1 },`  
-current object is now the entire `x[0]` object  
+```c
+//current object is now the entire `x[0]` object
+struct fred y[ ] = { { { "abc" }, 1 },
 
-\phantom{}\q`[0] = {`  
-\phantom{}\q\q`.s[0] = 'q'`  
-replaces `x[0]` with `{ {'q','\0','\0','\0'}, 0 }`  
-\phantom{}\q`}`  
-`};`  
+  [0] = {
+//replaces `x[0]` with `{ {'q','\0','\0','\0'}, 0 }
+  q`.s[0] = 'q'`
+  }
+};
+```
 
 # gnu gsl
 

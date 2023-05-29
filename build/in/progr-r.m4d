@@ -1,4 +1,10 @@
-# R
+# install
+
+```
+conda install -c conda-forge r-base
+```
+
+#
 
 R comes with following infix functions predefined:  
 `%%` ²q¹ remainder  

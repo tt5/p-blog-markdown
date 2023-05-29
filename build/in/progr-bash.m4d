@@ -1,7 +1,5 @@
 # Bash
 
-`bash --norc`
-
 `echo -e '\u`*hhhh*`\u`*hhhhhhhh*`'`
 
 ```bash
@@ -35,7 +33,7 @@ do printf "${x@Q} = ${arr[$x]@Q}\n"
 done
 ```
 
-diff -u <(ps) <(ps -e)
+`diff -u <(ps) <(ps -e)`
 
 # Script
 
@@ -52,8 +50,8 @@ To use aliases in scripts, you need to add:
 c-b  
 c-f  
 c-s  
-c-a ²q¹ (start of line)  
-c-e ²q¹ (end of line)  
+c-a ²q¹ start of line  
+c-e ²q¹ end of line  
 
 rlwrap
 
@@ -85,7 +83,7 @@ C-] ²q¹ move to character
 
 M-C-] ²q¹ move to character bw  
 
-C-\\_ ²q¹ undo
+C-_ ²q¹ undo
 
 # builtin
 
@@ -122,9 +120,8 @@ A job is suspended when its process group leader
 receives one of the signals
 `SIGSTOP SIGTSTP SIGTTIN SIGTTOU`.
 
+`%`str  
 ```bash
-%n
-%str
 %?str
 %% or %+
 %-

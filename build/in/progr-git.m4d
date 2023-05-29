@@ -68,5 +68,7 @@ git diff @~
 
 `@` means `HEAD`
 
+```bash
 eval $(ssh-agent)
 ssh-add
+```

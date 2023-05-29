@@ -677,16 +677,19 @@ There are three chains. Two have length one: {v} and {w}, corresponding to the
 eigenvalues 1 and 2, respectively. There is one chain of length two
 corresponding to the eigenvalue 4. To find this chain, calculate
 
-m4 m4exit
-$
-\displaystyle
+```
+$$
 \ker {(A-4I)}^{2}=\operatorname {span}
-\,\left\{{
-\begin{bmatrix} 1 ²nn¹ 0 ²nn¹ 0 ²nn¹ 0\end{bmatrix}
-},{
-\begin{bmatrix}1 ²nn¹ 0 ²nn¹ -1 ²nn¹ 1\end{bmatrix}
-}\right\}
-$
+$$
+```
+
+$$
+\lbrace
+\begin{bmatrix} 1 ²nn¹ 0 ²nn¹ 0 ²nn¹ 0 \end{bmatrix}
+,
+\begin{bmatrix} 1 ²nn¹ 0 ²nn¹ -1 ²nn¹ 1 \end{bmatrix}
+\rbrace
+$$
 
 where I is the 4 x 4 identity matrix. Pick a vector in the above span that is
 not in the kernel of $A − 4I$, e.g., $y = (1,0,0,0)^T$. Now, $(A − 4I)y = x$ and
@@ -711,7 +714,7 @@ If we had interchanged the order of which the chain vectors appeared, that is,
 changing the order of $v, w$ and ${x, y}$ together, the Jordan blocks would be
 interchanged. However, the Jordan forms are equivalent Jordan forms.
 
-\minisec{Jordan-Chevalley decomposition}
+#### Jordan-Chevalley decomposition
 
 The multiplicative decomposition expresses an invertible operator as the
 product of its commuting semisimple and unipotent parts.
@@ -901,14 +904,17 @@ Then the determinant $|B|$ is given by:
 $$
 |B|=b_{i1}C_{i1}+...+b_{in}C_{in}
 =b_{ij}C_{1j}+...+b_{nj}C_{nj}
-$$ $$
+$$
+
+$$
 =\sum_{j\text{'}=1}^n b_{ij\text{'}}C_{ij\text{'}}
 =\sum_{i\text{'}=1}^n b_{i\text{'}j}C_{i\text{'}j}
 $$
 
-$A^{-1}=\frac{1}{\operatorname{det}A}C^T$,
+$A^{-1}=\frac{1}{\text{det}A}C^T$,
 $C$ cofactor matrix.
 
+```
 $$
 C=
 \begin{pmatrix}
@@ -917,6 +923,7 @@ C_{11}&\hdots&C_{1n} ²nn¹
 C_{n1}&\hdots&C_{nn}
 \end{pmatrix}
 $$
+```
 
 $\det(A)=$ Volume of a box "spaned" as a "paralelogram" (paralelobox) by the rows of $A$.
 
@@ -934,36 +941,38 @@ from $(0,1)$-$n\times n$ matrix to $(-1,1)$-$(n+1)\times(n+1)$ matrix:
 $\displaystyle
 \begin{pmatrix} 1 & 0 & 1
 ²nn¹ 1 & 1 & 0
-²nn¹ 0 & 1 & 1
-²nn¹ \end{pmatrix}
+²nn¹ 0 & 1 & 1 \end{pmatrix}
 $
 
 -double->
-\[
+
+$
 \begin{pmatrix}
-2 & 0 & 2 ²n¹
-2 & 2 & 0 ²n¹
-0 & 2 & 2 ²n¹
+2 & 0 & 2 ²nn¹
+2 & 2 & 0 ²nn¹
+0 & 2 & 2
 \end{pmatrix}
-\]
+$
+
 -boarder->
-\[
+
+$
 \begin{pmatrix}
-1 & 1 & 1 & 1 ²n¹
-0 & 2 & 0 & 2 ²n¹
-0 & 2 & 2 & 0 ²n¹
-0 & 0 & 2 & 2 ²n¹
+1 & 1 & 1 & 1 ²nn¹
+0 & 2 & 0 & 2 ²nn¹
+0 & 2 & 2 & 0 ²nn¹
+0 & 0 & 2 & 2
 \end{pmatrix}
-\]
+$
 -substract first row->
-\[
+$
 \begin{pmatrix}
-1 & 1 & 1 & 1 ²n¹
--1 & 1 & -1 & 1 ²n¹
--1 & 1 & 1 & -1 ²n¹
--1 & -1 & 1 & 1 ²n¹
+1 & 1 & 1 & 1 ²nn¹
+-1 & 1 & -1 & 1 ²nn¹
+-1 & 1 & 1 & -1 ²nn¹
+-1 & -1 & 1 & 1
 \end{pmatrix}
-\]
+$
 
 ## Eigenvalues
 
@@ -1042,7 +1051,7 @@ satisfies $\lambda_i=S_{ii}/T_{ii}$.
 
 ### Redheffer matrix
 
-$$R_{12\times 12}=\left({\begin{smallmatrix}
+$$R_{12\times 12}=\left({\begin{matrix}
       1&1&1&1&1&1&1&1&1&1&1&1 ²nn¹ 
       1&1&0&1&0&1&0&1&0&1&0&1 ²nn¹ 
     1&0&1&0&0&1&0&0&1&0&0&1 ²nn¹ 
@@ -1052,7 +1061,7 @@ $$R_{12\times 12}=\left({\begin{smallmatrix}
     1&0&0&0&0&0&0&1&0&0&0&0 ²nn¹ 1&0&0&0&0&0&0&0&1&0&0&0 ²nn¹ 
     1&0&0&0&0&0&0&0&0&1&0&0 ²nn¹ 1&0&0&0&0&0&0&0&0&0&1&0  ²nn¹ 
     1&0&0&0&0&0&0&0&0&0&0&1
-\end{smallmatrix}}
+\end{matrix}}
     \right)$$
 
 $\det(R_n)=M(n)$
@@ -1064,7 +1073,7 @@ of those that have an odd number.
 $M(1)=1$, $M(2)=0$, $M(3)=-1$  
 $M(10)=1$
 
-$$M(n) = \sum_{k=1}^n \mu(k)$$ ($\mu$ Möbius function)
+$M(n) = \sum_{k=1}^n \mu(k)$ ($\mu$ Möbius function)
 
 **Inner product**. $\langle ·,·\rangle :V\times V\to F$, $V$ vector space,
 $F=\mathbb{R}$ or $\mathbb{C}$.  
@@ -1081,7 +1090,12 @@ An inner product naturally induces an associated norm.
 
 Sei $K=\mathbb{R}$ und $V$ ein euklidischer Vektorraum,
 $v,w\ne 0$.
-$$\langle v,w\rangle =\|v\|\|w\|\cos\varphi =v∙w=v^Tw$$
+
+```
+$$
+\langle v,w\rangle =\|v\|\|w\|\cos\varphi =v∙w=v^Tw
+$$
+```
 
 ## LU decomposition
 
@@ -1136,7 +1150,8 @@ $A=P^{-1}LU$
 $\operatorname{det}(A)=(-1)^s(\prod_{i=1}^n l_{ii})(\prod_{i=1}^n u_{ii})$,
 $s$ number of row exchanges in the decomposition.
 
-\minisec{system of linear equations}
+#### system of linear equations
+
 $Ax=b$
 
 $PA=LU$ or $A=LU$
@@ -1147,7 +1162,8 @@ $LUx=Pb$
 
 2) solve $Ux=y$ for $x$.
 
-\minisec{inverting a matrix}
+#### inverting a matrix
+
 $$
 \begin{pmatrix}
 a&b&1&0 ²nn¹ 

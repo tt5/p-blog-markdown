@@ -1,0 +1,1 @@
+find . -name \*.m4d | xargs grep "m4 m4exit"

@@ -190,10 +190,19 @@ size=5G,nr_inodes=5k,mode=700 tmpfs /tmp
 
 # debian
 
+```
+/etc/apt/sources.list
+/etc/apt/sources.list.d
+
+deb https://deb.debian.org/debian bookworm main
+
+apt update --without-new-pkgs
+apt full-upgrade
+```
+
 ```bash
 apt update
 apt upgrade
-apt full-upgrade
 
 apt autoremove
 apt-file search file
@@ -204,14 +213,21 @@ systemctl reboot
 
 cat /etc/os-release
 
-fonts-mononoki
-
 python3-pip
 python3-rpi.gpio
 spidev
 
 protobuf-compiler
 libprotobuf-dev
+
+sdX is for example sda
+`sudo dd bs=4M if=debian-11.6.0-amd64-netinst.iso of=/dev/sdX status=progress oflag=sync`
+
+https://www.nerdfonts.com/font-downloads
+https://github.com/ellie/atuin
+
+wayland, sway, foot  
+startx, xmonad, alacritty
 
 # ---
 
@@ -259,3 +275,13 @@ libjack-jackd2-dev
 youtube-dl -f 'bestaudio' URL
 
 curl -s "https://get.sdkman.io" | bash
+
+# wlan
+
+`nmcli`
+`nmcli dev wifi list`
+
+# firefox
+
+firefox-esr
+MOZ_ENABLE_WAYLAND=1
