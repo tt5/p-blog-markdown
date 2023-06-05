@@ -145,3 +145,10 @@ Let $\chi$ be a char of a group $G$, where $\chi$ is afforded by a repr $\mathca
 (a) $|\chi(g)| \le \chi(1)$  
 (b) $|\chi(g)| = \chi(1)$ iff $\mathcal{X}(g)$ is a scalar matrix  
 (c) $\chi(g) = \chi(1)$ iff $\mathcal{X}(g)$ is the identity matrix
+
+Let $\chi$ be a char of $G$. Then
+$\{ g \in G | \chi(g) = \chi(1) \}$
+is the kernel of every repr affording $\chi$.
+In particular, this subset is a normal subgroup of $G$.
+
+we write $\text{ker}(\chi) = \{ g \in G | \chi(g) = \chi(1) \}$

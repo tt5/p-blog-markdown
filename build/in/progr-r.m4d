@@ -292,3 +292,30 @@ setcolorder(d, c("b","a"))
 ggplot(data = <DATA>) + 
   <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
 ```
+
+#
+
+libharfbuzz-dev
+libfribidi-dev
+libfreetype6-dev
+libpng-dev
+libtiff5-dev
+libjpeg-dev
+libopenblas-dev
+
+```r
+local({
+    r <- getOption("repos")
+    r["CRAN"] <- "https://cloud.r-project.org"
+    options(repos = r)
+})
+```
+
+repos <- c("https://ghrr.github.io/drat", "https://cloud.r-project.org")
+install.packages("RcppTOML", repos=repos)
+
+library(tensorflow)
+tf$config$list_physical_devices("GPU")
+
+https://github.com/tensorflow/tensorflow/issues/42738
+ for a in /sys/bus/pci/devices/*; do echo 0 | sudo tee -a $a/numa_node; done

@@ -229,6 +229,8 @@ https://github.com/ellie/atuin
 wayland, sway, foot  
 startx, xmonad, alacritty
 
+sudo apt install firmware-iwlwifi
+
 # ---
 
 apt-show-versions
@@ -278,6 +280,8 @@ curl -s "https://get.sdkman.io" | bash
 
 # wlan
 
+network-manager
+
 `nmcli`
 `nmcli dev wifi list`
 
@@ -285,3 +289,5 @@ curl -s "https://get.sdkman.io" | bash
 
 firefox-esr
 MOZ_ENABLE_WAYLAND=1
+
+conda install -c conda-forge blas

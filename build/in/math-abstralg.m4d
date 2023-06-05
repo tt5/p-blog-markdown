@@ -1,4 +1,3 @@
-# Intr
 
 A **algebra** is a collection of sets, operators
 on sets and rules.
@@ -6,20 +5,22 @@ on sets and rules.
 An operation is **idempotent** that can be applied multiple times without changing
 the result beyond the initial application.
 
-$A,B$ Mengen.
+$A,B$ Sets.
 
 A $n$-ary **relation** on a set $A$ is a subset of $A^n$.
-**Relation** ($R$), $R$ Teilmenge von $A \times B$.
+**Relation** ($R$), $R$ Subset of $A \times B$.
 
 A relation $f : U → V$ from a set $U$ to a set $V$ is a subset of the cartesian
 product $U × V$ .
 
 The **domain** and the **range** of $f : U → V$ are the sets
-$D(f ) = \{x ∈ U : (x, y) ∈ f, \text{for some} y ∈ V \}$ and $R(f ) = \{y ∈ V :
-(x, y) ∈ f, \text{for some} x ∈ U \}$, respectively. If $f : U → V$ and $g : V → W$ are
-relations, then the **composition** $g ◦ f : U → W$ is the set $\{(u, w) : (u, v) ∈
-f \text{and} (v, w) ∈ g, \text{for some} v ∈ V \}$. The **converse** of a relation $f : U → V$ is
-the relation $f^−1 : V → U$ given by $f^−1 = \{(v, u) : (u, v) ∈ f \}$.
+$D(f) = \lbrace x \in U : (x, y) \in f \text{, for some } y \in V \rbrace$
+and $R(f ) = \{y \in V :
+(x, y) \in f, \text{for some } x \in U \}$, respectively. If $f : U \to V$ and $g : V \to W$ are
+relations, then the **composition** $g ◦ f : U → W$ is the set $\{(u, w) : (u, v) \in
+f \text{and} (v, w) \in g, \text{for some } v \in V \}$. The **converse** of a relation $f : U \in V$ is
+the relation $f^{-1} : V \in U$
+given by $f^{-1} = \{(v, u) : (u, v) \in f \}$.
 
 The *equivalence class* of $a$ under $\sim$,
 donated $[a]$, is defined as $[a]=\{b\in X|a\sim b\}$.
@@ -59,15 +60,15 @@ Indexing needs a total order.
 A *set* and a binary operation  
 Closed.
 
-shorthand notation: xy = (x ⋅ y)
+shorthand notation: $xy = (x \cdot y)$
 
-medial: $xy⋅uz=xu⋅yz$  
+medial: $xy\cdot uz=xu\cdot yz$  
 semimedial: left semimedial and right semimedial  
-left semimedial: $xx⋅yz=xy⋅xz$  
-right semimedial $yz⋅xx=yx⋅zx$  
+left semimedial: $xx\cdot yz=xy\cdot xz$  
+right semimedial $yz\cdot xx=yx\cdot zx$  
 autodistributive: left distributive and right distributive  
-left distributive $x⋅ yz=xy⋅xz$  
-right distributive $yz⋅x=yx⋅zx$  
+left distributive $x\cdot yz=xy\cdot xz$  
+right distributive $yz\cdot x=yx\cdot zx$  
 unital if it has an identity element
 
 A binary tree is a free Magma.
@@ -77,16 +78,20 @@ A binary tree is a free Magma.
 Magma $(Q,\star )$, Latin square property (divisability)
 For each $a,b\in Q$ there exists unique elements
 $x,y\in Q$ such that
-$$
-a\star x=b\\
+
+$
+a\star x=b
+$  
+$
 y\star a=b
-$$
+$
+
 In other words: Each element of the set occurs exactly once in each row and
 exactly once in each column of the quasigroup's multiplication table, or Cayley
 table. This property ensures that the Cayley table of a finite quasigroup is a
 Latin square.
-The unique solutions to these equations are written $x = a \ b$ and $y = b / a$.
-The operations '\' and '/' are called, respectively, left and right division.
+The unique solutions to these equations are written $x = a \setminus b$ and $y = b / a$.
+The operations '$\setminus$' and '/' are called, respectively, left and right division.
 
 #### Loop
 Quasigroup, identity.
@@ -95,10 +100,12 @@ A nonempty quasigroup is a loop
 iff it satisfies the "slightly associative identity"
 $x(y/y)\cdot z=x\cdot (y/y)z$
 
-#### Semigroup}
+#### Semigroup
+
 Magma, associativity.
 
-#### Monoid}
+#### Monoid
+
 Semigroup, identity.
 
 A monoid is a category M having precisely one object. In such a category, the
@@ -110,7 +117,13 @@ this operation, that is, a monoid by the traditional definition.
 We can make a group $X^\star $ simply by including only the elements from X that do
 have inverses.
 
-#### group}
+#### abelian group}
+
+Group, commutativity.
+$(\mathbb{Z},+)$
+
+# Group Theorie
+ 
 Monoid, inverse elements.  
 *or*  
 Loop, associativity.
@@ -118,33 +131,27 @@ Loop, associativity.
 A group is a category having one object, in which every
 arrow is an isomorphism.
 
-#### abelian group}
-Group, commutativity.
-$(\mathbb{Z},+)$
-
-# Group Theorie
-
 $(G,\cdot)$ group.
 $g,h\in G$.
 
-$M\cdot N\coloneq\{m\cdot n : m\in M, n\in N\}$
+$M\cdot N := \{m\cdot n : m\in M, n\in N\}$
 
-$MN\coloneq M\cdot N$
+$MN:= M\cdot N$
 
-$gN\coloneq\{g\}\cdot N$
+$gN:=\{g\}\cdot N$
 
-$Ng\coloneq N\cdot\{g\}$
+$Ng:= N\cdot\{g\}$
 
-$G/N\coloneq\{gN:g\in G\}$,
-**Faktorgruppe** (oder Quotientengruppe) von $G$ nach $N$.
+$G/N:=\{gN:g\in G\}$,
+**quotient group** (or factor group) of $G$ to $N$.
 "G mod N".
 $G$ original group, $N$ normal subgroup.
 
-Lagrange’s Theorem: if H is a subgroup of G, then the order of H evenly divides
-the order of G.
+Lagrange’s Theorem: if $H$ is a subgroup of $G$, then the order of $H$ evenly divides
+the order of $G$.
 
-Let G be a group and H a subgroup of G. Then for each element $a \in G$ we can
-define a left coset of H by
+Let $G$ be a group and $H$ a subgroup of $G$. Then for each element $a \in G$ we can
+define a left coset of $H$ by
 
 $aH = \{ ah \mid h \in H \}$.
 
@@ -165,12 +172,12 @@ A group $G$ is abelian if and only if $Z(G) = G$.
 
 The center of $G$ is always a normal subgroup of $G$.
 
-#### trivial group}
+#### trivial group
 $(\star ,\{e\})$
 
 $e\star e=e$
 
-#### simple group}
+#### simple group
 A nontrivial group whose only normal
 subgroups are the trivial group and the
 group itself.
@@ -182,7 +189,7 @@ can be repeated. If the group is finite,
 then eventually one arrives at uniquely
 determined simple groups.
 
-The **general linear group** (GLN) of degree n is the set of n×n invertible
+The **general linear group** (GLN) of degree n is the set of $n×n$ invertible
 matrices, together with the operation of ordinary matrix multiplication.
 
 A linear map $L : V → W$ between two vector spaces $V$ and $W$:
@@ -270,7 +277,9 @@ $g ∈ G$ and $h ∈ H$. That is, the set of
 elements of $G × H$ is the Cartesian product of the sets $G$ and $H$.
 The binary operation on $G × H$ is defined componentwise:
 
-$$(g_1, h_1) ° (g_2, h_2)  =  (g_1 \star g_2, h_1 \cdot h_2)$$
+$$(g_1, h_1) \circ (g_2, h_2)  =  (g_1 \star g_2, h_1 \cdot h_2)$$
+
+$$(g_1, h_1) \circ (g_2, h_2)  =  (g_1 \star g_2, h_1 \cdot h_2)$$
 
 The resulting algebraic object satisfies the axioms for a group. 
 
@@ -282,7 +291,7 @@ can be representated by matrix multiplication.
 
 A **representation** (rep.) of a group $G$ on a vector space $V$
 over a field $K$ is a group homomorphism from $G$ to
-GL($V$), $\rho:G$→GL($V$).
+$\text{GL}(V)$, $\rho:G\to\text{GL}(V)$.
 
 $\rho(gh)=\rho(g)\rho(h)$
 
@@ -313,11 +322,13 @@ of group elements. The entries consist of *characters*.
 
 $S_3$:
 
-```txt
- 1  1  1
- 1 -1  1
- 2  0 -1
-```
+$$
+\begin{matrix}
+ 1 & 1 & 1 ²nn¹
+ 1& -1 & 1 ²nn¹
+ 2 & 0& -1
+\end{matrix}
+$$
 
 $V$ finit-dimensional vector space over a field $F$.
 The **character** of $\rho$ is the function $\chi_{\rho}: G→F$
@@ -357,7 +368,7 @@ $\rho: G \rightarrow \text{GL}(V)$
 There is a nondegenerate bilinear form on $V$
 which is invariant under the action of $G$.
 
-$<u,v> = <g.u,g.v>$, $g\in G$, $u,v \in V$
+$\langle u,v\rangle = \langle g.u,g.v\rangle$, $g\in G$, $u,v \in V$
 
 ($g.u$ "$g$ acts on $u$", $\rho(g)u$)
 
@@ -420,6 +431,8 @@ $$f^\lambda = |\text{STY}| \text{of shape}\lambda = \frac{n!}{\prod_{u\in \lambd
 $h(u) = \lambda_i -1 +\lambda_j\text{'}-j+1$ **hook length** of the square $u=(i,j)$
 
 ### Symmetric Group
+
+The symmetric group on a finite set $X$ is the group whose elements are all bijective functions from $X$ to $X$ and whose group operation is that of function composition.
 
 Symmetric groups are Coxeter groups and reflection groups. They can be realized
 as a group of reflections with respect to hyperplanes
@@ -561,7 +574,7 @@ Multiplication distributes over addition,
 $a(b+c)=ab+ac$, $(b+c)a=ba+ca$.
 
 Ist $f\colon A\rightarrow B$ ein Ringhomomorphismus,
-so ist die Menge $\ker(f)\coloneq  \lbrace a \in A | f(a) = 0 \rbrace$
+so ist die Menge $\ker(f):=  \lbrace a \in A | f(a) = 0 \rbrace$
 der **Kern** von $f$. Er ist ein Ideal in $A$.
 
 A **unit** is an element having a multiplicative
